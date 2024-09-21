@@ -90,7 +90,7 @@ class DatePickerBottomFragment  : BottomSheetDialogFragment(),IDatePickerBase {
         bundle = requireArguments()
 //        Location = PickerControl.ShowLocation.valueOf(bundle.getString("location", "BOTTOM"))
 //        alpha = bundle.getFloat("alpha", 0.5f)
-        title = bundle.getString("title","开始日期")
+        title = bundle.getString("title","选择日期")
 //        if (Location == PickerControl.ShowLocation.BOTTOM) {
             mView = ViewDatepickerBottomBinding.inflate(layoutInflater).root
 //        } else {
@@ -162,7 +162,8 @@ class DatePickerBottomFragment  : BottomSheetDialogFragment(),IDatePickerBase {
             mView.findViewById<View>(R.id.endview).visibility = View.GONE
             mView.findViewById<View>(R.id.layoutend).visibility = View.GONE
         } else {
-            mView.findViewById<View>(R.id.layoutDateCheck).visibility = View.GONE
+            //非单个日期选择的情况也显示标题
+            mView.findViewById<View>(R.id.layoutDateCheck).visibility = View.VISIBLE
             mView.findViewById<View>(R.id.layoutOnly).visibility = View.GONE
         }
         mView.findViewById<TextView>(R.id.starttitle).text = title
