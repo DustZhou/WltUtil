@@ -48,7 +48,7 @@ class DatePickerBuilder {
 
     var requestCode = -1
 
-    var title = "开始日期"
+    var title = "选择日期"
 
     var mNonChange = true
 
