@@ -8,7 +8,7 @@ apply plugin: 'kotlin-android-extensions'
 
 
 group = 'com.zyl.util'
-version = '1.0'
+version = '1.0.0'
 
 afterEvaluate {
     publishing {
@@ -18,7 +18,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.zyl.util'
                 artifactId = 'zyl-util'
-                version = '1.0'
+                version = '1.0.0'
             }
         }
     }
