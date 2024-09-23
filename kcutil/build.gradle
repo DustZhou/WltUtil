@@ -7,7 +7,7 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 
-group = 'com.csh.util'
+group = 'com.zyl.util'
 version = '1.0'
 
 afterEvaluate {
@@ -16,8 +16,8 @@ afterEvaluate {
             // Creates a Maven publication called "release".
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.csh.util'
-                artifactId = 'kc-util'
+                groupId = 'com.zyl.util'
+                artifactId = 'zyl-util'
                 version = '1.0'
             }
         }
