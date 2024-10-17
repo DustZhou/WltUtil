@@ -76,7 +76,7 @@ class PickerControl(var fragment: Fragment) {
 
         var index = 0
         for (year in 1970 until 2101) {
-            years.add("$year")
+            years.add("${year}年")
             if (year == currentYear.toInt_()) {
 //                yearIndex = index//当前日期所在位置，控件显示用
             }
