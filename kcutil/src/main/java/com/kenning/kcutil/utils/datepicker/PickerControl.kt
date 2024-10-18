@@ -304,7 +304,7 @@ class PickerControl(var fragment: Fragment) {
             //单日期
             kotlin.run {
                 findViewById<NumberPickerView>(R.id.yearonly)?.setOnValueChangedListener { picker, oldVal, newVal ->
-                    currentYear = years[newVal]
+                    currentYear = years[newVal].replace("年", "")
                     if (/*isLeayYear(currentYear.toInt_()) && */currentMonth.toInt_() == 2) {
                         var oldsize = days.size
                         getDaysArrayOnMonth(currentYear.toInt_(), currentMonth.toInt_())
@@ -395,7 +395,7 @@ class PickerControl(var fragment: Fragment) {
                 var days =
                     getDaysArrayOnMonth_EveryTime(currentYear.toInt_(), currentMonth.toInt_())
                 findViewById<NumberPickerView>(R.id.year)?.setOnValueChangedListener { picker, oldVal, newVal ->
-                    currentYear = years[newVal]
+                    currentYear = years[newVal].replace("年", "")
                     if (/*isLeayYear(currentYear.toInt_()) && */currentMonth.toInt_() == 2) {
                         var oldsize = days.size
                         days = getDaysArrayOnMonth_EveryTime(
@@ -492,7 +492,7 @@ class PickerControl(var fragment: Fragment) {
                 )
                 Log.e("kenning","${days.size}")
                 findViewById<NumberPickerView>(R.id.year_end)?.setOnValueChangedListener { picker, oldVal, newVal ->
-                    currentYear_end = years[newVal]
+                    currentYear_end = years[newVal].replace("年", "")
                     if (/*isLeayYear(currentYear_end.toInt_()) && */currentMonth_end.toInt_() == 2) {
                         var oldsize = days.size
                         days = getDaysArrayOnMonth_EveryTime(

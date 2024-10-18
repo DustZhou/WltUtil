@@ -10,6 +10,7 @@ import com.kenning.base.BaseBusinessFragment
 import com.kenning.kcutil.databinding.FragmentFirstBinding
 import com.kenning.kcutil.utils.datepicker.IPickerListener
 import com.kenning.kcutil.utils.datepicker.PickerControl
+import com.kenning.kcutil.utils.datepicker.TwoDatePickInterface
 import com.kenning.kcutil.utils.math.CHENG
 import com.kenning.kcutil.utils.math.keepPoint
 import com.kenning.kcutil.utils.datepicker.TwoDatePickerBuilder
@@ -17,7 +18,7 @@ import com.kenning.kcutil.utils.datepicker.TwoDatePickerBuilder
 /**
  * A simple [Fragment] subclass as the default destination in the navigation.
  */
-class FirstFragment : BaseBusinessFragment(), IPickerListener {
+class FirstFragment : BaseBusinessFragment(), IPickerListener, TwoDatePickInterface {
 
     private var _binding: FragmentFirstBinding? = null
 
@@ -72,5 +73,9 @@ class FirstFragment : BaseBusinessFragment(), IPickerListener {
     override fun onDateChange(requestcode: Int, start: String, end: String):Boolean {
         binding.textviewFirst.text = "$start - $end"
         return true
+    }
+
+    override fun onDateFormat(type: String) {
+
     }
 }
