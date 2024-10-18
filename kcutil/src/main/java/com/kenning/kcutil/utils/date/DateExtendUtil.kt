@@ -2,6 +2,7 @@ package com.kenning.kcutil.utils.date
 
 import android.os.Build
 import com.kenning.kcutil.utils.math.toInt_
+import java.text.ParseException
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -247,6 +248,24 @@ object DateExtendUtil {
         return "${monday formatBy format} - ${sunday formatBy format}"
     }
 
+    /**
+     * 月的最后一天
+     * @param delayMonth 往后推迟的天数，天
+     * @return 推迟后的日期，string
+     */
+    fun getDayDelayByMonth(specifiedDay: String, delayMonth: Int): String {
+        val c = Calendar.getInstance()
+        var date: Date? = null
+        try {
+            date = SimpleDateFormat("yy-MM").parse(specifiedDay)
+        } catch (e: ParseException) {
+            e.printStackTrace()
+        }
+        c.time = date
+        val day = c[Calendar.MONTH]
+        c[Calendar.MONTH] = day + delayMonth
+        return Date_Format.YMD.format(getLastDateOfMonth(c.time))
+    }
     /**
      * 根据日期取得对应周周一日期
      *

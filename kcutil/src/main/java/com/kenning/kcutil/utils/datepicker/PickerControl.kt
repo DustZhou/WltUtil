@@ -176,7 +176,7 @@ class PickerControl(var fragment: Fragment) {
                 findViewById<NumberPickerView>(R.id.yearonly).maxValue = years.size - 1
                 findViewById<NumberPickerView>(R.id.yearonly).minValue = 0
                 findViewById<NumberPickerView>(R.id.yearonly).value =
-                    years.indexOf("${currentYear}")
+                    years.indexOf("${currentYear}年")
 
                 findViewById<NumberPickerView>(R.id.monthonly).displayedValues =
                     months.toTypedArray()
@@ -197,7 +197,7 @@ class PickerControl(var fragment: Fragment) {
                     findViewById<NumberPickerView>(R.id.year).maxValue = years.size - 1
                     findViewById<NumberPickerView>(R.id.year).minValue = 0
                     findViewById<NumberPickerView>(R.id.year).value =
-                        years.indexOf("${currentYear}")
+                        years.indexOf("${currentYear}年")
 
                     findViewById<NumberPickerView>(R.id.month).displayedValues =
                         months.toTypedArray()
@@ -240,7 +240,7 @@ class PickerControl(var fragment: Fragment) {
                     findViewById<NumberPickerView>(R.id.year_end).maxValue = years.size - 1
                     findViewById<NumberPickerView>(R.id.year_end).minValue = 0
                     findViewById<NumberPickerView>(R.id.year_end).value =
-                        years.indexOf("${currentYear_end}")
+                        years.indexOf("${currentYear_end}年")
 
                     findViewById<NumberPickerView>(R.id.month_end).displayedValues =
                         months.toTypedArray()

@@ -52,4 +52,16 @@
         <item name="android:clickable">true</item>
         <item name="android:textStyle">bold</item>
     </style>
+
+    <!-- 选中后字下有线有色，平时白底 -->
+    <style name="RadioButtonLanNewLineStyle_">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@drawable/sel_radiobutton_newline</item>
+        <item name="android:background">@drawable/sel_radiobutton_newline</item>
+        <item name="android:textSize">@dimen/sp_13</item>
+    </style>
 </resources>

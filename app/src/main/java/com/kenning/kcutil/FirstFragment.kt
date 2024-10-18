@@ -8,14 +8,11 @@ import android.view.View
 import android.view.ViewGroup
 import com.kenning.base.BaseBusinessFragment
 import com.kenning.kcutil.databinding.FragmentFirstBinding
-import com.kenning.kcutil.utils.date.DateEnum
-import com.kenning.kcutil.utils.date.DateExtendUtil
-import com.kenning.kcutil.utils.datepicker.DatePickerBuilder
-import com.kenning.kcutil.utils.datepicker.DatePickerFragment
 import com.kenning.kcutil.utils.datepicker.IPickerListener
 import com.kenning.kcutil.utils.datepicker.PickerControl
 import com.kenning.kcutil.utils.math.CHENG
 import com.kenning.kcutil.utils.math.keepPoint
+import com.kenning.kcutil.utils.datepicker.TwoDatePickerBuilder
 
 /**
  * A simple [Fragment] subclass as the default destination in the navigation.
@@ -51,6 +48,15 @@ class FirstFragment : BaseBusinessFragment(), IPickerListener {
             val a = 11111.23333
             val b = 2.4
             Log.e("kenning",a.CHENG(b).CHENG("2,7").keepPoint(3))
+
+            TwoDatePickerBuilder(requireActivity(),this)
+                .setBeginDate("")
+                .setEndDate("")
+                .setSingle(false)
+                .setDateFormat("MM")
+                .setRequestCode(1)
+                .setLoaction(PickerControl.ShowLocation.BOTTOM)
+                .start()
         }
     }
 
