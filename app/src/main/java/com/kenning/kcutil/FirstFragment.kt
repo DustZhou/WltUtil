@@ -39,10 +39,11 @@ class FirstFragment : BaseBusinessFragment(), IPickerListener, TwoDatePickInterf
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
+        //用于搜索栏的方式
         binding.etBillCode.setRightImageClickEvent {
             ToastUtil.show("点击了右边图标，可以更换其图标，通用常用是语音识别")
         }
+        //用于搜索栏的方式
         binding.etBillCode.setOnTextChangedListener {
             if (it.contains("\n")) {
                 ToastUtil.show("内容变化了，一般用于在线报表，回车后进行搜索" + it)
@@ -50,6 +51,29 @@ class FirstFragment : BaseBusinessFragment(), IPickerListener, TwoDatePickInterf
                 ToastUtil.show("内容变化了，一般用于本地选择器，即搜即得" + it)
             }
         }
+        //用于选择栏的方式（暗色）
+        binding.etBillCode1.setOnClickListener {
+            ToastUtil.show("点击了,模拟赋值下")
+            binding.etBillCode1.getEdittext().setText("123456789")
+        }
+        //用于选择栏的方式（暗色）
+        binding.etBillCode1.setOnTextChangedListener {
+            if (it == "") {
+                ToastUtil.show("因为是textview，主要用于监听删除时把内容也清空，要设置这个方法才会动态显示隐藏删除按钮")
+            }
+        }
+        //用于选择栏的方式（亮色）
+        binding.etBillCode2.setOnClickListener {
+            ToastUtil.show("点击了,模拟赋值下")
+            binding.etBillCode2.getEdittext().setText("帆帆帆帆")
+        }
+        //用于选择栏的方式（亮色）
+        binding.etBillCode2.setOnTextChangedListener {
+            if (it == "") {
+                ToastUtil.show("因为是textview，主要用于监听删除时把内容也清空，要设置这个方法才会动态显示隐藏删除按钮")
+            }
+        }
+
 
         binding.buttonFirst.setOnClickListener {
 //            DatePickerBuilder(this).setBeginDate("2023-02-28")

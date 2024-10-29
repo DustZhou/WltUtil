@@ -22,10 +22,45 @@
         app:layout_constraintTop_toTopOf="parent"
         app:rightImage="@drawable/icon_voice_blue"
         app:showDeleteImg="true"
-        app:showRightImg="true"
+        app:showRightImg="false"
         app:textSize="@dimen/sp_14"
         app:viewType="all" />
 
+    <com.kenning.kcutil.widget.ScanViewGroup
+        android:id="@+id/etBillCode1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dp_15"
+        android:layout_marginTop="@dimen/dp_5"
+        android:layout_weight="1"
+        app:asTextview="true"
+        app:groupTheme="dark"
+        app:hint="请选择"
+        app:showDeleteImg="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etBillCode"
+        app:textSize="@dimen/sp_14"
+        app:titleContent="往来单位"
+        app:viewType="selector" />
+
+    <com.kenning.kcutil.widget.ScanViewGroup
+        android:id="@+id/etBillCode2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dp_15"
+        android:layout_marginTop="@dimen/dp_5"
+        android:layout_weight="1"
+        app:asTextview="true"
+        app:groupTheme="light"
+        app:hint="请选择"
+        app:showDeleteImg="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etBillCode1"
+        app:textSize="@dimen/sp_14"
+        app:titleContent="出库仓库"
+        app:viewType="selector" />
     <TextView
         android:id="@+id/textview_first"
         android:layout_width="wrap_content"
