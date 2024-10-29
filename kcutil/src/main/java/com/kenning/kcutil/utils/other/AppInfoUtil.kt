@@ -7,7 +7,7 @@ import com.kenning.kcutil.KCUtil
 
 
 /**
- *Description :
+ *Description :App版本等方法
  *
  *author : created by shaohua.chen on 2021/3/2 2:58 PM
  */

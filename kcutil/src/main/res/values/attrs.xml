@@ -1,6 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <attr name="icons" format="reference" />
+    <attr name="color" format="color" />
+    <attr name="text" format="string" />
+    <attr name="text_size" format="dimension" />
+    <attr name="textSize" format="dimension" />
+    <attr name="backgroundColor" format="color|reference" />
+    <attr name="borderColor" format="color|reference" />
+    <attr name="borderWidth" format="dimension" />
+    <attr name="cornerRadius" format="dimension" />
+    <attr name="hint" format="string" />
+    <attr name="autoClear" format="boolean" />
+    <attr name="onlyEditText" format="boolean" />
+    <attr name="asTextview" format="boolean" />
+    <declare-styleable name="WMSScanEditText">
+        <attr name="backgroundColor"  />
+        <attr name="borderColor"  />
+        <attr name="cornerRadius" />
+        <attr name="textSize" />
+        <attr name="hint"  />
+        <attr name="tagContent" format="string"/>
+        <attr name="autoClear"  />
+        <attr name="onlyEditText" />
+        <attr name="showSelectButton" format="boolean" />
+        <attr name="asTextview"/>
+        <attr name="deleteAble" format="boolean" />
+        <attr name="mode" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="tag" value="1" />
+            <enum name="tag_2" value="2" />
+        </attr>
+    </declare-styleable>
+    <!--    自定义扫描控件-->
+    <declare-styleable name="ScanEditText">
+        <attr name="backgroundColor"/>
+        <attr name="borderColor" />
+        <attr name="borderWidth" />
+        <attr name="cornerRadius"/>
+        <attr name="textSize" />
+        <attr name="hint"/>
+        <attr name="titleContent" format="string"/>
+        <attr name="autoClear"/>
+        <attr name="onlyEditText" />
+        <attr name="asTextview" />
+        <attr name="rightImageSize" format="dimension" />
+        <attr name="extendView" format="boolean" />
+        <attr name="showDeleteImg" format="boolean" />
+        <attr name="showRightImg" format="boolean" />
+        <attr name="showScanImg" format="boolean" />
+        <attr name="showSearchImg" format="boolean" />
+        <attr name="showShape" format="boolean" />
+        <attr name="lightContent" format="boolean" />
+        <attr name="rightImage" format="reference" />
+        <attr name="viewType" format="enum">
+            <enum name="scan" value="0" />
+            <enum name="selector" value="1" />
+            <enum name="all" value="2" />
+        </attr>
+        <attr name="groupTheme" format="enum">
+            <enum name="light" value="0" />
+            <enum name="dark" value="1" />
+            <!--            <enum name="custom" value="2" />-->
+        </attr>
+    </declare-styleable>
     <!--   自定义日期控件相关属性 -->
     <declare-styleable name="customdate">
         <attr name="rb_title" format="string" />

@@ -16,4 +16,6 @@
     <color name="viewfinder_mask">#60000000</color>
 
     <color name="color_ttsconfig_downcolor">#00ABF3</color>
+    <color name="gray">#7D7D7D</color><!--灰色 -->
+    <color name="groupTheme_Dark">#F2F4F7</color>
 </resources>

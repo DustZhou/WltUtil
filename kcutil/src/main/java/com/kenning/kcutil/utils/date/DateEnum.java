@@ -1,7 +1,7 @@
 package com.kenning.kcutil.utils.date;
 
 /**
- *
+ * 日期枚举
  * @author 陈少华
  * @date 2017/12/13
  */

@@ -8,7 +8,7 @@ import java.util.*
 import java.util.regex.Pattern
 
 /**
- * description：
+ * description：数值工具类
  * author: csh
  * date: ON 2021/1/18
  */

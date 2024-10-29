@@ -1,11 +1,22 @@
 package com.kenning.kcutil.utils.other
 
+import android.app.Activity
+import android.app.Dialog
+import android.content.Context
 import android.graphics.drawable.Drawable
 import android.os.Build
+import android.os.Bundle
 import android.util.Log
+import android.view.ContextThemeWrapper
+import android.view.inputmethod.InputMethodManager
+import android.widget.EditText
+import android.widget.PopupWindow
 import androidx.annotation.*
 import androidx.core.content.res.ResourcesCompat
+import androidx.fragment.app.Fragment
+import androidx.fragment.app.setFragmentResult
 import com.kenning.kcutil.KCUtil
+import com.kenning.kcutil.utils.fragmenthelper.FragmentHelper
 import java.io.ByteArrayInputStream
 import java.io.ByteArrayOutputStream
 import java.io.ObjectInputStream
@@ -93,4 +104,59 @@ fun isChinese(c: Char): Boolean {
 
 fun kcBlock(block:()->Unit):()->Unit{
     return block
+}
+
+
+fun Activity.CloseSoftInput() {
+    if (this.currentFocus != null) {
+        val imm = this.getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+        imm.hideSoftInputFromWindow(
+            this.currentFocus!!
+                .windowToken,
+            InputMethodManager.HIDE_NOT_ALWAYS
+        )
+        imm.hideSoftInputFromWindow(this.currentFocus!!.windowToken, 0) //强制隐藏键盘
+    }else{
+        val imm =  this.getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+        imm.hideSoftInputFromWindow(this.window.decorView.windowToken, 0)
+    }
+}
+
+fun EditText.CloseSoftInput() {
+    when(this.context){
+        is Activity -> {
+            val imm =  (this.context as Activity).getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+            imm.hideSoftInputFromWindow(this.windowToken, 0)
+        }
+        is ContextThemeWrapper -> {
+            val imm =  (this.context as ContextThemeWrapper).getSystemService(Context.INPUT_METHOD_SERVICE) as
+                    InputMethodManager
+            imm.hideSoftInputFromWindow(this.windowToken, 0)
+        }
+    }
+}
+
+fun Fragment.CloseSoftInput() {
+    val imm = this.requireActivity().getSystemService(Context.INPUT_METHOD_SERVICE) as
+            InputMethodManager
+    imm.hideSoftInputFromWindow(this.requireActivity().window.decorView.windowToken, 0) //强制隐藏键盘
+}
+
+fun PopupWindow.CloseSoftInput() {
+    val imm = this.contentView.context.getSystemService(Context.INPUT_METHOD_SERVICE) as
+            InputMethodManager
+    imm.hideSoftInputFromWindow(this.contentView.windowToken, 0) //强制隐藏键盘
+}
+
+fun Dialog.CloseSoftInput() {
+    val imm = this.context.getSystemService(Context.INPUT_METHOD_SERVICE) as
+            InputMethodManager
+    imm.hideSoftInputFromWindow(this.window!!.decorView.windowToken, 0) //强制隐藏键盘
+}
+
+fun FragmentHelper.closeFragment_(fragment: Fragment, bundle: Bundle?=null){
+    if (bundle!=null) {
+        fragment.setFragmentResult(fragment::class.java.simpleName, bundle)
+    }
+    fragmentManager_.beginTransaction().remove(fragment).commit()
 }

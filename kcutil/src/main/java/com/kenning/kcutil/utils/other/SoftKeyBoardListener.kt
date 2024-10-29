@@ -5,7 +5,10 @@ import android.graphics.Rect
 import android.view.View
 import com.kenning.kcutil.utils.other.SoftKeyBoardListener.OnSoftKeyBoardChangeListener
 import android.view.ViewTreeObserver.OnGlobalLayoutListener
-
+/**
+* @Description:软键盘监听动态调整布局高度
+* @author: create by zyl on 2024/10/29
+*/
 class SoftKeyBoardListener(activity: Activity) {
     // activity的根视图
     private val rootView : View

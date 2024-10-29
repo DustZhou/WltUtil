@@ -14,6 +14,7 @@ import com.kenning.kcutil.utils.datepicker.TwoDatePickInterface
 import com.kenning.kcutil.utils.math.CHENG
 import com.kenning.kcutil.utils.math.keepPoint
 import com.kenning.kcutil.utils.datepicker.TwoDatePickerBuilder
+import com.kenning.kcutil.utils.other.ToastUtil
 
 /**
  * A simple [Fragment] subclass as the default destination in the navigation.
@@ -39,6 +40,17 @@ class FirstFragment : BaseBusinessFragment(), IPickerListener, TwoDatePickInterf
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        binding.etBillCode.setRightImageClickEvent {
+            ToastUtil.show("点击了右边图标，可以更换其图标，通用常用是语音识别")
+        }
+        binding.etBillCode.setOnTextChangedListener {
+            if (it.contains("\n")) {
+                ToastUtil.show("内容变化了，一般用于在线报表，回车后进行搜索" + it)
+            } else {
+                ToastUtil.show("内容变化了，一般用于本地选择器，即搜即得" + it)
+            }
+        }
+
         binding.buttonFirst.setOnClickListener {
 //            DatePickerBuilder(this).setBeginDate("2023-02-28")
 //                .setEndDate("2024-02-29")
@@ -48,9 +60,9 @@ class FirstFragment : BaseBusinessFragment(), IPickerListener, TwoDatePickInterf
 //                .start(R.id.fcvMain)
             val a = 11111.23333
             val b = 2.4
-            Log.e("kenning",a.CHENG(b).CHENG("2,7").keepPoint(3))
+            Log.e("kenning", a.CHENG(b).CHENG("2,7").keepPoint(3))
 
-            TwoDatePickerBuilder(requireActivity(),this)
+            TwoDatePickerBuilder(requireActivity(), this)
                 .setBeginDate("")
                 .setEndDate("")
                 .setSingle(false)
@@ -70,7 +82,7 @@ class FirstFragment : BaseBusinessFragment(), IPickerListener, TwoDatePickInterf
 //        Log.d("kenning", "日期选择器关闭")
     }
 
-    override fun onDateChange(requestcode: Int, start: String, end: String):Boolean {
+    override fun onDateChange(requestcode: Int, start: String, end: String): Boolean {
         binding.textviewFirst.text = "$start - $end"
         return true
     }
