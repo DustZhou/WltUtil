@@ -99,7 +99,7 @@ class QueryReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterfac
             this.EndDate = EndDate
             this.CustomeBillDateType = if (CustomeBillDateType == "") DateEnum.WEEK.name else CustomeBillDateType
 
-            if (CustomeBillDateType == DateEnum.OTHER.name) {
+            if (this.CustomeBillDateType == DateEnum.OTHER.name) {
                 if (CustomeBillDateFormat == "MM") {
                     viewBinding.tvOther.text = BeginDate.substring(0, 7) + "至" + EndDate.substring(0, 7)
                 } else {
@@ -109,7 +109,7 @@ class QueryReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterfac
                 viewBinding.tvOther.text = "自定义"
             }
 
-            setSaleMainTypeView(activity, CustomeBillDateType, true)
+            setSaleMainTypeView(activity, this.CustomeBillDateType, true)
 
             block(this.BeginDate, this.EndDate, this.CustomeBillDateType)
         }
