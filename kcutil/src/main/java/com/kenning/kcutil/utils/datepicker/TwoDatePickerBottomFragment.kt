@@ -4,6 +4,7 @@ package com.kenning.kcutil.utils.datepicker
 import android.annotation.SuppressLint
 import android.app.Dialog
 import android.content.Context
+import android.content.DialogInterface
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -73,6 +74,10 @@ class TwoDatePickerBottomFragment : BottomSheetDialogFragment(), IDatePickerBase
             })
     }
 
+    override fun onDismiss(dialog: DialogInterface) {
+        super.onDismiss(dialog)
+        (mViewModel.tagetFragment.value as IPickerListener).onDismissPicker()
+    }
     override fun getTheme(): Int {
         return R.style.KCBottomSheet
     }
@@ -196,7 +201,7 @@ class TwoDatePickerBottomFragment : BottomSheetDialogFragment(), IDatePickerBase
 
     fun bindClick() {
        viewBinding.cancel.setOnClickListener {
-            (mViewModel.tagetFragment.value as IPickerListener).onDismissPicker()
+
             dismiss()
         }
         //日期回传

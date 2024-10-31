@@ -6,6 +6,25 @@
     android:layout_height="match_parent"
     tools:context=".FirstFragment">
 
+    <com.kenning.kcutil.utils.datepicker.QueryReportDataLayout
+        android:id="@+id/layoutDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rb_title="送达日期" />
+
+    <com.kenning.kcutil.utils.datepicker.ReportDataLayout
+        android:id="@+id/layoutDate2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutDate" />
+
     <com.kenning.kcutil.widget.ScanViewGroup
         android:id="@+id/etBillCode"
         android:layout_width="0dp"
@@ -19,7 +38,7 @@
         app:hint="扫描/录入单号"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutDate2"
         app:rightImage="@drawable/icon_voice_blue"
         app:showDeleteImg="true"
         app:showRightImg="false"
@@ -36,10 +55,10 @@
         app:asTextview="true"
         app:groupTheme="dark"
         app:hint="请选择"
-        app:showDeleteImg="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etBillCode"
+        app:showDeleteImg="true"
         app:textSize="@dimen/sp_14"
         app:titleContent="往来单位"
         app:viewType="selector" />
@@ -54,18 +73,21 @@
         app:asTextview="true"
         app:groupTheme="light"
         app:hint="请选择"
-        app:showDeleteImg="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etBillCode1"
+        app:showDeleteImg="true"
         app:textSize="@dimen/sp_14"
         app:titleContent="出库仓库"
         app:viewType="selector" />
+
+
     <TextView
         android:id="@+id/textview_first"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_first_fragment"
+        android:visibility="gone"
         app:layout_constraintBottom_toTopOf="@id/button_first"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

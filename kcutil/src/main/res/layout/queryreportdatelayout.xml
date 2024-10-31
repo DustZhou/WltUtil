@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:paddingStart="@dimen/dp_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_12"
+        android:text="单据日期"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/sp_14" />
+
+    <com.kenning.kcutil.widget.AutoViewGroup
+        android:id="@+id/llSaleMainType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_12"
+        android:orientation="horizontal">
+
+        <com.kenning.kcutil.widget.basicview.BackGroundTextView
+            android:id="@+id/tvToDay"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_35"
+            android:layout_margin="@dimen/dp_5"
+            android:gravity="center"
+            android:minWidth="@dimen/dp_60"
+            android:paddingHorizontal="@dimen/dp_6"
+            android:text="今天"
+            android:textColor="#7C7F8E"
+            android:textSize="@dimen/sp_14"
+            app:bgradius="@dimen/dp_5"
+            app:normalBackgroundColor="#F8F8F8"
+            app:normalStrokeColor="#F8F8F8"
+            app:normalStrokeWidth="@dimen/dp_1" />
+
+        <com.kenning.kcutil.widget.basicview.BackGroundTextView
+            android:id="@+id/tvYesterDay"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_35"
+            android:layout_margin="@dimen/dp_5"
+            android:gravity="center"
+            android:minWidth="@dimen/dp_60"
+            android:paddingHorizontal="@dimen/dp_6"
+            android:text="昨天"
+            android:textColor="#7C7F8E"
+            android:textSize="@dimen/sp_14"
+            app:bgradius="@dimen/dp_5"
+            app:normalBackgroundColor="#F8F8F8"
+            app:normalStrokeColor="#F8F8F8"
+            app:normalStrokeWidth="@dimen/dp_1" />
+
+        <com.kenning.kcutil.widget.basicview.BackGroundTextView
+            android:id="@+id/tvWeek"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_35"
+            android:layout_margin="@dimen/dp_5"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:paddingHorizontal="@dimen/dp_6"
+            android:gravity="center"
+            android:minWidth="@dimen/dp_60"
+            android:text="本周"
+            android:textColor="#7C7F8E"
+            android:textSize="@dimen/sp_14"
+            app:bgradius="@dimen/dp_5"
+            app:normalBackgroundColor="#F8F8F8"
+            app:normalStrokeColor="#F8F8F8"
+            app:normalStrokeWidth="@dimen/dp_1" />
+
+        <com.kenning.kcutil.widget.basicview.BackGroundTextView
+            android:id="@+id/tvLastWeek"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_35"
+            android:layout_margin="@dimen/dp_5"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:paddingHorizontal="@dimen/dp_6"
+            android:gravity="center"
+            android:minWidth="@dimen/dp_60"
+            android:text="上周"
+            android:textColor="#7C7F8E"
+            android:textSize="@dimen/sp_14"
+            app:bgradius="@dimen/dp_5"
+            app:normalBackgroundColor="#F8F8F8"
+            app:normalStrokeColor="#F8F8F8"
+            app:normalStrokeWidth="@dimen/dp_1" />
+
+        <com.kenning.kcutil.widget.basicview.BackGroundTextView
+            android:id="@+id/tvMonth"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_35"
+            android:layout_margin="@dimen/dp_5"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:paddingHorizontal="@dimen/dp_6"
+            android:gravity="center"
+            android:minWidth="@dimen/dp_60"
+            android:text="本月"
+            android:textColor="#7C7F8E"
+            android:textSize="@dimen/sp_14"
+            app:bgradius="@dimen/dp_5"
+            app:normalBackgroundColor="#F8F8F8"
+            app:normalStrokeColor="#F8F8F8"
+            app:normalStrokeWidth="@dimen/dp_1" />
+
+        <com.kenning.kcutil.widget.basicview.BackGroundTextView
+            android:id="@+id/tvLastMonth"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_35"
+            android:layout_margin="@dimen/dp_5"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:paddingHorizontal="@dimen/dp_6"
+            android:gravity="center"
+            android:minWidth="@dimen/dp_60"
+            android:text="上月"
+            android:textColor="#7C7F8E"
+            android:textSize="@dimen/sp_14"
+            app:bgradius="@dimen/dp_5"
+            app:normalBackgroundColor="#F8F8F8"
+            app:normalStrokeColor="#F8F8F8"
+            app:normalStrokeWidth="@dimen/dp_1" />
+
+        <com.kenning.kcutil.widget.basicview.BackGroundTextView
+            android:id="@+id/tvSeason"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_35"
+            android:layout_margin="@dimen/dp_5"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:paddingHorizontal="@dimen/dp_6"
+            android:gravity="center"
+            android:minWidth="@dimen/dp_60"
+            android:text="本季度"
+            android:textColor="#7C7F8E"
+            android:textSize="@dimen/sp_14"
+            app:bgradius="@dimen/dp_5"
+            app:normalBackgroundColor="#F8F8F8"
+            app:normalStrokeColor="#F8F8F8"
+            app:normalStrokeWidth="@dimen/dp_1" />
+
+        <com.kenning.kcutil.widget.basicview.BackGroundTextView
+            android:id="@+id/tvLastSeason"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_35"
+            android:layout_margin="@dimen/dp_5"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:paddingHorizontal="@dimen/dp_6"
+            android:gravity="center"
+            android:minWidth="@dimen/dp_60"
+            android:text="上季度"
+            android:textColor="#7C7F8E"
+            android:textSize="@dimen/sp_14"
+            app:bgradius="@dimen/dp_5"
+            app:normalBackgroundColor="#F8F8F8"
+            app:normalStrokeColor="#F8F8F8"
+            app:normalStrokeWidth="@dimen/dp_1" />
+
+        <com.kenning.kcutil.widget.basicview.BackGroundTextView
+            android:id="@+id/tvYear"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_35"
+            android:layout_margin="@dimen/dp_5"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:paddingHorizontal="@dimen/dp_6"
+            android:gravity="center"
+            android:minWidth="@dimen/dp_60"
+            android:text="本年"
+            android:textColor="#7C7F8E"
+            android:textSize="@dimen/sp_14"
+            app:bgradius="@dimen/dp_5"
+            app:normalBackgroundColor="#F8F8F8"
+            app:normalStrokeColor="#F8F8F8"
+            app:normalStrokeWidth="@dimen/dp_1" />
+
+        <com.kenning.kcutil.widget.basicview.BackGroundTextView
+            android:id="@+id/tvOther"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_35"
+            android:layout_margin="@dimen/dp_5"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:paddingHorizontal="@dimen/dp_6"
+            android:gravity="center"
+            android:minWidth="@dimen/dp_60"
+            android:text="自定义"
+            android:textColor="#7C7F8E"
+            android:textSize="@dimen/sp_14"
+            app:bgradius="@dimen/dp_5"
+            app:normalBackgroundColor="#F8F8F8"
+            app:normalStrokeColor="#F8F8F8"
+            app:normalStrokeWidth="@dimen/dp_1" />
+        <com.kenning.kcutil.widget.basicview.BackGroundTextView
+            android:id="@+id/tvOther1"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_35"
+            android:layout_margin="@dimen/dp_5"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:paddingHorizontal="@dimen/dp_6"
+            android:gravity="center"
+            android:minWidth="@dimen/dp_60"
+            android:text="自定义"
+            android:textColor="#7C7F8E"
+            android:textSize="@dimen/sp_14"
+            app:bgradius="@dimen/dp_5"
+            app:normalBackgroundColor="#F8F8F8"
+            app:normalStrokeColor="#F8F8F8"
+            app:normalStrokeWidth="@dimen/dp_1" />
+    </com.kenning.kcutil.widget.AutoViewGroup>
+
+</LinearLayout>

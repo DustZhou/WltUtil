@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F7F8"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="@dimen/dp_40"
+        android:background="@color/white"
+        android:layout_weight="1">
+
+        <CheckBox
+            android:id="@+id/rbOther"
+            style="@style/RadioButtonLanNewLineStyle_"
+            android:drawableEnd="@drawable/ic_new_unfold"
+            android:paddingStart="@dimen/dp_10"
+            android:tag="OTHER"
+            android:text="时间筛选" />
+
+    </LinearLayout>
+
+
+    <!--日期选择-->
+    <RadioGroup
+        android:id="@+id/rgDatePicker"
+        android:layout_width="0dp"
+        android:layout_weight="2.3"
+        android:layout_height="@dimen/dp_40"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbToDay"
+            style="@style/RadioButtonLanNewLineStyle_"
+            android:tag="@string/TODAY"
+            android:text="今日" />
+
+
+        <RadioButton
+            android:id="@+id/rbYesterDay"
+            style="@style/RadioButtonLanNewLineStyle_"
+            android:tag="@string/YESTERDAY"
+            android:text="昨日" />
+
+
+        <RadioButton
+            android:id="@+id/rbWeek"
+            style="@style/RadioButtonLanNewLineStyle_"
+            android:tag="@string/WEEK"
+            android:text="本周" />
+
+
+        <RadioButton
+            android:id="@+id/rbMonth"
+            style="@style/RadioButtonLanNewLineStyle_"
+            android:tag="@string/THIRTY_DAYS"
+            android:text="本月" />
+        <RadioButton
+            android:id="@+id/rbDiy"
+            android:visibility="gone"
+            style="@style/RadioButtonLanNewLineStyle_"
+            android:tag="@string/THIRTY_DAYS"
+            android:text="本月" />
+
+    </RadioGroup>
+</LinearLayout>

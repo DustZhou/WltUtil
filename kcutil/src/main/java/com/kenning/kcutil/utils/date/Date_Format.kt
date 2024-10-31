@@ -10,7 +10,7 @@ import java.util.*
  *
  * @author Wesley
  */
-@SuppressLint("SimpleDateFormat")
+//@SuppressLint("SimpleDateFormat")
 object Date_Format {
     /**
      * 日期格式3：dd
@@ -32,6 +32,7 @@ object Date_Format {
      * 日期格式3：yyyy-MM-dd HH:mm:ss
      */
     val sdf3 = SimpleDateFormat("yyyy-MM-dd HH:mm:ss")
+    val sdf8 = SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
     /**
      * 日期格式4:yyyy-MM-dd_HH:mm:ss
@@ -42,6 +43,11 @@ object Date_Format {
      * 日期格式5：yyyy-MM-dd HH:mm
      */
     val sdf5 = SimpleDateFormat("yyyy-MM-dd HH:mm")
+
+    /**
+     * 日期格式6：yyyy-MM-dd
+     */
+    val sdf6 = SimpleDateFormat("yyyy-MM-dd")
 
     /**
      * 日期格式6：yyyy-MM-dd
@@ -94,9 +100,14 @@ object Date_Format {
     val sdf15 = SimpleDateFormat("HH:mm:ss")
 }
 
-infix fun Date.formatBy(format:SimpleDateFormat):String{
+infix fun Date.formatBy(format: SimpleDateFormat): String {
     return format.format(this)
 }
-infix fun String.parseBy(format:SimpleDateFormat):Date?{
+
+fun Date.format2String(dateFormat: SimpleDateFormat = Date_Format.sdf6): String {
+    return dateFormat.format(this)
+}
+
+infix fun String.parseBy(format: SimpleDateFormat): Date {
     return format.parse(this)
 }

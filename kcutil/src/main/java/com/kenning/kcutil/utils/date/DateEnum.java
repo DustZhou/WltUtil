@@ -31,9 +31,24 @@ public enum DateEnum {
     Next7Days,
     /**未来30天 11 */
     Next30Days,
+    // <editor-fold desc="快消 ：同比 环比">
+    /**前天*/
+    TWO_DAYS,
+    /**上周*/
+    LAST_WEEK,
+    /**上月*/
+    LAST_MONTH,
+    /**上个季度*/
+    LAST_QUARTER,
+    /**去年*/
+    LAST_YEAR,
+    // </editor-fold>,
     /**其他*/
-    OTHER;
-
+    OTHER,
+    /**180天前 */
+    DAYS_180,
+    /**空 */
+    EMPTY;
     public static DateEnum indexOf(int ordinal) {
         if (ordinal < 0 || ordinal >= values().length) {
             throw new IndexOutOfBoundsException("Invalid ordinal");
