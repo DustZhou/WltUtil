@@ -15,7 +15,7 @@
         <CheckBox
             android:id="@+id/rbOther"
             style="@style/RadioButtonLanNewLineStyle_"
-            android:drawableEnd="@drawable/ic_new_unfold"
+            android:drawableEnd="@drawable/ic_new_unfold_gray"
             android:paddingStart="@dimen/dp_10"
             android:tag="OTHER"
             android:text="时间筛选" />
