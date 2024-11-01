@@ -109,7 +109,7 @@ class QueryReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterfac
                 viewBinding.tvOther.text = "自定义"
             }
 
-            setSaleMainTypeView(activity, CustomeBillDateType, true)
+            setSaleMainTypeView(activity, this.CustomeBillDateType, true)
 
             block(this.BeginDate, this.EndDate, this.CustomeBillDateType)
         }
