@@ -367,6 +367,7 @@ class QueryReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterfac
                     TwoDatePickerBuilder(activity, this)
                         .setBeginDate(BeginDate)
                         .setEndDate(EndDate)
+                        .setCanceledOnTouchOutside(false)
                         .setSingle(false)
                         .setDateFormat(CustomeBillDateFormat)
                         .setRequestCode(if (requestCode != 0) requestCode else abs(viewBinding.tvOther.hashCode()))

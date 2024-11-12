@@ -6,6 +6,7 @@ import android.content.Context
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.view.View
+import android.view.ViewGroup
 import android.widget.FrameLayout
 import android.widget.LinearLayout
 import android.widget.TextView
@@ -65,7 +66,7 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
         initView(context)
     }
 
-    fun setFrameLayout(mFrameLayout: FrameLayout): ReportDataLayout {
+    fun setFrameLayout(mFrameLayout: ViewGroup): ReportDataLayout {
         mTimeEasyPop.setDimView(mFrameLayout)
         return this
     }
@@ -172,6 +173,7 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
                     null
                 )
                 viewBinding.rbOther.text = "时间筛选"
+                mTimeBinding.tvCustom.text = "自定义"
                 changeTimeState( mTimeBinding.llCustom1, lastTimeType)
             }
             //昨天
@@ -184,6 +186,7 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
                     null
                 )
                 viewBinding.rbOther.text = "时间筛选"
+                mTimeBinding.tvCustom.text = "自定义"
                 changeTimeState( mTimeBinding.llCustom1, lastTimeType)
             }
             //本周
@@ -196,6 +199,7 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
                     null
                 )
                 viewBinding.rbOther.text = "时间筛选"
+                mTimeBinding.tvCustom.text = "自定义"
                 changeTimeState( mTimeBinding.llCustom1, lastTimeType)
             }
 
@@ -209,11 +213,21 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
                     null
                 )
                 viewBinding.rbOther.text = "时间筛选"
+                mTimeBinding.tvCustom.text = "自定义"
                 changeTimeState( mTimeBinding.llCustom1, lastTimeType)
             }
 
             "无" ->{
-
+                viewBinding.rbDiy.isChecked = true
+                viewBinding.rbOther.setCompoundDrawablesRelativeWithIntrinsicBounds(
+                    null,
+                    null,
+                    ContextCompat.getDrawable(context, R.drawable.ic_new_unfold_gray),
+                    null
+                )
+                viewBinding.rbOther.text = "时间筛选"
+                mTimeBinding.tvCustom.text = "自定义"
+                changeTimeState( mTimeBinding.llCustom1, lastTimeType)
             }
 
             else -> {
@@ -262,26 +276,31 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
                         //上周
                         DateEnum.LAST_WEEK.name -> {
                             viewBinding.rbOther.text = "上周"
+                            mTimeBinding.tvCustom.text = "自定义"
                             mTimeBinding.llLastWeek
                         }
                         //本季度
                         DateEnum.THISQUARTER.name -> {
                             viewBinding.rbOther.text = "本季度"
+                            mTimeBinding.tvCustom.text = "自定义"
                             mTimeBinding.llSeason
                         }
                         //上季度
                         DateEnum.LAST_QUARTER.name -> {
                             viewBinding.rbOther.text = "上季度"
+                            mTimeBinding.tvCustom.text = "自定义"
                             mTimeBinding.llLastSeason
                         }
                         //本年
                         DateEnum.YEAR.name -> {
                             viewBinding.rbOther.text = "本年"
+                            mTimeBinding.tvCustom.text = "自定义"
                             mTimeBinding.llYear
                         }
                         //上月
                         else -> {
                             viewBinding.rbOther.text = "上月"
+                            mTimeBinding.tvCustom.text = "自定义"
                             mTimeBinding.llLastMonth
                         }
                     }, lastTimeType
@@ -326,13 +345,16 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
 
                 }
 
-                else -> {
+                viewBinding.rbMonth.id -> {
                     //本月
                     CustomeBillDateType = DateEnum.MONTH.name
                     BeginDate = DateExtendUtil.formatDate(DateExtendUtil.getFirstDateOfMonth(Date()))
                     EndDate = DateExtendUtil.formatDate(DateExtendUtil.getLastDateOfMonth(Date()))
                     changeTimeState( mTimeBinding.llCustom1, lastTimeType)
                     block(BeginDate, EndDate, CustomeBillDateType)
+                }
+
+                else -> {
 
                 }
             }
@@ -347,6 +369,7 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
                     null
                 )
                 viewBinding.rbOther.text = "时间筛选"
+                mTimeBinding.tvCustom.text = "自定义"
                 viewBinding.rbOther.isChecked = false
                 isDiy = false
             }
@@ -364,6 +387,7 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
                     null
                 )
                 viewBinding.rbOther.text = "时间筛选"
+                mTimeBinding.tvCustom.text = "自定义"
                 viewBinding.rbOther.isChecked = isDiy
             }
 
@@ -386,6 +410,7 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
             EndDate =
                 DateExtendUtil.formatDate(DateExtendUtil.getSundayOfWeek(DateExtendUtil.getHistoryDate(DateEnum.WEEK)))
             viewBinding.rbOther.text = "上周"
+            mTimeBinding.tvCustom.text = "自定义"
             switchDateType(activity, (it as LinearLayout), lastTimeType)
             block.invoke(BeginDate, EndDate, CustomeBillDateType)
         }
@@ -403,6 +428,7 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
                 )
             )
             viewBinding.rbOther.text = "上月"
+            mTimeBinding.tvCustom.text = "自定义"
             switchDateType(activity, (it as LinearLayout), lastTimeType)
             block.invoke(BeginDate, EndDate, CustomeBillDateType)
         }
@@ -412,6 +438,7 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
             BeginDate = DateExtendUtil.formatDate(DateExtendUtil.getFirstDateOfSeason(Date()))
             EndDate = DateExtendUtil.formatDate(DateExtendUtil.getLastDateOfSeason(Date()))
             viewBinding.rbOther.text = "本季度"
+            mTimeBinding.tvCustom.text = "自定义"
             switchDateType(activity, (it as LinearLayout), lastTimeType)
             block.invoke(BeginDate, EndDate, CustomeBillDateType)
         }
@@ -429,6 +456,7 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
                 )
             )
             viewBinding.rbOther.text = "上季度"
+            mTimeBinding.tvCustom.text = "自定义"
             switchDateType(activity, (it as LinearLayout), lastTimeType)
             block.invoke(BeginDate, EndDate, CustomeBillDateType)
         }
@@ -438,6 +466,7 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
             BeginDate = "${DateExtendUtil.getYear(Date())}-01-01"
             EndDate = "${DateExtendUtil.getYear(Date())}-12-31"
             viewBinding.rbOther.text = "本年"
+            mTimeBinding.tvCustom.text = "自定义"
             switchDateType(activity, (it as LinearLayout), lastTimeType)
             block.invoke(BeginDate, EndDate, CustomeBillDateType)
         }
@@ -468,6 +497,7 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
                 .setBeginDate(BeginDate)
                 .setEndDate(EndDate)
                 .setSingle(false)
+                .setCanceledOnTouchOutside(false)
                 .setDateFormat(CustomeBillDateFormat)
                 .setRequestCode(abs(mTimeBinding.llCustom.hashCode()))
                 .setLoaction(PickerControl.ShowLocation.BOTTOM)

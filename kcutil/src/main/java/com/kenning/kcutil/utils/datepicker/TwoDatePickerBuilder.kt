@@ -64,6 +64,7 @@ class TwoDatePickerBuilder {
     var dateFormat = ""
 
     var mNonChange = true
+    var mCanceledOnTouchOutside = true
 
     fun setDateTitle(title: String): TwoDatePickerBuilder {
         this.title = title
@@ -92,6 +93,10 @@ class TwoDatePickerBuilder {
 
     fun setNeedChangeState(need:Boolean): TwoDatePickerBuilder {
         mNonChange = !need
+        return this
+    }
+    fun setCanceledOnTouchOutside(need:Boolean): TwoDatePickerBuilder {
+        mCanceledOnTouchOutside = need
         return this
     }
 
@@ -188,6 +193,7 @@ class TwoDatePickerBuilder {
         bundle.putString("title", title)
         bundle.putString("dateFormat", dateFormat)
         bundle.putBoolean("isSingleDate", isSingleDate)
+        bundle.putBoolean("CanceledOnTouchOutside", mCanceledOnTouchOutside)
 //        bundle.putFloat("alpha",alpha)
 //        bundle.putString("location",location.name)
         bundle.putInt("code", requestCode)

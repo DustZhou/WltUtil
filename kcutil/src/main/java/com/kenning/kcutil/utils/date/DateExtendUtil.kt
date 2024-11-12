@@ -1268,12 +1268,12 @@ fun DataOfCustomeBillDateType(CustomeBillDateType: String, callBack: (String, St
     when (CustomeBillDateType) {
 
         DateEnum.TODAY.name -> {
-            BeginDate = com.kenning.kcutil.utils.date.DateExtendUtil.getCurrentDate()
-            EndDate = com.kenning.kcutil.utils.date.DateExtendUtil.getCurrentDate()
+            BeginDate = DateExtendUtil.getCurrentDate()
+            EndDate = DateExtendUtil.getCurrentDate()
         }
 
         DateEnum.YESTERDAY.name -> {
-            BeginDate = com.kenning.kcutil.utils.date.DateExtendUtil.getHistoryBeginDate(DateEnum.YESTERDAY)
+            BeginDate = DateExtendUtil.getHistoryBeginDate(DateEnum.YESTERDAY)
             EndDate = BeginDate
         }
 
@@ -1287,12 +1287,12 @@ fun DataOfCustomeBillDateType(CustomeBillDateType: String, callBack: (String, St
 
             BeginDate = DateExtendUtil.formatDate(
                 DateExtendUtil.getMondayOfWeek(
-                    com.kenning.kcutil.utils.date.DateExtendUtil.getHistoryDate(DateEnum.WEEK)
+                    DateExtendUtil.getHistoryDate(DateEnum.WEEK)
                 )
             )
             EndDate = DateExtendUtil.formatDate(
                 DateExtendUtil.getSundayOfWeek(
-                    com.kenning.kcutil.utils.date.DateExtendUtil.getHistoryDate(DateEnum.WEEK)
+                    DateExtendUtil.getHistoryDate(DateEnum.WEEK)
                 )
             )
         }
@@ -1307,12 +1307,12 @@ fun DataOfCustomeBillDateType(CustomeBillDateType: String, callBack: (String, St
 
             BeginDate = DateExtendUtil.formatDate(
                 DateExtendUtil.getFirstDateOfMonth(
-                    com.kenning.kcutil.utils.date.DateExtendUtil.getHistoryDate(DateEnum.MONTH)
+                    DateExtendUtil.getHistoryDate(DateEnum.MONTH)
                 )
             )
             EndDate = DateExtendUtil.formatDate(
                 DateExtendUtil.getFirstDateOfMonth(
-                    com.kenning.kcutil.utils.date.DateExtendUtil.getHistoryDate(DateEnum.MONTH)
+                    DateExtendUtil.getHistoryDate(DateEnum.MONTH)
                 )
             )
         }
@@ -1327,12 +1327,12 @@ fun DataOfCustomeBillDateType(CustomeBillDateType: String, callBack: (String, St
 
             BeginDate = DateExtendUtil.formatDate(
                 DateExtendUtil.getFirstDateOfSeason(
-                    com.kenning.kcutil.utils.date.DateExtendUtil.getHistoryDate(DateEnum.THREE_MONTHS)
+                    DateExtendUtil.getHistoryDate(DateEnum.THREE_MONTHS)
                 )
             )
             EndDate = DateExtendUtil.formatDate(
                 DateExtendUtil.getLastDateOfSeason(
-                    com.kenning.kcutil.utils.date.DateExtendUtil.getHistoryDate(DateEnum.THREE_MONTHS)
+                    DateExtendUtil.getHistoryDate(DateEnum.THREE_MONTHS)
                 )
             )
 
@@ -1355,7 +1355,9 @@ fun DataOfCustomeBillDateType(CustomeBillDateType: String, callBack: (String, St
 
         }
     }
-    callBack(BeginDate, EndDate)
+    if (CustomeBillDateType != DateEnum.OTHER.name){
+        callBack(BeginDate, EndDate)
+    }
 }
 
 fun getDataName(CustomeBillDateType: String): String {

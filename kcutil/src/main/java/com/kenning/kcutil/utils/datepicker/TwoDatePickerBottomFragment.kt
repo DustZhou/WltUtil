@@ -43,6 +43,8 @@ class TwoDatePickerBottomFragment : BottomSheetDialogFragment(), IDatePickerBase
 
     override var isSingleDate = false
 
+    var mCanceledOnTouchOutside = false
+
     override var startdate = ""
     override var enddate = ""
 
@@ -113,6 +115,8 @@ class TwoDatePickerBottomFragment : BottomSheetDialogFragment(), IDatePickerBase
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
         val dialog = super.onCreateDialog(savedInstanceState) as BottomSheetDialog
 
+        dialog.setCanceledOnTouchOutside(mCanceledOnTouchOutside)
+
         dialog.setOnShowListener {
             val bottomSheet = (it as BottomSheetDialog).findViewById<View>(com.google.android.material.R.id.design_bottom_sheet) as FrameLayout?
             val behavior = BottomSheetBehavior.from(bottomSheet!!)
@@ -136,6 +140,7 @@ class TwoDatePickerBottomFragment : BottomSheetDialogFragment(), IDatePickerBase
     fun getBeforeData() {
 
         isSingleDate = bundle.getBoolean("isSingleDate", false)
+        mCanceledOnTouchOutside = bundle.getBoolean("CanceledOnTouchOutside", true)
         startdate = bundle.getString("start", "")
         enddate = bundle.getString("end", "")
         code = bundle.getInt("code", -1)
