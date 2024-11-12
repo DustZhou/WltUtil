@@ -420,7 +420,7 @@ class ScanViewGroup @JvmOverloads constructor(
                         val clazz = Class.forName(KCUtil.ScanClassAbPath)
                         EasyActivityResult.startActivity(context as Activity, Intent(context, clazz)) { _, data ->
                             data?.extras?.apply {
-                                val result = getString("data", "")
+                                val result = getString(KCUtil.getScanResultCode(), "")
                                 mEditText?.setText("$result\n")
                             }
                         }

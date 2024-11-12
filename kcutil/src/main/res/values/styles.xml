@@ -16,12 +16,6 @@
     </style>
 
 
-    <!--  自定义viewgroup 横向一次放入控件 位置不够后 换行填入  -->
-    <declare-styleable name="AutoNewLineLayout">
-        <attr name="horizontalSpace" format="dimension|reference" />
-
-        <attr name="vertivalSpace" format="dimension|reference" />
-    </declare-styleable>
 
     <style name="KCBottomSheet">
         <item name="android:windowBackground">@color/viewfinder_mask</item>

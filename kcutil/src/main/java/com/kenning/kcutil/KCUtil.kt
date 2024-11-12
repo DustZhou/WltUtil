@@ -10,12 +10,22 @@ import android.app.Application
  */
 object KCUtil {
     var ScanClassAbPath = ""
-    fun setScanClassPath(path:String){
+    fun setScanClassPath(path: String) {
         this.ScanClassAbPath = path
     }
-    internal var application:Application?=null
+    //预计1.0.11才会有这个功能，2024-11-12+
+    private var scanResultCode = "data"
+    fun setScanResultCode(code: String) {
+        this.scanResultCode = code
+    }
 
-    fun initKCUtil(application: Application){
+    fun getScanResultCode(): String {
+        return this.scanResultCode
+    }
+
+    internal var application: Application? = null
+
+    fun initKCUtil(application: Application) {
         this.application = application
     }
 }
