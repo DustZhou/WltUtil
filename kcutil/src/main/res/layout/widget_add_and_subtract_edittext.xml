@@ -24,28 +24,41 @@
             android:background="#B3B3B3" />
     </com.kenning.kcutil.widget.basicview.BackGroundLinearLayout>
 
-    <com.kenning.kcutil.widget.basicview.BackGroundLinearLayout
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:gravity="center"
-        app:normalStrokeColor="#B3B3B3"
-        app:normalStrokeWidth="@dimen/dp_1">
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_1"
+            android:background="#B3B3B3" />
 
         <com.kenning.kcutil.widget.WltEditText
             android:id="@+id/etMain"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="0dp"
+            android:focusableInTouchMode="true"
+            android:focusable="true"
+            android:selectAllOnFocus="true"
+            android:layout_weight="1"
             android:background="@null"
             android:gravity="center"
-            android:inputType="numberDecimal"
             android:hint=""
+            android:inputType="numberDecimal"
             android:lines="1"
             android:minWidth="@dimen/dp_80"
             android:singleLine="true"
             android:text=""
             android:textColor="#1E2125"
             android:textSize="@dimen/sp_13" />
-    </com.kenning.kcutil.widget.basicview.BackGroundLinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_1"
+            android:background="#B3B3B3" />
+    </LinearLayout>
 
     <com.kenning.kcutil.widget.basicview.BackGroundLinearLayout
         android:id="@+id/ivAdd"

@@ -4,7 +4,6 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.FrameLayout;
-import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -72,6 +71,7 @@ public class AddAndSubtractEditText extends FrameLayout implements View.OnClickL
         if (view.getId() == R.id.ivAdd) {
             double qty = MathUtilsKt.toDouble_(etMain.getText().toString());
             etMain.setText(MathUtilsKt.keepPoint(MathUtilsKt.JIA(qty, 1) + "", 20));
+            etMain.clearFocus();
         }
         // 递减按钮点击
         if (view.getId() == R.id.ivSubtract) {
@@ -81,6 +81,7 @@ public class AddAndSubtractEditText extends FrameLayout implements View.OnClickL
             } else {
                 etMain.setText(MathUtilsKt.keepPoint(MathUtilsKt.JIAN(qty, 1) + "", 20));
             }
+            etMain.clearFocus();
         }
     }
 
