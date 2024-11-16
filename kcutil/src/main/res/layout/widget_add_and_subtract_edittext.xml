@@ -38,11 +38,11 @@
             android:background="@null"
             android:gravity="center"
             android:inputType="numberDecimal"
-            android:hint="数量"
+            android:hint=""
             android:lines="1"
             android:minWidth="@dimen/dp_80"
             android:singleLine="true"
-            android:text="0"
+            android:text=""
             android:textColor="#1E2125"
             android:textSize="@dimen/sp_13" />
     </com.kenning.kcutil.widget.basicview.BackGroundLinearLayout>
@@ -55,8 +55,6 @@
         android:orientation="vertical"
         app:bottom_right_radius="@dimen/dp_5"
         app:normalBackgroundColor="#FF1EACFB"
-        app:normalStrokeColor="#B3B3B3"
-        app:normalStrokeWidth="@dimen/dp_1"
         app:top_right_radius="@dimen/dp_5">
 
         <View
