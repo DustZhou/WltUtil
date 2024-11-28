@@ -94,10 +94,14 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
 
         mTimeBinding = PopBillListTimeBinding.inflate(LayoutInflater.from(context), this, false)
 
-        mTimeBinding.tvToday.visibility = View.GONE
-        mTimeBinding.tvYesterday.visibility = View.GONE
-        mTimeBinding.tvWeek.visibility = View.GONE
-        mTimeBinding.tvMonth.visibility = View.GONE
+        mTimeBinding.llToday.visibility = View.GONE
+        mTimeBinding.llYesterday.visibility = View.GONE
+        mTimeBinding.llWeek.visibility = View.GONE
+        mTimeBinding.llMonth.visibility = View.GONE
+        mTimeBinding.viewToday.visibility = View.GONE
+        mTimeBinding.viewYesterday.visibility = View.GONE
+        mTimeBinding.viewWeek.visibility = View.GONE
+        mTimeBinding.viewMonth.visibility = View.GONE
 
         mTimeBinding.tvToday.text = "今天" + "(${(DateExtendUtil.getCurrentDate().substring(5)).replace("-", "/")})"
         mTimeBinding.tvYesterday.text = "昨天" + "(${
@@ -186,17 +190,20 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
 
 
     }
+
     /**
-    * @Description:自定义字段 （默认是隐藏今日、昨天、本周、本月）
+     * @Description:自定义字段 （默认是隐藏今日、昨天、本周、本月）
      * 当使用本方法时，会按传的枚举进行隐藏和显示，并隐藏右边的其他按钮
-    * @author: create by zyl on 2024/11/19
-    */
+     * @author: create by zyl on 2024/11/19
+     */
     fun setDisplayColumn(showLists: ArrayList<DateEnum>): ReportDataLayout {
+        //自定义的都默认本月了。如后期要改，要再建个方法来设置默认值
+        viewBinding.tvOther.text = "本月"
+        changeTimeState(mTimeBinding.llMonth, lastTimeType)
 
         viewBinding.tvOther.visibility = View.VISIBLE
         viewBinding.ivOther.visibility = View.VISIBLE
         viewBinding.rbOther.visibility = View.GONE
-        viewBinding.tvOther.text = "本月"
         viewBinding.tvOther.setOnClickListener {
             viewBinding.rbOther.performClick()
         }
@@ -205,54 +212,72 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
         }
         viewBinding.rgDatePicker.visibility = View.GONE
         if (DateEnum.TODAY outOf showLists) {
-            mTimeBinding.tvToday.visibility = View.GONE
+            mTimeBinding.llToday.visibility = View.GONE
+            mTimeBinding.viewToday.visibility = View.GONE
         } else {
-            mTimeBinding.tvToday.visibility = View.VISIBLE
+            mTimeBinding.llToday.visibility = View.VISIBLE
+            mTimeBinding.viewToday.visibility = View.VISIBLE
         }
         if (DateEnum.YESTERDAY outOf showLists) {
-            mTimeBinding.tvYesterday.visibility = View.GONE
+            mTimeBinding.llYesterday.visibility = View.GONE
+            mTimeBinding.viewYesterday.visibility = View.GONE
         } else {
-            mTimeBinding.tvYesterday.visibility = View.VISIBLE
+            mTimeBinding.llYesterday.visibility = View.VISIBLE
+            mTimeBinding.viewYesterday.visibility = View.VISIBLE
         }
         if (DateEnum.WEEK outOf showLists) {
-            mTimeBinding.tvWeek.visibility = View.GONE
+            mTimeBinding.llWeek.visibility = View.GONE
+            mTimeBinding.viewWeek.visibility = View.GONE
         } else {
-            mTimeBinding.tvWeek.visibility = View.VISIBLE
+            mTimeBinding.llWeek.visibility = View.VISIBLE
+            mTimeBinding.viewWeek.visibility = View.VISIBLE
         }
         if (DateEnum.LAST_WEEK outOf showLists) {
-            mTimeBinding.tvLastWeek.visibility = View.GONE
+            mTimeBinding.llLastWeek.visibility = View.GONE
+            mTimeBinding.viewLastWeek.visibility = View.GONE
         } else {
-            mTimeBinding.tvLastWeek.visibility = View.VISIBLE
+            mTimeBinding.llLastWeek.visibility = View.VISIBLE
+            mTimeBinding.viewLastWeek.visibility = View.VISIBLE
         }
         if (DateEnum.MONTH outOf showLists) {
-            mTimeBinding.tvMonth.visibility = View.GONE
+            mTimeBinding.llMonth.visibility = View.GONE
+            mTimeBinding.viewMonth.visibility = View.GONE
         } else {
-            mTimeBinding.tvMonth.visibility = View.VISIBLE
+            mTimeBinding.llMonth.visibility = View.VISIBLE
+            mTimeBinding.viewMonth.visibility = View.VISIBLE
         }
         if (DateEnum.LAST_MONTH outOf showLists) {
-            mTimeBinding.tvLastMonth.visibility = View.GONE
+            mTimeBinding.llLastMonth.visibility = View.GONE
+            mTimeBinding.viewLastMonth.visibility = View.GONE
         } else {
-            mTimeBinding.tvLastMonth.visibility = View.VISIBLE
+            mTimeBinding.llLastMonth.visibility = View.VISIBLE
+            mTimeBinding.viewLastMonth.visibility = View.VISIBLE
         }
         if (DateEnum.THISQUARTER outOf showLists) {
-            mTimeBinding.tvSeason.visibility = View.GONE
+            mTimeBinding.llSeason.visibility = View.GONE
+            mTimeBinding.viewSeason.visibility = View.GONE
         } else {
-            mTimeBinding.tvSeason.visibility = View.VISIBLE
+            mTimeBinding.llSeason.visibility = View.VISIBLE
+            mTimeBinding.viewSeason.visibility = View.VISIBLE
         }
         if (DateEnum.LAST_QUARTER outOf showLists) {
-            mTimeBinding.tvLastSeason.visibility = View.GONE
+            mTimeBinding.llLastSeason.visibility = View.GONE
+            mTimeBinding.viewLastSeason.visibility = View.GONE
         } else {
-            mTimeBinding.tvLastSeason.visibility = View.VISIBLE
+            mTimeBinding.llLastSeason.visibility = View.VISIBLE
+            mTimeBinding.viewLastSeason.visibility = View.VISIBLE
         }
         if (DateEnum.YEAR outOf showLists) {
-            mTimeBinding.tvYear.visibility = View.GONE
+            mTimeBinding.llYear.visibility = View.GONE
+            mTimeBinding.viewYear.visibility = View.GONE
         } else {
-            mTimeBinding.tvYear.visibility = View.VISIBLE
+            mTimeBinding.llYear.visibility = View.VISIBLE
+            mTimeBinding.viewYear.visibility = View.VISIBLE
         }
         if (DateEnum.OTHER outOf showLists) {
-            mTimeBinding.tvCustom.visibility = View.GONE
+            mTimeBinding.llCustom.visibility = View.GONE
         } else {
-            mTimeBinding.tvCustom.visibility = View.VISIBLE
+            mTimeBinding.llCustom.visibility = View.VISIBLE
         }
         return this
     }
