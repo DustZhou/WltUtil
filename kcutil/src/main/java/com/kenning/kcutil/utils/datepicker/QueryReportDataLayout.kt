@@ -68,6 +68,15 @@ class QueryReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterfac
         return this
     }
 
+    fun setTitleVisibility(mVisibility : Boolean): QueryReportDataLayout {
+        if (mVisibility){
+            viewBinding.tvTitle.visibility = View.VISIBLE
+        }else{
+            viewBinding.tvTitle.visibility = View.GONE
+        }
+        return this
+    }
+
     @SuppressLint("ResourceType")
     fun initView(context: Context?) {
         viewBinding = QueryreportdatelayoutBinding.inflate(LayoutInflater.from(context), this, true)

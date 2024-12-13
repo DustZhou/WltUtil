@@ -8,10 +8,10 @@
 
     <TextView
         android:id="@+id/tvTitle"
-        android:paddingStart="@dimen/dp_8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/dp_12"
+        android:paddingStart="@dimen/dp_8"
         android:text="单据日期"
         android:textColor="@color/gray"
         android:textSize="@dimen/sp_14" />
