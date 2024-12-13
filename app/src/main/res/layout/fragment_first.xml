@@ -98,6 +98,15 @@
         app:textSize="@dimen/sp_14"
         app:viewType="scan" />
 
+    <com.kenning.kcutil.widget.AddAndSubtractEditText
+        android:id="@+id/etGift"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp_30"
+        app:layout_constraintBottom_toTopOf="@id/textview_first"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtCondition" />
+
     <TextView
         android:id="@+id/textview_first"
         android:layout_width="wrap_content"
