@@ -267,7 +267,7 @@ open class EasyDialog(private var context: Context) {
         count++
         mIsReset = false
         if (title == null) {
-            this.title = "提示"
+            this.title = "温馨提示"
         }
 
        return if (Prompt) {
@@ -443,7 +443,7 @@ open class EasyDialog(private var context: Context) {
         count++
         mIsReset = false
         if (title == null) {
-            this.title = "提示"
+            this.title = "温馨提示"
         }
 
         if (Prompt) {
