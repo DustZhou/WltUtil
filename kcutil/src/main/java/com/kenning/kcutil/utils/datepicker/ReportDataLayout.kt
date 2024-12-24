@@ -197,9 +197,9 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
      * @author: create by zyl on 2024/11/19
      */
     fun setDisplayColumn(showLists: ArrayList<DateEnum>): ReportDataLayout {
-        //自定义的都默认本月了。如后期要改，要再建个方法来设置默认值
-        viewBinding.tvOther.text = "本月"
-        changeTimeState(mTimeBinding.llMonth, lastTimeType)
+//        //自定义的都默认本月了。如后期要改，要再建个方法来设置默认值
+//        viewBinding.tvOther.text = "本月"
+//        changeTimeState(mTimeBinding.llMonth, lastTimeType)
 
         viewBinding.tvOther.visibility = View.VISIBLE
         viewBinding.ivOther.visibility = View.VISIBLE
@@ -285,7 +285,7 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
     var isDiy = false
 
     @SuppressLint("SetTextI18n")
-    fun setDefaultShow(BeginDate: String, EndDate: String, CustomeBillDateType: String, CustomeBillDateFormat: String = "DD"): ReportDataLayout {
+    fun setDefaultShow(BeginDate: String, EndDate: String, CustomeBillDateType: String, CustomeBillDateFormat: String = "DD", isD9Diy: Boolean = false): ReportDataLayout {
         this.BeginDate = BeginDate
         this.EndDate = EndDate
         this.CustomeBillDateType = CustomeBillDateType
@@ -296,6 +296,7 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
             //今天
             DateEnum.TODAY.name -> {
                 viewBinding.rbToDay.isChecked = true
+                viewBinding.tvOther.text = "今天"
                 viewBinding.rbOther.setCompoundDrawablesRelativeWithIntrinsicBounds(
                     null,
                     null,
@@ -304,11 +305,17 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
                 )
                 viewBinding.rbOther.text = "时间筛选"
                 mTimeBinding.tvCustom.text = "自定义"
-                changeTimeState(mTimeBinding.llCustom1, lastTimeType)
+                if (isD9Diy){
+                    changeTimeState(mTimeBinding.llToday, lastTimeType)
+                }else{
+                    changeTimeState(mTimeBinding.llCustom1, lastTimeType)
+                }
+
             }
             //昨天
             DateEnum.YESTERDAY.name -> {
                 viewBinding.rbYesterDay.isChecked = true
+                viewBinding.tvOther.text = "昨天"
                 viewBinding.rbOther.setCompoundDrawablesRelativeWithIntrinsicBounds(
                     null,
                     null,
@@ -317,11 +324,15 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
                 )
                 viewBinding.rbOther.text = "时间筛选"
                 mTimeBinding.tvCustom.text = "自定义"
-                changeTimeState(mTimeBinding.llCustom1, lastTimeType)
-            }
+                if (isD9Diy){
+                    changeTimeState(mTimeBinding.llYesterday, lastTimeType)
+                }else{
+                    changeTimeState(mTimeBinding.llCustom1, lastTimeType)
+                }            }
             //本周
             DateEnum.WEEK.name -> {
                 viewBinding.rbWeek.isChecked = true
+                viewBinding.tvOther.text = "本周"
                 viewBinding.rbOther.setCompoundDrawablesRelativeWithIntrinsicBounds(
                     null,
                     null,
@@ -330,12 +341,16 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
                 )
                 viewBinding.rbOther.text = "时间筛选"
                 mTimeBinding.tvCustom.text = "自定义"
-                changeTimeState(mTimeBinding.llCustom1, lastTimeType)
-            }
+                if (isD9Diy){
+                    changeTimeState(mTimeBinding.llWeek, lastTimeType)
+                }else{
+                    changeTimeState(mTimeBinding.llCustom1, lastTimeType)
+                }            }
 
             //本月
             DateEnum.MONTH.name -> {
                 viewBinding.rbMonth.isChecked = true
+                viewBinding.tvOther.text = "本月"
                 viewBinding.rbOther.setCompoundDrawablesRelativeWithIntrinsicBounds(
                     null,
                     null,
@@ -344,8 +359,11 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
                 )
                 viewBinding.rbOther.text = "时间筛选"
                 mTimeBinding.tvCustom.text = "自定义"
-                changeTimeState(mTimeBinding.llCustom1, lastTimeType)
-            }
+                if (isD9Diy){
+                    changeTimeState(mTimeBinding.llMonth, lastTimeType)
+                }else{
+                    changeTimeState(mTimeBinding.llCustom1, lastTimeType)
+                }            }
 
             "无" -> {
                 viewBinding.rbDiy.isChecked = true
@@ -357,8 +375,11 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
                 )
                 viewBinding.rbOther.text = "时间筛选"
                 mTimeBinding.tvCustom.text = "自定义"
-                changeTimeState(mTimeBinding.llCustom1, lastTimeType)
-            }
+                if (isD9Diy){
+                    changeTimeState(mTimeBinding.llCustom, lastTimeType)
+                }else{
+                    changeTimeState(mTimeBinding.llCustom1, lastTimeType)
+                }            }
 
             else -> {
 
@@ -465,6 +486,7 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
                     BeginDate = DateExtendUtil.getCurrentDate()
                     EndDate = DateExtendUtil.getCurrentDate()
                     changeTimeState(mTimeBinding.llCustom1, lastTimeType)
+
                     block(BeginDate, EndDate, CustomeBillDateType)
 
                 }
