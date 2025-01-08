@@ -1,5 +1,7 @@
 package com.kenning.kcutil.utils.other
 
+import android.content.Context
+
 /**
  *Description :
  *author : KenningChen
@@ -17,4 +19,18 @@ interface IProgress {
      * 取消进度框
      */
     fun dismissProgress()
+}
+
+fun Context.dismissProgress() {
+    when (this) {
+        is IProgress -> this.dismissProgress()
+        else -> {}
+    }
+}
+
+fun Context.showProgress(content: String, isCancelable: Boolean) {
+    when (this) {
+        is IProgress -> this.showProgress(content, isCancelable)
+        else -> {}
+    }
 }
