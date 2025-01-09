@@ -34,6 +34,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.reduxdemo.ReduxTestAct" />
+        <activity android:name=".PrivacyPolicyActivity" />
 
         <provider android:name="androidx.core.content.FileProvider" android:grantUriPermissions="true" android:exported="false"
             android:authorities="com.kenning.kcutil.provider">

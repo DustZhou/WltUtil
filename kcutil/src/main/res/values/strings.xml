@@ -14,5 +14,6 @@
     <string name="更换语言">更换语言</string>
     <string name="不支持翻译用于变量" translatable="false">不支持翻译，用于变量</string>
     <string name="我是一串很长的字符串">我是一串很长的字符串我是一串很长的字符串我是一串很长的字符串我是一串很长的字符串我是一串很长的字符串我是一串很长的字符串我是一串很长的字符串我是一串很长的字符串我是一串很长的字符串</string>
+    <string name="wlttyprivacyhtml">file:///android_asset/wlttyprivacy.html</string>
 
 </resources>

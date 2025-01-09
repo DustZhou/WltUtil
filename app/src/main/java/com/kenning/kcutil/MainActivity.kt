@@ -37,7 +37,10 @@ class MainActivity : BaseActivity(), IPickerListener {
         binding.fab.setOnClickListener { view ->
         }
         binding.tagswitch.setOnClickListener {
-            val language = arrayOf("中文 Chinese", "英文 English")
+            val language = arrayOf("中文 Chinese", "英文 English",
+
+                LanguageUtil.getLocalizedTextFromChinese(this,"切换"),
+                LanguageUtil.getLngString(this, R.string.切换))
             AlertDialog.Builder(this).setSingleChoiceItems(language, -1) { dialog, which ->
                 when (which) {
                     0 -> {
@@ -49,6 +52,14 @@ class MainActivity : BaseActivity(), IPickerListener {
                     }
                 }
             }.show()
+        }
+
+        //隐私政策
+        binding.llPrivacyPolicy.setOnClickListener {
+            val bundle = Bundle()
+            bundle.putString("url", LanguageUtil.getLngString(this, R.string.wlttyprivacyhtml))
+            bundle.putString("name", R.string.隐私政策)
+            startActivity(Intent(this, PrivacyPolicyActivity::class.java).putExtras(bundle))
         }
     }
 
