@@ -80,8 +80,8 @@ dependencies {
     api 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.4@aar'
 
     implementation 'androidx.fragment:fragment-ktx:1.4.1'
-    //EasyPopup「暂停维护」
-    api ('com.github.zyyoona7:EasyPopup:1.1.2') {
-        exclude group: 'com.android.support'
-    }
+//    //EasyPopup「暂停维护」
+//    api ('com.github.zyyoona7:EasyPopup:1.1.2') {
+//        exclude group: 'com.android.support'
+//    }
 }

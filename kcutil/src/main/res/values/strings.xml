@@ -7,10 +7,12 @@
     <string name="THREE_MONTHS" translatable="false">THREE_MONTHS</string>
     <string name="HALF_YEAR" translatable="false">HALF_YEAR</string>
     <string name="YEAR" translatable="false">YEAR</string>
-    <!--本月初-->
     <string name="THISMONTH" translatable="false">THISMONTH</string>
-    <!--本季度初-->
     <string name="THISQUARTER" translatable="false">THISQUARTER</string>
     <string name="OTHER" translatable="false">OTHER</string>
+    <string name="切换">切换</string>
+    <string name="更换语言">更换语言</string>
+    <string name="不支持翻译用于变量" translatable="false">不支持翻译，用于变量</string>
+    <string name="我是一串很长的字符串">我是一串很长的字符串我是一串很长的字符串我是一串很长的字符串我是一串很长的字符串我是一串很长的字符串我是一串很长的字符串我是一串很长的字符串我是一串很长的字符串我是一串很长的字符串</string>
 
 </resources>

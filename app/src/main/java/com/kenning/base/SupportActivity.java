@@ -1,12 +1,24 @@
 package com.kenning.base;
 
+import android.annotation.TargetApi;
+import android.app.Activity;
+import android.content.Context;
+import android.content.SharedPreferences;
+import android.content.res.Configuration;
+import android.content.res.Resources;
+import android.os.Build;
 import android.os.Bundle;
+import android.os.LocaleList;
 import android.view.MotionEvent;
 
 import androidx.annotation.DrawableRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.FragmentActivity;
+
+import com.kenning.kcutil.utils.language.LanguageUtil;
+
+import java.util.Locale;
 
 import me.yokeyword.fragmentation.ExtraTransaction;
 import me.yokeyword.fragmentation.ISupportActivity;
@@ -21,6 +33,14 @@ import me.yokeyword.fragmentation.anim.FragmentAnimator;
  * 项目主页面继承用
  */
 public class SupportActivity extends FragmentActivity implements ISupportActivity {
+
+    /**
+     * 此方法先于 onCreate()方法执行 。用于加载配置的语言
+     */
+    @Override
+    protected void attachBaseContext(Context context) {
+        super.attachBaseContext(LanguageUtil.attachBaseContext(context));
+    }
     final SupportActivityDelegate mDelegate = new SupportActivityDelegate(this);
 
     @Override

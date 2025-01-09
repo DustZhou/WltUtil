@@ -6,26 +6,25 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-<!--    <androidx.fragment.app.FragmentContainerView-->
-<!--        android:id="@+id/fcvMain"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent" />-->
+    <!--    <androidx.fragment.app.FragmentContainerView-->
+    <!--        android:id="@+id/fcvMain"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
 
     <TextView
         android:id="@+id/tag11"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
-        />
+        android:layout_height="120dp" />
 
     <FrameLayout
-        android:layout_marginTop="40dp"
         android:id="@+id/fcvMain"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_constraintTop_toBottomOf="@+id/tag11"
+        android:layout_marginTop="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"/>
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tag11" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"
@@ -36,20 +35,40 @@
         android:layout_marginBottom="16dp"
         app:srcCompat="@android:drawable/ic_dialog_email" />
 
-    <com.kenning.kcutil.widget.SwitchView
-        android:background="@color/color_00ABF3"
-        android:id="@+id/tagswitch"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10dp"
-        app:kc_imageHeight="10dp"
-        app:kc_imageWidth="20dp"
-        app:kc_checkOffBackground="@drawable/ic_switch_off"
-        app:kc_checkOnBackground="@drawable/ic_switch_on"
-        app:kc_checkstate="false"
-        app:kc_textsize="10sp"
-        app:kc_text="切换状态"
-        app:kc_autoSrcChange="false"
-        app:kc_textColor="@color/colorAccent"/>
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tagswitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/color_00ABF3"
+            android:padding="10dp"
+            android:text="@string/更换语言" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/gray"
+            android:padding="10dp"
+            android:text="@string/不支持翻译用于变量"/>
+
+        <com.kenning.kcutil.utils.language.ShowMoreTextView
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:text="@string/我是一串很长的字符串"/>
+
+    </LinearLayout>
+    <com.kenning.kcutil.utils.language.ShowMoreTextView
+        android:layout_width="match_parent"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:layout_gravity="bottom|end"
+        android:text="@string/我是一串很长的字符串"/>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

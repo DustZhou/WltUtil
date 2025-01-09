@@ -1,16 +1,20 @@
 package com.kenning.kcutil
 
+import android.content.Intent
+import android.content.SharedPreferences
+import android.os.Build
 import android.os.Bundle
 import android.util.Log
+import androidx.appcompat.app.AlertDialog
 import com.kenning.base.BaseActivity
 import com.kenning.kcutil.databinding.ActivityMainBinding
 import com.kenning.kcutil.utils.date.DateExtendUtil
 import com.kenning.kcutil.utils.date.Date_Format
 import com.kenning.kcutil.utils.date.formatBy
 import com.kenning.kcutil.utils.datepicker.IPickerListener
-import com.kenning.kcutil.utils.other.PermissionGroup
-import com.kenning.kcutil.utils.other.setHook
+import com.kenning.kcutil.utils.language.LanguageUtil
 import java.util.Date
+
 
 class MainActivity : BaseActivity(), IPickerListener {
 
@@ -31,39 +35,35 @@ class MainActivity : BaseActivity(), IPickerListener {
         loadRootFragment(binding.fcvMain.id, FirstFragment())
 
         binding.fab.setOnClickListener { view ->
-//            lifecycleScope.launch {
-//
-//                val view_body = LayoutInflater.from(this@MainActivity).inflate(
-//                    R.layout.view_test_dialog, null
-//                )
-//                view_body.view1.setOnClickListener { ToastUtil.show("click view1") }
-//                view_body.view2.setOnClickListener { ToastUtil.show("click view2") }
-//
-//
-//                val result = BaseFragmentDialog(view_body)
-//                    .setTitle("测试")
-//                    .setButtonMode(
-//                        DialogFragmentButtonMode("hh"),
-//                        DialogFragmentButtonMode("YY")
-//                    )
-//                    .showAsSuspend(
-//                        supportFragmentManager,
-//                        BaseFragmentDialog::class.java.simpleName
-//                    )
-//                if (result.toString() == "YY"){
-//                    ToastUtil.show("click yy")
-//                }else{
-//                    ToastUtil.show("click other")
-//                }
-//            }
         }
-        binding.tagswitch.setOnSwitchSuspendListener{
+        binding.tagswitch.setOnClickListener {
+            val language = arrayOf("中文 Chinese", "英文 English")
+            AlertDialog.Builder(this).setSingleChoiceItems(language, -1) { dialog, which ->
+                when (which) {
+                    0 -> {
+                        changeLanguage("ch")
+                    }
 
+                    1 -> {
+                        changeLanguage("en-rUS")
+                    }
+                }
+            }.show()
         }
-        binding.tagswitch.setHook(
-            PermissionGroup.PHONE.name,
-            "没有电话权限,无法执行该功能,请先去设置权限"
-        )
+    }
+
+    /**
+     * 如果是7.0以下，我们需要调用changeAppLanguage方法，
+     * 如果是7.0及以上系统，直接把我们想要切换的语言类型保存在SharedPreferences中即可
+     * 然后重新启动MainActivity
+     * @param language
+     */
+    private fun changeLanguage(language: String) {
+        LanguageUtil.changeAppLanguage(this, language)
+        val intent = Intent(this, MainActivity::class.java)
+        intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK
+        startActivity(intent)
+        finish()
     }
 
     override fun closeAct() {
