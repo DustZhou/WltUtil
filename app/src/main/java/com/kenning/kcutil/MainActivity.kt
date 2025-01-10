@@ -4,7 +4,6 @@ import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Build
 import android.os.Bundle
-import android.util.Log
 import androidx.appcompat.app.AlertDialog
 import com.kenning.base.BaseActivity
 import com.kenning.kcutil.databinding.ActivityMainBinding
@@ -13,6 +12,7 @@ import com.kenning.kcutil.utils.date.Date_Format
 import com.kenning.kcutil.utils.date.formatBy
 import com.kenning.kcutil.utils.datepicker.IPickerListener
 import com.kenning.kcutil.utils.language.LanguageUtil
+import com.kenning.kcutil.utils.language.LanguageUtil.LanguageType
 import java.util.Date
 
 
@@ -31,35 +31,23 @@ class MainActivity : BaseActivity(), IPickerListener {
             Date_Format.YMD,
             5
         )
-        Log.e("kenning", da)
         loadRootFragment(binding.fcvMain.id, FirstFragment())
 
         binding.fab.setOnClickListener { view ->
         }
         binding.tagswitch.setOnClickListener {
-            val language = arrayOf("中文 Chinese", "英文 English",
-
-                LanguageUtil.getLocalizedTextFromChinese(this,"切换"),
-                LanguageUtil.getLngString(this, R.string.切换))
+            val language = arrayOf("中文 Chinese", "英文 English")
             AlertDialog.Builder(this).setSingleChoiceItems(language, -1) { dialog, which ->
                 when (which) {
                     0 -> {
-                        changeLanguage("ch")
+                        changeLanguage(LanguageType.CHINESE.language)
                     }
 
                     1 -> {
-                        changeLanguage("en-rUS")
+                        changeLanguage(LanguageType.ENGLISH.language)
                     }
                 }
             }.show()
-        }
-
-        //隐私政策
-        binding.llPrivacyPolicy.setOnClickListener {
-            val bundle = Bundle()
-            bundle.putString("url", LanguageUtil.getLngString(this, R.string.wlttyprivacyhtml))
-            bundle.putString("name", R.string.隐私政策)
-            startActivity(Intent(this, PrivacyPolicyActivity::class.java).putExtras(bundle))
         }
     }
 

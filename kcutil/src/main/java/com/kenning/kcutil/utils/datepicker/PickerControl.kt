@@ -1,6 +1,5 @@
 package com.kenning.kcutil.utils.datepicker
 
-import android.util.Log
 import android.view.View
 import androidx.fragment.app.Fragment
 import cn.carbswang.android.numberpickerview.library.NumberPickerView
@@ -490,7 +489,6 @@ class PickerControl(var fragment: Fragment) {
                     currentYear_end.toInt_(),
                     currentMonth_end.toInt_()
                 )
-                Log.e("kenning","${days.size}")
                 findViewById<NumberPickerView>(R.id.year_end)?.setOnValueChangedListener { picker, oldVal, newVal ->
                     currentYear_end = years[newVal].replace("年", "")
                     if (/*isLeayYear(currentYear_end.toInt_()) && */currentMonth_end.toInt_() == 2) {

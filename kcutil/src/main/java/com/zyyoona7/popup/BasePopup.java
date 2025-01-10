@@ -7,7 +7,6 @@ import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.transition.Transition;
-import android.util.Log;
 import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -197,11 +196,9 @@ public abstract class BasePopup<T extends BasePopup> implements PopupWindow.OnDi
                     if ((event.getAction() == MotionEvent.ACTION_DOWN)
                             && ((x < 0) || (x >= mWidth) || (y < 0) || (y >= mHeight))) {
                         //outside
-                        Log.d(TAG, "onTouch outside:mWidth=" + mWidth + ",mHeight=" + mHeight);
                         return true;
                     } else if (event.getAction() == MotionEvent.ACTION_OUTSIDE) {
                         //outside
-                        Log.d(TAG, "onTouch outside event:mWidth=" + mWidth + ",mHeight=" + mHeight);
                         return true;
                     }
                     return false;
@@ -282,7 +279,6 @@ public abstract class BasePopup<T extends BasePopup> implements PopupWindow.OnDi
                     mOnRealWHAlreadyListener.onRealWHAlready(BasePopup.this, mWidth, mHeight,
                             mAnchorView == null ? 0 : mAnchorView.getWidth(), mAnchorView == null ? 0 : mAnchorView.getHeight());
                 }
-//                Log.d(TAG, "onGlobalLayout finished. isShowing=" + isShowing());
                 if (isShowing() && isAtAnchorViewMethod) {
                     updateLocation(mWidth, mHeight, mAnchorView, mYGravity, mXGravity, mOffsetX, mOffsetY);
                 }
@@ -629,7 +625,6 @@ public abstract class BasePopup<T extends BasePopup> implements PopupWindow.OnDi
         if (isNeedReMeasureWH) {
             registerOnGlobalLayoutListener();
         }
-//        Log.i(TAG, "showAtAnchorView: w=" + measuredW + ",y=" + measuredH);
         PopupWindowCompat.showAsDropDown(mPopupWindow, anchor, x, y, Gravity.NO_GRAVITY);
 
     }

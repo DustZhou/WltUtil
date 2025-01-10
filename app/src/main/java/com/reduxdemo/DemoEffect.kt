@@ -1,6 +1,5 @@
 package com.reduxdemo
 
-import android.util.Log
 import android.widget.Toast
 import ceneax.app.lib.redux.EmptyReduxSlot
 import ceneax.app.lib.redux.ReduxEffect
@@ -17,7 +16,6 @@ class DemoEffect: ReduxEffect<DemoViewModel, EmptyReduxSlot>(){
 
     //测试事件
     fun showTost(content:String){
-        Log.e(TAG,content)
     }
 
     fun changetext(content:String){
