@@ -85,7 +85,7 @@ public class LanguageUtil {
         }
         SharedPreferences.Editor editor = context.getSharedPreferences(
                 "lng",
-                context.MODE_PRIVATE
+                Context.MODE_PRIVATE
         ).edit();
         editor.putString("language", newLanguage);
         editor.commit();

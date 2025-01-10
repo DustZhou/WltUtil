@@ -15,4 +15,910 @@
     <string name="不支持翻译用于变量" translatable="false">不支持翻译，用于变量</string>
     <string name="我是一串很长的字符串">我是一串很长的字符串我是一串很长的字符串我是一串很长的字符串我是一串很长的字符串我是一串很长的字符串我是一串很长的字符串我是一串很长的字符串我是一串很长的字符串我是一串很长的字符串</string>
 
+    <!--region 报表-->
+    <!-- 综合报表  -->
+
+    <string name="综合报表">综合报表</string>
+    <string name="收款日报">收款日报</string>
+    <string name="销售分析">销售分析</string>
+    <string name="数据看板">数据看板</string>
+    <string name="资产负债表">资产负债表</string>
+    <string name="老板一张表">老板一张表</string>
+    <string name="经营概况">经营概况</string>
+    <string name="经营报表">经营报表</string>
+    <string name="损益表">损益表</string>
+    <string name="客户流失表">客户流失表</string>
+    <string name="历史员工提成">历史员工提成</string>
+    <string name="员工提成">员工提成</string>
+
+    <!-- 销售报表 -->
+
+    <string name="销售报表">销售报表</string>
+    <string name="商品销售">商品销售</string>
+    <string name="客户销售">客户销售</string>
+    <string name="销售排行">销售排行</string>
+    <string name="业务进度表">业务进度表</string>
+    <string name="部门销售">部门销售</string>
+    <string name="职员回款">职员回款</string>
+    <string name="职员销售">职员销售</string>
+    <string name="客户销售订货">客户销售订货</string>
+    <string name="职员销售订货">职员销售订货</string>
+    <string name="商品销售订货">商品销售订货</string>
+
+    <!-- 钱流报表 -->
+    <string name="钱流报表">钱流报表</string>
+    <string name="现金银行">现金银行</string>
+    <string name="品牌应收">品牌应收</string>
+    <string name="品牌预收">品牌预收</string>
+    <string name="往来对账">往来对账</string>
+    <string name="费用报表">费用报表</string>
+
+
+    <string name="采购报表">采购报表</string>
+    <string name="供应商采购">供应商采购</string>
+    <string name="商品采购">商品采购</string>
+
+    <string name="车销报表">车销报表</string>
+    <string name="车销库存">车销库存</string>
+    <string name="今日结算">今日结算</string>
+    <string name="今日销售">今日销售</string>
+    <!--endregion-->
+
+    <!--region 登录页-->
+    <string name="确认登录方式">确认登录方式</string>
+    <string name="您的物联通服务器地址为yunwlt.wltrj.com时选择云管家婆登录方式否则用其他方式登录">您的物联通服务器地址为yunwlt.wltrj.com时选择云管家婆登录方式，否则用其他方式登录</string>
+    <string name="跳过">跳过</string>
+    <string name="公司名称">公司名称</string>
+    <string name="输入其他方式登录">输入其他方式登录</string>
+    <string name="使用公司名称登录">使用公司名称登录</string>
+    <string name="请输入公司名称">请输入公司名称</string>
+    <string name="请输入服务器地址">请输入服务器地址</string>
+    <string name="下一步">下一步</string>
+    <string name="体验一下">体验一下</string>
+    <string name="不再显示">不再显示</string>
+    <string name="版本">版本</string>
+    <string name="设备ID">设备ID</string>
+    <string name="扫描">扫描</string>
+    <string name="将码放入取景框即可自动扫描">将码放入取景框，即可自动扫描</string>
+    <string name="登录记录">登录记录</string>
+    <string name="全部清除">全部清除</string>
+    <string name="上次登录">上次登录</string>
+    <string name="不允许删除上次登录的记录">不允许删除上次登录的记录</string>
+    <string name="温馨提示">温馨提示</string>
+    <string name="取消">取消</string>
+    <string name="确定">确定</string>
+    <string name="确定隐藏体验一下功能">确定隐藏体验一下功能</string>
+    <string name="账套">账套</string>
+    <string name="账户">账户</string>
+    <string name="密码">密码</string>
+    <string name="请输入用户名编号手机号">请输入用户名/编号/手机号</string>
+    <string name="请输入用户名手机号">请输入用户名/手机号</string>
+    <string name="请输入密码">请输入密码</string>
+    <string name="已阅读并同意服务协议和隐私政策">已阅读并同意《服务协议》和《隐私政策》</string>
+    <string name="请先阅读并同意服务协议和隐藏正常">请先阅读并同意服务协议和隐藏正常</string>
+    <string name="不存在该用户或密码不正确">不存在该用户或密码不正确</string>
+    <string name="登录">登录</string>
+    <string name="更新数据">更新数据</string>
+    <string name="切换服务器地址">切换服务器地址</string>
+    <string name="切换公司">切换公司</string>
+    <string name="选择账套选择行业">选择账套/选择行业</string>
+    <string name="选择用户选择角色">选择用户/选择角色</string>
+    <string name="注意升级数据包后手机端上的单据等数据会被覆盖请您先上传您的单据后再升级">注意升级数据包后手机端上的单据等数据会被覆盖，请您先上传您的单据后再升级！</string>
+    <string name="最近数据更新时间">最近数据更新时间</string>
+    <string name="您可选择现有数据包减少更新时间">您可选择现有数据包减少更新时间</string>
+    <string name="现有数据包">现有数据包</string>
+    <string name="全新升级">全新升级</string>
+    <string name="正在替换">正在替换</string>
+    <string name="正在加载">正在加载</string>
+    <string name="正在下载数据包请稍候">正在下载数据包，请稍候</string>
+
+    <!--endregion-->
+
+    <!--region 首页-->
+    <string name="软件将于XXX到期">软件将于XXX到期，剩余可以日期X天。到期后将无法继续使用，未避免影响日常工作请及时联系管理员到物联通后台【软件注册】-【注册信息】中续费</string>
+
+    <string name="结余">结余</string>
+    <string name="今日收现">今日收现</string>
+    <string name="今日待收">今日待收</string>
+    <string name="今日配送金额">今日配送金额</string>
+    <string name="今日已配送">今日已配送</string>
+    <string name="今日配送客户">今日配送客户</string>
+    <string name="今日里程">今日里程</string>
+    <string name="今日采购">今日采购</string>
+    <string name="今日交易额">今日交易额</string>
+<!--    <string name="今日销售">今日销售</string>-->
+    <string name="今日待配送">今日待配送</string>
+    <string name="今日拜访">今日拜访</string>
+    <string name="本年毛利">本年毛利</string>
+    <string name="本月流失客户数">本月流失客户数</string>
+    <string name="本月新增客户数">本月新增客户数</string>
+    <string name="本月拜访客户数">本月拜访客户数</string>
+    <string name="欠款总额">欠款总额</string>
+    <string name="本年销售总额">本年销售总额</string>
+    <string name="未完成订单数">未完成订单数</string>
+    <string name="常用的功能">常用的功能</string>
+    <string name="按住可拖动调整顺序">按住可拖动调整顺序</string>
+    <string name="访销访销流程">访销 / 访销流程</string>
+    <string name="车销车销流程">车销 / 车销流程</string>
+    <string name="配送配送流程">配送 / 配送流程</string>
+    <string name="拜访交账欠款查询历程单据">拜访、交账、欠款查询、历程单据</string>
+    <string name="车销要货综合销售车销还货交账">车销要货、综合销售、车销还货、交账</string>
+    <string name="配送还货配送交账员工提成">配送、还货、配送交账、员工提成</string>
+
+    <!--endregion-->
+
+    <!--region 开单-->
+
+    <string name="请购单">请购单</string>
+    <string name="进货订单">进货订单</string>
+    <string name="进货入库">进货入库</string>
+    <string name="进货退货">进货退货</string>
+    <string name="报价单">报价单</string>
+    <string name="销售订单">销售订单</string>
+    <string name="销售出库">销售出库</string>
+    <string name="销售退货">销售退货</string>
+    <string name="销售换货">销售换货</string>
+    <string name="套件订单">套件订单</string>
+    <string name="套件销售">套件销售</string>
+    <string name="零售单">零售单</string>
+    <string name="零售退货单">零售退货单</string>
+    <string name="收款单">收款单</string>
+    <string name="付款单">付款单</string>
+    <string name="预收款单">预收款单</string>
+    <string name="预付款单">预付款单</string>
+    <string name="现金费用">现金费用</string>
+    <string name="一般费用">一般费用</string>
+    <string name="其他收入">其他收入</string>
+    <string name="转款单">转款单</string>
+    <string name="应收增加">应收增加</string>
+    <string name="应收减少">应收减少</string>
+    <string name="应付增加">应付增加</string>
+    <string name="应付减少">应付增加</string>
+    <string name="费用申请单">费用申请单</string>
+    <string name="调拨申请">调拨申请</string>
+    <string name="同价调拨">同价调拨</string>
+    <string name="变价调拨">变价调拨</string>
+    <string name="其他出库">其他出库</string>
+    <string name="其他入库">其他入库</string>
+    <string name="存货盘点">存货盘点</string>
+    <string name="货位盘点">货位盘点</string>
+    <string name="报损单">报损单</string>
+    <string name="报溢单">报溢单</string>
+    <string name="拆装单">拆装单</string>
+    <string name="要货申请单">要货申请单</string>
+    <string name="门店配送">门店配送</string>
+    <string name="门店配送查询">门店配送查询</string>
+    <string name="门店配送验收">门店配送验收</string>
+    <string name="借进单">借进单</string>
+    <string name="借进还出">借进还出</string>
+    <string name="借出单">借出单</string>
+    <string name="借出还回">借出还回</string>
+    <string name="综合开单">综合开单</string>
+    <string name="快速销售">快速销售</string>
+    <string name="挂单单据">挂单单据</string>
+    <string name="销售订单验货">销售订单验货</string>
+    <string name="销售单验货">销售单验货</string>
+    <string name="销售退货验货">销售退货验货</string>
+    <string name="进货订单验货">进货订单验货</string>
+    <string name="进货单验货">进货单验货</string>
+    <string name="进货退货验货">进货退货验货</string>
+    <string name="同价调拨验货">同价调拨验货</string>
+    <string name="变价调拨验货">变价调拨验货</string>
+
+
+    <string name="采购业务">采购业务</string>
+    <string name="销售业务">销售业务</string>
+    <string name="钱流业务">钱流业务</string>
+    <string name="库存业务">库存业务</string>
+    <string name="门店配送业务">门店配送业务</string>
+    <string name="借欠业务">借欠业务</string>
+    <string name="综合业务">综合业务</string>
+    <string name="验货业务">验货业务</string>
+
+    <!--endregion-->
+
+    <!--region 业务单据（销售）-->
+
+    <string name="挂单中">挂单中</string>
+    <string name="草稿中">草稿中</string>
+    <string name="已过账">已过账</string>
+    <string name="单据日期升序">单据日期升序</string>
+    <string name="单据日期降序">单据日期降序</string>
+    <string name="单据金额升序">单据金额升序</string>
+    <string name="单据金额降序">单据金额降序</string>
+    <string name="过账时间降序">过账时间降序</string>
+    <string name="过账时间升序">过账时间升序</string>
+    <string name="共X笔">共%1$s笔</string>
+    <string name="删除">删除</string>
+    <string name="复制">复制</string>
+    <string name="提交">提交</string>
+    <string name="单据编号">单据编号</string>
+    <string name="经手人">经手人</string>
+    <string name="往来单位">往来单位</string>
+    <string name="部门">部门</string>
+    <string name="商品">商品</string>
+    <string name="摘要">摘要</string>
+    <string name="附加说明">附加说明</string>
+    <string name="存草稿成功">存草稿成功</string>
+    <string name="过账成功">过账成功</string>
+    <string name="其他功能">其他功能</string>
+    <string name="查看单据">查看单据</string>
+    <string name="打印单据">打印单据</string>
+    <string name="分享单据">分享单据</string>
+    <string name="继续开单">继续开单</string>
+    <string name="过账">过账</string>
+    <string name="收款">收款</string>
+    <string name="退出">退出</string>
+    <string name="客户">客户</string>
+    <string name="仓库">仓库</string>
+    <string name="扫条码">扫条码</string>
+    <string name="扫码">扫码</string>
+    <string name="调单">调单</string>
+    <string name="添加商品">添加商品</string>
+    <string name="总数量">总数量</string>
+    <string name="下单">下单</string>
+    <string name="请选择客户">请选择客户</string>
+    <string name="请选择仓库">请选择仓库</string>
+    <string name="选择客户">选择客户</string>
+    <string name="请允许管家婆物联通访问您的相机若不允许您将无法使用扫描和拍照功能">请允许管家婆物联通访问您的相机；若不允许，您将无法使用扫描和拍照功能</string>
+    <string name="将条码放入取景框即可自动扫描">将条码放入取景框，即可自动扫描</string>
+    <string name="开灯">开灯</string>
+    <string name="关灯">关灯</string>
+    <string name="已选X种商品数量X">已选 %1$s种商品，数量 %2$s</string>
+    <string name="合计数量">合计: %1$s</string>
+    <string name="没有该条码的商品">没有该条码的商品</string>
+    <string name="已添加该商品是否添加">已添加该商品，是否添加</string>
+    <string name="此处无图片显示">此处无图片显示</string>
+    <string name="修改商品">修改商品</string>
+    <string name="历销">历销</string>
+    <string name="收藏">收藏</string>
+    <string name="出库仓库">出库仓库</string>
+    <string name="出库货位">出库货位</string>
+    <string name="入库仓库">入库仓库</string>
+    <string name="入库货位">入库货位</string>
+    <string name="单位">单位</string>
+    <string name="单价">单价</string>
+    <string name="选价">选价</string>
+    <string name="折扣">折扣</string>
+    <string name="折扣单价">折扣单价</string>
+    <string name="税率">税率</string>
+    <string name="含税单价">含税单价</string>
+    <string name="金额">金额</string>
+    <string name="赠品">赠品</string>
+    <string name="买赠数量">买赠数量</string>
+    <string name="买赠单位">买赠单位</string>
+    <string name="副单位数量">副单位数量</string>
+    <string name="买赠副单位数量">买赠副单位数量</string>
+    <string name="销售类型">销售类型</string>
+    <string name="退货类型">退货类型</string>
+    <string name="规格">规格</string>
+    <string name="型号">型号</string>
+    <string name="产地">产地</string>
+    <string name="备注">备注</string>
+    <string name="切换仓库将清除批次数据是否继续">切换仓库将清除批次数据，是否继续</string>
+    <string name="切换货位将清除批次数据是否继续">切换货位将清除批次数据，是否继续</string>
+    <string name="库存分布">库存分布</string>
+    <string name="货位分布">货位分布</string>
+    <string name="序列号录入">序列号录入</string>
+    <string name="校验">校验</string>
+    <string name="选序列号">选序列号</string>
+    <string name="数量">数量</string>
+    <string name="已录入序列号">已录入序列号</string>
+    <string name="全清">全清</string>
+    <string name="排序">排序</string>
+    <string name="确认删除序列号吗">确认删除序列号 %1$s吗</string>
+    <string name="确定全部清除已录入的序列号吗">确定全部清除已录入的序列号吗</string>
+    <string name="数量与序列号数量不等是否保存">数量与序列号数量不等，是否保存</string>
+    <string name="确认退出吗">确认退出吗</string>
+    <string name="序列号扫描">序列号扫描</string>
+    <string name="保存并下一个">保存并下一个</string>
+    <string name="序列号">序列号</string>
+    <string name="上次序列号">上次序列号</string>
+    <string name="已添加">已添加: %1$s</string>
+    <string name="提示按音量键保存并扫描下一个">提示：按音量+键保存并扫描下一个</string>
+    <string name="添加成功">添加成功</string>
+    <string name="请先录入序列号">请先录入序列号</string>
+    <string name="已存在序列号">已存在序列号 %1$s</string>
+    <string name="结算">结算</string>
+    <string name="本单应结">本单应结</string>
+    <string name="合计结算">合计结算</string>
+    <string name="在线支付">在线支付</string>
+    <string name="现金银行账户">现金银行账户</string>
+    <string name="收款二维码">收款二维码</string>
+    <string name="预存账户">预存账户</string>
+    <string name="本次欠款">本次欠款</string>
+    <string name="单据尚未保存退出将放弃本次编辑">单据尚未保存，退出将放弃本次编辑</string>
+    <string name="币种">币种</string>
+    <string name="汇率">汇率</string>
+    <string name="本币">本币</string>
+    <string name="本币金额">本币金额</string>
+    <string name="本币折后金额">本币折后金额</string>
+    <string name="本币税额">本币税额</string>
+    <string name="本币价税合计">本币价税合计</string>
+    <string name="本位币不能修改汇率">本位币不能修改汇率</string>
+    <string name="没有修改汇率的权限">没有修改汇率的权限</string>
+    <string name="请先选择币种">请先选择币种</string>
+
+    <!--endregion-->
+
+    <!--region 开单字段-->
+
+    <string name="分支机构">分支机构</string>
+    <string name="单据日期">单据日期</string>
+    <string name="交货日期">交货日期</string>
+    <string name="还款日期">还款日期</string>
+    <string name="需求日期">需求日期</string>
+    <string name="借款人">借款人</string>
+    <string name="供应商">供应商</string>
+    <string name="费用单位">费用单位</string>
+    <string name="付款单位">付款单位</string>
+    <string name="应收款">应收款</string>
+    <string name="预收款">预收款</string>
+    <string name="应付款">应付款</string>
+    <string name="预付款">预付款</string>
+    <string name="入库仓库仓库入库">入库仓库 / 仓库（入库）</string>
+    <string name="出库仓库仓库出库">出库仓库 /仓库（出库）</string>
+    <string name="货位调整">货位调整</string>
+    <string name="配送员">配送员</string>
+    <string name="配送日期">配送日期</string>
+    <string name="会员卡">会员卡</string>
+    <string name="付款">付款</string>
+    <string name="订金">订金</string>
+    <string name="借款">借款</string>
+    <string name="借款理由">借款理由</string>
+    <string name="退补">退补</string>
+    <string name="报销事由">报销事由</string>
+    <string name="优惠金额">优惠金额</string>
+    <string name="整单折扣">整单折扣</string>
+    <string name="协议名称">协议名称</string>
+    <string name="开始日期">开始日期</string>
+    <string name="结束日期">结束日期</string>
+    <string name="截止日期">截止日期</string>
+    <string name="价格方式">价格方式</string>
+    <string name="按成本价配送">按成本价配送</string>
+    <string name="业务类型">业务类型</string>
+    <string name="往来单位后详情按钮">往来单位后详情按钮</string>
+    <string name="生产商品">生产商品</string>
+    <string name="生产车间">生产车间</string>
+    <string name="按额定成本完工入库">按额定成本完工入库</string>
+    <string name="指定子件转出成本">指定子件转出成本</string>
+    <string name="选择结算单据扫描">选择结算单据+扫描</string>
+    <string name="条码">条码</string>
+    <string name="编号">编号</string>
+    <string name="序列号仅后台开启序列号功能">序列号（仅后台开启序列号功能）</string>
+    <string name="RFID读取仅安卓支持">RFID读取（仅安卓支持）</string>
+    <string name="客户标签">客户标签</string>
+    <string name="应收XXX">应收:%1$s</string>
+    <string name="预收XXX">预收:%1$s</string>
+    <string name="应付XXX">应付:%1$s</string>
+    <string name="预付XXX">预付:%1$s</string>
+    <string name="月结">月结</string>
+    <string name="超额度">超额度 %1$s</string>
+    <string name="存在超期应收款">存在超期应收款</string>
+    <string name="扫描单号">扫描单号</string>
+    <string name="调派工单">调派工单</string>
+    <string name="调生产任务单">调生产任务单</string>
+    <string name="添加套件">添加套件</string>
+    <string name="添加账户">添加账户</string>
+    <string name="添加科目">添加科目</string>
+    <string name="销售和退货">销售、退货</string>
+    <string name="套件产品套件明细">套件产品、套件明细</string>
+    <string name="转入转出">转入、转出</string>
+    <string name="出库商品入库商品">出库商品、入库商品</string>
+    <string name="产成品物料明细">产成品、物料明细</string>
+    <string name="账户合计">账户合计</string>
+    <string name="销售数">销售数</string>
+    <string name="销售额">销售额</string>
+    <string name="退货数">退货数</string>
+    <string name="退货额">退货额</string>
+    <string name="数量差">数量差</string>
+    <string name="金额差">金额差</string>
+    <string name="转入金额">转入金额</string>
+    <string name="转出金额">转出金额</string>
+    <string name="出库数">出库数</string>
+    <string name="出库金额">出库金额</string>
+    <string name="入库数">入库数</string>
+    <string name="入库金额">入库金额</string>
+    <string name="产成数">产成数</string>
+    <string name="物料数">物料数</string>
+    <string name="表头默认配置">表头默认配置</string>
+    <string name="显示配置">显示配置</string>
+    <string name="已选商品">已选商品</string>
+    <string name="已选套件">已选套件</string>
+    <string name="科目">科目</string>
+    <string name="优惠后金额">优惠后金额</string>
+    <string name="付款1">付款</string>
+    <string name="本单欠款">本单欠款</string>
+    <string name="自定义字段">自定义字段</string>
+    <string name="附件">附件</string>
+    <string name="签名">签名</string>
+    <string name="在线账户">在线账户</string>
+    <string name="现金账户">现金账户</string>
+    <string name="银行存款账户">银行存款账户</string>
+    <string name="预收账户">预收账户</string>
+    <string name="费用账户受收付款账户显示损益类科目配置控制">费用账户（受“收付款账户显示损益类科目”配置控制）</string>
+    <string name="收款码">收款码</string>
+    <string name="售赠">售/赠</string>
+    <string name="退货">退货</string>
+    <string name="提货">提货</string>
+    <string name="按单退">按单退</string>
+    <string name="费用">费用</string>
+    <string name="挂单更多中">挂单（更多中）</string>
+    <string name="分享更多中">分享（更多中）</string>
+    <string name="打印商品标签更多中">打印商品标签（更多中）</string>
+    <string name="打印">打印</string>
+    <string name="存草稿">存草稿</string>
+    <string name="收订金跳预收款单存草稿过账都有">收订金（跳预收款单；存草稿、过账都有）</string>
+    <string name="付订金跳预付款单存草稿过账都有">付订金（跳预付款单；存草稿、过账都有）</string>
+    <string name="价盘">价盘</string>
+    <string name="销">销</string>
+    <string name="赠">赠</string>
+
+    <!--endregion-->
+
+    <!--region 开单提示-->
+
+    <string name="提交成功">提交成功</string>
+    <string name="提交失败">提交失败!</string>
+    <string name="过账失败">过账失败!</string>
+    <string name="保存成功">保存成功</string>
+    <string name="如遇过账失败请到管家婆中处理">如遇过账失败，请到管家婆中处理!</string>
+    <string name="过账状态">过账状态</string>
+    <string name="提交失败返回结果异常">提交失败!返回结果异常!</string>
+    <string name="正在提交">正在提交</string>
+    <string name="该单据已提交">该单据已提交</string>
+    <string name="该单据未过账">该单据未过账</string>
+    <string name="提交单据后签到">提交单据后签到</string>
+    <string name="本单已提交您无单据重复提交权限">本单已提交，您无单据重复提交权限!</string>
+    <string name="本单已提交您无继续修改的权限">本单已提交，您无继续修改的权限!</string>
+    <string name="您没有重复提交的权限">您没有重复提交的权限</string>
+    <string name="确定删除XXX吗">确定删除XXX吗？</string>
+    <string name="确定退出单据吗">确定退出单据吗?</string>
+    <string name="确认提交单据吗">确认提交单据吗？</string>
+    <string name="确定退出吗">确定退出吗</string>
+    <string name="没有选中的单据">没有选中的单据</string>
+    <string name="请选择一个单据">请选择一个单据</string>
+    <string name="删除单据成功">删除单据成功</string>
+    <string name="确定删除选中的单据吗">确定删除选中的单据吗？</string>
+    <string name="单据错误请重试">单据错误，请重试！</string>
+    <string name="错误请重试">错误，请重试！</string>
+    <string name="添加成功1">添加成功</string>
+
+
+
+
+
+    <string name="请先授权历销查看权限">请先授权历销查看权限</string>
+    <string name="请先选择请选择">请先选择/请选择</string>
+    <string name="请先选择往来单位">请先选择往来单位</string>
+    <string name="请选择经手人">请选择经手人</string>
+    <string name="请选择账户">请选择账户！</string>
+    <string name="请添加商品">请添加商品！</string>
+    <string name="无商品">无商品</string>
+    <string name="请录入">请录入</string>
+    <string name="请输入条码">请输入条码</string>
+    <string name="请输入编号">请输入编号</string>
+    <string name="请输入单价">请输入单价!</string>
+    <string name="请输入数量">请输入数量!</string>
+    <string name="单据金额为">单据金额为</string>
+    <string name="客户不能为空">客户不能为空</string>
+    <string name="经手人不能为空">经手人不能为空</string>
+    <string name="仓库不能为空">仓库不能为空</string>
+    <string name="退货仓库不能为空">退货仓库不能为空</string>
+    <string name="收款账户金额不等于单据金额">收款账户金额不等于单据金额</string>
+    <string name="继续后收款金额自动修改为单据金额">继续后收款金额自动修改为单据金额？</string>
+    <string name="是否继续">是否继续?</string>
+    <string name="不允许多账户">不允许多账户</string>
+    <string name="预收账款不允许大于累计预收款余额">预收账款不允许大于累计预收款余额</string>
+    <string name="预付账款不允许大于累计预付款余额">预付账款不允许大于累计预付款余额</string>
+    <string name="优惠金额不能大于合计金额">优惠金额不能大于合计金额</string>
+    <string name="不允许录入">不允许录入</string>
+    <string name="现收金额">现收金额</string>
+    <string name="切换机构将会清除仓库往来单位数据是否继续">切换机构将会清除仓库、往来单位数据，是否继续</string>
+    <string name="切换结算类型将清空当前已结算数据是否继续">切换结算类型将清空当前已结算数据，是否继续</string>
+    <string name="切换将清空本单数据是否继续">切换将清空本单数据，是否继续？</string>
+    <string name="切换往来单位将清空本单数据是否继续">切换往来单位将清空本单数据，是否继续？</string>
+    <string name="切换仓库将清空本单数据是否继续">切换仓库将清空本单数据，是否继续？</string>
+    <string name="表头数据保存失败">表头数据保存失败！</string>
+    <string name="表头参数可以滚动查看">表头参数可以滚动查看</string>
+    <string name="该设备不支持扫描功能">该设备不支持扫描功能</string>
+    <string name="扫描失败">扫描失败</string>
+    <string name="该单据已扫描">该单据已扫描</string>
+
+    <string name="已扫">已扫：%1$s</string>
+
+    <string name="单据条码识别失败">单据条码识别失败!</string>
+    <string name="单据条码异常">单据条码异常!</string>
+    <string name="没有该条码商品">没有该条码商品</string>
+    <string name="至少输入条码的后n位进行搜索">至少输入条码的后n位进行搜索</string>
+    <string name="单据类型为空">单据类型为空</string>
+    <string name="单据类型为空数据包有问题">单据类型为空，数据包有问题</string>
+    <string name="该商品未达到选定的促销要求">该商品未达到选定的促销要求</string>
+    <string name="相应赠品删除成功">相应赠品删除成功</string>
+    <string name="请到明细编辑修改">请到明细编辑修改</string>
+    <string name="该商品有促销组合">该商品有促销组合</string>
+    <string name="已添加到编辑列表的商品请到编辑界面删除">已添加到编辑列表的商品请到编辑界面删除</string>
+    <string name="折扣须小于等于">折扣须小于等于1</string>
+    <string name="数量必须大于">数量必须大于0</string>
+    <string name="数量不能为空">数量不能为空</string>
+    <string name="数量不能为">数量不能为0</string>
+    <string name="数量不能全为">数量不能全为0</string>
+    <string name="数量不能低于">数量不能低于0</string>
+    <string name="金额必须大于">金额必须大于0</string>
+
+    <string name="金额超过最大允许值">金额超过最大允许值:%1$s</string>
+
+    <string name="数量超过最大允许值">数量超过最大允许值:%1$s</string>
+
+    <string name="单价超过最大允许值">单价超过最大允许值:%1$s</string>
+
+    <string name="折后单价超过最大允许值">折后单价超过最大允许值:%1$s</string>
+
+    <string name="价格不能为">价格不能为0</string>
+    <string name="价格不能为空">价格不能为空</string>
+    <string name="价格不能为负">价格不能为负</string>
+    <string name="请输入价格">请输入价格</string>
+    <string name="请输入折扣">请输入折扣</string>
+    <string name="请输入金额">请输入金额</string>
+    <string name="请先输入数量">请先输入数量</string>
+    <string name="请先输入买赠数量">请先输入买赠数量</string>
+    <string name="请选择单价">请选择单价</string>
+    <string name="金额必须录入">金额必须录入!</string>
+    <string name="数量和单价必须录入">数量和单价必须录入!</string>
+    <string name="折扣输入异常请重新输入">折扣输入异常，请重新输入</string>
+    <string name="折扣反算异常请重新输入">折扣反算异常，请重新输入</string>
+    <string name="赠品不能修改单价">赠品不能修改单价</string>
+    <string name="当前价格低于最低售价">当前价格低于最低售价</string>
+    <string name="无开单时下拉单价的权限">无开单时下拉单价的权限</string>
+    <string name="无预设价格">无预设价格</string>
+    <string name="当前商品无单位记录">当前商品无单位记录!</string>
+    <string name="没有修改单价的权限">没有修改单价的权限</string>
+    <string name="请至少选择一个商品">请至少选择一个商品</string>
+    <string name="有相同编号商品">有相同编号商品</string>
+    <string name="相同商品时不允许录入">相同商品时不允许录入</string>
+    <string name="正在加载价格跟踪">正在加载价格跟踪</string>
+    <string name="成功获取价格跟踪">成功获取价格跟踪</string>
+    <string name="成功获取即时库存">成功获取即时库存</string>
+    <string name="成功获取虚拟库存">成功获取虚拟库存</string>
+    <string name="不允许销售数量超出库存量">不允许销售数量超出库存量</string>
+    <string name="应收余额为">应收余额为</string>
+    <string name="应收上限为">应收上限为</string>
+    <string name="有超期应收款">有超期应收款</string>
+    <string name="超出应收上限">超出应收上限</string>
+    <string name="有超期应收款1">1.有超期应收款</string>
+    <string name="超出应收上限2">2.超出应收上限</string>
+    <string name="有超期应收款不允许开单">有超期应收款不允许开单</string>
+    <string name="超出应收上限不允许开单">超出应收上限不允许开单</string>
+
+    <string name="单据不允许超库存量出库以下商品库存不足">单据:%1$s\n不允许超库存量出库，以下商品库存不足</string>
+    <string name="蓝牙打印">蓝牙打印</string>
+    <string name="远程打印">远程打印</string>
+    <string name="云打印">云打印</string>
+    <string name="选择打印方式">选择打印方式</string>
+    <string name="正在打印">正在打印</string>
+    <string name="远程打印失败请检查打印配置">远程打印失败，请检查打印配置</string>
+    <string name="蓝牙扫描头连接失败">蓝牙扫描头连接失败!</string>
+    <string name="不允许远程打印">不允许远程打印</string>
+    <string name="未提交不能远程打印确认提交单据吗">未提交不能远程打印，确认提交单据吗？</string>
+    <string name="不支持得实打印">不支持得实打印</string>
+    <string name="打印次数超限不允许打印">打印次数超限，不允许打印！</string>
+    <string name="请先提交单据再进行打印">请先提交单据，再进行打印！</string>
+    <string name="用户无打印后继续修改权限">用户无打印后继续修改权限!</string>
+    <string name="用户无打印后删除单据权限">用户无打印后删除单据权限!</string>
+    <string name="无打印组">无打印组</string>
+    <string name="无打印样式">无打印样式</string>
+    <string name="未查询到与当前用户相匹配的打印组请确定已配置打印组并全新升级账套">未查询到与当前用户相匹配的打印组，请确定已配置打印组并全新升级账套</string>
+    <string name="未查询到打印组内的打印样式请确定已配置打印样式并全新升级账套">未查询到打印组内的打印样式，请确定已配置打印样式并全新升级账套</string>
+
+    <string name="本单已打印">本单已打印：%1$s次</string>
+
+    <string name="单据已打印次">单据：%1$s已打印：%2$s次</string>
+    <string name="请重试">请重试</string>
+    <string name="网络连接不正常">网络连接不正常！</string>
+    <string name="无数据">无数据</string>
+    <string name="连接超时请检查网络后重试">连接超时，请检查网络后重试!</string>
+    <string name="正在获取">正在获取</string>
+    <string name="正在查询">正在查询</string>
+    <string name="已经是第一条数据">已经是第一条数据！</string>
+    <string name="不能查七天前的数据">不能查七天前的数据！</string>
+    <string name="无法查询超过今日的数据">无法查询超过今日的数据！</string>
+    <string name="单据查询失败">单据查询失败！</string>
+    <string name="结束日期不能小于开始日期">结束日期不能小于开始日期</string>
+
+
+    <!--endregion-->
+
+    <!--region 报表字段-->
+
+    <!--region 数据看板-->
+
+    <string name="老板关键数据">老板关键数据</string>
+    <string name="资金构成分析">资金构成分析</string>
+    <string name="采购关键数据">采购关键数据</string>
+    <string name="采购趋势">采购趋势</string>
+    <string name="销售关键数据">销售关键数据</string>
+    <string name="销售趋势">销售趋势</string>
+    <string name="库存信息">库存信息</string>
+    <string name="客户近况">客户近况</string>
+    <string name="客户流失统计">客户流失统计</string>
+    <string name="活跃客户排行">活跃客户排行</string>
+    <string name="热销商品排行">热销商品排行</string>
+    <string name="销售数据">销售数据</string>
+    <string name="业务交账数据">业务交账数据</string>
+    <string name="业务员拜访">业务员拜访</string>
+    <string name="上下拖动可调整看板中卡片的前后顺序">上下拖动可调整看板中卡片的前后顺序</string>
+    <string name="开关控制卡片在看板中的显示或隐藏">开关控制卡片在看板中的显示或隐藏</string>
+    <string name="资金余额">资金余额</string>
+    <string name="客户欠款">客户欠款</string>
+    <string name="供应商欠款">供应商欠款</string>
+    <string name="采购总额">采购总额</string>
+    <string name="采购金额">采购金额</string>
+    <string name="销售金额">销售金额</string>
+    <string name="库存金额">库存金额</string>
+    <string name="商品种数">商品种数</string>
+    <string name="商品数量">商品数量</string>
+    <string name="客户总量">客户总量</string>
+    <string name="本周新增">本周新增</string>
+    <string name="流失三个月无往来">流失 (三个月无往来)</string>
+    <string name="默认30天未开单">默认 30 天未开单</string>
+    <string name="最近开单">最近开单</string>
+    <string name="未开单天数">未开单天数</string>
+    <string name="销售总额">销售总额</string>
+    <string name="还货额">还货额</string>
+    <string name="订货额">订货额</string>
+    <string name="环比">环比</string>
+    <string name="已缴金额">已缴金额</string>
+    <string name="销售收款">销售收款</string>
+    <string name="欠款收入">欠款收入</string>
+    <string name="费用支出">费用支出</string>
+    <string name="优惠">优惠</string>
+    <string name="毛利">毛利</string>
+    <string name="查看更多">查看更多</string>
+
+    <!--endregion-->
+    <!--region 经营报表-->
+
+    <string name="时间筛选">时间筛选</string>
+    <string name="收入">收入</string>
+    <string name="成本">成本</string>
+    <string name="毛利率">毛利率</string>
+    <string name="发货量">发货量</string>
+    <string name="到货量">到货量</string>
+    <string name="回款金额">回款金额</string>
+    <string name="进货">进货</string>
+    <string name="笔数">笔数</string>
+    <string name="金额1">金额</string>
+    <string name="未完成金额">未完成金额</string>
+    <string name="收款单金额">收款单金额</string>
+    <string name="付款单金额">付款单金额</string>
+    <string name="应收款增加">应收款增加</string>
+    <string name="应收款减少">应收款减少</string>
+    <string name="应付款增加">应付款增加</string>
+    <string name="应付款减少">应付款减少</string>
+    <string name="账户1">账户</string>
+    <string name="收款金额">收款金额</string>
+    <string name="付款金额">付款金额</string>
+    <string name="合计">合计</string>
+    <string name="新增客户数">新增客户数</string>
+    <string name="新客转化率">新客转化率</string>
+    <string name="拜访客户数">拜访客户数</string>
+    <string name="委托结算单金额">委托结算单金额</string>
+    <string name="受托结算单金额">受托结算单金额</string>
+    <!--endregion-->
+    <!--region 经营概况 -->
+    <string name="账户余额">账户余额</string>
+    <string name="应收客户款">应收客户款</string>
+    <string name="应付供应商款">应付供应商款</string>
+    <string name="库存总额">库存总额</string>
+    <string name="库存总数">库存总数</string>
+    <string name="昨日销售">昨日销售</string>
+    <string name="本周销售">本周销售</string>
+    <string name="本月销售">本月销售</string>
+    <string name="今日">今日</string>
+    <string name="昨日">昨日</string>
+    <string name="本周">本周</string>
+    <string name="本月">本月</string>
+    <string name="支出">支出</string>
+    <string name="销售笔数">销售笔数</string>
+    <string name="销售数量">销售数量</string>
+    <string name="销售毛利">销售毛利</string>
+
+    <!--endregion-->
+    <!--region 老板一张表-->
+    <string name="本期利润总额">本期利润总额</string>
+    <string name="本期实际进货总额">本期实际进货总额</string>
+    <string name="本期应收总额">本期应收总额</string>
+    <string name="本期应付总额">本期应付总额</string>
+    <string name="现金总额">现金总额</string>
+    <string name="银行存款总额">银行存款总额</string>
+    <string name="本期库存金额">本期库存金额</string>
+    <string name="当前库存余额明细">当前库存余额 (明细)</string>
+    <string name="本期期初金额">本期期初金额</string>
+    <string name="本期入库金额">本期入库金额</string>
+    <string name="本期出库金额">本期出库金额</string>
+    <string name="本期结存金额">本期结存金额</string>
+    <!--endregion-->
+    <!--region 收款日报-->
+    <string name="总金额">总金额</string>
+    <string name="收款明细">收款明细</string>
+    <!--endregion-->
+    <!--region 客户流失统计-->
+    <string name="最近开单1">最近开单</string>
+    <string name="单据金额">单据金额</string>
+    <string name="未开单天数1">未开单天数</string>
+    <string name="最近拜访">最近拜访</string>
+    <string name="未拜访天数">未拜访天数</string>
+    <string name="拜访人">拜访人</string>
+    <string name="未开单天数超过30天">未开单天数超过 30 天</string>
+    <string name="录入范围0360">录入范围 0~360</string>
+    <string name="超期拜访天数">超期拜访天数</string>
+    <string name="降序">降序</string>
+    <string name="升序">升序</string>
+    <string name="请选择排序参数">请选择排序参数</string>
+    <string name="超期开单天数">超期开单天数</string>
+    <string name="筛选方式">筛选方式</string>
+    <string name="按自定义天数">按自定义天数</string>
+    <string name="按超期状态">按超期状态</string>
+    <string name="按从未操作">按从未操作</string>
+    <!--endregion-->
+    <!--region 车销库存-->
+    <string name="生单方式">生单方式</string>
+    <string name="按车销销售量补货">按车销【销售量】补货</string>
+    <string name="按车销退货量补货">按车销【退货量】补货</string>
+    <string name="按车销退货量还货">按车销【退货量】还货</string>
+    <string name="按车销库存量还货">按车销【库存量】还货</string>
+    <string name="补货还货">补货/还货</string>
+    <!--endregion-->
+    <!--region 今日销售-->
+    <string name="销售商品">销售商品</string>
+    <string name="退货商品">退货商品</string>
+    <string name="赠品商品">赠品商品</string>
+    <string name="商品汇总">商品汇总</string>
+    <string name="价格明细">价格明细</string>
+    <string name="总数">总数</string>
+    <string name="总额">总额</string>
+    <string name="辅助数量">辅助数量</string>
+    <string name="打印内容">打印内容</string>
+    <!--endregion-->
+    <!--region 今日结算-->
+    <string name="结算汇总">结算汇总</string>
+    <string name="客户明细">客户明细</string>
+    <string name="结算合计">结算合计</string>
+    <string name="账户收款明细">账户收款明细</string>
+    <string name="订货合计">订货合计</string>
+    <string name="退货合计">退货合计</string>
+    <string name="欠款合计">欠款合计</string>
+    <string name="预存合计">预存合计</string>
+    <string name="费用合计">费用合计</string>
+    <string name="付款合计">付款合计</string>
+    <string name="销售合计">销售合计</string>
+    <string name="收款合计">收款合计</string>
+    <string name="清欠合计">清欠合计</string>
+    <string name="预收冲抵">预收冲抵</string>
+    <string name="优惠合计">优惠合计</string>
+    <string name="预付合计">预付合计</string>
+    <string name="订货">订货</string>
+    <string name="退货1">退货</string>
+    <string name="欠款">欠款</string>
+    <string name="预存">预存</string>
+    <string name="费用1">费用</string>
+    <string name="付款2">付款</string>
+    <string name="销售">销售</string>
+    <string name="收款1">收款</string>
+    <string name="清欠">清欠</string>
+    <string name="预收">预收</string>
+    <string name="预付">预付</string>
+    <!--endregion-->
+    <!--region 库存预警-->
+    <string name="查询仓库">查询仓库</string>
+    <string name="预警类型">预警类型</string>
+    <string name="全部报警">全部报警</string>
+    <string name="上限报警">上限报警</string>
+    <string name="下限报警">下限报警</string>
+    <string name="全部">全部</string>
+    <!--endregion-->
+    <!--region 库存报表、虚拟库存-->
+    <string name="库存量">库存量</string>
+    <string name="辅助金额">辅助金额</string>
+    <string name="参考金额">参考金额</string>
+    <string name="统计停用商品">统计停用商品</string>
+    <string name="显示有库存的商品">显示有库存的商品</string>
+    <string name="显示零库存的商品">显示零库存的商品</string>
+    <string name="显示负库存的数据">显示负库存的数据</string>
+    <string name="库存线性">库存线性</string>
+    <string name="库存状况">库存状况</string>
+    <string name="库存分布1">库存分布</string>
+    <string name="库存日期">库存日期</string>
+    <string name="保存条件">保存条件</string>
+    <string name="库存批次表">库存批次表</string>
+    <string name="库存明细表">库存明细表</string>
+    <string name="此前数量">此前数量</string>
+    <string name="出库">出库</string>
+    <string name="入库">入库</string>
+    <string name="收起">收起</string>
+    <string name="展开">展开</string>
+    <string name="库存状况表不支持按类别打印仅支持打印具体商品数量">库存状况表不支持按类别打印，仅支持打印具体商品数量。</string>
+    <string name="排列">排列</string>
+    <string name="降序排列">降序排列</string>
+    <string name="显示图片">显示图片</string>
+    <string name="隐藏图片">隐藏图片</string>
+    <!--endregion-->
+    <!--region 商品/客户/职员/部门销售-->
+    <string name="总赠品">总赠品</string>
+    <string name="金额占比">金额占比</string>
+    <string name="销售线性">销售线性</string>
+    <string name="销售汇总">销售汇总</string>
+    <string name="显示数量和金额均为0的数据">显示数量和金额均为0的数据</string>
+    <string name="仅显示赠品非0的数据">仅显示赠品非0的数据</string>
+    <string name="商品销售线性">商品销售线性</string>
+    <string name="客户销售线性">客户销售线性</string>
+    <string name="商品销售统计">商品销售统计</string>
+    <string name="客户销售统计">客户销售统计</string>
+    <string name="职员销售统计">职员销售统计</string>
+    <string name="部门销售统计">部门销售统计</string>
+    <string name="商品销售明细">商品销售明细</string>
+    <string name="客户销售明细">客户销售明细</string>
+    <string name="职员销售明细">职员销售明细</string>
+    <string name="部门销售明细">部门销售明细</string>
+    <string name="占比指标">占比指标</string>
+    <!--endregion-->
+    <!--region 销售排行-->
+    <string name="商品排行">商品排行</string>
+    <string name="客户排行">客户排行</string>
+    <string name="职员排行">职员排行</string>
+    <string name="数量占比">数量占比</string>
+    <string name="销售量">销售量</string>
+    <string name="销售额1">销售额</string>
+    <!--endregion-->
+    <!--region 商品/客户/职员订货表-->
+    <string name="订货总量">订货总量</string>
+    <string name="已发货总量">已发货总量</string>
+    <string name="未发货总量">未发货总量</string>
+    <string name="订货总额">订货总额</string>
+    <string name="已发货总额">已发货总额</string>
+    <string name="未发货总额">未发货总额</string>
+    <string name="订货数量">订货数量</string>
+    <string name="订货金额">订货金额</string>
+    <string name="已发数量">已发数量</string>
+    <string name="已发金额">已发金额</string>
+    <string name="未发数量">未发数量</string>
+    <string name="未发金额">未发金额</string>
+    <string name="包含已中止执行的订单">包含已中止执行的订单</string>
+    <!--endregion-->
+    <!--region 职员回款-->
+    <string name="回款总额">回款总额</string>
+    <string name="应收余额">应收余额</string>
+    <string name="回款额">回款额</string>
+    <string name="其它金额">其它金额</string>
+    <string name="现金回款">现金回款</string>
+    <string name="银行回款">银行回款</string>
+    <string name="抹零金额">抹零金额</string>
+    <string name="应收调账">应收调账</string>
+    <!--endregion-->
+    <!--region 供应商采购-->
+    <string name="供应商采购统计">供应商采购统计</string>
+    <string name="供应商采购明细">供应商采购明细</string>
+    <string name="总额元">总额(元)</string>
+    <string name="辅助单价">辅助单价</string>
+    <!--endregion-->
+    <!--region 商品采购-->
+    <string name="商品采购统计">商品采购统计</string>
+    <string name="商品采购明细">商品采购明细</string>
+    <!--endregion-->
+    <!--region 现金银行-->
+    <string name="收入合计元">收入合计(元)</string>
+    <string name="支出合计元">支出合计(元)</string>
+    <string name="收支合计元">收支合计(元)</string>
+    <string name="查看详情">查看详情</string>
+    <!--endregion-->
+    <!--region 费用报表-->
+    <string name="显示为0的数据">显示为0的数据</string>
+    <string name="显示金额为0的费用科目">显示金额为0的费用科目</string>
+    <!--endregion-->
+    <!--region 序列号库存-->
+    <string name="库存中">库存中</string>
+    <!--endregion-->
+
+    <!--endregion-->
+
 </resources>
