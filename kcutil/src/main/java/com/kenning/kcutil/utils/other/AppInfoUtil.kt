@@ -1,7 +1,5 @@
 package com.kenning.kcutil.utils.other
 
-import android.content.pm.PackageManager
-import android.util.Log
 import androidx.viewbinding.BuildConfig
 import com.kenning.kcutil.KCUtil
 
@@ -56,7 +54,6 @@ fun isTargetAPKInstalled(packageName: String): Boolean{
         return true
     }catch (e:Exception){
         if (BuildConfig.DEBUG) {
-            Log.e("kkkkkk", "语音引擎是否安装 $e")
         }
     }
     return false

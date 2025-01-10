@@ -1,7 +1,6 @@
 package com.kenning.kcutil
 
 import android.os.Bundle
-import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -90,7 +89,6 @@ class FirstFragment : BaseBusinessFragment(), IPickerListener, TwoDatePickInterf
             BeginDate = startdate
             EndDate = enddate
             CustomeBillDateType = dateEnumName
-            Log.e("///", "BeginDate=$BeginDate EndDate=$EndDate dateEnumName=$dateEnumName")
         }
         // 日期1
         binding.layoutDate.setTitle("日期")
@@ -99,7 +97,6 @@ class FirstFragment : BaseBusinessFragment(), IPickerListener, TwoDatePickInterf
                 requireActivity(), BeginDate, EndDate, CustomeBillDateType, CustomeBillDateFormat, ::onTimeCall
             ).setDateEvent(requireActivity(), 0, ::onTimeCall).setCustomeBillDateFormat {
                 CustomeBillDateFormat = it
-                Log.e("///", "CustomeBillDateFormat=$it")
             }
 
         // 日期2
@@ -110,7 +107,6 @@ class FirstFragment : BaseBusinessFragment(), IPickerListener, TwoDatePickInterf
             CustomeBillDateFormat
         ).setRadioChangListenner(::onTimeCall).setDateEvent(requireActivity(), ::onTimeCall).setCustomeBillDateFormat {
             CustomeBillDateFormat = it
-            Log.e("///", "2 CustomeBillDateFormat=$it")
         }
 
 
@@ -123,7 +119,6 @@ class FirstFragment : BaseBusinessFragment(), IPickerListener, TwoDatePickInterf
 //                .start(R.id.fcvMain)
             val a = 11111.23333
             val b = 2.4
-            Log.e("kenning", a.CHENG(b).CHENG("2,7").keepPoint(3))
 
             TwoDatePickerBuilder(requireActivity(), this)
                 .setBeginDate("")
@@ -142,7 +137,6 @@ class FirstFragment : BaseBusinessFragment(), IPickerListener, TwoDatePickInterf
     }
 
     override fun onDismissPicker() {
-//        Log.d("kenning", "日期选择器关闭")
     }
 
     override fun onDateChange(requestcode: Int, start: String, end: String): Boolean {

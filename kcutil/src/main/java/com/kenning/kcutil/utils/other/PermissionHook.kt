@@ -3,7 +3,6 @@ package com.kenning.kcutil.utils.other
 import android.Manifest
 import android.app.Activity
 import android.os.Build
-import android.util.Log
 import android.view.View
 import com.tbruyelle.rxpermissions2.Permission
 import com.tbruyelle.rxpermissions2.RxPermissions
@@ -47,7 +46,6 @@ object PermissionHook {
                         if (permission.granted) {
                             if (permisionlist[permisionlist.size - 1] == permission.name) {
                                 listener.onClick(v)
-                                Log.e("kkkkkenning", "dasfafadsfasfasfdasf")
                             }
                         } else if (permission.shouldShowRequestPermissionRationale) {
                         } else {
@@ -88,11 +86,8 @@ object PermissionHook {
             val field: Field = clazz.getDeclaredField("mOnClickListener")
             listener = field.get(view) as View.OnClickListener?
         } catch (e: ClassNotFoundException) {
-            Log.e("HookViewManager", "ClassNotFoundException: " + e.message)
         } catch (e: NoSuchFieldException) {
-            Log.e("HookViewManager", "NoSuchFieldException: " + e.message)
         } catch (e: IllegalAccessException) {
-            Log.e("HookViewManager", "IllegalAccessException: " + e.message)
         }
         return listener
     }
@@ -116,11 +111,8 @@ object PermissionHook {
                 listener = declaredField[listenerInfo] as View.OnClickListener
             }
         } catch (e: ClassNotFoundException) {
-//            Log.e("HookViewManager", "ClassNotFoundException: " + e.message)
         } catch (e: NoSuchFieldException) {
-//            Log.e("HookViewManager", "NoSuchFieldException: " + e.message)
         } catch (e: IllegalAccessException) {
-//            Log.e("HookViewManager", "IllegalAccessException: " + e.message)
         }
         return listener
     }
