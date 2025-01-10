@@ -922,4 +922,77 @@
 
     <!--endregion-->
 
+    <!--region 外勤-->
+
+    <!--region 外勤业务-->
+
+    <string name="外勤业务">外勤业务</string>
+    <string name="出差申请">出差申请</string>
+    <string name="配货协议">配货协议</string>
+    <string name="陈列返还">陈列返还</string>
+    <string name="陈列活动">陈列活动</string>
+    <string name="客户拜访">客户拜访</string>
+    <string name="日报">日报</string>
+    <string name="存量上报">存量上报</string>
+    <string name="客户卡单">客户卡单</string>
+    <string name="活动审批">活动审批</string>
+    <string name="新增拜访">新增拜访</string>
+    <string name="考勤">考勤</string>
+    <string name="定点签到">定点签到</string>
+    <string name="拍照管理">拍照管理</string>
+    <string name="加班申请">加班申请</string>
+    <string name="费用申请单1">费用申请单</string>
+    <string name="公事外出">公事外出</string>
+    <string name="新客开拓">新客开拓</string>
+    <string name="兑奖劵录入">兑奖劵录入</string>
+    <string name="请假申请">请假申请</string>
+    <string name="流程审批">流程审批</string>
+    <string name="工作台">工作台</string>
+    <!--endregion-->
+
+    <!--region 配送业务-->
+    <string name="配送业务">配送业务</string>
+    <string name="配送交账表">配送交账表</string>
+    <string name="配送管理">配送管理</string>
+    <string name="配送进度">配送进度</string>
+    <string name="配送还货">配送还货</string>
+    <string name="配送送达率">配送送达率</string>
+    <string name="配送绩效">配送绩效</string>
+    <!--endregion-->
+
+    <!--endregion-->
+
+    <!--region 信息-->
+    <!--region 单据中心-->
+    <string name="单据中心">单据中心</string>
+    <string name="订单查询">订单查询</string>
+    <string name="草稿查询">草稿查询</string>
+    <string name="经营历程">经营历程</string>
+    <string name="审核中心">审核中心</string>
+    <string name="审核进度">审核进度</string>
+    <!--endregion-->
+
+    <!--region 基础信息-->
+    <string name="基础信息">基础信息</string>
+    <string name="客户信息">客户信息</string>
+    <string name="修改客户">修改客户</string>
+    <string name="新增客户">新增客户</string>
+    <string name="货位商品">货位商品</string>
+    <string name="收藏品">收藏品</string>
+    <string name="商品信息">商品信息</string>
+    <string name="修改商品1">修改商品</string>
+    <string name="套件信息">套件信息</string>
+    <string name="新增会员">新增会员</string>
+    <string name="会员信息">会员信息</string>
+    <string name="新增商品">新增商品</string>
+    <!--endregion-->
+
+    <!--region 价格查询-->
+    <string name="价格查询">价格查询</string>
+    <string name="价格跟踪">价格跟踪</string>
+
+    <!--endregion-->
+    <!--endregion-->
+
+
 </resources>

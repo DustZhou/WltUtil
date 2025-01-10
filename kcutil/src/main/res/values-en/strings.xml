@@ -4,8 +4,6 @@
     <string name="更换语言">Change language</string>
     <string name="我是一串很长的字符串">I am a very long string of characters. I am a very long string of characters. I am a very long string of characters. I am a very long string of characters. I am a very long string of characters. I am a very long string of characters. I am a very long string of characters. I am a very long string of characters. I am a very long string of characters.</string>
     <string name="wlttyprivacyhtml">file:///android_asset/wlttyprivacy-en.html</string>
-</resources>
-
     <!--region 报表-->
     <!-- 综合报表 Comprehensive Reports -->
     <string name="综合报表">Comprehensive Reports</string>
@@ -898,9 +896,87 @@
     <!--endregion-->
     <!--region 序列号库存-->
     <string name="库存中">In stock</string>
+    <!--endregion-->
+    <!--endregion-->
+
+    <!--region 外勤-->
+
+    <!--region 外勤业务-->
+
+    <string name="外勤业务">Field Operations</string>
+    <string name="出差申请">Trip App.</string>
+    <string name="配货协议">Delivery Agmt.</string>
+    <string name="陈列返还">Display Return</string>
+    <string name="陈列活动">Display Event</string>
+    <string name="客户拜访">Cust. Visit</string>
+    <string name="日报">Daily Report</string>
+    <string name="存量上报">Stock Update</string>
+    <string name="客户卡单">Cust. Card</string>
+    <string name="活动审批">Event App.</string>
+    <string name="新增拜访">New Visit</string>
+    <string name="考勤">Attendance</string>
+    <string name="定点签到">Check-in</string>
+    <string name="拍照管理">Photo Mgmt.</string>
+    <string name="加班申请">OT App.</string>
+    <string name="费用申请单1">Expense Claim</string>
+    <string name="公事外出">Official Outing</string>
+    <string name="新客开拓">New Cust. Dev.</string>
+    <string name="兑奖劵录入">Coupon Entry</string>
+    <string name="请假申请">Leave App.</string>
+    <string name="流程审批">Process App.</string>
+    <string name="工作台">Workbench</string>
+
+    <!--endregion-->
+
+    <!--region 配送业务-->
+
+
+    <string name="配送业务">Distribution Operations</string>
+    <string name="配送交账表">Delivery Settle</string>
+    <string name="配送管理">Delivery Mgmt.</string>
+    <string name="配送进度">Delivery Progress</string>
+    <string name="配送还货">Delivery Returns</string>
+    <string name="配送送达率">Delivery Rate</string>
+    <string name="配送绩效">Delivery Perf.</string>
 
     <!--endregion-->
 
     <!--endregion-->
+
+    <!--region 信息-->
+
+    <!--region 单据中心-->
+    <string name="单据中心">Bills Center</string>
+    <string name="订单查询">Order Query</string>
+    <string name="草稿查询">Draft Query</string>
+    <string name="经营历程">Biz. History</string>
+    <string name="审核中心">Audit Center</string>
+    <string name="审核进度">Audit Progress</string>
+    <!--endregion-->
+
+    <!--region 基础信息-->
+    <string name="基础信息">Basic Information</string>
+    <string name="客户信息">Partners Info.</string>
+    <string name="修改客户">Modify Cust.</string>
+    <string name="新增客户">Add Cust.</string>
+    <string name="货位商品">Shelf Goods</string>
+    <string name="收藏品">Collectibles</string>
+    <string name="商品信息">Prod. Info.</string>
+    <string name="修改商品1">Modify Prod.</string>
+    <string name="套件信息">Kit Info.</string>
+    <string name="新增会员">Add VIP</string>
+    <string name="会员信息">VIP Info.</string>
+    <string name="新增商品">Add Prod.</string>
+    <!--endregion-->
+
+    <!--region 价格查询-->
+    <string name="价格跟踪">Price Inquiry</string>
+    <string name="价格查询">Price Track</string>
+
+    <!--endregion-->
+    <!--endregion-->
+
+
+
 
  </resources>
