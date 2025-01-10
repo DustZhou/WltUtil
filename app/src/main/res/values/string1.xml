@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="YESTERDAY" translatable="false">YESTERDAY</string>
+    <string name="TODAY" translatable="false">TODAY</string>
+    <string name="WEEK" translatable="false">WEEK</string>
+    <string name="THIRTY_DAYS" translatable="false">THIRTY_DAYS</string>
+    <string name="MONTH" translatable="false">MONTH</string>
+    <string name="THREE_MONTHS" translatable="false">THREE_MONTHS</string>
+    <string name="HALF_YEAR" translatable="false">HALF_YEAR</string>
+    <string name="YEAR" translatable="false">YEAR</string>
+    <string name="THISMONTH" translatable="false">THISMONTH</string>
+    <string name="THISQUARTER" translatable="false">THISQUARTER</string>
+    <string name="OTHER" translatable="false">OTHER</string>
+    <string name="不支持翻译用于变量" translatable="false">不支持翻译，用于变量</string>
+</resources>
