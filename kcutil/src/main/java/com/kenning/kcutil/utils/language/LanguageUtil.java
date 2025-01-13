@@ -220,6 +220,18 @@ public class LanguageUtil {
      * @author: create by zyl on 2025/01/09
      */
     public static Context attachBaseContext(Context context) {
+        String language = getCurrentLanguage(context);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+            return updateResources(context, language);
+        } else {
+            return context;
+        }
+    }
+    /**
+    * @Description:获取当前语言
+    * @author: create by zyl on 2025/01/11
+    */
+    public static String getCurrentLanguage(Context context) {
         String getType = "lng";
         String getKey = "language";
         //获取当前环境的Resources
@@ -243,11 +255,20 @@ public class LanguageUtil {
         SharedPreferences preferences = context.getSharedPreferences(getType,
                 Activity.MODE_PRIVATE);
         String language = preferences.getString(getKey, mLanguage);
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-            return updateResources(context, language);
-        } else {
-            return context;
-        }
+        return language;
+    }
+
+    /**
+     * @Description:设置当前语言
+     * @author: create by zyl on 2025/01/11
+     */
+    public static void setCurrentLanguage(Context context,String newLanguage) {
+        SharedPreferences.Editor editor = context.getSharedPreferences(
+                "lng",
+                Context.MODE_PRIVATE
+        ).edit();
+        editor.putString("language", newLanguage);
+        editor.commit();
     }
 
     /**
