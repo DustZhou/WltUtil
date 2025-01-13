@@ -1222,7 +1222,7 @@
     <string name="默认部门">Default department</string>
     <string name="默认收款账户">Default account</string>
     <string name="默认配送员">Default delivery person</string>
-    <string name="开单时经手人读取客户默认经手人">The customer\'s default employee as the handler of the bill</string>
+    <string name="开单时经手人读取客户默认经手人">The customer’s default employee as the handler of the bill</string>
     <string name="开单数量默认为1">The qty of the order is set to 1 by default</string>
     <string name="开单默认大计量单位">Use the largest unit to create orders by default</string>
     <string name="结算金额默认与单据金额相等">All payments for bill have been fully collected by default</string>
