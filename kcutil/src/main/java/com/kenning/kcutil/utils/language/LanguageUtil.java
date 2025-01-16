@@ -227,10 +227,11 @@ public class LanguageUtil {
             return context;
         }
     }
+
     /**
-    * @Description:获取当前语言
-    * @author: create by zyl on 2025/01/11
-    */
+     * @Description:获取当前语言
+     * @author: create by zyl on 2025/01/11
+     */
     public static String getCurrentLanguage(Context context) {
         String getType = "lng";
         String getKey = "language";
@@ -259,10 +260,19 @@ public class LanguageUtil {
     }
 
     /**
+     * @Description:是否是中文
+     * 中文情况下屏蔽语言和引导页
+     * @author: create by zyl on 2025/01/15
+     */
+    public static boolean isChineseLanguage(Context context) {
+        return LanguageUtil.getCurrentLanguage(context).equals("ch");
+    }
+
+    /**
      * @Description:设置当前语言
      * @author: create by zyl on 2025/01/11
      */
-    public static void setCurrentLanguage(Context context,String newLanguage) {
+    public static void setCurrentLanguage(Context context, String newLanguage) {
         SharedPreferences.Editor editor = context.getSharedPreferences(
                 "lng",
                 Context.MODE_PRIVATE

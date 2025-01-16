@@ -1,5 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="下载">download</string>
+    <string name="报表">statement</string>
+    <string name="首页">Home page</string>
+    <string name="外勤">Work outside the office</string>
+    <string name="信息">Message</string>
+    <string name="系统">System</string>
+    <string name="常用功能">Common function</string>
+    <string name="档案同步成功">File synchronization succeeded</string>
+    <string name="三等分">trisection</string>
+    <string name="二等分">halve</string>
+    <string name="一等分">A4</string>
+    <string name="单据实际行数">The actual number of lines in the document</string>
+    <string name="BillHeadBarCodeUserCodeSearchWayString">[Effect] \n precise query: the number/bar code must be exactly the same as the input content to be queried \n fuzzy query: The number/bar code as long as the input content can be queried \n left fuzzy query: The part after the number/bar code contains the input content can be queried \n right fuzzy query: The part before the number/bar code contains the input content can be queried \n\n \n [Suggestion] \n fuzzy query, the more the input content the more accurate the query, it is recommended to input more content \n\n \n [Note] \n1. Any kind of fuzzy query will reduce the query efficiency, especially in the case of large data volume may cause the query jam; Please turn on \n2 according to the actual need. After the fuzzy query is turned on, the functions "identify the goods and quantity according to the barcode rules", "remove the last digit of the barcode scanned by the invoice", and "enter at least the last digit of the barcode when retrieving the barcode" do not take effect.</string>
+    <string name="PTypeSearchModelString">Keyword fuzzy search:
+According to the search configuration items, the global fuzzy query is performed to list all the search results. Progressive search is not supported.
+
+Keyword progressive search:
+For each search, the search is performed in the last query result to achieve a progressive search.
+Usage: After entering keywords each time, press the space bar to continue to enter keywords.</string>
+    <string name="新品">New product</string>
+    <string name="新品推广">New product promotion</string>
+    <string name="基本信息">Basic information</string>
+    <string name="进行中事项">Ongoing matter</string>
+    <string name="可参与的活动">Activities to participate in</string>
+    <string name="近期退货分析">Recent return analysis</string>
+    <string name="拜访成交情况">Visit, transaction situation</string>
+    <string name="超期未开单标签">Overdue unbilled label</string>
+    <string name="超期未拜访标签">Overdue no visit tag</string>
+    <string name="平均退货率">Average return rate</string>
+    <string name="实销数量">Actual quantity sold</string>
+    <string name="客户退货量退货率">Customer returns (return rate)</string>
+    <string name="库存">inventory</string>
+    <string name="销售提成方案">Sales commission plan</string>
+    <string name="预设价格">Preset price</string>
+    <string name="仅使用新开单模式下支持新开单模式的单据类型生效销售类单据">Only the document types that support the new billing mode in the new billing mode take effect: sales documents</string>
+    <string name="以下字段读取物联通后台为操作员设置的默认值">The following fields read the default values set by the Unicom background for the operator:</string>
+    <string name="简拼">logogram</string>
+    <string name="品牌">brand</string>
+    <string name="屏">screen</string>
+    <string name="全屏">Full screen</string>
+    <string name="自动收集并上传程序崩溃日志">Automatically collects and uploads program crash logs</string>
+    <string name="商品选择器查询库存默认请求条数">The item selector queries the number of default requests for inventory</string>
     <string name="切换">switch</string>
     <string name="更换语言">Change language</string>
     <string name="我是一串很长的字符串">I am a very long string of characters. I am a very long string of characters. I am a very long string of characters. I am a very long string of characters. I am a very long string of characters. I am a very long string of characters. I am a very long string of characters. I am a very long string of characters. I am a very long string of characters.</string>
@@ -133,7 +175,9 @@
     <!--endregion-->
 
     <!--region 开单-->
-
+    <string name="支付宝">Alipay</string>
+    <string name="微信">Wechat</string>
+    <string name="银联">UnionPay</string>
     <string name="采购业务">Purchasing</string>
     <string name="请购单">PurReqForm</string>
     <string name="进货订单">PurOrd</string>
@@ -1269,7 +1313,7 @@
     <string name="商品搜索配置项">Commodity search configuration items</string>
     <string name="商品选择器按内容精确搜索">The commodity selector conducts precise search according to the content</string>
     <string name="商品客户搜索后排序方式">Sorting method after searching for commodities and customers</string>
-    <string name="新开单表头条码编号搜索商品查询方式">Search method for commodities by barcode/number in the header of the new order form</string>
+    <string name="表头条码编号搜索商品查询方式">Search method for commodities by barcode/number in the header</string>
     <string name="扫描添加重复商品时弹窗提示">Popup prompt when scanning and adding duplicate commodities</string>
     <string name="检索条码时至少输入条码的末尾位数">At least enter the last digits of the barcode when retrieving the barcode</string>
     <string name="开单验货扫描的商品条码去除末尾位数">Remove the last digits of the commodity barcodes scanned during order creation and inspection</string>
@@ -1322,6 +1366,9 @@
     <string name="标签打印纸张类型">Type of the label printing paper</string>
     <string name="单据往来单位">Business partners in documents</string>
     <string name="价格">Price</string>
+    <string name="预览">Preview</string>
+    <string name="使用说明">Instructions</string>
+    <string name="搜索">Search</string>
     <string name="单据数量">Document quantity</string>
     <string name="出入库日期">Outbound/Inbound date</string>
     <string name="条码一维图片">One-dimensional barcode image</string>
@@ -1440,6 +1487,11 @@
     <string name="关于">About</string>
     <string name="注销">Sign out</string>
     <string name="设置成功">successfully set</string>
+    <string name="默认开单表身仓库">默认开单表身仓库</string>
+    <string name="商品默认仓库">商品默认仓库</string>
+    <string name="表头仓库">表头仓库</string>
+    <string name="说明商米一体机仅安卓支持苹果只支持物联通打印机">说明商米一体机仅安卓支持苹果只支持物联通打印机</string>
+    <!--endregion-->
     <string name="类别选择">Category selection</string>
 
     <string name="今日">Today</string>
