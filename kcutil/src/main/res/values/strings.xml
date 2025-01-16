@@ -1525,6 +1525,7 @@
     <string name="自定义">自定义</string>
 
     <string name="没有上一级">没有上一级</string>
+    <string name="没有上一级了">没有上一级了</string>
     <string name="上一级">上一级</string>
     <string name="输入编号名称简拼条码">输入编号名称简拼条码</string>
     <string name="序">序</string>
@@ -1552,6 +1553,17 @@
     <string name="日">日</string>
 
     <string name="商品编号">商品编号</string>
+
+    <string name="合计预收余额元">合计预收余额(元)</string>
+    <string name="合计此前预收元">合计此前预收(元)</string>
+    <string name="合计本期增加元">合计本期增加(元)</string>
+    <string name="合计本期减少元">合计本期减少(元)</string>
+
+    <string name="此前预收">此前预收</string>
+    <string name="本期增加预收">本期增加预收</string>
+    <string name="本期减少预收">本期减少预收</string>
+
+    <string name="预收余额">预收余额</string>
 
 
 
