@@ -8,6 +8,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelStoreOwner
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.kenning.kcutil.KCUtil
+import com.kenning.kcutil.R
 import java.lang.RuntimeException
 
 /**
@@ -48,7 +49,7 @@ class DatePickerBuilder {
 
     var requestCode = -1
 
-    var title = "选择日期"
+    var title = activity!!.getString(R.string.选择日期)
 
     var mNonChange = true
 
@@ -196,7 +197,7 @@ class DatePickerBuilder {
     fun start(@IdRes containerViewId: Int = -1) {
         if (location == PickerControl.ShowLocation.TOP) {
             if (containerViewId == -1) {
-                throw RuntimeException("请设置参数:containerViewId")
+                throw RuntimeException(activity!!.getString(R.string.请设置参数containerViewId))
             }
             val fm = sourceFragment!!.requireActivity().supportFragmentManager.beginTransaction()
             fm.add(containerViewId, build(), null)

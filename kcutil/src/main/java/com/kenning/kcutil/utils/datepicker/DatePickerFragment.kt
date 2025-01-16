@@ -84,7 +84,7 @@ class DatePickerFragment : Fragment(),IDatePickerBase {
         bundle = requireArguments()
 //        Location = PickerControl.ShowLocation.valueOf(bundle.getString("location", "BOTTOM"))
 //        alpha = bundle.getFloat("alpha", 0.5f)
-            title = bundle.getString("title","开始日期")
+            title = bundle.getString("title",getString(R.string.开始日期))
 //        if (Location == PickerControl.ShowLocation.BOTTOM) {
 //            mView = ViewDatepickerBottomBinding.inflate(layoutInflater).root
 //        } else {

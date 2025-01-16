@@ -8,6 +8,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.widget.LinearLayout
 import androidx.fragment.app.FragmentActivity
+import com.kenning.kcutil.R
 import com.kenning.kcutil.databinding.PopBillListTimeBinding
 import com.kenning.kcutil.databinding.QueryreportdatelayoutBinding
 import com.kenning.kcutil.utils.date.DateEnum
@@ -44,7 +45,7 @@ class QueryReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterfac
 
 //    /**时间窗口*/
 //    lateinit var mTimeEasyPop: EasyPopup
-//
+
 //    lateinit var mTimeBinding: PopBillListTimeBinding
 
     constructor(context: Context?) : super(context) {
@@ -115,7 +116,7 @@ class QueryReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterfac
                     viewBinding.tvOther.text = BeginDate + "至" + EndDate
                 }
             } else {
-                viewBinding.tvOther.text = "自定义"
+                viewBinding.tvOther.text = _mActivity!!.getString(R.string.自定义)
             }
 
             setSaleMainTypeView(activity, this.CustomeBillDateType, true)
@@ -387,7 +388,7 @@ class QueryReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterfac
             }
         }
         if (CustomeBillDateType != DateEnum.OTHER.name) {
-            viewBinding.tvOther.text = "自定义"
+            viewBinding.tvOther.text = _mActivity!!.getString(R.string.自定义)
         }
         newView.setStrokeColor(Color.parseColor("#2F72FE"))
         newView.setNormalBackgroundColor(Color.parseColor("#E6EEFF"))
@@ -405,7 +406,7 @@ class QueryReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterfac
                     start
                 ) > LimitDays
             ) {
-                ToastUtil.show("仅能选择" + (LimitDays) + "天日期")
+                ToastUtil.show(_mActivity!!.getString(R.string.仅能选择X天日期, LimitDays.toString()))
                 return false
             }
         }
@@ -416,7 +417,7 @@ class QueryReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterfac
                 end
             ) > 0
         ) {
-            ToastUtil.show("不允许结束日期早于开始日期")
+            ToastUtil.show(_mActivity!!.getString(R.string.不允许结束日期早于开始日期))
             return false
         }
 

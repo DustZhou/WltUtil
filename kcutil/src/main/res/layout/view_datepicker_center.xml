@@ -38,7 +38,7 @@
                 android:id="@+id/starttitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="日期选择"
+                android:text="@string/选择日期"
                 android:textColor="#808080"
                 android:textSize="13sp"
                 app:layout_constraintLeft_toLeftOf="parent"
@@ -146,7 +146,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintWidth_percent="0.5"
         app:normalBackgroundColor="#CFDFFA"
-        android:text="取消"
+        android:text="@string/取消"
         app:bottom_left_radius = "10dp"
         android:gravity="center"
         android:textColor="#3875F6"
@@ -162,7 +162,7 @@
         app:normalBackgroundColor="#3875F6"
         app:bottom_right_radius = "10dp"
         android:gravity="center"
-        android:text="确定"
+        android:text="@string/确定"
         android:textColor="@color/white"
         android:textSize="13sp"/>
 

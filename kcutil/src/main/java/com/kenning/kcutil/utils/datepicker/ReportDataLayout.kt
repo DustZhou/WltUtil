@@ -103,30 +103,30 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
         mTimeBinding.viewWeek.visibility = View.GONE
         mTimeBinding.viewMonth.visibility = View.GONE
 
-        mTimeBinding.tvToday.text = "今天" + "(${(DateExtendUtil.getCurrentDate().substring(5)).replace("-", "/")})"
-        mTimeBinding.tvYesterday.text = "昨天" + "(${
+        mTimeBinding.tvToday.text = context!!.getString(R.string.今日) + "(${(DateExtendUtil.getCurrentDate().substring(5)).replace("-", "/")})"
+        mTimeBinding.tvYesterday.text =context!!.getString(R.string.昨日)  + "(${
             (DateExtendUtil.getHistoryBeginDate(DateEnum.YESTERDAY).substring(5)).replace(
                 "-",
                 "/"
             )
         })"
 
-        mTimeBinding.tvWeek.text = "本周" + "(${
+        mTimeBinding.tvWeek.text = context!!.getString(R.string.本周) + "(${
             (DateExtendUtil.formatDate(DateExtendUtil.getMondayOfWeek(Date()))
-                .substring(5) + "至" + DateExtendUtil.formatDate(DateExtendUtil.getSundayOfWeek(Date()))
+                .substring(5) + context!!.getString(R.string.至) + DateExtendUtil.formatDate(DateExtendUtil.getSundayOfWeek(Date()))
                 .substring(5)).replace("-", "/")
         })"
-        mTimeBinding.tvMonth.text = "本月" + "(${
+        mTimeBinding.tvMonth.text = context!!.getString(R.string.本月) + "(${
             (
                     DateExtendUtil.formatDate(DateExtendUtil.getFirstDateOfMonth(Date()))
                         .substring(0, 7)).replace("-", "/")
         })"
-        mTimeBinding.tvLastWeek.text = "上周" + "(${
+        mTimeBinding.tvLastWeek.text = context!!.getString(R.string.上周)  + "(${
             (
                     DateExtendUtil.formatDate(
                         DateExtendUtil.getMondayOfWeek(DateExtendUtil.getHistoryDate(DateEnum.WEEK))
                     ).substring(5) +
-                            "至" + DateExtendUtil.formatDate(
+                            context!!.getString(R.string.至) + DateExtendUtil.formatDate(
                         DateExtendUtil.getSundayOfWeek(
                             DateExtendUtil.getHistoryDate(
                                 DateEnum.WEEK
@@ -137,7 +137,7 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
         })"
 
 
-        mTimeBinding.tvLastMonth.text = "上月" + "(${
+        mTimeBinding.tvLastMonth.text = context!!.getString(R.string.上月) + "(${
             (
                     DateExtendUtil.formatDate(
                         DateExtendUtil.getFirstDateOfMonth(
@@ -146,21 +146,21 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
                     ).substring(0, 7)).replace("-", "/")
         })"
 
-        mTimeBinding.tvSeason.text = "本季度" + "(${
+        mTimeBinding.tvSeason.text = context!!.getString(R.string.本季度) + "(${
             (
                     DateExtendUtil.formatDate(DateExtendUtil.getFirstDateOfSeason(Date()))
-                        .substring(0, 7) + "至" + DateExtendUtil.formatDate(DateExtendUtil.getLastDateOfSeason(Date()))
+                        .substring(0, 7) + context!!.getString(R.string.至) + DateExtendUtil.formatDate(DateExtendUtil.getLastDateOfSeason(Date()))
                         .substring(0, 7)
                     ).replace("-", "/")
         })"
 
-        mTimeBinding.tvLastSeason.text = "上季度" + "(${
+        mTimeBinding.tvLastSeason.text = context!!.getString(R.string.上季度) + "(${
             (
                     DateExtendUtil.formatDate(
                         DateExtendUtil.getFirstDateOfSeason(
                             DateExtendUtil.getHistoryDate(DateEnum.THREE_MONTHS)
                         )
-                    ).substring(0, 7) + "至" + DateExtendUtil.formatDate(
+                    ).substring(0, 7) + context!!.getString(R.string.至) + DateExtendUtil.formatDate(
                         DateExtendUtil.getLastDateOfSeason(
                             DateExtendUtil.getHistoryDate(DateEnum.THREE_MONTHS)
                         )
@@ -169,7 +169,7 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
         })"
 
         mTimeBinding.tvYear.text =
-            "本年" + "(${DateExtendUtil.getYear(Date()).toString() + "/01" + "至" + DateExtendUtil.getYear(Date()).toString() + "/12"})"
+            context!!.getString(R.string.本年) + "(${DateExtendUtil.getYear(Date()).toString() + "/01" + context!!.getString(R.string.至) + DateExtendUtil.getYear(Date()).toString() + "/12"})"
 
         mTimeEasyPop = EasyPopup(context)
             .setContentView(mTimeBinding.root)
@@ -198,7 +198,7 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
      */
     fun setDisplayColumn(showLists: ArrayList<DateEnum>): ReportDataLayout {
 //        //自定义的都默认本月了。如后期要改，要再建个方法来设置默认值
-//        viewBinding.tvOther.text = "本月"
+//        viewBinding.tvOther.text = context!!.getString(R.string.本月)
 //        changeTimeState(mTimeBinding.llMonth, lastTimeType)
 
         viewBinding.tvOther.visibility = View.VISIBLE
@@ -296,15 +296,15 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
             //今天
             DateEnum.TODAY.name -> {
                 viewBinding.rbToDay.isChecked = true
-                viewBinding.tvOther.text = "今天"
+                viewBinding.tvOther.text = context!!.getString(R.string.今日)
                 viewBinding.rbOther.setCompoundDrawablesRelativeWithIntrinsicBounds(
                     null,
                     null,
                     ContextCompat.getDrawable(context, R.drawable.ic_new_unfold_gray),
                     null
                 )
-                viewBinding.rbOther.text = "时间筛选"
-                mTimeBinding.tvCustom.text = "自定义"
+                viewBinding.rbOther.text = context!!.getString(R.string.时间筛选)
+                mTimeBinding.tvCustom.text = context!!.getString(R.string.自定义)
                 if (isD9Diy){
                     changeTimeState(mTimeBinding.llToday, lastTimeType)
                 }else{
@@ -315,15 +315,15 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
             //昨天
             DateEnum.YESTERDAY.name -> {
                 viewBinding.rbYesterDay.isChecked = true
-                viewBinding.tvOther.text = "昨天"
+                viewBinding.tvOther.text = context!!.getString(R.string.昨日)
                 viewBinding.rbOther.setCompoundDrawablesRelativeWithIntrinsicBounds(
                     null,
                     null,
                     ContextCompat.getDrawable(context, R.drawable.ic_new_unfold_gray),
                     null
                 )
-                viewBinding.rbOther.text = "时间筛选"
-                mTimeBinding.tvCustom.text = "自定义"
+                viewBinding.rbOther.text = context!!.getString(R.string.时间筛选)
+                mTimeBinding.tvCustom.text = context!!.getString(R.string.自定义)
                 if (isD9Diy){
                     changeTimeState(mTimeBinding.llYesterday, lastTimeType)
                 }else{
@@ -332,15 +332,15 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
             //本周
             DateEnum.WEEK.name -> {
                 viewBinding.rbWeek.isChecked = true
-                viewBinding.tvOther.text = "本周"
+                viewBinding.tvOther.text = context!!.getString(R.string.本周)
                 viewBinding.rbOther.setCompoundDrawablesRelativeWithIntrinsicBounds(
                     null,
                     null,
                     ContextCompat.getDrawable(context, R.drawable.ic_new_unfold_gray),
                     null
                 )
-                viewBinding.rbOther.text = "时间筛选"
-                mTimeBinding.tvCustom.text = "自定义"
+                viewBinding.rbOther.text = context!!.getString(R.string.时间筛选)
+                mTimeBinding.tvCustom.text = context!!.getString(R.string.自定义)
                 if (isD9Diy){
                     changeTimeState(mTimeBinding.llWeek, lastTimeType)
                 }else{
@@ -350,15 +350,15 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
             //本月
             DateEnum.MONTH.name -> {
                 viewBinding.rbMonth.isChecked = true
-                viewBinding.tvOther.text = "本月"
+                viewBinding.tvOther.text = context!!.getString(R.string.本月)
                 viewBinding.rbOther.setCompoundDrawablesRelativeWithIntrinsicBounds(
                     null,
                     null,
                     ContextCompat.getDrawable(context, R.drawable.ic_new_unfold_gray),
                     null
                 )
-                viewBinding.rbOther.text = "时间筛选"
-                mTimeBinding.tvCustom.text = "自定义"
+                viewBinding.rbOther.text = context!!.getString(R.string.时间筛选)
+                mTimeBinding.tvCustom.text = context!!.getString(R.string.自定义)
                 if (isD9Diy){
                     changeTimeState(mTimeBinding.llMonth, lastTimeType)
                 }else{
@@ -373,8 +373,8 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
                     ContextCompat.getDrawable(context, R.drawable.ic_new_unfold_gray),
                     null
                 )
-                viewBinding.rbOther.text = "时间筛选"
-                mTimeBinding.tvCustom.text = "自定义"
+                viewBinding.rbOther.text = context!!.getString(R.string.时间筛选)
+                mTimeBinding.tvCustom.text = context!!.getString(R.string.自定义)
                 if (isD9Diy){
                     changeTimeState(mTimeBinding.llCustom, lastTimeType)
                 }else{
@@ -404,7 +404,7 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
                                 viewBinding.tvOther.text = "${BeginDate.substring(0, 7)}\n${EndDate.substring(0, 7)}"
 
                                 mTimeBinding.tvCustom.text =
-                                    "自定义" + "(${BeginDate.substring(0, 7)}~${EndDate.substring(0, 7)})"
+                                    context!!.getString(R.string.自定义) + "(${BeginDate.substring(0, 7)}~${EndDate.substring(0, 7)})"
                             } else {
                                 viewBinding.rbOther.text = "${BeginDate.replace("-", "/")}\n${
                                     EndDate.replace(
@@ -419,7 +419,7 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
                                     )
                                 }"
                                 mTimeBinding.tvCustom.text =
-                                    "自定义" + "(${BeginDate.replace("-", "/")}至${
+                                    context!!.getString(R.string.自定义) + "(${BeginDate.replace("-", "/")}${context!!.getString(R.string.至)}${
                                         EndDate.replace(
                                             "-",
                                             "/"
@@ -433,37 +433,37 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
 
                         //上周
                         DateEnum.LAST_WEEK.name -> {
-                            viewBinding.rbOther.text = "上周"
-                            viewBinding.tvOther.text = "上周"
-                            mTimeBinding.tvCustom.text = "自定义"
+                            viewBinding.rbOther.text = context!!.getString(R.string.上周)
+                            viewBinding.tvOther.text = context!!.getString(R.string.上周)
+                            mTimeBinding.tvCustom.text = context!!.getString(R.string.自定义)
                             mTimeBinding.llLastWeek
                         }
                         //本季度
                         DateEnum.THISQUARTER.name -> {
-                            viewBinding.rbOther.text = "本季度"
-                            viewBinding.tvOther.text = "本季度"
-                            mTimeBinding.tvCustom.text = "自定义"
+                            viewBinding.rbOther.text = context!!.getString(R.string.本季度)
+                            viewBinding.tvOther.text = context!!.getString(R.string.本季度)
+                            mTimeBinding.tvCustom.text = context!!.getString(R.string.自定义)
                             mTimeBinding.llSeason
                         }
                         //上季度
                         DateEnum.LAST_QUARTER.name -> {
-                            viewBinding.rbOther.text = "上季度"
-                            viewBinding.tvOther.text = "上季度"
-                            mTimeBinding.tvCustom.text = "自定义"
+                            viewBinding.rbOther.text = context!!.getString(R.string.上季度)
+                            viewBinding.tvOther.text = context!!.getString(R.string.上季度)
+                            mTimeBinding.tvCustom.text = context!!.getString(R.string.自定义)
                             mTimeBinding.llLastSeason
                         }
                         //本年
                         DateEnum.YEAR.name -> {
-                            viewBinding.rbOther.text = "本年"
-                            viewBinding.tvOther.text = "本年"
-                            mTimeBinding.tvCustom.text = "自定义"
+                            viewBinding.rbOther.text = context!!.getString(R.string.本年)
+                            viewBinding.tvOther.text = context!!.getString(R.string.本年)
+                            mTimeBinding.tvCustom.text = context!!.getString(R.string.自定义)
                             mTimeBinding.llYear
                         }
                         //上月
                         else -> {
-                            viewBinding.rbOther.text = "上月"
-                            viewBinding.tvOther.text = "上月"
-                            mTimeBinding.tvCustom.text = "自定义"
+                            viewBinding.rbOther.text = context!!.getString(R.string.上月)
+                            viewBinding.tvOther.text = context!!.getString(R.string.上月)
+                            mTimeBinding.tvCustom.text = context!!.getString(R.string.自定义)
                             mTimeBinding.llLastMonth
                         }
                     }, lastTimeType
@@ -535,8 +535,8 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
                     ContextCompat.getDrawable(context, R.drawable.ic_new_unfold_gray),
                     null
                 )
-                viewBinding.rbOther.text = "时间筛选"
-                mTimeBinding.tvCustom.text = "自定义"
+                viewBinding.rbOther.text = context!!.getString(R.string.时间筛选)
+                mTimeBinding.tvCustom.text = context!!.getString(R.string.自定义)
                 viewBinding.rbOther.isChecked = false
                 isDiy = false
             }
@@ -553,8 +553,8 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
                     ContextCompat.getDrawable(context, R.drawable.ic_new_unfold_gray),
                     null
                 )
-                viewBinding.rbOther.text = "时间筛选"
-                mTimeBinding.tvCustom.text = "自定义"
+                viewBinding.rbOther.text = context!!.getString(R.string.时间筛选)
+                mTimeBinding.tvCustom.text = context!!.getString(R.string.自定义)
                 viewBinding.rbOther.isChecked = isDiy
             }
             viewBinding.tvOther.setTextColor(Color.parseColor("#2F71FD"))
@@ -576,9 +576,9 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
             CustomeBillDateType = DateEnum.TODAY.name
             BeginDate = DateExtendUtil.getCurrentDate()
             EndDate = DateExtendUtil.getCurrentDate()
-            viewBinding.rbOther.text = "今天"
-            viewBinding.tvOther.text = "今天"
-            mTimeBinding.tvCustom.text = "自定义"
+            viewBinding.rbOther.text = context!!.getString(R.string.今日)
+            viewBinding.tvOther.text = context!!.getString(R.string.今日)
+            mTimeBinding.tvCustom.text = context!!.getString(R.string.自定义)
             switchDateType(activity, (it as LinearLayout), lastTimeType)
             block.invoke(BeginDate, EndDate, CustomeBillDateType)
         }
@@ -587,9 +587,9 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
             CustomeBillDateType = DateEnum.YESTERDAY.name
             BeginDate = DateExtendUtil.getHistoryBeginDate(DateEnum.YESTERDAY)
             EndDate = BeginDate
-            viewBinding.rbOther.text = "昨天"
-            viewBinding.tvOther.text = "昨天"
-            mTimeBinding.tvCustom.text = "自定义"
+            viewBinding.rbOther.text = context!!.getString(R.string.昨日)
+            viewBinding.tvOther.text = context!!.getString(R.string.昨日)
+            mTimeBinding.tvCustom.text = context!!.getString(R.string.自定义)
             switchDateType(activity, (it as LinearLayout), lastTimeType)
             block.invoke(BeginDate, EndDate, CustomeBillDateType)
         }
@@ -598,9 +598,9 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
             CustomeBillDateType = DateEnum.WEEK.name
             BeginDate = DateExtendUtil.formatDate(DateExtendUtil.getMondayOfWeek(Date()))
             EndDate = DateExtendUtil.formatDate(DateExtendUtil.getSundayOfWeek(Date()))
-            viewBinding.rbOther.text = "本周"
-            viewBinding.tvOther.text = "本周"
-            mTimeBinding.tvCustom.text = "自定义"
+            viewBinding.rbOther.text = context!!.getString(R.string.本周)
+            viewBinding.tvOther.text = context!!.getString(R.string.本周)
+            mTimeBinding.tvCustom.text = context!!.getString(R.string.自定义)
             switchDateType(activity, (it as LinearLayout), lastTimeType)
             block.invoke(BeginDate, EndDate, CustomeBillDateType)
         }
@@ -611,9 +611,9 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
                 DateExtendUtil.formatDate(DateExtendUtil.getMondayOfWeek(DateExtendUtil.getHistoryDate(DateEnum.WEEK)))
             EndDate =
                 DateExtendUtil.formatDate(DateExtendUtil.getSundayOfWeek(DateExtendUtil.getHistoryDate(DateEnum.WEEK)))
-            viewBinding.rbOther.text = "上周"
-            viewBinding.tvOther.text = "上周"
-            mTimeBinding.tvCustom.text = "自定义"
+            viewBinding.rbOther.text = context!!.getString(R.string.上周)
+            viewBinding.tvOther.text = context!!.getString(R.string.上周)
+            mTimeBinding.tvCustom.text = context!!.getString(R.string.自定义)
             switchDateType(activity, (it as LinearLayout), lastTimeType)
             block.invoke(BeginDate, EndDate, CustomeBillDateType)
         }
@@ -630,9 +630,9 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
                     DateExtendUtil.getHistoryDate(DateEnum.MONTH)
                 )
             )
-            viewBinding.rbOther.text = "上月"
-            viewBinding.tvOther.text = "上月"
-            mTimeBinding.tvCustom.text = "自定义"
+            viewBinding.rbOther.text = context!!.getString(R.string.上月)
+            viewBinding.tvOther.text = context!!.getString(R.string.上月)
+            mTimeBinding.tvCustom.text = context!!.getString(R.string.自定义)
             switchDateType(activity, (it as LinearLayout), lastTimeType)
             block.invoke(BeginDate, EndDate, CustomeBillDateType)
         }
@@ -641,9 +641,9 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
             CustomeBillDateType = DateEnum.MONTH.name
             BeginDate = DateExtendUtil.formatDate(DateExtendUtil.getFirstDateOfMonth(Date()))
             EndDate = DateExtendUtil.formatDate(DateExtendUtil.getLastDateOfMonth(Date()))
-            viewBinding.rbOther.text = "本月"
-            viewBinding.tvOther.text = "本月"
-            mTimeBinding.tvCustom.text = "自定义"
+            viewBinding.rbOther.text = context!!.getString(R.string.本月)
+            viewBinding.tvOther.text = context!!.getString(R.string.本月)
+            mTimeBinding.tvCustom.text = context!!.getString(R.string.自定义)
             switchDateType(activity, (it as LinearLayout), lastTimeType)
             block.invoke(BeginDate, EndDate, CustomeBillDateType)
         }
@@ -652,9 +652,9 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
             CustomeBillDateType = DateEnum.THISQUARTER.name
             BeginDate = DateExtendUtil.formatDate(DateExtendUtil.getFirstDateOfSeason(Date()))
             EndDate = DateExtendUtil.formatDate(DateExtendUtil.getLastDateOfSeason(Date()))
-            viewBinding.rbOther.text = "本季度"
-            viewBinding.tvOther.text = "本季度"
-            mTimeBinding.tvCustom.text = "自定义"
+            viewBinding.rbOther.text = context!!.getString(R.string.本季度)
+            viewBinding.tvOther.text = context!!.getString(R.string.本季度)
+            mTimeBinding.tvCustom.text = context!!.getString(R.string.自定义)
             switchDateType(activity, (it as LinearLayout), lastTimeType)
             block.invoke(BeginDate, EndDate, CustomeBillDateType)
         }
@@ -671,9 +671,9 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
                     DateExtendUtil.getHistoryDate(DateEnum.THREE_MONTHS)
                 )
             )
-            viewBinding.rbOther.text = "上季度"
-            viewBinding.tvOther.text = "上季度"
-            mTimeBinding.tvCustom.text = "自定义"
+            viewBinding.rbOther.text = context!!.getString(R.string.上季度)
+            viewBinding.tvOther.text = context!!.getString(R.string.上季度)
+            mTimeBinding.tvCustom.text = context!!.getString(R.string.自定义)
             switchDateType(activity, (it as LinearLayout), lastTimeType)
             block.invoke(BeginDate, EndDate, CustomeBillDateType)
         }
@@ -682,9 +682,9 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
             CustomeBillDateType = DateEnum.YEAR.name
             BeginDate = "${DateExtendUtil.getYear(Date())}-01-01"
             EndDate = "${DateExtendUtil.getYear(Date())}-12-31"
-            viewBinding.rbOther.text = "本年"
-            viewBinding.tvOther.text = "本年"
-            mTimeBinding.tvCustom.text = "自定义"
+            viewBinding.rbOther.text = context!!.getString(R.string.本年)
+            viewBinding.tvOther.text = context!!.getString(R.string.本年)
+            mTimeBinding.tvCustom.text = context!!.getString(R.string.自定义)
             switchDateType(activity, (it as LinearLayout), lastTimeType)
             block.invoke(BeginDate, EndDate, CustomeBillDateType)
         }
@@ -759,7 +759,7 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
                 end
             ) > 0
         ) {
-            ToastUtil.show("不允许结束日期早于开始日期")
+            ToastUtil.show(context!!.getString(R.string.不允许结束日期早于开始日期))
             return false
         }
 

@@ -90,7 +90,7 @@ class TwoDatePickerBottomFragment : BottomSheetDialogFragment(), IDatePickerBase
         savedInstanceState: Bundle?
     ): View {
         bundle = requireArguments()
-        title = bundle.getString("title", "选择日期")
+        title = bundle.getString("title", context!!.getString(R.string.选择日期))
         viewBinding = ViewTwodatepickerBottomBinding.inflate(layoutInflater)
         mView = viewBinding.root
         return viewBinding.root
@@ -187,15 +187,15 @@ class TwoDatePickerBottomFragment : BottomSheetDialogFragment(), IDatePickerBase
         if (type == "MM") {
 //           viewBinding.switchType.performClick()
             viewBinding.rbDatePickerLab2.isChecked = true
-            viewBinding.startview.text = "开始月份"
-            viewBinding.endview.text = "结束月份"
+            viewBinding.startview.text = context!!.getString(R.string.开始月份)
+            viewBinding.endview.text = context!!.getString(R.string.结束月份)
             viewBinding.day.visibility = View.GONE
             viewBinding.dayEnd.visibility = View.GONE
             viewBinding.dayonly.visibility = View.GONE
         }else{
             viewBinding.rbDatePickerLab1.isChecked = true
-            viewBinding.startview.text = "开始日期"
-            viewBinding.endview.text = "结束日期"
+            viewBinding.startview.text = context!!.getString(R.string.开始日期)
+            viewBinding.endview.text = context!!.getString(R.string.结束日期)
             viewBinding.day.visibility = View.VISIBLE
             viewBinding.dayEnd.visibility = View.VISIBLE
             viewBinding.dayonly.visibility = View.VISIBLE
@@ -259,15 +259,15 @@ class TwoDatePickerBottomFragment : BottomSheetDialogFragment(), IDatePickerBase
        viewBinding.switchType.setOnSwitchListener {
             if (it) {
                 type = "DD"
-               viewBinding.startview.text = "开始日期"
-               viewBinding.endview.text = "结束日期"
+               viewBinding.startview.text = context!!.getString(R.string.开始日期)
+               viewBinding.endview.text = context!!.getString(R.string.结束日期)
                viewBinding.day.visibility = View.VISIBLE
                viewBinding.dayEnd.visibility = View.VISIBLE
                viewBinding.dayonly.visibility = View.VISIBLE
             } else {
                 type = "MM"
-               viewBinding.startview.text = "开始月份"
-               viewBinding.endview.text = "结束月份"
+               viewBinding.startview.text = context!!.getString(R.string.开始月份)
+               viewBinding.endview.text = context!!.getString(R.string.结束月份)
                viewBinding.day.visibility = View.GONE
                viewBinding.dayEnd.visibility = View.GONE
                viewBinding.dayonly.visibility = View.GONE
@@ -280,15 +280,15 @@ class TwoDatePickerBottomFragment : BottomSheetDialogFragment(), IDatePickerBase
 
             if (viewBinding.rbDatePickerLab1.isChecked) {
                 type = "DD"
-               viewBinding.startview.text = "开始日期"
-               viewBinding.endview.text = "结束日期"
+               viewBinding.startview.text = context!!.getString(R.string.开始日期)
+               viewBinding.endview.text = context!!.getString(R.string.结束日期)
                viewBinding.day.visibility = View.VISIBLE
                viewBinding.dayEnd.visibility = View.VISIBLE
                viewBinding.dayonly.visibility = View.VISIBLE
             } else {
                 type = "MM"
-               viewBinding.startview.text = "开始月份"
-               viewBinding.endview.text = "结束月份"
+               viewBinding.startview.text = context!!.getString(R.string.开始月份)
+               viewBinding.endview.text = context!!.getString(R.string.结束月份)
                viewBinding.day.visibility = View.GONE
                viewBinding.dayEnd.visibility = View.GONE
                viewBinding.dayonly.visibility = View.GONE

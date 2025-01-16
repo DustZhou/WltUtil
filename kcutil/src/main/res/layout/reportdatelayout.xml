@@ -37,7 +37,7 @@
             android:drawableEnd="@drawable/ic_new_unfold_gray"
             android:paddingStart="@dimen/dp_10"
             android:tag="OTHER"
-            android:text="时间筛选"
+            android:text="@string/时间筛选"
             />
 
     </LinearLayout>
@@ -56,34 +56,34 @@
             android:id="@+id/rbToDay"
             style="@style/RadioButtonLanNewLineStyle_"
             android:tag="@string/TODAY"
-            android:text="今日" />
+            android:text="@string/今日" />
 
 
         <RadioButton
             android:id="@+id/rbYesterDay"
             style="@style/RadioButtonLanNewLineStyle_"
             android:tag="@string/YESTERDAY"
-            android:text="昨日" />
+            android:text="@string/昨日" />
 
 
         <RadioButton
             android:id="@+id/rbWeek"
             style="@style/RadioButtonLanNewLineStyle_"
             android:tag="@string/WEEK"
-            android:text="本周" />
+            android:text="@string/本周" />
 
 
         <RadioButton
             android:id="@+id/rbMonth"
             style="@style/RadioButtonLanNewLineStyle_"
             android:tag="@string/THIRTY_DAYS"
-            android:text="本月" />
+            android:text="@string/本月" />
 
         <RadioButton
             android:id="@+id/rbDiy"
             style="@style/RadioButtonLanNewLineStyle_"
             android:tag="@string/THIRTY_DAYS"
-            android:text="本月"
+            android:text="@string/本月"
             android:visibility="gone" />
 
     </RadioGroup>

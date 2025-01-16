@@ -11,6 +11,8 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelStoreOwner
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.kenning.kcutil.KCUtil
+import com.kenning.kcutil.R
+import com.kenning.kcutil.utils.other.getStringResource
 import java.lang.RuntimeException
 
 /**
@@ -59,7 +61,7 @@ class TwoDatePickerBuilder {
 
     var requestCode = -1
 
-    var title = "开始日期"
+    var title = getStringResource(R.string.开始日期)
 
     var dateFormat = ""
 
@@ -220,7 +222,7 @@ class TwoDatePickerBuilder {
     fun start(@IdRes containerViewId: Int = -1) {
         if (location == PickerControl.ShowLocation.TOP) {
             if (containerViewId == -1) {
-                throw RuntimeException("请设置参数:containerViewId")
+                throw RuntimeException(getStringResource(R.string.请设置参数containerViewId))
             }
             val fm = sourceFragment!!.requireActivity().supportFragmentManager.beginTransaction()
             fm.add(containerViewId, build(), null)
