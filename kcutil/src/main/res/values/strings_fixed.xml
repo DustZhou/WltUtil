@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="请输入正确的手机号" translatable="false">请输入正确的手机号</string>
+    <string name="重新获取验证码" translatable="false">重新获取验证码</string>
+    <string name="请输入正确的验证码" translatable="false">请输入正确的验证码</string>
+    <string name="发送成功" translatable="false">发送成功</string>
+</resources>
