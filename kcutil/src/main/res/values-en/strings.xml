@@ -1549,5 +1549,44 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <string name="本期减少预收">Decrease in advance in current period</string>
 
     <string name="预收余额">Balance received in advance</string>
+
+    <string name="品牌名称">Brand Name</string>
+
+    <string name="合计应收余额元">Total receivable balance</string>
+    <string name="合计此前应收元">Total prior receivables</string>
+
+    <string name="此前应收">Previously receivable</string>
+    <string name="本期增加应收">Increase in receivables in the current period</string>
+    <string name="本期减少应收">Decrease of receivables in current period</string>
+    <!--region 费用统计报表-->
+
+    <string name="费用统计报表">Expense Statistics Report</string>
+    <string name="包含未记账凭证">Include unbookkept vouchers</string>
+
+    <string name="已是末级">End level</string>
+    <string name="显示为0的费用科目">Expense Account Shown as 0</string>
+
+
+    <string name="费用金额">Amount of expenses</string>
+    <string name="费用名称">Expense Account Shown as 0</string>
+
+    <!--endregion-->
+
+    <!--region 现金银行报表-->
+
+    <string name="提示">Prompt</string>
+    <string name="现金银行名称">Name of cash bank</string>
+    <string name="暂不支持查看此单据明细请前往ERP中查看">Viewing the details of this document is not supported for the time being. Please go to ERP to view it.</string>
+    <string name="本单发生">Occurrence of this Bill</string>
+    <string name="单据类型">Bill Type</string>
+
+
+    <!--endregion-->
+
+    <!--region 往来对账-->
+    <string name="筛选">Filter</string>
+
+    <!--endregion-->
+
      <!--endregion-->
  </resources>

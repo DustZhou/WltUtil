@@ -1508,6 +1508,20 @@
     <string name="说明商米一体机仅安卓支持苹果只支持物联通打印机">说明商米一体机仅安卓支持苹果只支持物联通打印机</string>
     <!--endregion-->
 
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--region 添加-->
+
     <string name="日期">日期</string>
     <string name="类别选择">类别选择</string>
     <string name="查询">查        询</string>
@@ -1565,7 +1579,47 @@
 
     <string name="预收余额">预收余额</string>
 
+    <string name="品牌名称">品牌名称</string>
 
+    <string name="合计应收余额元">合计应收余额(元)</string>
+    <string name="合计此前应收元">合计此前应收(元)</string>
+
+    <string name="此前应收">此前应收</string>
+    <string name="本期增加应收">本期增加应收</string>
+    <string name="本期减少应收">本期减少应收</string>
+
+
+    <!--region 费用统计报表-->
+
+    <string name="费用统计报表">费用统计报表</string>
+    <string name="包含未记账凭证">包含未记账凭证</string>
+    <string name="已是末级">已是末级</string>
+    <string name="显示为0的费用科目">显示为0的费用科目</string>
+
+    <string name="费用金额">费用金额</string>
+    <string name="费用名称">费用名称</string>
+
+
+    <!--endregion-->
+    <!--region 现金银行报表-->
+
+    <string name="提示">提示</string>
+    <string name="现金银行名称">现金银行名称</string>
+    <string name="暂不支持查看此单据明细请前往ERP中查看">暂不支持查看此单据明细，请前往ERP中查看。</string>
+    <string name="本单发生">本单发生</string>
+    <string name="单据类型">单据类型</string>
+
+    <!--endregion-->
+
+    <!--region 往来对账-->
+    <string name="筛选">筛选</string>
+
+
+
+    <!--endregion-->
+
+
+    <!--endregion-->
 
 
 
