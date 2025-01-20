@@ -399,7 +399,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintWidth_percent="0.5"
         app:normalBackgroundColor="#CFDFFA"
-        android:text="取消"
+        android:text="@string/取消"
         android:gravity="center"
         android:textColor="#3875F6"
         android:textSize="13sp"/>
@@ -413,7 +413,7 @@
         app:layout_constraintWidth_percent="0.5"
         app:normalBackgroundColor="#3875F6"
         android:gravity="center"
-        android:text="确定"
+        android:text="@string/确定"
         android:textColor="@color/white"
         android:textSize="13sp"/>
 

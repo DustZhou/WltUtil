@@ -1710,7 +1710,47 @@
 
     <!--region 往来对账-->
     <string name="筛选">筛选</string>
+    <string name="未添加">未添加</string>
+    <string name="重置">重置</string>
+    <string name="应收应付线性">应收应付线性</string>
+    <string name="应收应付统计">应收应付统计</string>
+    <string name="地区">地区</string>
+    <string name="往来对账自定义显示">往来对账自定义显示</string>
+    <string name="注意长按可以拖动排序点击减号可隐藏显示">注意：长按可以拖动排序，点击减号可隐藏显示</string>
 
+    <string-array name="diydisplaylist">
+        <item>{"FileID":"ARAPBalanceTotal","FileName":"往来余额(元)"}</item><!--2-->
+        <item>{"FileID":"ARBalanceTotal","FileName":"应收余额(元)、占比"}</item><!--3-->
+        <item>{"FileID":"APBalanceTotal","FileName":"应付余额(元)、占比"}</item><!--4-->
+        <item>{"FileID":"ARTotal","FileName":"应收金额(元)"}</item><!--7-->
+        <item>{"FileID":"APTotal","FileName":"应付金额(元)"}</item><!--8-->
+        <item>{"FileID":"YRTotal","FileName":"预收金额(元)"}</item><!--9-->
+        <item>{"FileID":"YPTotal","FileName":"预付金额(元)"}</item><!--10-->
+    </string-array>
+
+    <!--endregion-->
+
+    <!--region 任务进度-->
+
+    <string name="按月度">按月度</string>
+    <string name="按季度">按季度</string>
+    <string name="按年度">按年度</string>
+    <string name="目标进度查询">目标进度查询</string>
+    <string name="金额降序">金额降序</string>
+    <string name="金额升序">金额升序</string>
+
+    <string name="第X月">第%1$s月</string>
+    <string name="第X季度">第%1$s季度</string>
+    <string name="第X年">第%1$s年</string>
+
+    <string name="年度">年度</string>
+    <string name="季度">季度</string>
+    <string name="月度">月度</string>
+
+    <string name="第">第</string>
+
+    <string name="总进度元">总进度(元)</string>
+    <string name="选择时间">选择时间</string>
 
 
     <!--endregion-->

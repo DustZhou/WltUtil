@@ -804,7 +804,7 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <!--endregion-->
     <!--region 经营概况 -->
     <string name="账户余额">Account Balance</string>
-    <string name="应收客户款">Accounts Receivable from Customers</string>
+    <string name="应收客户款">A/R from Customers</string>
     <string name="应付供应商款">Accounts Payable to Suppliers</string>
     <string name="库存总额">Total Inventory</string>
     <string name="库存总数">Total qty of Inventory</string>
@@ -988,7 +988,7 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <string name="现金回款">Cash</string>
     <string name="银行回款">Bank</string>
     <string name="抹零金额">Discount</string>
-    <string name="应收调账">Accounts receivable adjustment</string>
+    <string name="应收调账">A/R adjustment</string>
     <!--endregion-->
     <!--region 供应商采购-->
     <string name="供应商采购统计">Overall</string>
@@ -1683,6 +1683,47 @@ Usage: After entering keywords each time, press the space bar to continue to ent
 
     <!--region 往来对账-->
     <string name="筛选">Filter</string>
+    <string name="未添加">Not added</string>
+    <string name="重置">Reset</string>
+    <string name="应收应付线性">A/R Payable Linear</string>
+    <string name="应收应付统计">A/R Payable Statistics</string>
+    <string name="地区">Area</string>
+    <string name="往来对账自定义显示">Transaction Reconciliation Custom Display</string>
+    <string name="注意长按可以拖动排序点击减号可隐藏显示">Note: long press can drag to sort, click the minus sign to hide the display</string>
+
+    <string-array name="diydisplaylist">
+        <item>{\"FileID\":\"ARAPBalanceTotal\",\"FileName\":\"Current balance\"}</item><!--2-->
+        <item>{\"FileID\":\"ARBalanceTotal\",\"FileName\":\"Receivable\"}</item><!--3-->
+        <item>{\"FileID\":\"APBalanceTotal\",\"FileName\":\"Balance payable\"}</item><!--4-->
+        <item>{\"FileID\":\"ARTotal\",\"FileName\":\"Amount receivable\"}</item><!--7-->
+        <item>{\"FileID\":\"APTotal\",\"FileName\":\"Amount payable\"}</item><!--8-->
+        <item>{\"FileID\":\"YRTotal\",\"FileName\":\"Amount received in advance\"}</item><!--9-->
+        <item>{\"FileID\":\"YPTotal\",\"FileName\":\"Prepaid amount\"}</item><!--10-->
+    </string-array>
+
+
+    <!--endregion-->
+
+    <!--region 任务进度-->
+
+    <string name="按月度">By Monthly</string>
+    <string name="按季度">By Quarterly</string>
+    <string name="按年度">By Year</string>
+    <string name="目标进度查询">Target Progress Query</string>
+    <string name="金额降序">Amount Descending</string>
+    <string name="金额升序">Amount Ascending</string>
+
+    <string name="第X月">Mon %1$s</string>
+    <string name="第X季度">Qtr %1$s</string>
+    <string name="第X年">Year %1$s</string>
+
+    <string name="年度">Annual</string>
+    <string name="季度">Quarterly</string>
+    <string name="月度">Monthly</string>
+
+    <string name="第">Section</string>
+    <string name="总进度元">Total Progress (Yuan)</string>
+    <string name="选择时间">Select time</string>
 
     <!--endregion-->
 
