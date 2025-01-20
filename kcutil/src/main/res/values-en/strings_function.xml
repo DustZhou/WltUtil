@@ -75,7 +75,7 @@
   <string name="SerialTrack">SN Inventory</string>
   <string name="SerialStockSearch">SN Tracking</string>
   <string name="PTypeStock">Inventory Report</string>
-  <string name="StockPTypeItemDetailReport"></string>  >
+  <string name="StockPTypeItemDetailReport">Stock Goods Item Detail Report</string>
   <string name="PTypeSaleReport">Prod. Sales</string>
   <string name="BTypeSaleReport">Cust. Sales</string>
   <string name="SaleReportRanking">Sales Rank</string>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <string name="补录管理">Supplementary management</string>
+    <string name="单据验货">Document inspection</string>
     <string name="天未开单">Current balance</string>
     <string name="最近开单时间">Current balance</string>
     <string name="往来余额">Current balance</string>
@@ -11,7 +12,6 @@
     <string name="btypeorderreport">客户订货报表</string>
     <string name="etypeorderreport">职员订货报表</string>
     <string name="ptypeorderreport">商品订货报表</string>
-    <string name="have_no_this_ptype_barcode">没有该条码的商品</string>
     <string name="gongji">共计</string>
     <string name="bi">笔</string>titleleave
     <string name="jia">家</string>
@@ -189,6 +189,7 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <string name="登录记录">Login history</string>
     <string name="全部清除">Clear</string>
     <string name="上次登录">Current</string>
+    <string name="当前登录">Current</string>
     <string name="不允许删除上次登录的记录">Deleting the record being used is not supported</string>
     <string name="温馨提示">Gentle reminder</string>
     <string name="取消">Cancel</string>
@@ -218,9 +219,11 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <string name="更新数据">Update data</string>
     <string name="切换服务器地址">Change the server address</string>
     <string name="切换公司">Change the company name</string>
-    <string name="选择账套选择行业">Account Set Selection</string>
-    <string name="选择用户选择角色">Login User Selection</string>
-    <string name="注意升级数据包后手机端上的单据等数据会被覆盖请您先上传您的单据后再升级">In order to avoid the loss of unsubmitted data after the update, please ensure that all data on the current device has been submitted.</string>
+    <string name="选择账套">Account Set Selection</string>
+    <string name="选择用户">Login User Selection</string>
+    <string name="选择行业">Account Set Selection</string>
+    <string name="选择角色">Login User Selection</string>
+    <string name="android_DownloadDataBeforeTips">In order to avoid the loss of unsubmitted data after the update, please ensure that all data on the current device has been submitted.</string>
     <string name="最近数据更新时间">Latest update time</string>
     <string name="您可选择现有数据包减少更新时间">You can select the most recent data to reduce the waiting time.</string>
     <string name="现有数据包">Download the existing database</string>
@@ -251,13 +254,22 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <string name="本年销售总额">This year’s total sales</string>
     <string name="未完成订单数">Number of uncompleted orders</string>
     <string name="常用的功能">commonly used</string>
-    <string name="按住可拖动调整顺序">Hold down and drag to adjust the order.</string>
-    <string name="访销访销流程">Visit&amp;Sales without goods.</string>
-    <string name="车销车销流程">Visit&amp;Sales with goods.</string>
-    <string name="配送配送流程">Delivery</string>
-    <string name="拜访交账欠款查询历程单据">visit、hand in accounts、inquiry about debts、Submitted Bills</string>
-    <string name="车销要货综合销售车销还货交账">Transfer inbound、HandySalBill、Transfer outbound、hand in accounts</string>
-    <string name="配送还货配送交账员工提成">Delivery、Return goods、hand in accounts、brokerage</string>
+    <string name="按住可拖动调整顺序">(Hold down and drag to adjust the order.)</string>
+    <string name="流程">Flow</string>
+    <string name="访销">Visit&amp;Sales without goods.</string>
+    <string name="车销">Visit&amp;Sales with goods.</string>
+    <string name="配送">Delivery</string>
+    <string name="访销流程">Visit&amp;Sales without goods.</string>
+    <string name="车销流程">Visit&amp;Sales with goods.</string>
+    <string name="配送流程">Delivery</string>
+    <string name="交账">hand in accounts</string>
+    <string name="欠款查询">inquiry about debts</string>
+    <string name="历销单据">Submitted Bills</string>
+    <string name="车销要货">Transfer inbound</string>
+    <string name="综合销售">HandySalBill</string>
+    <string name="车销还货">Transfer outbound</string>
+    <string name="还货">Return goods</string>
+    <string name="配送交账">hand in accounts</string>
     <!--endregion-->
 
     <!--region 开单-->
@@ -456,6 +468,7 @@ Usage: After entering keywords each time, press the space bar to continue to ent
 
     <!--region 开单字段-->
 
+    <string name="机构">Branch</string>
     <string name="分支机构">Branch</string>
     <string name="单据日期">Bill Date</string>
     <string name="交货日期">Delivery Date</string>

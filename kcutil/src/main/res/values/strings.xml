@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="补录管理">补录管理</string>
+    <string name="单据验货">单据验货</string>
     <string name="天未开单">天未开单</string>
     <string name="最近开单时间">最近开单时间</string>
     <string name="往来余额">往来余额</string>
@@ -193,6 +195,7 @@
     <string name="登录记录">登录记录</string>
     <string name="全部清除">全部清除</string>
     <string name="上次登录">上次登录</string>
+    <string name="当前登录">当前登录</string>
     <string name="不允许删除上次登录的记录">不允许删除上次登录的记录</string>
     <string name="温馨提示">温馨提示</string>
     <string name="取消">取消</string>
@@ -224,9 +227,11 @@
     <string name="更新数据">更新数据</string>
     <string name="切换服务器地址">切换服务器地址</string>
     <string name="切换公司">切换公司</string>
-    <string name="选择账套选择行业">选择账套/选择行业</string>
-    <string name="选择用户选择角色">选择用户/选择角色</string>
-    <string name="注意升级数据包后手机端上的单据等数据会被覆盖请您先上传您的单据后再升级">注意升级数据包后手机端上的单据等数据会被覆盖，请您先上传您的单据后再升级！</string>
+    <string name="选择账套">选择账套</string>
+    <string name="选择用户">选择用户</string>
+    <string name="选择行业">选择行业</string>
+    <string name="选择角色">选择角色</string>
+    <string name="android_DownloadDataBeforeTips">注意升级数据包后手机端上的单据等数据会被覆盖，请您先上传您的单据后再升级！</string>
     <string name="最近数据更新时间">最近数据更新时间</string>
     <string name="您可选择现有数据包减少更新时间">您可选择现有数据包减少更新时间</string>
     <string name="现有数据包">现有数据包</string>
@@ -257,13 +262,22 @@
     <string name="本年销售总额">本年销售总额</string>
     <string name="未完成订单数">未完成订单数</string>
     <string name="常用的功能">常用的功能</string>
-    <string name="按住可拖动调整顺序">按住可拖动调整顺序</string>
-    <string name="访销访销流程">访销 / 访销流程</string>
-    <string name="车销车销流程">车销 / 车销流程</string>
-    <string name="配送配送流程">配送 / 配送流程</string>
-    <string name="拜访交账欠款查询历程单据">拜访、交账、欠款查询、历程单据</string>
-    <string name="车销要货综合销售车销还货交账">车销要货、综合销售、车销还货、交账</string>
-    <string name="配送还货配送交账员工提成">配送、还货、配送交账、员工提成</string>
+    <string name="按住可拖动调整顺序">(按住可拖动调整顺序)</string>
+    <string name="流程">流程</string>
+    <string name="访销">访销</string>
+    <string name="车销">车销</string>
+    <string name="访销流程">访销流程</string>
+    <string name="车销流程">车销流程</string>
+    <string name="配送流程">配送流程</string>
+    <string name="交账">交账</string>
+    <string name="欠款查询">欠款查询</string>
+    <string name="历销单据">历程单据</string>
+    <string name="车销要货">车销要货</string>
+    <string name="综合销售">综合销售</string>
+    <string name="车销还货">车销还货</string>
+    <string name="配送">配送</string>
+    <string name="还货">还货</string>
+    <string name="配送交账">配送交账</string>
     <!--endregion-->
 
     <!--region 开单-->
@@ -461,6 +475,7 @@
 
     <!--region 开单字段-->
 
+    <string name="机构">机构</string>
     <string name="分支机构">分支机构</string>
     <string name="单据日期">单据日期</string>
     <string name="交货日期">交货日期</string>
