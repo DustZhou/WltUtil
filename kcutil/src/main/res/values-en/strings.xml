@@ -268,7 +268,6 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <string name="车销要货">Transfer inbound</string>
     <string name="综合销售">HandySalBill</string>
     <string name="车销还货">Transfer outbound</string>
-    <string name="还货">Return goods</string>
     <string name="配送交账">hand in accounts</string>
     <!--endregion-->
 
@@ -416,10 +415,11 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <string name="买赠副单位数量">Free Other Unit Qty</string>
     <string name="销售类型">Sale Type</string>
     <string name="退货类型">Return types</string>
-    <string name="规格">Standard:</string>
-    <string name="型号">Type:</string>
-    <string name="产地">Origin:</string>
-    <string name="备注">Remark:</string>
+    <string name="规格">Standard</string>
+    <string name="型号">Type</string>
+    <string name="产地">Origin</string>
+    <string name="规格型号产地">Standard\Type\Origin</string>
+    <string name="备注">Remark</string>
     <string name="切换仓库将清除批次数据是否继续">Changing the warehouse will clear batch information. Do you want to continue?</string>
     <string name="切换货位将清除批次数据是否继续">Changing the goodslocation will clear batch information. Do you want to continue?</string>
     <string name="库存分布">Inventory Qty</string>
@@ -1616,14 +1616,6 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <string name="本年">This Year</string>
     <string name="自定义">Customize</string>
 
-
-
-
-
-
-
-
-
     <string name="没有上一级">No upper level</string>
     <string name="没有上一级了">There is no higher level</string>
     <string name="上一级">Previous Level</string>
@@ -1737,6 +1729,32 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <string name="第">Section</string>
     <string name="总进度元">Total Progress (Yuan)</string>
     <string name="选择时间">Select time</string>
+    <string name="我知道了">I know.</string>
+
+    <!--endregion-->
+
+    <!--region 借欠商品表-->
+
+    <string name="借欠商品表">Debit Goods Table</string>
+    <string name="还货">Return Goods</string>
+    <string name="借进">Borrowing</string>
+    <string name="累计借进未还">Accumulated borrowed outstanding</string>
+    <string name="请先选择还货商品">Please select return goods first</string>
+    <string name="请选择具体分支机构进行还货">Please select a specific branch to return the goods.</string>
+    <string name="还货数量不能大于累计借进数量">The return quantity cannot be greater than the accumulated borrowed quantity.</string>
+
+    <string name="借进总量">Total amount of borrowing</string>
+    <string name="借进还出总量">Total amount of loan-in and return-out</string>
+    <string name="累计借进未还总量">Accumulated outstanding amount borrowed</string>
+    <string name="展示借进未还为0的商品">Show the goods that have not been borrowed for 0.</string>
+
+    <!--endregion-->
+
+    <!--region 序列号跟踪-->
+
+    <string name="序列号跟踪">Serial Tracking</string>
+    <string name="基本单位条码">Basic unit barcode</string>
+
 
     <!--endregion-->
 

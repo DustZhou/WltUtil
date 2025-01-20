@@ -23,6 +23,7 @@ import com.kenning.kcutil.utils.math.toInt_
 import com.kenning.kcutil.utils.other.ScreenUtil
 import com.kenning.kcutil.utils.other.getColorResource
 import com.kenning.kcutil.utils.other.getDrawableResource
+import com.kenning.kcutil.utils.other.getStringResource
 import com.kenning.kcutil.utils.recyclerviewextend.BaseRecyclerViewHolder
 import com.kenning.kcutil.utils.recyclerviewextend.RecycleViewDivider
 import com.kenning.kcutil.widget.SwitchImageView
@@ -394,7 +395,7 @@ class BaseDialog : Dialog {
                 tools.radius()
             )
 
-            button.text = "我知道了"
+            button.text = getStringResource(R.string.我知道了)
 
             button.setTextColor(getColorResource(R.color.color_333333))
             button.setNormalBackgroundColor(getColorResource(R.color.white))

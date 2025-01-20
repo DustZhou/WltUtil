@@ -18,6 +18,7 @@ import com.kenning.kcutil.utils.dialog.easydialog.BaseDialog
 import com.kenning.kcutil.utils.math.toInt_
 import com.kenning.kcutil.utils.other.ScreenUtil
 import com.kenning.kcutil.utils.other.getColorResource
+import com.kenning.kcutil.utils.other.getStringResource
 import com.kenning.kcutil.widget.basicview.BackGroundTextView
 import kotlinx.android.synthetic.main.dialogfragment_base.layoutBody
 import kotlinx.android.synthetic.main.dialogfragment_base.layoutBottomButton
@@ -173,7 +174,7 @@ class BaseFragmentDialog(
                 radius()
             )
 
-            button.text = "我知道了"
+            button.text = getStringResource(R.string.我知道了)
 
             button.setTextColor(getColorResource(R.color.color_333333))
             button.setNormalBackgroundColor(getColorResource(R.color.white))

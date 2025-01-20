@@ -276,7 +276,6 @@
     <string name="综合销售">综合销售</string>
     <string name="车销还货">车销还货</string>
     <string name="配送">配送</string>
-    <string name="还货">还货</string>
     <string name="配送交账">配送交账</string>
     <!--endregion-->
 
@@ -423,10 +422,12 @@
     <string name="买赠副单位数量">买赠副单位数量</string>
     <string name="销售类型">销售类型</string>
     <string name="退货类型">退货类型</string>
-    <string name="规格">规格:</string>
-    <string name="型号">型号:</string>
-    <string name="产地">产地:</string>
-    <string name="备注">备注:</string>
+    <string name="规格">规格</string>
+    <string name="型号">型号</string>
+    <string name="产地">产地</string>
+    <string name="规格型号产地">规格\型号\产地</string>
+
+    <string name="备注">备注</string>
     <string name="切换仓库将清除批次数据是否继续">切换仓库将清除批次数据，是否继续</string>
     <string name="切换货位将清除批次数据是否继续">切换货位将清除批次数据，是否继续</string>
     <string name="库存分布">库存分布</string>
@@ -1766,11 +1767,33 @@
 
     <string name="总进度元">总进度(元)</string>
     <string name="选择时间">选择时间</string>
+    <string name="我知道了">我知道了</string>
+
+
 
 
     <!--endregion-->
 
+    <!--region 借欠商品表-->
+    <string name="借欠商品表">借欠商品表</string>
+    <string name="还货">还货</string>
+    <string name="借进">借进</string>
+    <string name="累计借进未还">累计借进未还</string>
+    <string name="请先选择还货商品">请先选择还货商品</string>
+    <string name="请选择具体分支机构进行还货">请选择具体分支机构进行还货</string>
+    <string name="还货数量不能大于累计借进数量">还货数量不能大于累计借进数量</string>
 
+    <string name="借进总量">借进总量</string>
+    <string name="借进还出总量">借进还出总量</string>
+    <string name="累计借进未还总量">累计借进未还总量</string>
+    <string name="展示借进未还为0的商品">展示借进未还为0的商品</string>
+    <!--endregion-->
+    <!--region 序列号跟踪-->
+
+    <string name="序列号跟踪">序列号跟踪</string>
+    <string name="基本单位条码">基本单位条码</string>
+
+    <!--endregion-->
     <!--endregion-->
 
 

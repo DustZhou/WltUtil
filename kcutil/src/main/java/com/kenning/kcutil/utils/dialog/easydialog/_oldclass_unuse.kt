@@ -359,7 +359,7 @@ class _oldclass_unuse {
     //                tools.radius
     //            )
     //
-    //            button.text = "我知道了"
+    //            button.text = getStringResource(R.string.我知道了)
     //
     //            button.setTextColor(getColorResource(R.color.color_333333))
     //            button.setNormalBackgroundColor(getColorResource(R.color.white))
