@@ -8,6 +8,7 @@ import androidx.annotation.ColorRes
 import androidx.annotation.IntRange
 import androidx.recyclerview.widget.RecyclerView
 import com.kenning.kcutil.R
+import com.kenning.kcutil.utils.other.getStringResource
 
 /**
  *Description :
@@ -267,7 +268,7 @@ open class EasyDialog(private var context: Context) {
         count++
         mIsReset = false
         if (title == null) {
-            this.title = "温馨提示"
+            this.title = getStringResource(R.string.温馨提示)
         }
 
        return if (Prompt) {

@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--region 价格跟踪-->
+    <string name="最近销售">最近销售</string>
+    <string name="最近采购">最近采购</string>
+    <string name="销售折前单价">销售折前单价</string>
+    <string name="销售折后单价">销售折后单价</string>
+    <string name="销售含税单价">销售含税单价</string>
+    <string name="销售单价">销售单价</string>
+    <string name="采购折前单价">采购折前单价</string>
+    <string name="采购折后单价">采购折后单价</string>
+    <string name="采购含税单价">采购含税单价</string>
+    <string name="采购单价">采购单价</string>
+
+    <!--endregion-->
     <string name="补录管理">补录管理</string>
     <string name="单据验货">单据验货</string>
     <string name="天未开单">天未开单</string>
@@ -280,6 +293,7 @@
     <!--endregion-->
 
     <!--region 开单-->
+    <string name="选择">选择</string>
     <string name="支付宝">支付宝</string>
     <string name="微信">微信</string>
     <string name="银联">银联</string>
@@ -382,6 +396,8 @@
     <string name="客户">客        户</string>
     <string name="仓库">仓        库</string>
     <string name="扫条码">扫条码</string>
+    <string name="扫序列号">扫序列号</string>
+    <string name="扫编号">扫编号</string>
     <string name="扫码">扫码</string>
     <string name="调单">调单</string>
     <string name="添加商品">添加商品</string>
@@ -389,6 +405,7 @@
     <string name="下单">下单</string>
     <string name="请选择客户">请选择客户</string>
     <string name="请选择仓库">请选择仓库</string>
+    <string name="选择仓库">选择仓库</string>
     <string name="选择客户">选择客户</string>
     <string name="请允许管家婆物联通访问您的相机若不允许您将无法使用扫描和拍照功能">请允许管家婆物联通访问您的相机；若不允许，您将无法使用扫描和拍照功能</string>
     <string name="将条码放入取景框即可自动扫描">将条码放入取景框，即可自动扫描</string>
@@ -501,6 +518,10 @@
     <string name="借款">借款</string>
     <string name="借款理由">借款理由</string>
     <string name="退补">退补</string>
+    <string name="套件产品">套件产品</string>
+    <string name="套件明细">套件明细</string>
+    <string name="转入">转入</string>
+    <string name="转出">转出</string>
     <string name="报销事由">报销事由</string>
     <string name="优惠金额">优惠金额</string>
     <string name="整单折扣">整单折扣</string>
@@ -628,6 +649,7 @@
     <string name="请选择经手人">请选择经手人</string>
     <string name="请选择账户">请选择账户！</string>
     <string name="请添加商品">请添加商品！</string>
+    <string name="请添加">请添加</string>
     <string name="无商品">无商品</string>
     <string name="请录入">请录入</string>
     <string name="请输入条码">请输入条码</string>
@@ -967,6 +989,7 @@
     <string name="出库">出库</string>
     <string name="入库">入库</string>
     <string name="收起">收起</string>
+    <string name="必须要选择商品或往来单位两者不能同时为空">必须要选择商品或往来单位，两者不能同时为空</string>
     <string name="展开">展开</string>
     <string name="库存状况表不支持按类别打印仅支持打印具体商品数量">库存状况表不支持按类别打印，仅支持打印具体商品数量。</string>
     <string name="排列">排列</string>
