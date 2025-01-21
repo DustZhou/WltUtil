@@ -57,37 +57,54 @@ infix fun  <T:Any>T.outOf(list:ArrayList<T>):Boolean{
 }
 
 fun getStringResource(@StringRes stringid:Int):String{
-    return KCUtil.application?.resources?.getString(stringid)?:""
+    val context = KCUtil.mCurrentAct ?: KCUtil.application!!
+    return try {
+        context.resources.getString(stringid)
+    } catch (e: Exception) {
+        ""
+    }
 }
 
 fun getStringResource(@StringRes stringid:Int,vararg values: Any?):String{
-    val source = KCUtil.application?.resources?.getString(stringid)?:""
-    return String.format(source,*values)
+    val context = KCUtil.mCurrentAct ?: KCUtil.application!!
+    return try {
+        val source = context.resources?.getString(stringid)?:""
+        String.format(source,*values)
+    } catch (e: Exception) {
+        ""
+    }
 }
 
 fun getColorResource(@ColorRes colorid:Int):Int{
-    KCUtil.application?.resources?.let {
-        return ResourcesCompat.getColor(it,colorid,null)
-    }?: run {
-        return -1
+    val context = KCUtil.mCurrentAct ?: KCUtil.application!!
+    return try {
+        ResourcesCompat.getColor(context.resources,colorid,null)
+    } catch (e: Exception) {
+        -1
     }
 
 }
 
 fun getDrawableResource(@DrawableRes drawableid:Int): Drawable?{
-    KCUtil.application?.resources?.let {
-        return ResourcesCompat.getDrawable(
-            it,
+    val context = KCUtil.mCurrentAct ?: KCUtil.application!!
+    return try {
+        ResourcesCompat.getDrawable(
+            context.resources,
             drawableid,
             null
         )
-    }?: run {
-        return null
+    } catch (e: Exception) {
+        null
     }
 }
 
 fun  getDimensionResource(@DimenRes id:Int):Float{
-    return KCUtil.application?.resources?.getDimension(id)?:0f
+    val context = KCUtil.mCurrentAct ?: KCUtil.application!!
+    return try {
+        context?.resources?.getDimension(id)?:0f
+    } catch (e: Exception) {
+        0f
+    }
 }
 
 /**

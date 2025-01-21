@@ -1,5 +1,6 @@
 package com.kenning.kcutil
 
+import android.app.Activity
 import android.app.Application
 
 /**
@@ -28,4 +29,6 @@ object KCUtil {
     fun initKCUtil(application: Application) {
         this.application = application
     }
+
+    var mCurrentAct : Activity?=null
 }
