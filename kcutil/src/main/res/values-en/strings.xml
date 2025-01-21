@@ -2,16 +2,18 @@
 <resources>
 
     <!--region 价格跟踪-->
-    <string name="最近销售">Recent sales</string>
-    <string name="最近采购">Recent purchase</string>
-    <string name="销售折前单价">SalePrice</string>
-    <string name="销售折后单价">SaleDistPrice</string>
-    <string name="销售含税单价">SaleTaxPrice</string>
-    <string name="销售单价">SalePrice</string>
-    <string name="采购折前单价">BuyPrice</string>
-    <string name="采购折后单价">BuyDistPrice</string>
-    <string name="采购含税单价">BuyTaxPrice</string>
-    <string name="采购单价">BuyPrice</string>
+    <string name="必须要选择商品或往来单位两者不能同时为空">You must select either the commodity or the dealing unit, and both cannot be empty at the same time</string>
+    <string name="最近销售">Last sales</string>
+    <string name="最近采购">Last buy</string>
+    <string name="销售折前单价">Unit price</string>
+    <string name="销售折后单价">Discounted unit price</string>
+    <string name="销售含税单价">Tax unit price</string>
+    <string name="销售单价">Unit price</string>
+    <string name="采购折前单价">Unit price</string>
+    <string name="采购折后单价">Discounted unit price</string>
+    <string name="采购含税单价">Tax unit price</string>
+    <string name="采购单价">Unit price</string>
+    <string name="无此客户编号">No number for this custome</string>
     <!--endregion-->
     <string name="补录管理">Supplementary management</string>
     <string name="单据验货">Document inspection</string>
@@ -966,7 +968,6 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <string name="入库">In</string>
     <string name="收起">fold</string>
     <string name="展开">Unfold</string>
-    <string name="必须要选择商品或往来单位两者不能同时为空">You must select either the commodity or the dealing unit, and both cannot be empty at the same time</string>
     <string name="库存状况表不支持按类别打印仅支持打印具体商品数量">The list only supports printing products with a stock quantity not equal to 0.</string>
     <string name="排列">Sort</string>
     <string name="降序排列">Descending</string>
