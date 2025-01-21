@@ -168,6 +168,7 @@
     <string name="职员销售订货">职员销售订货</string>
     <string name="商品销售订货">商品销售订货</string>
     <string name="请选择商品">请选择商品</string>
+    <string name="选择商品">选择商品</string>
     <string name="关闭">关闭</string>
     <!--endregion-->
     <!--region 钱流报表-->
@@ -497,6 +498,7 @@
 
     <string name="机构">机构</string>
     <string name="分支机构">分支机构</string>
+    <string name="选择分支机构">选择分支机构</string>
     <string name="单据日期">单据日期</string>
     <string name="交货日期">交货日期</string>
     <string name="还款日期">还款日期</string>
@@ -1759,7 +1761,7 @@
     <string name="注意长按可以拖动排序点击减号可隐藏显示">注意：长按可以拖动排序，点击减号可隐藏显示</string>
 
     <string-array name="diydisplaylist">
-        <item>{"FileID":"ARAPBalanceTotal","FileName":"往来余额(元)"}</item><!--2-->
+        <item>{"FileID":"ARAPBalanceTotal","FileName":"往来余额元"}</item><!--2-->
         <item>{"FileID":"ARBalanceTotal","FileName":"应收余额(元)、占比"}</item><!--3-->
         <item>{"FileID":"APBalanceTotal","FileName":"应付余额(元)、占比"}</item><!--4-->
         <item>{"FileID":"ARTotal","FileName":"应收金额(元)"}</item><!--7-->
@@ -1767,6 +1769,9 @@
         <item>{"FileID":"YRTotal","FileName":"预收金额(元)"}</item><!--9-->
         <item>{"FileID":"YPTotal","FileName":"预付金额(元)"}</item><!--10-->
     </string-array>
+
+    <string name="往来余额元">往来余额(元)</string>
+
 
     <!--endregion-->
 
@@ -1816,10 +1821,44 @@
 
     <string name="序列号跟踪">序列号跟踪</string>
     <string name="基本单位条码">基本单位条码</string>
+    <string name="请输入序列号">请输入序列号</string>
+    <string name="序列号库存">序列号库存</string>
+
+    <string name="请先授权XX查询权限">请先授权%1$查询权限</string>
+    <string name="无此商品的库存序列号记录">无此商品的库存序列号记录!</string>
 
     <!--endregion-->
+
     <!--endregion-->
 
+    <!--region 损益表-->
+    <string name="查询时间">查询时间</string>
+    <string name="科目设置">科目设置</string>
+    <string name="时间">时间</string>
+    <string name="输入范围XX">输入范围%1$s</string>
+    <string name="请输入科目等级">请输入科目等级</string>
+    <string name="期末收入">期末收入</string>
+    <string name="期末支出">期末支出</string>
+    <string name="期末利润">期末利润</string>
+    <string name="本期发生额">本期发生额</string>
+    <string name="期末金额">期末金额</string>
+    <string name="本期收入">本期收入</string>
+    <string name="本期支出">本期支出</string>
+    <string name="本期利润">本期利润</string>
+    <string name="收入类">【收入类】</string>
+    <string name="支出类">【支出类】</string>
+    <string name="利润">【利润】</string>
+    <string name="科目名称">科目名称</string>
+    <string name="科目余额">科目余额</string>
+    <string name="输入科目级别">输入科目级别</string>
+    <string name="查看所有科目级别">查看所有科目级别</string>
+    <string name="隐藏余额为零的科目">隐藏余额为零的科目</string>
 
+    <!--endregion-->
+
+    <string name="开始时间不能晚于结束时间">开始时间不能晚于结束时间</string>
+    <string name="结束时间不能早于开始时间">结束时间不能早于开始时间</string>
+    <string name="客户销售汇总自定义字段">客户销售汇总自定义字段</string>
+    <string name="同一字段的类别不允许同时选择">同一字段的类别不允许同时选择</string>
 
 </resources>

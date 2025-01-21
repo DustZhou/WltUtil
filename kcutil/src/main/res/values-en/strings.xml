@@ -388,7 +388,7 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <string name="收款">Settlement</string>
     <string name="退出">Exit</string>
     <string name="客户">Customer</string>
-    <string name="仓库">warehouse</string>
+    <string name="仓库">Warehouse</string>
     <string name="扫条码">Scan</string>
     <string name="扫序列号">Scan</string>
     <string name="扫编号">Scan</string>
@@ -398,8 +398,9 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <string name="总数量">Total Qty</string>
     <string name="合计">Total</string>
     <string name="下单">Next</string>
-    <string name="请选择客户">Please select a customer</string>
-    <string name="请选择仓库">Please select a warehouse</string>
+    <string name="请选择客户">Please select Customer</string>
+    <string name="请选择仓库">Please select Warehouse</string>
+    <string name="选择仓库">Select a Warehouse</string>
     <string name="选择客户">Go to</string>
     <string name="请允许管家婆物联通访问您的相机若不允许您将无法使用扫描和拍照功能">Please allow “管家婆物联通” to access your camera so that you can use the scanning and photographing functions.</string>
     <string name="将条码放入取景框即可自动扫描">Scan the QR code here</string>
@@ -488,6 +489,7 @@ Usage: After entering keywords each time, press the space bar to continue to ent
 
     <string name="机构">Branch</string>
     <string name="分支机构">Branch</string>
+    <string name="选择分支机构">Select Branch</string>
     <string name="单据日期">Bill Date</string>
     <string name="交货日期">Delivery Date</string>
     <string name="还款日期">Repayment Date</string>
@@ -1356,6 +1358,7 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <string name="日期">Date</string>
     <string name="销售明细">Sales Details</string>
     <string name="请选择商品">Please select goods</string>
+    <string name="选择商品">Select Goods</string>
     <string name="关闭">Close</string>
     <string name="查询">Query</string>
     <string name="查询1">Query</string>
@@ -1612,7 +1615,7 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <string name="请输入正确的手机型号">Please enter the correct phone model</string>
     <string name="补货">replenishment</string>
     <string name="拍照">Take a picture</string>
-    <string name="返回">back</string>
+    <string name="返回">Back</string>
     <string name="解绑">Unbind</string>
     <string name="在职">On the job</string>
     <string name="离职">Left the job</string>
@@ -1729,7 +1732,7 @@ Usage: After entering keywords each time, press the space bar to continue to ent
         <item>{\"FileID\":\"YPTotal\",\"FileName\":\"Prepaid amount\"}</item><!--10-->
     </string-array>
 
-
+    <string name="往来余额元">Transaction Balance (Yuan)</string>
     <!--endregion-->
 
     <!--region 任务进度-->
@@ -1777,9 +1780,49 @@ Usage: After entering keywords each time, press the space bar to continue to ent
 
     <string name="序列号跟踪">Serial Tracking</string>
     <string name="基本单位条码">Basic unit barcode</string>
-
+    <string name="请输入序列号">Please enter the serial number</string>
+    <string name="请先授权XX查询权限">Please authorize %1$ query permission first</string>
+    <string name="无此商品的库存序列号记录">No inventory serial number record for this item!</string>
+    <string name="序列号库存">Serial Inventory</string>
 
     <!--endregion-->
 
+
+
      <!--endregion-->
+
+    <!--region 损益表-->
+    <string name="查询时间">Date</string>
+    <string name="科目设置">Account Settings</string>
+    <string name="本期发生额">This period amount incurred</string>
+    <string name="期末金额">Ending balance</string>
+    <string name="本期收入">This period revenue</string>
+    <string name="本期支出">This period expenses</string>
+    <string name="本期利润">This period Profit </string>
+    <string name="收入类">[Revenue category]</string>
+    <string name="支出类">[Expense category]</string>
+    <string name="利润">[Profit]</string>
+
+
+    <string name="时间">Time</string>
+    <string name="期末收入">Ending income</string>
+    <string name="期末支出">Ending expenditure</string>
+    <string name="期末利润">Ending profit</string>
+    <string name="输入范围XX">Input range %1$s</string>
+    <string name="请输入科目等级">Please enter an account grade</string>
+    <string name="科目名称">Account Name</string>
+    <string name="科目余额">Account Balance</string>
+    <string name="查看所有科目级别">View all subject levels</string>
+    <string name="隐藏余额为零的科目">Hide accounts with zero balance</string>
+    <string name="输入科目级别">Enter account level</string>
+
+
+
+    <!--endregion-->
+    <string name="开始时间不能晚于结束时间">Start time cannot be later than end time</string>
+    <string name="结束时间不能早于开始时间">The end time cannot be earlier than the start time</string>
+    <string name="客户销售汇总自定义字段">Customer Sales Summary Custom Fields</string>
+    <string name="同一字段的类别不允许同时选择">Categories of the same field cannot be selected at the same time</string>
+
+
  </resources>

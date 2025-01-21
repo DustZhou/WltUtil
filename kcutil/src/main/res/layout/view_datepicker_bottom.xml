@@ -110,7 +110,7 @@
                 android:id="@+id/starttitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="开始日期"
+                android:text="@string/开始日期"
                 android:textColor="#808080"
                 android:textSize="13sp"
                 app:layout_constraintLeft_toLeftOf="parent"
@@ -218,7 +218,7 @@
         android:id="@+id/startview"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:text="开始日期"
+        android:text="@string/开始日期"
         android:gravity="center"
         android:textColor="#808080"
         android:textSize="14sp"
@@ -301,17 +301,19 @@
 
     <TextView
         android:id="@+id/endview"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="0dp"
-        android:text="结束日期"
         android:gravity="center"
-        android:textColor="#808080"
-        android:textSize="14sp"
         android:paddingStart="30dp"
         android:paddingEnd="30dp"
+        android:text="@string/结束日期"
+        android:textColor="#808080"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/layoutend"
+        app:layout_constraintEnd_toEndOf="@+id/startview"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/layoutend"
-        app:layout_constraintBottom_toBottomOf="@+id/layoutend"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/layoutend" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:paddingTop="25dp"
