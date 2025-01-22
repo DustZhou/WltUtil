@@ -1189,7 +1189,6 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <string name="商品新增"> Add Product</string>
     <string name="保存">Save</string>
     <string name="清除">Clear</string>
-    <string name="商品">Name</string>
     <string name="云商品">Identify</string>
     <string name="类别">Classify</string>
     <string name="单位1">1st Unit</string>
