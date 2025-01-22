@@ -400,7 +400,7 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <string name="删除">Delete</string>
     <string name="复制">Copy</string>
     <string name="提交">Submit</string>
-    <string name="单据编号">BillNo.</string>
+    <string name="单据编号">BillNo</string>
     <string name="经手人">Handler</string>
     <string name="往来单位">Counterpart</string>
     <string name="部门">Department</string>
@@ -1845,17 +1845,40 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <string name="请输入科目等级">Please enter an account grade</string>
     <string name="科目名称">Account Name</string>
     <string name="科目余额">Account Balance</string>
-    <string name="查看所有科目级别">View all subject levels</string>
-    <string name="隐藏余额为零的科目">Hide accounts with zero balance</string>
-    <string name="输入科目级别">Enter account level</string>
+
 
 
 
     <!--endregion-->
+
+    <!--region 资产负债表-->
+    <string name="截止">Cut-off date</string>
+    <string name="客户设置">Settings</string>
+    <string name="输入科目级别">Enter account level</string>
+    <string name="查看所有科目级别">View all account levels</string>
+    <string name="隐藏余额为零的科目">Hide accounts with zero balance</string>
+    <string name="输入范围">Enter the range</string>
+    <string name="资产">Assets</string>
+    <string name="负债">Liabilities</string>
+    <string name="所有者权益合计">Total owner’s equity</string>
+    <string name="负债and所有者权益合计">Total liabilities + owner’s equity</string>
+    <string name="资产合计">[Total Assets]</string>
+    <string name="负债合计">[Total Liabilities]</string>
+    <string name="所有者权益">[Owner’s Equity]</string>
+
+
+
+
+    <!--endregion-->
+
     <string name="开始时间不能晚于结束时间">Start time cannot be later than end time</string>
     <string name="结束时间不能早于开始时间">The end time cannot be earlier than the start time</string>
     <string name="客户销售汇总自定义字段">Customer Sales Summary Custom Fields</string>
     <string name="同一字段的类别不允许同时选择">Categories of the same field cannot be selected at the same time</string>
+    <string name="扫描单据编号">Scan BillNo</string>
+    <string name="发货">Shipment</string>
+    <string name="已发货">Shipped</string>
+    <string name="仓库发货">Warehouse delivery</string>
 
 
  </resources>

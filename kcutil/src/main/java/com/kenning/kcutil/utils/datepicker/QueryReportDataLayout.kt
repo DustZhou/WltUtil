@@ -15,6 +15,7 @@ import com.kenning.kcutil.utils.date.DateEnum
 import com.kenning.kcutil.utils.date.DateExtendUtil
 import com.kenning.kcutil.utils.date.Date_Format
 import com.kenning.kcutil.utils.other.ToastUtil
+import com.kenning.kcutil.utils.other.getStringResource
 import com.kenning.kcutil.utils.other.outOf
 import com.kenning.kcutil.widget.basicview.BackGroundTextView
 //import com.zyyoona7.popup.EasyPopup
@@ -116,7 +117,7 @@ class QueryReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterfac
                     viewBinding.tvOther.text = BeginDate + "至" + EndDate
                 }
             } else {
-                viewBinding.tvOther.text = _mActivity!!.getString(R.string.自定义)
+                viewBinding.tvOther.text = getStringResource(R.string.自定义)
             }
 
             setSaleMainTypeView(activity, this.CustomeBillDateType, true)
@@ -388,7 +389,7 @@ class QueryReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterfac
             }
         }
         if (CustomeBillDateType != DateEnum.OTHER.name) {
-            viewBinding.tvOther.text = _mActivity!!.getString(R.string.自定义)
+            viewBinding.tvOther.text = getStringResource(R.string.自定义)
         }
         newView.setStrokeColor(Color.parseColor("#2F72FE"))
         newView.setNormalBackgroundColor(Color.parseColor("#E6EEFF"))
@@ -406,7 +407,7 @@ class QueryReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterfac
                     start
                 ) > LimitDays
             ) {
-                ToastUtil.show(_mActivity!!.getString(R.string.仅能选择X天日期, LimitDays.toString()))
+                ToastUtil.show(getStringResource(R.string.仅能选择X天日期, LimitDays.toString()))
                 return false
             }
         }
@@ -417,7 +418,7 @@ class QueryReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterfac
                 end
             ) > 0
         ) {
-            ToastUtil.show(_mActivity!!.getString(R.string.不允许结束日期早于开始日期))
+            ToastUtil.show(getStringResource(R.string.不允许结束日期早于开始日期))
             return false
         }
 

@@ -1884,15 +1884,36 @@
     <string name="利润">【利润】</string>
     <string name="科目名称">科目名称</string>
     <string name="科目余额">科目余额</string>
+
+    <!--endregion-->
+    <!--region 资产负债表-->
+
+    <string name="截止">截止</string>
+    <string name="客户设置">客户设置</string>
     <string name="输入科目级别">输入科目级别</string>
     <string name="查看所有科目级别">查看所有科目级别</string>
     <string name="隐藏余额为零的科目">隐藏余额为零的科目</string>
+    <string name="输入范围">输入范围</string>
+    <string name="资产">资产</string>
+    <string name="负债">负债</string>
+    <string name="所有者权益合计">所有者权益合计</string>
+    <string name="负债and所有者权益合计">负债 + 所有者权益合计</string>
+    <string name="资产合计">【资产合计】</string>
+    <string name="负债合计">【负债合计】</string>
+    <string name="所有者权益">【所有者权益】</string>
+
 
     <!--endregion-->
 
+
+
+    <string name="扫描单据编号">扫描单据编号</string>
     <string name="开始时间不能晚于结束时间">开始时间不能晚于结束时间</string>
     <string name="结束时间不能早于开始时间">结束时间不能早于开始时间</string>
     <string name="客户销售汇总自定义字段">客户销售汇总自定义字段</string>
     <string name="同一字段的类别不允许同时选择">同一字段的类别不允许同时选择</string>
+    <string name="发货">发货</string>
+    <string name="已发货">已发货</string>
+    <string name="仓库发货">仓库发货</string>
 
 </resources>
