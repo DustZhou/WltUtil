@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--region zyl 2025-01-22新补充-->
+    <string name="请输入备注内容">请输入备注内容</string>
+    <string name="此处添加备注内容">此处添加备注内容</string>
+    <string name="会员">会员</string>
+    <string name="会员卡号">会员卡号</string>
+    <string name="会员卡号或手机号">会员卡号或手机号</string>
+    <string name="会员详情">会员详情</string>
+    <string name="消费明细">消费明细</string>
+    <string name="充值明细">充值明细</string>
+    <string name="此前欠款">此前欠款</string>
+    <string name="收款账户">收款账户</string>
+    <string name="科目金额">科目金额</string>
+    <string name="口味">口味</string>
+    <string name="时段促销">时段促销</string>
+    <string name="批次">批次</string>
+    <string name="添加新批次">添加新批次</string>
+    <string name="需录">需录</string>
+    <string name="已录">已录</string>
+    <string name="补录">补录</string>
+    <!--endregion-->
     <!--region 价格跟踪-->
     <string name="必须要选择商品或往来单位两者不能同时为空">必须要选择商品或往来单位，两者不能同时为空</string>
     <string name="最近销售">最近销售</string>
@@ -293,6 +313,12 @@
     <string name="车销还货">车销还货</string>
     <string name="配送">配送</string>
     <string name="配送交账">配送交账</string>
+    <string name="预存货单">预存货单</string>
+    <string name="销售抄单">销售抄单</string>
+    <string name="装车要货">装车要货</string>
+    <string name="盘点还货">盘点还货</string>
+    <string name="清欠账款">清欠账款</string>
+    <string name="订货报表">订货报表</string>
     <!--endregion-->
 
     <!--region 开单-->
@@ -430,7 +456,7 @@
     <string name="单价">单价</string>
     <string name="选价">选价</string>
     <string name="折扣">折扣</string>
-    <string name="折扣单价">折扣单价</string>
+    <string name="折后单价">折后单价</string>
     <string name="税率">税率</string>
     <string name="含税单价">含税单价</string>
     <string name="金额">金额</string>
@@ -1527,6 +1553,7 @@
     <string name="出入库日期">出 / 入库日期</string>
     <string name="条码一维图片">条码一维图片</string>
     <string name="单据中打印标签份数与商品数量相同">单据中打印标签份数与商品数量相同</string>
+    <string name="生产日期">生产日期</string>
     <string name="到期日期">到期日期</string>
     <string name="公章二维码">公章 / 二维码</string>
     <string name="自定义表头">自定义表头</string>

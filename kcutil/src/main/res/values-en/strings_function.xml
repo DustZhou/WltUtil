@@ -28,8 +28,8 @@
   <string name="MoveApplyBill">Trans Req</string>
   <string name="SameMove">SamePriceTran</string>
   <string name="DistinctMove">ChgPriceTran</string>
-  <string name="STypeMoveOutBill"></string>
-  <string name="STypeMoveInBill"></string>
+  <string name="STypeMoveOutBill">STypeMoveOutBill</string>
+  <string name="STypeMoveInBill">STypeMoveInBill</string>
   <string name="OtherOutBill">OthOutBill</string>
   <string name="OtherInBill">OthInBill</string>
   <string name="StockCheck">StockTake</string>
@@ -37,8 +37,8 @@
   <string name="LoseBill">InvLossBill</string>
   <string name="OverFlowBill">InvIncBill</string>
   <string name="DisassembleBill">MatDismAsmForm</string>
-  <string name="BillCheckManage"></string>
-  <string name="BillFillManage"></string>
+  <string name="BillCheckManage">BillCheckManage</string>
+  <string name="BillFillManage">BillFillManage</string>
   <string name="ApplyGoodsBill">GoodsReqForm</string>
   <string name="DeliveryBill">Store Delivery</string>
   <string name="DeliveryQuery">Delivery Inquiry</string>
@@ -47,7 +47,7 @@
   <string name="BorrowReturn">Return of Loaned In</string>
   <string name="LendBill">Lending Slip</string>
   <string name="LendReturn">Return of Loaned Out</string>
-  <string name="ColligateSale">？</string>
+  <string name="ColligateSale">ColligateSale</string>
   <string name="QuickSaleBill">HandySalBill</string>
   <string name="LocalBillManage">Pending Order</string>
   <string name="SaleOrderCheck">SalOrdDelChk</string>
