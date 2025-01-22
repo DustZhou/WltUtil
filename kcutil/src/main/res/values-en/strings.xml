@@ -1176,7 +1176,6 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <string name="图片">Images</string>
     <string name="分享">Share</string>
     <string name="修改">Edit</string>
-    <string name="名称">Name</string>
     <string name="库存数量">Inventory Qty</string>
     <string name="备注1">Remarks</string>
     <string name="数量1">Quantity</string>
@@ -1197,6 +1196,8 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <string name="单位3">3st Unit </string>
     <string name="换算率2">2st Rate</string>
     <string name="换算率3">3st Rate</string>
+    <string name="请输入内容">please enter your content</string>
+    <string name="批次管理">batchManagement</string>
     <string name="成本算法">Cost Algorithm</string>
     <string name="商品信息1">Product Details</string>
     <string name="商品价格">Price Lists</string>

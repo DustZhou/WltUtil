@@ -1197,7 +1197,6 @@
     <string name="图片">图片</string>
     <string name="分享">分享</string>
     <string name="修改">修改</string>
-    <string name="名称">名称</string>
     <string name="库存数量">库存数量</string>
     <string name="备注1">备注</string>
     <string name="数量1">数量</string>
@@ -1219,6 +1218,8 @@
     <string name="单位3">单位3</string>
     <string name="换算率2">换算率2</string>
     <string name="换算率3">换算率3</string>
+    <string name="请输入内容">请输入内容</string>
+    <string name="批次管理">批次管理</string>
     <string name="成本算法">成本算法</string>
     <string name="商品信息1">商品信息</string>
     <string name="商品价格">商品价格</string>
