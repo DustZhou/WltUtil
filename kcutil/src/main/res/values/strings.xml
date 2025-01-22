@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--region zyl 2025-01-22新补充-->
+    <string name="重量kg">重量(kg)</string>
+    <string name="体积">体积</string>
+    <string name="重量">重量</string>
+    <string name="总里程数">总里程数</string>
     <string name="请输入备注内容">请输入备注内容</string>
     <string name="此处添加备注内容">此处添加备注内容</string>
     <string name="会员">会员</string>
@@ -21,7 +25,11 @@
     <string name="补录">补录</string>
     <string name="批次选择">批次选择</string>
     <string name="输入批号">输入批号</string>
-    <string name="所有仓库货位批次">所有仓库货位批次</string>
+    <string name="所有仓库货位批次">所有仓库、货位批次</string>
+    <string name="流程管理">流程管理</string>
+    <string name="我发起的">我发起的</string>
+    <string name="我审批的">我审批的</string>
+    <string name="确认">确认</string>
     <!--endregion-->
     <!--region 价格跟踪-->
     <string name="必须要选择商品或往来单位两者不能同时为空">必须要选择商品或往来单位，两者不能同时为空</string>
@@ -216,6 +224,11 @@
     <!--endregion-->
 
     <!--region 登录页-->
+    <string name="考勤时间到了亲">考勤时间到了，亲！</string>
+    <string name="服务器二维码格式不正确">服务器二维码格式不正确</string>
+    <string name="请扫物联通服务器生成的二维码">请扫物联通服务器生成的二维码</string>
+    <string name="登录方式说明">登录方式说明</string>
+    <string name="登录方式说明内容">1.若您的物联通系统地址为yunwlt.wltrj.com,请使用公司名称方式登录\n\n2.若您的物联通系统不是通过上述地址访问，请点击【其他方式登录】，输入物联通服务器地址登录。</string>
     <string name="确认登录方式">确认登录方式</string>
     <string name="您的物联通服务器地址为yunwlt.wltrj.com时选择云管家婆登录方式否则用其他方式登录">您的物联通服务器地址为yunwlt.wltrj.com时选择云管家婆登录方式，否则用其他方式登录</string>
     <string name="跳过">跳过</string>
@@ -1225,6 +1238,7 @@
     <string name="商品价格">商品价格</string>
     <string name="单位条码">单位条码</string>
     <string name="添加完条码后点加号确认">添加完条码后点加号确认</string>
+    <string name="默认">默认</string>
     <string name="设为默认">设为默认</string>
     <string name="单位条码X与商品其他单位条码重复">单位条码X与商品其他单位条码重复</string>
     <string name="是否删除当前条码">是否删除当前条码</string>
@@ -1714,6 +1728,7 @@
 
     <string name="没有上一级">没有上一级</string>
     <string name="没有上一级了">没有上一级了</string>
+    <string name="上级">上级</string>
     <string name="上一级">上一级</string>
     <string name="输入编号名称简拼条码">输入编号名称简拼条码</string>
     <string name="序">序</string>
