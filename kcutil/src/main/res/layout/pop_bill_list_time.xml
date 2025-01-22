@@ -36,7 +36,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:padding="@dimen/dp_10"
-                android:text="今天"
+                android:text="@string/今日"
                 android:textColor="@color/color_333333"
                 android:textSize="@dimen/sp_14" />
 
@@ -69,7 +69,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:padding="@dimen/dp_10"
-                android:text="昨天"
+                android:text="@string/昨日"
                 android:textColor="@color/color_333333"
                 android:textSize="@dimen/sp_14" />
 
@@ -102,7 +102,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:padding="@dimen/dp_10"
-                android:text="本周"
+                android:text="@string/本周"
                 android:textColor="@color/color_333333"
                 android:textSize="@dimen/sp_14" />
 
@@ -136,7 +136,7 @@
                 android:layout_weight="1"
                 android:gravity="center|left"
                 android:padding="@dimen/dp_10"
-                android:text="上周"
+                android:text="@string/上周"
                 android:textColor="@color/color_333333"
                 android:textSize="@dimen/sp_14" />
 
@@ -169,7 +169,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:padding="@dimen/dp_10"
-                android:text="本月"
+                android:text="@string/本月"
                 android:textColor="@color/color_333333"
                 android:textSize="@dimen/sp_14" />
 
@@ -203,7 +203,7 @@
                 android:layout_weight="1"
                 android:gravity="center|left"
                 android:padding="@dimen/dp_10"
-                android:text="上月"
+                android:text="@string/上月"
                 android:textColor="@color/color_333333"
                 android:textSize="@dimen/sp_14" />
 
@@ -236,7 +236,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:padding="@dimen/dp_10"
-                android:text="本季度"
+                android:text="@string/本季度"
                 android:textColor="@color/color_333333"
                 android:textSize="@dimen/sp_14" />
 
@@ -270,7 +270,7 @@
                 android:layout_weight="1"
                 android:gravity="center|left"
                 android:padding="@dimen/dp_10"
-                android:text="上季度"
+                android:text="@string/上季度"
                 android:textColor="@color/color_333333"
                 android:textSize="@dimen/sp_14" />
 
@@ -303,7 +303,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:padding="@dimen/dp_10"
-                android:text="本年"
+                android:text="@string/本年"
                 android:textColor="@color/color_333333"
                 android:textSize="@dimen/sp_14" />
 
@@ -336,7 +336,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:padding="@dimen/dp_10"
-                android:text="自定义"
+                android:text="@string/自定义"
                 android:textColor="@color/color_333333"
                 android:textSize="@dimen/sp_14" />
 
@@ -365,7 +365,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:padding="@dimen/dp_10"
-                android:text="自定义"
+                android:text="@string/自定义"
                 android:textColor="@color/color_333333"
                 android:textSize="@dimen/sp_14" />
 

@@ -19,6 +19,9 @@
     <string name="需录">需录</string>
     <string name="已录">已录</string>
     <string name="补录">补录</string>
+    <string name="批次选择">批次选择</string>
+    <string name="输入批号">输入批号</string>
+    <string name="所有仓库货位批次">所有仓库货位批次</string>
     <!--endregion-->
     <!--region 价格跟踪-->
     <string name="必须要选择商品或往来单位两者不能同时为空">必须要选择商品或往来单位，两者不能同时为空</string>
@@ -217,6 +220,8 @@
     <string name="您的物联通服务器地址为yunwlt.wltrj.com时选择云管家婆登录方式否则用其他方式登录">您的物联通服务器地址为yunwlt.wltrj.com时选择云管家婆登录方式，否则用其他方式登录</string>
     <string name="跳过">跳过</string>
     <string name="公司名称">公司名称</string>
+    <string name="其他方式登录">其他方式登录</string>
+    <string name="云管家婆方式登录">云管家婆方式登录</string>
     <string name="输入其他方式登录">输入其他方式登录</string>
     <string name="使用公司名称登录">使用公司名称登录</string>
     <string name="请输入公司名称">请输入公司名称</string>
@@ -631,6 +636,8 @@
     <string name="挂单更多中">挂单（更多中）</string>
     <string name="分享更多中">分享（更多中）</string>
     <string name="打印商品标签更多中">打印商品标签（更多中）</string>
+    <string name="连接">连接</string>
+    <string name="配置">配置</string>
     <string name="打印">打印</string>
     <string name="存草稿">存草稿</string>
     <string name="收订金跳预收款单存草稿过账都有">收订金（跳预收款单；存草稿、过账都有）</string>
@@ -1205,7 +1212,7 @@
      <string name="商品新增">商品新增</string>
     <string name="保存">保存</string>
     <string name="清除">清除</string>
-    <string name="商品名称">商品（名称）</string>
+    <string name="商品">商品</string>
     <string name="云商品">云商品</string>
     <string name="单位1">单位1</string>
     <string name="单位2">单位2</string>

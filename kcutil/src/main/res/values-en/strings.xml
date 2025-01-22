@@ -19,6 +19,9 @@
     <string name="需录">recordsAreRequired</string>
     <string name="已录">recorded</string>
     <string name="补录">supplementation</string>
+    <string name="批次选择">batchSelection</string>
+    <string name="输入批号">enterTheLotNumber</string>
+    <string name="所有仓库货位批次">allWarehouseLocationLots</string>
     <!--endregion-->
     <!--region 价格跟踪-->
     <string name="必须要选择商品或往来单位两者不能同时为空">You must select either the commodity or the dealing unit, and both cannot be empty at the same time</string>
@@ -99,7 +102,7 @@
     <string name="管家婆物联通">Woolinte</string>
     <string name="管家婆物联通PDA">WoolintePDA</string>
     <string name="服务器地址">server address</string>
-    <string name="档案同步">File synchronization</string>
+    <string name="档案同步">Info Sync</string>
     <string name="编辑数据看板">Edit the data Kanban</string>
     <string name="菜单">Menu</string>
     <string name="请输入验证码">Please enter the verification code</string>
@@ -109,10 +112,10 @@
     <string name="设备注册">Device registration</string>
     <string name="货位">Freight space</string>
     <string name="下载">download</string>
-    <string name="报表">statement</string>
-    <string name="首页">Home page</string>
-    <string name="外勤">Work outside the office</string>
-    <string name="信息">Message</string>
+    <string name="报表">Reports</string>
+    <string name="首页">Home</string>
+    <string name="外勤">Visit</string>
+    <string name="信息">Info</string>
     <string name="系统">System</string>
     <string name="常用功能">Common function</string>
     <string name="档案同步成功">File synchronization succeeded</string>
@@ -209,6 +212,8 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <string name="您的物联通服务器地址为yunwlt.wltrj.com时选择云管家婆登录方式否则用其他方式登录">If your system’s login address is http://yunwlt.wltrj.com, log in with the company - name method; otherwise, use the server - address method.</string>
     <string name="跳过">Skip</string>
     <string name="公司名称">Company name</string>
+    <string name="其他方式登录">Other login methods</string>
+    <string name="云管家婆方式登录">Cloud Housekeeper login method</string>
     <string name="输入其他方式登录">Login by server address</string>
     <string name="使用公司名称登录">Login by company name</string>
     <string name="请输入公司名称">Enter the company name here</string>
@@ -621,6 +626,8 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <string name="挂单更多中">Pending</string>
     <string name="分享更多中">Share</string>
     <string name="打印商品标签更多中">print goods labels</string>
+    <string name="连接">connection</string>
+    <string name="配置">configure</string>
     <string name="打印">Print</string>
     <string name="存草稿">Save as draft</string>
     <string name="收订金跳预收款单存草稿过账都有">Receive deposit</string>
@@ -1182,7 +1189,7 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <string name="商品新增"> Add Product</string>
     <string name="保存">Save</string>
     <string name="清除">Clear</string>
-    <string name="商品名称">Name</string>
+    <string name="商品">Name</string>
     <string name="云商品">Identify</string>
     <string name="类别">Classify</string>
     <string name="单位1">1st Unit</string>
@@ -1238,7 +1245,7 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <string name="进行中的陈列协议">Ongoing agreements</string>
     <string name="查看更多1">View more</string>
     <string name="共拜访X次">Visited  X times</string>
-    <string name="开单">Create Bill</string>
+    <string name="开单">Bills</string>
     <string name="选择开单类型">Select Bill Type</string>
     <string name="拜访">Visit</string>
     <string name="选择地图类型">Select Map</string>
