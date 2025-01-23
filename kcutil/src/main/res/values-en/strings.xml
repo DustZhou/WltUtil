@@ -5,6 +5,14 @@
     <string name="好的">Okay</string>
     <!--endregion-->
     <!--region zyl 2025-01-23新补充-->
+    <string name="数据文件">Data files</string>
+    <string name="档案同步文件">Info Sync File</string>
+    <string name="周边商机客户">Opportunity customers</string>
+    <string name="我的打卡">myClockIn</string>
+    <string name="同事打卡">ColleagueClocksIn</string>
+    <string name="被驳回">Rejected</string>
+    <string name="待审核">ToBeReviewed</string>
+    <string name="数据上传">Data uploads</string>
     <string name="字段名称">The name of the field</string>
     <string name="打印份数">numberOfCopiesPrinted</string>
     <string name="未连接">Not connected</string>

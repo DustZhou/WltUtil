@@ -5,6 +5,15 @@
     <string name="好的">好的</string>
     <!--endregion-->
     <!--region zyl 2025-01-23新补充-->
+    <string name="数据文件">数据文件</string>
+    <string name="档案同步文件">档案同步文件</string>
+    <string name="周边商机客户">周边商机客户</string>
+    <string name="我的打卡">我的打卡</string>
+    <string name="同事打卡">同事打卡</string>
+    <string name="被驳回">被驳回</string>
+    <string name="待审核">待审核</string>
+    <string name="数据上传">数据上传</string>
+    <string name="字段名称">字段名称</string>
     <string name="打印份数">打印份数</string>
     <string name="未连接">未连接</string>
     <string name="已读取标签">已读取标签</string>
