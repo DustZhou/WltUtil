@@ -2026,6 +2026,11 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <string name="档案名称">File Name</string>
     <string name="全部业务员">All Salesman</string>
     <string name="全部商品">All Goods</string>
+    <string name="存档人">Archiver:</string>
+    <string name="存档日期">Archived Date:</string>
+
+    <string name="提成周期">Royalty cycle</string>
+    <string name="商品名称">Goods Name</string>
 
     <!--endregion-->
 

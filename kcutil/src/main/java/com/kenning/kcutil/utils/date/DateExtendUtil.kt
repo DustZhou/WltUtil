@@ -4,12 +4,14 @@ import android.os.Build
 import android.os.Bundle
 import android.os.Handler
 import android.os.Message
+import com.kenning.kcutil.R
 import com.kenning.kcutil.utils.date.Date_Format.sdf5
 import com.kenning.kcutil.utils.date.Date_Format.sdf8
 import com.kenning.kcutil.utils.math.CHENG
 import com.kenning.kcutil.utils.math.CHU
 import com.kenning.kcutil.utils.math.JIAN
 import com.kenning.kcutil.utils.math.toInt_
+import com.kenning.kcutil.utils.other.getStringResource
 import java.text.ParseException
 import java.text.SimpleDateFormat
 import java.util.*
@@ -1364,39 +1366,39 @@ fun getDataName(CustomeBillDateType: String): String {
     return when (CustomeBillDateType) {
         //今天
         DateEnum.TODAY.name -> {
-            "今天"
+            getStringResource(R.string.今日)
         }
         //昨天
         DateEnum.YESTERDAY.name -> {
-            "昨天"
+            getStringResource(R.string.昨日)
         }
         //本周
         DateEnum.WEEK.name -> {
-            "本周"
+            getStringResource(R.string.本周)
         }
         //上周
         DateEnum.LAST_WEEK.name -> {
-            "上周"
+            getStringResource(R.string.上周)
         }
         //本季度
         DateEnum.THISQUARTER.name -> {
-            "本季度"
+            getStringResource(R.string.本季度)
         }
         //上季度
         DateEnum.LAST_QUARTER.name -> {
-            "上季度"
+            getStringResource(R.string.上季度)
         }
         //本年
         DateEnum.YEAR.name -> {
-            "本年"
+            getStringResource(R.string.本年)
         }
         //上月
         DateEnum.LAST_MONTH.name -> {
-            "上月"
+            getStringResource(R.string.上月)
         }
         //本月
         else -> {
-            "本月"
+            getStringResource(R.string.本月)
         }
     }
 }

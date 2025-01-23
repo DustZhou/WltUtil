@@ -85,7 +85,7 @@
                 android:background="@drawable/checkstyle_radiobutton"
                 android:button="@null"
                 android:gravity="center"
-                android:text="自定义"
+                android:text="@string/自定义"
                 android:textColor="@drawable/checkstyle_radiobutton" />
 
         </RadioGroup>

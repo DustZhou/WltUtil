@@ -2066,7 +2066,11 @@
     <string name="档案名称">档案名称</string>
     <string name="全部业务员">全部业务员</string>
     <string name="全部商品">全部商品</string>
+    <string name="存档人">存档人:</string>
+    <string name="存档日期">存档日期:</string>
 
+    <string name="提成周期">提成周期</string>
+    <string name="商品名称">商品名称</string>
 
     <!--endregion-->
 

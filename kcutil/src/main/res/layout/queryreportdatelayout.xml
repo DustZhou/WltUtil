@@ -200,7 +200,7 @@
             android:paddingHorizontal="@dimen/dp_6"
             android:gravity="center"
             android:minWidth="@dimen/dp_60"
-            android:text="自定义"
+            android:text="@string/自定义"
             android:textColor="#7C7F8E"
             android:textSize="@dimen/sp_14"
             app:bgradius="@dimen/dp_5"
