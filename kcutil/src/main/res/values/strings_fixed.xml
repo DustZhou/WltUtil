@@ -4,4 +4,8 @@
     <string name="重新获取验证码" translatable="false">重新获取验证码</string>
     <string name="请输入正确的验证码" translatable="false">请输入正确的验证码</string>
     <string name="发送成功" translatable="false">发送成功</string>
+    <string name="小通您的语音开单助手" translatable="false">小通-您的语音开单助手</string>
+    <string name="XX秒后停止录音" translatable="false">60秒后停止录音</string>
+    <string name="AI识别结果" translatable="false">AI识别结果</string>
+    <string name="AI智能识别仅用于辅助开单无法确保准确性请根据实际修改" translatable="false">AI智能识别仅用于辅助开单，无法确保准确性;请根据实际修改。</string>
 </resources>
