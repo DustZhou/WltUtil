@@ -1921,8 +1921,28 @@
 
     <!--endregion-->
 
+    <!--region 客户流失统计-->
+
+    <string name="请输入未开单未拜访天数进行查询">请输入未开单/未拜访天数进行查询！</string>
+    <string name="请勾选仅显示超期未开单未拜访的客户选项">请勾选仅显示超期未开单/未拜访的客户选项！</string>
+    <string name="请勾选仅显示从未开单从未拜访的客户选项">请勾选仅显示从未开单/从未拜访的客户选项！</string>
+
+    <string name="超期X天">超期%1$s天</string>
+
+    <!--endregion-->
+
+    <!--region 历史员工提成-->
+
+    <string name="档案名称">档案名称</string>
+    <string name="全部业务员">全部业务员</string>
+    <string name="全部商品">全部商品</string>
 
 
+    <!--endregion-->
+
+    <string name="未开单天数超过">未开单天数超过</string>
+    <string name="未拜访天数超过">未拜访天数超过</string>
+    <string name="天">天</string>
     <string name="扫描单据编号">扫描单据编号</string>
     <string name="开始时间不能晚于结束时间">开始时间不能晚于结束时间</string>
     <string name="结束时间不能早于开始时间">结束时间不能早于开始时间</string>

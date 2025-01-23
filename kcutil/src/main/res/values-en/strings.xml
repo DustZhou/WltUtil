@@ -821,7 +821,7 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <string name="销售趋势">Sales trend</string>
     <string name="库存信息">Inventory information</string>
     <string name="客户近况">Customers status</string>
-    <string name="客户流失统计">Customers churn statistics</string>
+    <string name="客户流失统计">Churn Report</string>
     <string name="活跃客户排行">Ranking of active customers</string>
     <string name="热销商品排行">Ranking of active products</string>
     <string name="销售数据">Sales data</string>
@@ -1883,10 +1883,30 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <string name="所有者权益">[Owner’s Equity]</string>
 
 
+    <!--region 客户流失统计-->
+    <string name="请输入未开单未拜访天数进行查询">Please enter the number of days that have not been billing and visited to inquire!</string>
+    <string name="请勾选仅显示超期未开单未拜访的客户选项">Please check the option to show only customers who have not been paid for overdue bills and have not visited!</string>
+    <string name="请勾选仅显示从未开单从未拜访的客户选项">Please check the option to show only customers who have never been billing and never visited!</string>
+    <string name="超期X天">%1$s days overdue</string>
+    <!--endregion-->
 
+    <!--region 历史员工提成-->
+
+    <string name="档案名称">File Name</string>
+    <string name="全部业务员">All Salesman</string>
+    <string name="全部商品">All Goods</string>
 
     <!--endregion-->
 
+    <!--endregion-->
+
+
+
+
+
+    <string name="未开单天数超过">Without orders</string>
+    <string name="未拜访天数超过">Without visits</string>
+    <string name="天">Day</string>
     <string name="开始时间不能晚于结束时间">Start time cannot be later than end time</string>
     <string name="结束时间不能早于开始时间">The end time cannot be earlier than the start time</string>
     <string name="客户销售汇总自定义字段">Customer Sales Summary Custom Fields</string>
