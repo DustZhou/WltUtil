@@ -2037,7 +2037,6 @@ Usage: After entering keywords each time, press the space bar to continue to ent
 
     <string name="未开单天数超过">Without orders</string>
     <string name="未拜访天数超过">Without visits</string>
-    <string name="天">Day</string>
     <string name="开始时间不能晚于结束时间">Start time cannot be later than end time</string>
     <string name="结束时间不能早于开始时间">The end time cannot be earlier than the start time</string>
     <string name="客户销售汇总自定义字段">Customer Sales Summary Custom Fields</string>
