@@ -28,7 +28,6 @@
     <string name="累计积分">累计积分</string>
     <string name="卡状态">卡状态</string>
     <string name="领料单">领料单</string>
-    <string name="至">至</string>
     <string name="拜访筛选">拜访筛选</string>
     <string name="回放">回放</string>
     <string name="后一天">后一天</string>
@@ -106,8 +105,6 @@
     <string name="继续操作">继续操作</string>
     <string name="定位时间">定位时间</string>
     <string name="定位">定位</string>
-    <string name="存档人">存档人</string>
-    <string name="存档日期">存档日期</string>
     <string name="职员">职员</string>
     <string name="订单状态">订单状态</string>
     <string name="请假查询">请假查询</string>

@@ -28,7 +28,6 @@
     <string name="累计积分">AccumulatePoints</string>
     <string name="卡状态">CardStatus</string>
     <string name="领料单">PickingLists</string>
-    <string name="至">To</string>
     <string name="拜访筛选">VisitScreening</string>
     <string name="回放">Replay</string>
     <string name="后一天">After</string>
@@ -97,7 +96,7 @@
     <string name="送达日期">DeliveryDate</string>
     <string name="职务">Position</string>
     <string name="通讯录">Phonebook</string>
-    <string name="抱歉没有找到商品额">Sorry, I didn't find the amount of the product~</string>
+    <string name="抱歉没有找到商品额">Sorry, I didn’t find the amount of the product~</string>
     <string name="收藏商品">collectibleItems</string>
     <string name="单据">bill</string>
     <string name="通知信息">notificationInformation</string>
@@ -106,8 +105,6 @@
     <string name="继续操作">go ahead</string>
     <string name="定位时间">positioningTime</string>
     <string name="定位">positioning</string>
-    <string name="存档人">archiver</string>
-    <string name="存档日期">archiveDate</string>
     <string name="职员">employees</string>
     <string name="订单状态">orderStatus</string>
     <string name="请假查询">leaveOfAbsenceInquiry</string>
