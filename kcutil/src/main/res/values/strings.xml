@@ -1288,6 +1288,18 @@
     <string name="拜访客户数">拜访客户数</string>
     <string name="委托结算单金额">委托结算单金额</string>
     <string name="受托结算单金额">受托结算单金额</string>
+    <string name="进货单">进货单</string>
+    <string name="进货换货">进货换货</string>
+    <string name="销售单">销售单</string>
+    <string name="收付款">收付款</string>
+    <string name="受委托">受/委托</string>
+    <string name="客户管理">客户管理</string>
+    <string name="客户流失">客户流失</string>
+
+    <string name="天未开单30">30天未开单</string>
+    <string name="天未拜访30">30天未拜访</string>
+
+
     <!--endregion-->
     <!--region 经营概况 -->
     <string name="账户余额">账户余额</string>
@@ -1302,6 +1314,9 @@
     <string name="销售笔数">销售笔数</string>
     <string name="销售数量">销售数量</string>
     <string name="销售毛利">销售毛利</string>
+    <string name="银行收付库存">银行收付库存</string>
+    <string name="正在计算成本">正在计算成本</string>
+    <string name="日报日期">日报日期</string>
 
     <!--endregion-->
     <!--region 老板一张表-->
@@ -2323,6 +2338,27 @@
 
     <!--endregion-->
 
+    <!--region 销售分析-->
+    <string name="利润元">利润(元)</string>
+    <string name="净销售额元">净销售额(元)</string>
+    <string name="销售金额元">销售金额(元)</string>
+    <string name="商品成本元">商品成本(元)</string>
+    <string name="销售毛利元">销售毛利(元)</string>
+    <string name="员工名称">员工名称</string>
+    <string name="上期">上期</string>
+    <string name="同期">同期</string>
+    <string name="XX家">%1$s家</string>
+    <string name="XX人">%1$s人</string>
+    <string name="XX个">%1$s个</string>
+    <string name="同比">同比</string>
+
+    <!--endregion-->
+
+    <!--region 收款日报-->
+    <string name="明细数据为空不能打印">明细数据为空，不能打印</string>
+    <string name="总金额元">总金额(元)</string>
+    <string name="打印失败">打印失败</string>
+    <!--endregion-->
     <string name="未开单天数超过">未开单天数超过</string>
     <string name="未拜访天数超过">未拜访天数超过</string>
     <string name="扫描单据编号">扫描单据编号</string>
@@ -2333,5 +2369,4 @@
     <string name="发货">发货</string>
     <string name="已发货">已发货</string>
     <string name="仓库发货">仓库发货</string>
-
 </resources>

@@ -32,7 +32,7 @@
             android:layout_marginHorizontal="@dimen/dp_20"
             android:layout_marginVertical="@dimen/dp_10"
             android:gravity="center"
-            android:text="关 闭"
+            android:text="@string/关闭"
             android:textColor="#778899"
             android:textSize="@dimen/sp_13" />
 
