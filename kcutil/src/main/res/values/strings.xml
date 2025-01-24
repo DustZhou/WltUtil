@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--region zyl 2025-01-24新补充-->
+    <string name="提交记录">提交记录</string>
+    <string name="单一业务单据">单一业务单据</string>
+    <string name="已提交">已提交</string>
+    <string name="新密码和确认密码不一致">新密码和确认密码不一致</string>
+    <string name="下载成功">下载成功</string>
+    <string name="已注册">已注册</string>
+    <string name="未注册">未注册</string>
+    <string name="开单时间升序">开单时间升序</string>
+    <string name="开单时间降序">开单时间降序</string>
     <string name="附件未提交">附件未提交</string>
     <string name="内含附件">内含附件</string>
     <string name="原价">原价</string>

@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--region zyl 2025-01-24新补充-->
+    <string name="提交记录">SubmitARecord</string>
+    <string name="单一业务单据">SingleBusinessDocument</string>
+    <string name="已提交">Submitted</string>
+    <string name="新密码和确认密码不一致">The new password and the confirmation password are inconsistent</string>
+    <string name="下载成功">Download was successful</string>
+    <string name="已注册">Registered</string>
+    <string name="未注册">NotRegistered</string>
+    <string name="开单时间升序">BillingTimeIsInAscendingOrder</string>
+    <string name="开单时间降序">OrdersAreOpenedInDescendingOrder</string>
     <string name="附件未提交">AttachmentWasNotSubmitted</string>
     <string name="内含附件">AccessoriesIncluded</string>
     <string name="原价">Price</string>
