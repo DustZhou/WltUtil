@@ -1,6 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--region 公共用语对照表-->
+    <!--region zyl 2025-01-24新补充-->
+    <string name="存档人">archiver</string>
+    <string name="存档日期">archiveDate</string>
+    <string name="职员">employees</string>
+    <string name="订单状态">orderStatus</string>
+    <string name="请假查询">leaveOfAbsenceInquiry</string>
+    <string name="提交时间">submissionTime</string>
+    <string name="未设置">notSet</string>
+    <string name="验货状态">inspectionStatus</string>
+    <string name="客户线路">customerLine</string>
+    <string name="AI智能中心">aiIntelligenceCenter</string>
+    <string name="限时体验">(forALimitedTime)</string>
+    <string name="语音开单">voiceBilling</string>
+    <string name="识图开单">pictureRecognitionAndBilling</string>
+    <string name="文本开单">textBilling</string>
+    <string name="您可以在下面文本框中粘贴输入开单内容系统将进行智能识别开单哦">You can paste/enter the billing content in the text box below, and the system will intelligently identify the billing~</string>
+    <string name="以下文本框内为示例请结合您实际商品进行AI开单">(The following text box is an example, please combine your actual products to make an AI bill)</string>
+    <string name="AI智能识别">aiIntelligentRecognition</string>
+    <string name="通知中心">notificationCenter</string>
+    <string name="请输入标题">pleaseEnterATitle</string>
+    <string name="作者">author</string>
+    <string name="接收人空为所有人">receiverEmptyForAll</string>
+    <string name="接收人">recipients</string>
+    <string name="内容">content</string>
+    <string name="标题">title</string>
+    <string name="盘点选项">stocktakingOptions</string>
+    <string name="盘点模式">inventoryMode</string>
+    <string name="分量盘点">portionCounting</string>
+    <string name="建议开始盘点时在管家婆系统中对已盘点到的产品停止出入库处理否则可能会造成盘点处理后的库存数量不准确">It is recommended that when starting the inventory, stop the inbound and outbound processing of the products that have been counted in the housekeeper system, otherwise it may cause the inventory quantity after the inventory processing to be inaccurate</string>
+    <string name="线路选择">routeSelection</string>
+    <string name="输入编号名称">enter the number name</string>
+    <string name="标签商品">labelProducts</string>
+    <string name="单据补录">supplementOfDocuments</string>
+    <string name="RFID识别">rfidIdentification</string>
+    <string name="绑定">binding</string>
+    <string name="账号绑定">accountBinding</string>
+    <string name="请先到微信中扫描此二维码关注管家婆物联通公众号绑定后可通过微信公众号接收消息通知">Please scan this QR code in WeChat to follow the official account of [Steward Powu Unicom], and after binding, you can receive message notifications through the WeChat official account</string>
+    <string name="十分钟内有效请尽快绑定">Valid for 10 minutes, please bind as soon as possible</string>
+    <string name="邀请尊敬的客户绑定公众号">Invite the respected [customer] to bind the official account</string>
+    <string name="已绑定管家婆物联通公众号">It has been bound to the official account of [Steward Powu Unicom].</string>
+    <string name="下载二维码">downloadTheQRCode</string>
+    <string name="二维码获取失败">theQRCodeAcquisitionFailed</string>
+    <string name="微信扫一扫">wechatSweep</string>
+    <string name="到店">arriveAtTheStore</string>
+    <string name="服务">service</string>
+    <string name="离店">departure</string>
+    <string name="在途">onTheWay</string>
+    <string name="距上一客户">fromThePreviousCustomer</string>
+    <string name="偏离">deviateFrom</string>
+    <string name="到店备注">arrivalNotes</string>
+    <string name="离店备注">departureNotes</string>
+    <string name="单据分享">documentSharing</string>
+    <string name="链接">link</string>
+    <string name="截屏">takeAScreenshot</string>
+    <string name="文件">file</string>
+    <string name="交易日期">theDateOfTheTransaction</string>
+    <string name="单号">number</string>
+    <string name="实收">paidUp</string>
+    <string name="小程序">miniPrograms</string>
+    <string name="单据链接">documentLink</string>
+    <string name="复制链接">copyTheLink</string>
+    <string name="链接分享需要先提交单据">To share the link, you need to submit a document first</string>
+    <string name="分享样式">shareTheStyle</string>
+    <string name="微信好友">wechatFriends</string>
+    <string name="QQ好友">qqFriends</string>
+    <string name="扫我立即结算">sweepMeToSettleImmediately</string>
+    <string name="多单位录入">multiUnitEntry</string>
+    <!--endregion-->
     <string name="暂无数据">No Data</string>
     <string name="好的">Okay</string>
     <!--endregion-->
@@ -58,6 +125,7 @@
     <string name="朋友圈">CircleOfFriends</string>
     <string name="请选照片类型">PleaseChooseAPhotographType</string>
     <string name="照片类型">PhotoType</string>
+    <string name="发卡人">Issuer</string>
     <string name="卡类型">CardType</string>
     <string name="拜访检视表">visitTheLookout</string>
     <string name="持卡人">Cardholder</string>
@@ -1124,7 +1192,7 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <string name="本期结存金额">Current - period balance amount</string>
     <!--endregion-->
     <!--region 收款日报-->
-     <string name="总金额">Total amount</string>
+    <string name="总金额">Total amount</string>
     <string name="收款明细">Collection details</string>
     <!--endregion-->
     <!--region 客户流失统计-->
@@ -2045,8 +2113,7 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <!--endregion-->
 
 
-
-     <!--endregion-->
+    <!--endregion-->
 
     <!--region 损益表-->
     <string name="查询时间">Date</string>
@@ -2069,8 +2136,6 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <string name="请输入科目等级">Please enter an account grade</string>
     <string name="科目名称">Account Name</string>
     <string name="科目余额">Account Balance</string>
-
-
 
 
     <!--endregion-->
@@ -2114,9 +2179,6 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <!--endregion-->
 
 
-
-
-
     <string name="未开单天数超过">Without orders</string>
     <string name="未拜访天数超过">Without visits</string>
     <string name="开始时间不能晚于结束时间">Start time cannot be later than end time</string>
@@ -2129,4 +2191,4 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <string name="仓库发货">Warehouse delivery</string>
 
 
- </resources>
+</resources>
