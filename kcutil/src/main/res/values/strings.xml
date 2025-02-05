@@ -1,6 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--region zyl 2025-02-05新补充-->
+    <string name="继续提交">继续提交</string>
+    <string name="序列号商品不能修改数量">序列号商品不能修改数量</string>
+    <string name="批次商品不能修改数量">批次商品不能修改数量</string>
+    <string name="单据异常">单据异常</string>
+    <string name="挂单成功">挂单成功</string>
+    <string name="序列号开单不允许更改计量单位">序列号开单不允许更改计量单位</string>
+    <string name="该商品已中止不支持编辑">该商品已中止不支持编辑</string>
+    <string name="税额">税额</string>
+    <string name="打印成功">打印成功</string>
+    <string name="请选择打印机">请选择打印机</string>
+    <string name="请选择开始日期">请选择开始日期</string>
+    <string name="请选择结束日期">请选择结束日期</string>
+    <string name="请选择出库仓库">请选择出库仓库</string>
+    <string name="请选择入库仓库">请选择入库仓库</string>
+    <string name="存在批次序列号信息不完整的商品数据">存在批次序列号信息不完整的商品数据</string>
+    <string name="支付通退款成功">支付通退款成功</string>
+    <string name="数据异常">数据异常</string>
+    <string name="无修改副单位数量的权限">无修改副单位数量的权限</string>
+    <string name="折后金额">折后金额</string>
+    <string name="请先将单据过账再进行打印">请先将单据过账，再进行打印</string>
+    <string name="付款金额与费用金额不等不允许保存">付款金额与费用金额不等，不允许保存</string>
+    <string name="选择账户">选择账户</string>
+    <string name="请选择部门">请选择部门</string>
+    <string name="选择部门">选择部门</string>
+    <string name="选择经手人">选择经手人</string>
+    <string name="选择类型">选择类型</string>
+    <string name="选择机构">选择机构</string>
+    <string name="继续">继续</string>
+    <string name="请选择业务类型">请选择业务类型</string>
+    <string name="优惠金额不能大于商品金额">优惠金额不能大于商品金额</string>
+    <string name="请选择分支机构">请选择分支机构</string>
+    <string name="复制成功">复制成功</string>
+    <string name="等待">等待</string>
+    <string name="新开单">新开单</string>
+    <string name="提交单据">提交单据</string>
+    <string name="折前单价">折前单价</string>
+    <string name="已中止">已中止</string>
+    <string name="门店开单配送价">门店开单配送价</string>
+    <string name="保存失败品牌结算信息未保存成功">保存失败,品牌结算信息未保存成功</string>
+    <string name="保存失败图片信息未保存成功">保存失败,图片信息未保存成功</string>
+    <string name="保存失败账户信息未保存成功">保存失败,账户信息未保存成功</string>
+    <string name="保存失败表头信息未保存成功">保存失败,表头信息未保存成功</string>
+    <string name="保存失败表身信息未保存成功">保存失败,表身信息未保存成功</string>
     <string name="正在刷价">正在刷价</string>
     <!--endregion-->
     <!--region zyl 2025-01-24新补充-->
@@ -540,16 +583,8 @@
     <string name="二等分">二等分</string>
     <string name="一等分">一等分</string>
     <string name="单据实际行数">单据实际行数</string>
-
-
-
     <string name="BillHeadBarCodeUserCodeSearchWayString">【效果】\n精确查询：编号/条码必须与输入内容完全一致才能被查询到\n模糊查询：编号/条码中只要包含被输入内容就可以被查询到\n左模糊查询：编号/条码后部分包含被输入内容就可以被查询到\n右模糊查询：编号/条码前部分包含被输入内容就可以被查询到\n\n【建议】\n模糊查询时，输入内容越多查询越精确，建议尽可能输入较多的内容\n\n【注意】\n1. 任何一种模糊查询方式都将降低查询效率，尤其在大数据量情况下可能造成查询卡住；请根据实际需要开启\n2. 开启模糊查询后，功能“根据条码规则识别商品、数量”、“开单扫描的商品条码去除末尾位数”、“检索条码时至少输入条码的末尾位数” 均不生效。</string>
-    <string name="PTypeSearchModelString">关键词模糊搜索：
-            根据搜索配置项，对搜索内容进行全局模糊查询，罗列出所有查询结果。不支持递进式搜索。
-
-            关键词递进搜索：
-            每次搜索时，是在上次查询结果中执行搜索，实现递进式搜索。
-            使用方法：每次输入关键词后，按空格键可继续输入关键词。</string>
+    <string name="PTypeSearchModelString">关键词模糊搜索：\n根据搜索配置项，对搜索内容进行全局模糊查询，罗列出所有查询结果。不支持递进式搜索。\n\n关键词递进搜索：\n每次搜索时，是在上次查询结果中执行搜索，实现递进式搜索。\n使用方法：每次输入关键词后，按空格键可继续输入关键词。</string>
     <string name="新品">新品</string>
     <string name="新品推广">新品推广</string>
     <string name="基本信息">基本信息</string>
@@ -637,7 +672,7 @@
     <string name="登录方式说明">登录方式说明</string>
     <string name="登录方式说明内容">1.若您的物联通系统地址为yunwlt.wltrj.com,请使用公司名称方式登录\n\n2.若您的物联通系统不是通过上述地址访问，请点击【其他方式登录】，输入物联通服务器地址登录。</string>
     <string name="确认登录方式">确认登录方式</string>
-    <string name="您的物联通服务器地址为yunwlt.wltrj.com时选择云管家婆登录方式否则用其他方式登录">您的物联通服务器地址为yunwlt.wltrj.com时选择云管家婆登录方式，否则用其他方式登录</string>
+    <string name="您的物联通服务器地址为yunwltwltrjcom时选择云管家婆登录方式否则用其他方式登录">您的物联通服务器地址为yunwlt.wltrj.com时选择云管家婆登录方式，否则用其他方式登录</string>
     <string name="跳过">跳过</string>
     <string name="公司名称">公司名称</string>
     <string name="其他方式登录">其他方式登录</string>
@@ -1083,7 +1118,7 @@
     <string name="本单已提交您无单据重复提交权限">本单已提交，您无单据重复提交权限!</string>
     <string name="本单已提交您无继续修改的权限">本单已提交，您无继续修改的权限!</string>
     <string name="您没有重复提交的权限">您没有重复提交的权限</string>
-    <string name="确定删除XXX吗">确定删除XXX吗？</string>
+    <string name="确定删除XX吗">确定删除%s吗？</string>
     <string name="确定退出单据吗">确定退出单据吗?</string>
     <string name="确认提交单据吗">确认提交单据吗？</string>
     <string name="确定退出吗">确定退出吗</string>
@@ -1142,7 +1177,7 @@
     <string name="单据条码识别失败">单据条码识别失败!</string>
     <string name="单据条码异常">单据条码异常!</string>
     <string name="没有该条码商品">没有该条码商品</string>
-    <string name="至少输入条码的后n位进行搜索">至少输入条码的后n位进行搜索</string>
+    <string name="至少输入条码的后n位进行搜索">至少输入条码的后%s位进行搜索</string>
     <string name="单据类型为空">单据类型为空</string>
     <string name="单据类型为空数据包有问题">单据类型为空，数据包有问题</string>
     <string name="该商品未达到选定的促销要求">该商品未达到选定的促销要求</string>
@@ -1151,7 +1186,7 @@
     <string name="该商品有促销组合">该商品有促销组合</string>
     <string name="已添加到编辑列表的商品请到编辑界面删除">已添加到编辑列表的商品请到编辑界面删除</string>
     <string name="折扣须小于等于">折扣须小于等于1</string>
-    <string name="数量必须大于">数量必须大于0</string>
+    <string name="数量必须大于0">数量必须大于0</string>
     <string name="数量不能为空">数量不能为空</string>
     <string name="数量不能为">数量不能为0</string>
     <string name="数量不能全为">数量不能全为0</string>
@@ -1222,9 +1257,8 @@
     <string name="未查询到与当前用户相匹配的打印组请确定已配置打印组并全新升级账套">未查询到与当前用户相匹配的打印组，请确定已配置打印组并全新升级账套</string>
     <string name="未查询到打印组内的打印样式请确定已配置打印样式并全新升级账套">未查询到打印组内的打印样式，请确定已配置打印样式并全新升级账套</string>
 
-    <string name="本单已打印">本单已打印：%1$s次</string>
-
-    <string name="单据已打印次">单据：%1$s已打印：%2$s次</string>
+    <string name="本单已打印XX次">本单已打印：%1$s次</string>
+    <string name="单据XX已打印XX次">单据：%1$s已打印：%2$s次</string>
     <string name="请重试">请重试</string>
     <string name="网络连接不正常">网络连接不正常！</string>
     <string name="无数据">无数据</string>

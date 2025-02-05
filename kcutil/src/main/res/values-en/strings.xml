@@ -1,6 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--region zyl 2025-02-05新补充-->
+    <string name="继续提交">ContinueToSubmit</string>
+    <string name="序列号商品不能修改数量">Serial number products cannot be modified in quantity</string>
+    <string name="批次商品不能修改数量">Quantities cannot be modified for batch products</string>
+    <string name="单据异常">Document exceptions</string>
+    <string name="挂单成功">The pending order is successful</string>
+    <string name="序列号开单不允许更改计量单位">Serial number billing does not allow you to change the unit of measure</string>
+    <string name="该商品已中止不支持编辑">The product has been discontinued and cannot be edited</string>
+    <string name="税额">税额</string>
+    <string name="打印成功">打印成功</string>
+    <string name="请选择打印机">PleaseSelectAPrinter</string>
+    <string name="请选择开始日期">Please select a start date</string>
+    <string name="请选择结束日期">Please select an end date</string>
+    <string name="请选择出库仓库">Please select an outbound warehouse</string>
+    <string name="请选择入库仓库">Please select an inbound warehouse</string>
+    <string name="存在批次序列号信息不完整的商品数据">There is product data with incomplete lot serial number information</string>
+    <string name="支付通退款成功">The refund is successful</string>
+    <string name="数据异常">Data anomalies</string>
+    <string name="无修改副单位数量的权限">You do not have the permission to modify the number of sub-units</string>
+    <string name="折后金额">折后金额</string>
+    <string name="请先将单据过账再进行打印">Please post the document before printing</string>
+    <string name="付款金额与费用金额不等不允许保存">The payment amount is not equal to the fee amount and is not allowed to be saved</string>
+    <string name="选择账户">Select Account</string>
+    <string name="请选择部门">请选择部门</string>
+    <string name="选择部门">选择部门</string>
+    <string name="选择经手人">选择经手人</string>
+    <string name="选择类型">选择类型</string>
+    <string name="选择机构">选择机构</string>
+    <string name="继续">继续</string>
+    <string name="请选择业务类型">请选择业务类型</string>
+    <string name="优惠金额不能大于商品金额">优惠金额不能大于商品金额</string>
+    <string name="请选择分支机构">请选择分支机构</string>
+    <string name="复制成功">复制成功</string>
+    <string name="等待">等待</string>
+    <string name="新开单">新开单</string>
+    <string name="提交单据">提交单据</string>
+    <string name="折前单价">折前单价</string>
+    <string name="已中止">已中止</string>
+    <string name="门店开单配送价">门店开单配送价</string>
+    <string name="保存失败品牌结算信息未保存成功">保存失败,品牌结算信息未保存成功</string>
+    <string name="保存失败图片信息未保存成功">保存失败,图片信息未保存成功</string>
+    <string name="保存失败账户信息未保存成功">保存失败,账户信息未保存成功</string>
+    <string name="保存失败表头信息未保存成功">保存失败,表头信息未保存成功</string>
+    <string name="保存失败表身信息未保存成功">保存失败,表身信息未保存成功</string>
     <string name="正在刷价">The price is being brushed</string>
     <!--endregion-->
     <!--region zyl 2025-01-24新补充-->
@@ -538,12 +581,7 @@
     <string name="一等分">A4</string>
     <string name="单据实际行数">The actual number of lines in the document</string>
     <string name="BillHeadBarCodeUserCodeSearchWayString">[Effect] \n precise query: the number/bar code must be exactly the same as the input content to be queried \n fuzzy query: The number/bar code as long as the input content can be queried \n left fuzzy query: The part after the number/bar code contains the input content can be queried \n right fuzzy query: The part before the number/bar code contains the input content can be queried \n\n \n [Suggestion] \n fuzzy query, the more the input content the more accurate the query, it is recommended to input more content \n\n \n [Note] \n1. Any kind of fuzzy query will reduce the query efficiency, especially in the case of large data volume may cause the query jam; Please turn on \n2 according to the actual need. After the fuzzy query is turned on, the functions "identify the goods and quantity according to the barcode rules", "remove the last digit of the barcode scanned by the invoice", and "enter at least the last digit of the barcode when retrieving the barcode" do not take effect.</string>
-    <string name="PTypeSearchModelString">Keyword fuzzy search:
-According to the search configuration items, the global fuzzy query is performed to list all the search results. Progressive search is not supported.
-
-Keyword progressive search:
-For each search, the search is performed in the last query result to achieve a progressive search.
-Usage: After entering keywords each time, press the space bar to continue to enter keywords.</string>
+    <string name="PTypeSearchModelString">Keyword fuzzy search:\n According to the search configuration items, the global fuzzy query is performed to list all the search results. Progressive search is not supported.\n\n Keyword progressive search:\n For each search, the search is performed in the last query result to achieve a progressive search.\n Usage: After entering keywords each time, press the space bar to continue to enter keywords.</string>
     <string name="新品">New product</string>
     <string name="新品推广">New product promotion</string>
     <string name="基本信息">Basic information</string>
@@ -627,7 +665,7 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <string name="登录方式说明">instructionsOnHowToLogIn</string>
     <string name="登录方式说明内容">1. If your IoT system address is yunwlt.wltrj.com, please log in with your company name\n\n2.If your IoT system is not accessed through the above address, please click [Login by other methods] and enter the server address of the IoT to log in.</string>
     <string name="确认登录方式">Tips</string>
-    <string name="您的物联通服务器地址为yunwlt.wltrj.com时选择云管家婆登录方式否则用其他方式登录">If your system’s login address is http://yunwlt.wltrj.com, log in with the company - name method; otherwise, use the server - address method.</string>
+    <string name="您的物联通服务器地址为yunwltwltrjcom时选择云管家婆登录方式否则用其他方式登录">If your system’s login address is http://yunwlt.wltrj.com, log in with the company - name method; otherwise, use the server - address method.</string>
     <string name="跳过">Skip</string>
     <string name="公司名称">Company name</string>
     <string name="其他方式登录">Other login methods</string>
@@ -1072,7 +1110,7 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <string name="本单已提交您无单据重复提交权限">The bill has been submitted. You have no permission to submit bills repeatedly!</string>
     <string name="本单已提交您无继续修改的权限">The bill has been submitted. You have no permission to continue the modification！</string>
     <string name="您没有重复提交的权限">You have no permission to submit bills repeatedly!</string>
-    <string name="确定删除XXX吗">Are you sure to delete XXX?</string>
+    <string name="确定删除XX吗">Are you sure to delete %s?</string>
     <string name="确定退出单据吗">Are you sure to exit the bill?</string>
     <string name="确认提交单据吗">Are you sure to submit the bills?</string>
     <string name="确定退出吗">Are you sure to exit</string>
@@ -1135,7 +1173,7 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <string name="该商品有促销组合">This product has a promotional combination</string>
     <string name="已添加到编辑列表的商品请到编辑界面删除">Please delete the items that have been added to the edit list from the edit screen</string>
     <string name="折扣须小于等于"></string>
-    <string name="数量必须大于">Qty must be greater than 0</string>
+    <string name="数量必须大于0">Qty must be greater than 0</string>
     <string name="数量不能为空">Qty cannot be empty</string>
     <string name="数量不能为">Qty cannot be 0</string>
     <string name="数量不能全为">Qty cannot be all 0</string>
@@ -1199,8 +1237,8 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <string name="无打印样式">No printing style</string>
     <string name="未查询到与当前用户相匹配的打印组请确定已配置打印组并全新升级账套">No printing group matching the current user has been found. Please confirmed that the print group has been configured and upgrade the account set</string>
     <string name="未查询到打印组内的打印样式请确定已配置打印样式并全新升级账套">No printing style has been found in the print group. Please confirmed that the print styles have been configured and upgrade the account set</string>
-    <string name="本单已打印">This bill has been printed: %1$s times</string>
-    <string name="单据已打印次">bill:%1$sprinted: %1$s times</string>
+    <string name="本单已打印XX次">This bill has been printed: %1$s times</string>
+    <string name="单据XX已打印XX次">bill:%1$sprinted: %1$s times</string>
     <string name="请重试">Please try again</string>
     <string name="网络连接不正常">Network connection not working properly!</string>
     <string name="无数据">No data</string>
