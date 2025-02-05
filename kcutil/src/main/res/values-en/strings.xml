@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--region zyl 2025-02-05新补充-->
+    <string name="正在刷价">The price is being brushed</string>
+    <!--endregion-->
     <!--region zyl 2025-01-24新补充-->
+    <string name="客户退货量退货率冒号">Customer Returns (Return Rate)：</string>
+    <string name="平均退货率冒号">AverageReturnRate：</string>
+    <string name="未知">Unknown</string>
+    <string name="未提交">NotSubmitted</string>
+    <string name="单据下载">DocumentDownload</string>
+    <string name="实销冒号">ActualSales：</string>
+    <string name="实时冒号">Realtime：</string>
+    <string name="车销冒号">CarSales：</string>
+    <string name="可用冒号">Available：</string>
+    <string name="实销">ActualSales</string>
+    <string name="实时">Live</string>
+    <string name="可用">Available</string>
     <string name="变价">priceChange</string>
     <string name="抹零">wipeZero</string>
     <string name="性别">gender</string>

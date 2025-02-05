@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--region zyl 2025-02-05新补充-->
+    <string name="正在刷价">正在刷价</string>
+    <!--endregion-->
     <!--region zyl 2025-01-24新补充-->
+    <string name="客户退货量退货率冒号">客户退货量（退货率）：</string>
+    <string name="平均退货率冒号">平均退货率：</string>
+    <string name="未知">未知</string>
+    <string name="未提交">未提交</string>
+    <string name="单据下载">单据下载</string>
+    <string name="实销冒号">实销：</string>
+    <string name="实时冒号">实时：</string>
+    <string name="车销冒号">车销：</string>
+    <string name="可用冒号">可用：</string>
+    <string name="实销">实销</string>
+    <string name="实时">实时</string>
+    <string name="可用">可用</string>
     <string name="变价">变价</string>
     <string name="抹零">抹零</string>
     <string name="性别">性别</string>
