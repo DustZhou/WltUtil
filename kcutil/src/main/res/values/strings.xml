@@ -2244,6 +2244,42 @@
 
     <string name="往来余额元">往来余额(元)</string>
 
+    <string name="应收金额">应收金额</string>
+    <string name="未收金额">未收金额</string>
+    <string name="应付金额">应付金额</string>
+    <string name="未付金额">未付金额</string>
+    <string name="不能少于1个">不能少于1个</string>
+    <string name="当前单位在ERP已停用不支持进行结算">当前单位在ERP已停用，不支持进行结算。</string>
+    <string name="当前单位在APP不存在请在APP中点击档案同步后再次操作">当前单位在APP不存在，请在APP中点击档案同步后再次操作。</string>
+    <string name="请先勾选">请先勾选</string>
+    <string name="请选择具体一个分支机构后再结算">请选择具体一个分支机构后再结算</string>
+    <string name="品牌结算模式下进入收款单需重新选择结算数据">品牌结算模式下，进入收款单需重新选择结算数据。</string>
+    <string name="已按商品结算单据无法带入收款单进行结算">已按商品结算单据无法带入收款单进行结算。</string>
+    <string name="存在不支持收款的单据请取消勾选后再次结算">存在不支持收款的单据，请取消勾选后再次结算。</string>
+    <string name="存在不支持付款的单据请取消勾选后再次结算">存在不支持付款的单据，请取消勾选后再次结算。</string>
+    <string name="合计结算金额0不支持结算">合计结算金额0，不支持结算。</string>
+    <string name="仅拥有支付通账户授权无法付款">仅拥有支付通账户授权，无法付款</string>
+    <string name="无任何现金银行账户权限请先授权">无任何现金银行账户权限，请先授权</string>
+    <string name="无电话信息">无电话信息！</string>
+    <string name="此前往来">此前往来</string>
+    <string name="累计往来">累计往来</string>
+    <string name="累计应收">累计应收</string>
+    <string name="此前应付">此前应付</string>
+    <string name="累计应付">累计应付</string>
+    <string name="往来">往来</string>
+    <string name="未收">未收</string>
+    <string name="去收款">去收款</string>
+    <string name="去付款">去付款</string>
+    <string name="未付">未付</string>
+    <string name="模糊搜索不支持上一级">模糊搜索不支持上一级！</string>
+    <string name="明细账">明细账</string>
+    <string name="未结款">未结款</string>
+    <string name="所有经手人">所有经手人</string>
+    <string name="统计预收">统计预收</string>
+    <string name="统计预付">统计预付</string>
+    <string name="导出">导出</string>
+    <string name="自定义显示">自定义显示</string>
+
 
     <!--endregion-->
 

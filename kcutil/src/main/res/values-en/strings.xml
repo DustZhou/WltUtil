@@ -1663,8 +1663,8 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <string name="开户行">Bank of deposit</string>
     <string name="账号">Account number</string>
     <string name="税号">Tax number</string>
-    <string name="应收">Accounts receivable</string>
-    <string name="应付">Accounts payable</string>
+    <string name="应收">Receivable</string>
+    <string name="应付">Payable</string>
     <string name="预收1">Advance receipts</string>
     <string name="预付1">Prepayments</string>
     <string name="信用额度">Credit limit</string>
@@ -2202,6 +2202,43 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     </string-array>
 
     <string name="往来余额元">Transaction Balance (CNY)</string>
+
+    <string name="应收金额">ARTotal</string>
+    <string name="未收金额">UnTotal</string>
+    <string name="应付金额">APTotal</string>
+    <string name="未付金额">UnpTotal</string>
+    <string name="不能少于1个">No less than 1</string>
+    <string name="当前单位在ERP已停用不支持进行结算">The current company has been deactivated in ERP, and settlement is not supported.</string>
+    <string name="当前单位在APP不存在请在APP中点击档案同步后再次操作">The current company does not exist in APP. Please click File Synchronization in APP and operate again.</string>
+    <string name="请先勾选">Please check first</string>
+    <string name="请选择具体一个分支机构后再结算">Please select a specific branch before settlement</string>
+    <string name="品牌结算模式下进入收款单需重新选择结算数据">In brand settlement mode, you need to reselect settlement data when entering collection Doc.</string>
+    <string name="已按商品结算单据无法带入收款单进行结算">The settlement document by commodity cannot be carried into the collection document for settlement.</string>
+    <string name="存在不支持收款的单据请取消勾选后再次结算">There are documents that do not support collection. Please uncheck and settle again.</string>
+    <string name="存在不支持付款的单据请取消勾选后再次结算">There are documents that do not support payment. Please uncheck and settle again.</string>
+    <string name="合计结算金额0不支持结算">Total settlement amount is 0. Settlement is not supported.</string>
+    <string name="仅拥有支付通账户授权无法付款">Only have payment pass account authorization, unable to pay</string>
+    <string name="无任何现金银行账户权限请先授权">Do not have any cash bank account permissions, please authorize first.</string>
+    <string name="无电话信息">No phone information!</string>
+    <string name="此前往来">Previous</string>
+    <string name="累计往来">Accumulated</string>
+    <string name="累计应收">Accumulated A/R</string>
+    <string name="此前应付">Previously payable</string>
+    <string name="累计应付">Accumulated payables</string>
+    <string name="往来">Transactions</string>
+    <string name="未收">Unreceived</string>
+    <string name="去收款">Settlement</string>
+    <string name="去付款">Go to pay</string>
+    <string name="未付">Unpaid</string>
+    <string name="模糊搜索不支持上一级">Fuzzy search does not support the previous level!</string>
+    <string name="明细账">Sub-ledger</string>
+    <string name="未结款">Unsettled</string>
+    <string name="所有经手人">All Handover</string>
+    <string name="统计预收">Include adv. received</string>
+    <string name="统计预付">Include adv. payment</string>
+    <string name="导出">Export</string>
+    <string name="自定义显示">Custom Display</string>
+
     <!--endregion-->
 
     <!--region 任务进度-->
