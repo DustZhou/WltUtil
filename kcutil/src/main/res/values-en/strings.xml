@@ -455,13 +455,12 @@
     <string name="天未开单">Current balance</string>
     <string name="最近开单时间">Current balance</string>
     <string name="往来余额">Current balance</string>
-    <string name="orderreport">订货报表</string>
-    <string name="ptypeorder">商品订货</string>
-    <string name="btypeorder">单位订货</string>
-    <string name="etypeorder">职员订货</string>
-    <string name="btypeorderreport">客户订货报表</string>
-    <string name="etypeorderreport">职员订货报表</string>
-    <string name="ptypeorderreport">商品订货报表</string>
+    <string name="商品订货">PType Order</string>
+    <string name="单位订货">BType Order</string>
+    <string name="职员订货">EType Order</string>
+    <string name="客户订货报表">BType Order Report</string>
+    <string name="职员订货报表">EType Order Report</string>
+    <string name="商品订货报表">PType Order Report</string>
     <string name="gongji">共计</string>
     <string name="bi">笔</string>titleleave
     <string name="jia">家</string>
@@ -731,7 +730,7 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <string name="装车要货">Load the truck for the goods</string>
     <string name="盘点还货">Inventory return</string>
     <string name="清欠账款">Settlement of debts</string>
-    <string name="订货报表">orderReport</string>
+    <string name="订货报表">OrderReport</string>
     <!--endregion-->
 
     <!--region 开单-->
@@ -1465,6 +1464,7 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <string name="客户排行">Customer ranking</string>
     <string name="职员排行">Employee ranking</string>
     <string name="数量占比">Proportion of Qty</string>
+    <string name="毛利占比">Gross profit percentage</string>
     <string name="销售量">Qty</string>
     <string name="销售额1">Amount</string>
     <!--endregion-->
@@ -1486,12 +1486,22 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <!--region 职员回款-->
     <string name="回款总额">Receipt</string>
     <string name="应收余额">Receivable</string>
+    <string name="退货金额">Return amount</string>
+    <string name="销售净额">Net Sales</string>
+    <string name="回款率">Return rate</string>
+    <string name="销售应收">Sales A/R</string>
+    <string name="代付运费">Freight payment</string>
+    <string name="应收发生">A/R Occurrence</string>
+    <string name="应付发生">P Occurrence</string>
     <string name="回款额">Receipt</string>
     <string name="其它金额">Other</string>
     <string name="现金回款">Cash</string>
     <string name="银行回款">Bank</string>
     <string name="抹零金额">Discount</string>
     <string name="应收调账">A/R adjustment</string>
+    <string name="已收金额">A/R Total</string>
+    <string name="已是最上级">Already the highest level</string>
+    <string name="排序类型">Sort Type</string>
     <!--endregion-->
     <!--region 供应商采购-->
     <string name="供应商采购统计">Overall</string>
@@ -2263,6 +2273,9 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <string name="选择时间">Select time</string>
     <string name="我知道了">I know.</string>
 
+    <string name="目标">Objectives:</string>
+    <string name="冲刺">Sprint:</string>
+
     <!--endregion-->
 
     <!--region 借欠商品表-->
@@ -2396,6 +2409,20 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <string name="发货">Shipment</string>
     <string name="已发货">Shipped</string>
     <string name="仓库发货">Warehouse delivery</string>
+
+    <!--region 客户订货报表-->
+    <string name="已发货数量">Qty Shipped</string>
+    <string name="已发货金额">Amount Shipped</string>
+    <string name="未发货数量">Unshipped Qty</string>
+    <string name="未发货金额">Unshipped Amount</string>
+    <!--endregion-->
+
+    <!--region 职员订货报表-->
+    <string name="无打印数据">No print data</string>
+
+
+
+    <!--endregion-->
 
 
 </resources>
