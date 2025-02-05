@@ -1486,6 +1486,12 @@
     <string name="职员销售明细">职员销售明细</string>
     <string name="部门销售明细">部门销售明细</string>
     <string name="占比指标">占比指标</string>
+    <string name="请选择部门">请选择部门</string>
+    <string name="占比">占比</string>
+    <string name="辅助总数">辅助总数</string>
+    <string name="尺码">尺码</string>
+    <string name="颜色">颜色</string>
+
     <!--endregion-->
     <!--region 销售排行-->
     <string name="商品排行">商品排行</string>

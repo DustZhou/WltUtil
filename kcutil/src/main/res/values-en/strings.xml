@@ -1458,6 +1458,12 @@ Usage: After entering keywords each time, press the space bar to continue to ent
     <string name="职员销售明细">Details</string>
     <string name="部门销售明细">Details</string>
     <string name="占比指标">Proportion indicators</string>
+    <string name="请选择部门">Please select department</string>
+    <string name="占比">Proportion</string>
+    <string name="辅助总数">Total Secondary</string>
+    <string name="尺码">Size</string>
+    <string name="颜色">Color</string>
+
     <!--endregion-->
     <!--region 销售排行-->
     <string name="商品排行">Goods ranking</string>
