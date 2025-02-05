@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--region zyl 2025-01-24新补充-->
+    <string name="变价">priceChange</string>
+    <string name="抹零">wipeZero</string>
+    <string name="性别">gender</string>
+    <string name="添加">add</string>
     <string name="提交记录">SubmitARecord</string>
     <string name="单一业务单据">SingleBusinessDocument</string>
     <string name="已提交">Submitted</string>
