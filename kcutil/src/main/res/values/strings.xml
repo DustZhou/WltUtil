@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--region zyl 2025-02-06新补充-->
+    <string name="本季">本季</string>
+    <string name="附件提交状态">附件提交状态</string>
+    <string name="录入的批次">录入的批次</string>
+    <string name="库存批次">库存批次</string>
+    <string name="添加批次">添加批次</string>
+    <string name="订单">订单</string>
+    <string name="选择单价">选择单价</string>
+    <string name="表头字段">表头字段</string>
+    <string name="没有该商品的单位请全新升级">没有该商品的单位，请全新升级</string>
+    <string name="最近未生成数据包请全新升级">最近未生成数据包，请全新升级</string>
+    <string name="综合销售单号">综合销售单号</string>
     <string name="必录">必录</string>
     <string name="当前客户无陈列协议">当前客户无陈列协议</string>
     <string name="进行下一项">进行下一项</string>
@@ -142,6 +153,7 @@
     <string name="协议内容">协议内容</string>
     <string name="费">费</string>
     <string name="退">退</string>
+    <string name="收">收</string>
     <string name="换">换</string>
     <string name="打印状态">打印状态</string>
     <string name="确认开单">确认开单</string>
@@ -738,7 +750,7 @@
     <string name="服务协议书名号">《服务协议》</string>
     <string name="隐私政策">隐私政策</string>
     <string name="服务协议">服务协议</string>
-    <string name="请先阅读并同意服务协议和隐藏正常">请先阅读并同意服务协议和隐藏正常</string>
+    <string name="请先阅读并同意服务协议和隐私政策">请先阅读并同意服务协议和隐私政策</string>
     <string name="不存在该用户或密码不正确">不存在该用户或密码不正确</string>
     <string name="登录">登录</string>
     <string name="更新数据">更新数据</string>
@@ -754,12 +766,17 @@
     <string name="现有数据包">现有数据包</string>
     <string name="全新升级">全新升级</string>
     <string name="正在替换">正在替换</string>
+    <string name="暂不使用">暂不使用</string>
+    <string name="同意">同意</string>
+    <string name="亲爱的用户感谢您信任并使用管家婆物联通杭州致梦科技有限公司以下简称我们深知个人信息对您的重要性并会尽全力保护您的个人信息安全可靠">亲爱的用户，感谢您信任并使用管家婆物联通。杭州致梦科技有限公司（以下简称 “我们”）深知个人信息对您的重要性，并会尽全力保护您的个人信息安全可靠。</string>
+    <string name="和">和</string>
+    <string name="阅读过程中如您有任何疑问可联系我们的客户热线咨询4001187276">阅读过程中,如您有任何疑问,可联系我们的客户热线咨询400-118-7276。</string>
     <string name="正在加载">正在加载</string>
     <string name="正在下载数据包请稍候">正在下载数据包，请稍候</string>
     <!--endregion-->
 
     <!--region 首页-->
-    <string name="软件将于XXX到期">软件将于XXX到期，剩余可以日期X天。到期后将无法继续使用，未避免影响日常工作请及时联系管理员到物联通后台【软件注册】-【注册信息】中续费</string>
+    <string name="软件将于XXX到期">软件将于%1$s到期，剩余可以日期%2$s天。到期后将无法继续使用，未避免影响日常工作请及时联系管理员到物联通后台【软件注册】-【注册信息】中续费</string>
     <string name="结余">结余</string>
     <string name="今日收现">今日收现</string>
     <string name="今日待收">今日待收</string>
@@ -887,9 +904,9 @@
     <string name="复制">复制</string>
     <string name="提交">提交</string>
     <string name="单据编号">单据编号</string>
-    <string name="经手人">经  手  人</string>
+    <string name="经手人">经手人</string>
     <string name="往来单位">往来单位</string>
-    <string name="部门">部        门</string>
+    <string name="部门">部门</string>
     <string name="摘要">摘要</string>
     <string name="附加说明">附加说明</string>
     <string name="存草稿成功">存草稿成功</string>
@@ -902,8 +919,8 @@
     <string name="过账">过账</string>
     <string name="收款">收款</string>
     <string name="退出">退出</string>
-    <string name="客户">客        户</string>
-    <string name="仓库">仓        库</string>
+    <string name="客户">客户</string>
+    <string name="仓库">仓库</string>
     <string name="扫条码">扫条码</string>
     <string name="扫序列号">扫序列号</string>
     <string name="扫编号">扫编号</string>
@@ -923,6 +940,8 @@
     <string name="已选X种商品数量X">已选 %1$s种商品，数量 %2$s</string>
     <string name="合计数量">合计: %1$s</string>
     <string name="没有该条码的商品">没有该条码的商品</string>
+    <string name="没有该序列号的商品">没有该序列号的商品</string>
+    <string name="没有该编号的商品">没有该编号的商品</string>
     <string name="已添加该商品是否添加">已添加该商品，是否添加</string>
     <string name="此处无图片显示">此处无图片显示</string>
     <string name="修改商品">修改商品</string>
@@ -965,7 +984,7 @@
     <string name="已录入序列号">已录入序列号</string>
     <string name="全清">全清</string>
     <string name="排序">排序</string>
-    <string name="确认删除序列号吗">确认删除序列号 %1$s吗</string>
+    <string name="确认删除序列号XX吗">确认删除序列号 %1$s吗</string>
     <string name="确定全部清除已录入的序列号吗">确定全部清除已录入的序列号吗</string>
     <string name="数量与序列号数量不等是否保存">数量与序列号数量不等，是否保存</string>
     <string name="确认退出吗">确认退出吗</string>
@@ -973,7 +992,8 @@
     <string name="保存并下一个">保存并下一个</string>
     <string name="序列号">序列号</string>
     <string name="上次序列号">上次序列号</string>
-    <string name="已添加">已添加: %1$s</string>
+    <string name="已添加">已添加</string>
+    <string name="已添加XX">已添加: %1$s</string>
     <string name="提示按音量键保存并扫描下一个">提示：按音量+键保存并扫描下一个</string>
     <string name="添加成功">添加成功</string>
     <string name="请先录入序列号">请先录入序列号</string>
@@ -1010,7 +1030,7 @@
     <string name="还款日期">还款日期</string>
     <string name="需求日期">需求日期</string>
     <string name="借款人">借款人</string>
-    <string name="供应商">供  应  商</string>
+    <string name="供应商">供应商</string>
     <string name="费用单位">费用单位</string>
     <string name="付款单位">付款单位</string>
     <string name="应收款">应收款</string>
@@ -2206,7 +2226,7 @@
 
     <string name="日期">日期</string>
     <string name="类别选择">类别选择</string>
-    <string name="查询">查        询</string>
+    <string name="查询">查询</string>
     <string name="查询1">查询</string>
 
     <string name="今日">今日</string>

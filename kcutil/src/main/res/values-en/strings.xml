@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--region zyl 2025-02-06新补充-->
+    <string name="本季">This season</string>
+    <string name="附件提交状态">Attachment submission status</string>
+    <string name="录入的批次">Entered batches</string>
+    <string name="库存批次">Inventory lots</string>
+    <string name="添加批次">Add batches</string>
+    <string name="订单">Orders</string>
+    <string name="选择单价">Select the unit price</string>
+    <string name="表头字段">HeaderField</string>
+    <string name="没有该商品的单位请全新升级">If you do not have a unit of this product, please upgrade it completely</string>
+    <string name="最近未生成数据包请全新升级">No packets have been generated recently, please upgrade from scratch</string>
+    <string name="综合销售单号">Comprehensive sales order number</string>
     <string name="必录">必录</string>
-    <string name="当前客户无陈列协议">当前客户无陈列协议</string>
+    <string name="当前客户无陈列协议">There is no merchandising agreement for the current customer</string>
     <string name="进行下一项">进行下一项</string>
-    <string name="当前单据已进入审核流程且无允许打印草稿单据权限请先完成单据审核并过账">当前单据已进入审核流程,且无\"允许打印草稿单据\"权限,请先完成单据审核并过账</string>
-    <string name="当前单据无过账权限同时无允许打印草稿单据权限请联系管理员设置权限">当前单据无过账权限,同时无\"允许打印草稿单据\"权限,请联系管理员设置权限</string>
-    <string name="收订金">收订金</string>
-    <string name="过账的订单编辑暂不支持存草稿">过账的订单编辑暂不支持存草稿</string>
+    <string name="当前单据已进入审核流程且无允许打印草稿单据权限请先完成单据审核并过账">The current document has entered the approval process and does not have the "Allow Print Draft Document" permission, please complete the document review and post it first</string>
+    <string name="当前单据无过账权限同时无允许打印草稿单据权限请联系管理员设置权限">The current document does not have posting permissions, and there is no "Allow Printing of Draft Documents" permission, please contact your administrator to set permissions</string>
+    <string name="收订金">Deposit is charged</string>
+    <string name="过账的订单编辑暂不支持存草稿">Drafts are not supported for edited orders that are posted</string>
     <string name="返回工作台">返回工作台</string>
     <string name="当前单据无提交权限且未提交单据不支持打印请联系管理员设置权限">If you do not have the permission to submit the document and the document is not submitted, please contact the administrator to set the permission</string>
     <string name="单据提交成功">The document was submitted successfully</string>
@@ -142,6 +153,7 @@
     <string name="协议内容">ContentOfTheAgreement</string>
     <string name="费">Costs</string>
     <string name="退">Back</string>
+    <string name="收">Collect</string>
     <string name="换">Change</string>
     <string name="打印状态">PrintStatus</string>
     <string name="确认开单">ConfirmTheBill</string>
@@ -724,10 +736,10 @@
     <string name="请输入密码">Please enter the password</string>
     <string name="已阅读并同意服务协议和隐私政策">I have read and accept the Service Agreement and Privacy Policy</string>
     <string name="隐私政策书名号">Privacy Policy</string>
-    <string name="服务协议书名号">Service Agreement</string>
+    <string name="服务协议书名号">\" Service Agreement\" </string>
     <string name="隐私政策">Privacy Policy</string>
     <string name="服务协议">Service Agreement</string>
-    <string name="请先阅读并同意服务协议和隐藏正常">Please read and accept the Service Agreement and Privacy Policy</string>
+    <string name="请先阅读并同意服务协议和隐私政策">Please read and accept the Service Agreement and Privacy Policy</string>
     <string name="不存在该用户或密码不正确">Incorrect username or password</string>
     <string name="登录">Sign in</string>
     <string name="更新数据">Update data</string>
@@ -743,12 +755,17 @@
     <string name="现有数据包">Download the existing database</string>
     <string name="全新升级">Download the latest database</string>
     <string name="正在替换">Updating</string>
+    <string name="暂不使用">Decline</string>
+    <string name="同意">Agree</string>
+    <string name="亲爱的用户感谢您信任并使用管家婆物联通杭州致梦科技有限公司以下简称我们深知个人信息对您的重要性并会尽全力保护您的个人信息安全可靠">Dear user, thank you for trusting and using Grasp Woolinte.\n Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well aware of the importance of personal information to you and will do our best to ensure the security and reliability of your personal information.</string>
+    <string name="和">And</string>
+    <string name="阅读过程中如您有任何疑问可联系我们的客户热线咨询4001187276">During the reading process, if you have any questions, you can contact our customer hotline at 400-118-7276 for consultation.</string>
     <string name="正在加载">Loading</string>
     <string name="正在下载数据包请稍候">The data is being updated. Just a moment, please</string>
     <!--endregion-->
 
     <!--region 首页-->
-    <string name="软件将于XXX到期">The software will expire on January 1, 2021, with 3 days remaining. Please contact the administrator promptly to process the renewal in the WulianTong server backend under [Software Registration] - [Registration Information] to avoid disruption to work.</string>
+    <string name="软件将于XXX到期">The software will expire on %1$s, with %2$s days remaining. Please contact the administrator promptly to process the renewal in the WulianTong server backend under [Software Registration] - [Registration Information] to avoid disruption to work.</string>
     <string name="结余">Account Balance</string>
     <string name="今日收现">Today’s cash receipts</string>
     <string name="今日待收">Today’s receivables</string>
@@ -914,6 +931,8 @@
     <string name="已选X种商品数量X"> %1$sItems, Qty%2$s</string>
     <string name="合计数量">Total: %1$s</string>
     <string name="没有该条码的商品">No Result</string>
+    <string name="没有该序列号的商品">No Result</string>
+    <string name="没有该编号的商品">No Result</string>
     <string name="已添加该商品是否添加">Product Already in List. Add Again?</string>
     <string name="此处无图片显示">No Image</string>
     <string name="修改商品">Edit</string>
@@ -955,7 +974,7 @@
     <string name="已录入序列号">SN Qty</string>
     <string name="全清">Clear</string>
     <string name="排序">Sort</string>
-    <string name="确认删除序列号吗">Are you sure you want to delete SN %1$s</string>
+    <string name="确认删除序列号XX吗">Are you sure you want to delete SN %1$s</string>
     <string name="确定全部清除已录入的序列号吗">Are you sure you want to delete all the SNs</string>
     <string name="数量与序列号数量不等是否保存">The number of products does not match the number of serial numbers. Do you want to save?</string>
     <string name="确认退出吗">Do you want to discard the edited data?</string>
@@ -963,7 +982,8 @@
     <string name="保存并下一个">Save &amp; Next</string>
     <string name="序列号">SN</string>
     <string name="上次序列号">Last SN</string>
-    <string name="已添加">Qty: %1$s</string>
+    <string name="已添加">Added</string>
+    <string name="已添加XX">Qty: %1$s</string>
     <string name="提示按音量键保存并扫描下一个">Tips：Press the Volume + button to save and scan the next one</string>
     <string name="添加成功">Success</string>
     <string name="请先录入序列号">Please enter at least one SN</string>
@@ -2483,7 +2503,6 @@
 
     <!--region 职员订货报表-->
     <string name="无打印数据">No print data</string>
-
 
 
     <!--endregion-->
