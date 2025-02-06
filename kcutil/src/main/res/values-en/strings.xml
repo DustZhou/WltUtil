@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--region zyl 2025-02-06新补充-->
+    <string name="必录">必录</string>
+    <string name="当前客户无陈列协议">当前客户无陈列协议</string>
+    <string name="进行下一项">进行下一项</string>
+    <string name="当前单据已进入审核流程且无允许打印草稿单据权限请先完成单据审核并过账">当前单据已进入审核流程,且无\"允许打印草稿单据\"权限,请先完成单据审核并过账</string>
+    <string name="当前单据无过账权限同时无允许打印草稿单据权限请联系管理员设置权限">当前单据无过账权限,同时无\"允许打印草稿单据\"权限,请联系管理员设置权限</string>
+    <string name="收订金">收订金</string>
+    <string name="过账的订单编辑暂不支持存草稿">过账的订单编辑暂不支持存草稿</string>
+    <string name="返回工作台">返回工作台</string>
+    <string name="当前单据无提交权限且未提交单据不支持打印请联系管理员设置权限">If you do not have the permission to submit the document and the document is not submitted, please contact the administrator to set the permission</string>
+    <string name="单据提交成功">The document was submitted successfully</string>
+    <string name="提交附件成功">The attachment was successfully submitted</string>
+    <string name="提交附件">Submit attachments</string>
+    <string name="可前往设置单据提交记录中提交附件保存到相册">You can go to [Settings] - [Document Submission History] to submit attachments and save them to the album</string>
+    <string name="无陈列返还权限请先授权">There is no permission to return the display, please authorize it first</string>
+    <string name="无陈列返还权限">There is no permission to return the display</string>
+    <string name="请选择日期">Please select a date</string>
+    <string name="请输入批号">Please enter the lot number</string>
+    <string name="无折扣修改权限不支持修改折后单价">There is no discount modification permission, and the discounted unit price cannot be modified</string>
+    <string name="正在过账">Posting</string>
+    <!--endregion-->
     <!--region zyl 2025-02-05新补充-->
     <string name="继续提交">ContinueToSubmit</string>
     <string name="序列号商品不能修改数量">Serial number products cannot be modified in quantity</string>
@@ -8,8 +29,8 @@
     <string name="挂单成功">The pending order is successful</string>
     <string name="序列号开单不允许更改计量单位">Serial number billing does not allow you to change the unit of measure</string>
     <string name="该商品已中止不支持编辑">The product has been discontinued and cannot be edited</string>
-    <string name="税额">税额</string>
-    <string name="打印成功">打印成功</string>
+    <string name="税额">Tax</string>
+    <string name="打印成功">PrintSuccessful</string>
     <string name="请选择打印机">PleaseSelectAPrinter</string>
     <string name="请选择开始日期">Please select a start date</string>
     <string name="请选择结束日期">Please select an end date</string>
@@ -19,7 +40,7 @@
     <string name="支付通退款成功">The refund is successful</string>
     <string name="数据异常">Data anomalies</string>
     <string name="无修改副单位数量的权限">You do not have the permission to modify the number of sub-units</string>
-    <string name="折后金额">折后金额</string>
+    <string name="折后金额">Discounted amount</string>
     <string name="请先将单据过账再进行打印">Please post the document before printing</string>
     <string name="付款金额与费用金额不等不允许保存">The payment amount is not equal to the fee amount and is not allowed to be saved</string>
     <string name="选择账户">Select Account</string>
@@ -36,8 +57,8 @@
     <string name="新开单">New billing</string>
     <string name="提交单据">Submit the documents</string>
     <string name="折前单价">Unit price before discount</string>
-    <string name="已中止">已中止</string>
-    <string name="门店开单配送价">门店开单配送价</string>
+    <string name="已中止">Aborted</string>
+    <string name="门店开单配送价">InStoreBillingDeliveryPrice</string>
     <string name="保存失败品牌结算信息未保存成功">The save failed, and the brand billing information was not saved successfully</string>
     <string name="保存失败图片信息未保存成功">Failed to save the image information</string>
     <string name="保存失败账户信息未保存成功">The account information was not saved successfully</string>
@@ -107,7 +128,7 @@
     <string name="注意若系统中编号相同如商品编号则不建议使用差异化更新功能否则可能出现差异化后部分信息丢失情况">Note: Differentiated updates are not recommended if the system number is the same, such as the product ID. Otherwise, there may be a loss of some information after differentiation!</string>
     <string name="草稿">Draft</string>
     <string name="出库仓库星号">OutboundWarehouse*</string>
-    <string name="提醒内容">提醒内容</string>
+    <string name="提醒内容">Reminder content</string>
     <string name="输入车辆">EnterTheVehicle</string>
     <string name="装车配送">Loading and distribution</string>
     <string name="已装车">Loaded</string>

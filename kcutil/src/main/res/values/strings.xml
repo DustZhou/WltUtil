@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--region zyl 2025-02-06新补充-->
+    <string name="必录">必录</string>
+    <string name="当前客户无陈列协议">当前客户无陈列协议</string>
+    <string name="进行下一项">进行下一项</string>
+    <string name="当前单据已进入审核流程且无允许打印草稿单据权限请先完成单据审核并过账">当前单据已进入审核流程,且无\"允许打印草稿单据\"权限,请先完成单据审核并过账</string>
+    <string name="当前单据无过账权限同时无允许打印草稿单据权限请联系管理员设置权限">当前单据无过账权限,同时无\"允许打印草稿单据\"权限,请联系管理员设置权限</string>
+    <string name="收订金">收订金</string>
+    <string name="过账的订单编辑暂不支持存草稿">过账的订单编辑暂不支持存草稿</string>
+    <string name="返回工作台">返回工作台</string>
+    <string name="当前单据无提交权限且未提交单据不支持打印请联系管理员设置权限">当前单据无提交权限,且未提交单据不支持打印,请联系管理员设置权限</string>
+    <string name="单据提交成功">单据提交成功</string>
+    <string name="提交附件成功">提交附件成功</string>
+    <string name="提交附件">提交附件</string>
+    <string name="可前往设置单据提交记录中提交附件保存到相册">可前往【设置】-【单据提交记录】中提交附件、保存到相册</string>
+    <string name="无陈列返还权限请先授权">无陈列返还权限，请先授权</string>
+    <string name="无陈列返还权限">无陈列返还权限</string>
+    <string name="请选择日期">请选择日期</string>
+    <string name="请输入批号">请输入批号</string>
+    <string name="无折扣修改权限不支持修改折后单价">无折扣修改权限,不支持修改折后单价</string>
+    <string name="正在过账">正在过账</string>
+    <!--endregion-->
     <!--region zyl 2025-02-05新补充-->
     <string name="继续提交">继续提交</string>
     <string name="序列号商品不能修改数量">序列号商品不能修改数量</string>
