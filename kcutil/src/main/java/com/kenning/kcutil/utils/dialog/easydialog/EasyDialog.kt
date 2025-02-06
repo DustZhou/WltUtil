@@ -444,7 +444,7 @@ open class EasyDialog(private var context: Context) {
         count++
         mIsReset = false
         if (title == null) {
-            this.title = "温馨提示"
+            this.title = getStringResource(R.string.温馨提示)
         }
 
         if (Prompt) {
