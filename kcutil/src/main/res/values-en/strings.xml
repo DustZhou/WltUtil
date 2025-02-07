@@ -2533,6 +2533,39 @@
 
     <!--endregion-->
 
+    <!--region xx-->
+    <string name="库存明细">Inventory Details</string>
+    <string name="口味库存">Taste inventory</string>
+    <string name="无库存明细账查看权限">No Inventory Sub Ledger View Permission</string>
+    <string name="报表选择">Report Selection</string>
+    <string name="商品信息为空">Product information is empty</string>
+    <string name="虚拟库存分布">Virtual Inventory Qty</string>
+    <string name="输入">Input</string>
+    <string name="全部仓库">All warehouses</string>
+    <string name="商品信息为空商品信息为空">Product information is empty Product information is empty</string>
+    <string name="至少选择一个库存条件">Select at least one inventory condition</string>
+    <string name="全部日期">All Dates</string>
+    <string name="说明">Description</string>
+    <string name="库存分布暂不支持按商品类别查询">Inventory distribution does not support querying by commodity category</string>
+    <string name="线性表">Linear Table</string>
+    <string name="状况表">Status Table</string>
+    <string name="分布表">Distribution Table</string>
+    <string name="打印数据处理">Print Data Processing</string>
+    <string name="虚拟库存状况">Virtual Inventory Status</string>
+    <string name="虚拟库存分布报表分支机构只能单选">Virtual inventory distribution report, branches can only be selected</string>
+    <string name="库存分布不统计无仓库的生产类单据">Warm Tip: Inventory distribution does not count production documents without warehouses. If the above documents exist for the commodity, the total quantity on this page is different from the quantity of the commodity in the list, which is normal.</string>
+    <string name="虚拟库存">Virtual Inventory</string>
+    <string name="正在加载数据">Loading Data</string>
+    <string name="应收应付明细">A/R A/P Details</string>
+    <string name="应收明细表">A/R Details</string>
+    <string name="应付明细表">A/P Details</string>
+    <string name="合并">Consolidation</string>
+    <string name="已加载完毕">Finished Loading</string>
+    <string name="此商品无批次数据">This commodity, no batch data!</string>
+    <string name="有效日期">Effective Date</string>
+
+    <!--endregion-->
+
     <!--endregion-->
 
 

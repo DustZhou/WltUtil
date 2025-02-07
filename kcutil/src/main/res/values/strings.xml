@@ -2564,7 +2564,42 @@
     <string name="您还未开拓新客快去搜索周边客户吧">您还未开拓新客,快去搜索周边客户吧~！</string>
     <string name="数据出现异常请刷新数据">数据出现异常，请刷新数据</string>
 
+    <!--endregion-->
+
+    <!--region xx-->
+    <string name="库存明细">库存明细</string>
+    <string name="口味库存">口味库存</string>
+    <string name="无库存明细账查看权限">无库存明细账查看权限</string>
+    <string name="报表选择">报表选择</string>
+    <string name="商品信息为空">商品信息为空</string>
+    <string name="虚拟库存分布">Virtual Inventory Qty</string>
+    <string name="输入">输入</string>
+    <string name="全部仓库">全部仓库</string>
+    <string name="商品信息为空商品信息为空">商品信息为空商品信息为空</string>
+    <string name="至少选择一个库存条件">至少选择一个库存条件</string>
+    <string name="全部日期">全部日期</string>
+    <string name="说明">说明</string>
+    <string name="库存分布暂不支持按商品类别查询">库存分布暂不支持按商品类别查询</string>
+    <string name="线性表">线性表</string>
+    <string name="状况表">状况表</string>
+    <string name="分布表">分布表</string>
+    <string name="打印数据处理">打印数据处理</string>
+    <string name="虚拟库存状况">虚拟库存状况</string>
+    <string name="虚拟库存分布报表分支机构只能单选">虚拟库存分布报表, 分支机构只能单选</string>
+    <string name="库存分布不统计无仓库的生产类单据">温馨提示：库存分布不统计无仓库的生产类单据。若该商品存在上述单据时，本页合计数量与列表中商品数量不同，此为正常情况。</string>
+    <string name="虚拟库存">虚拟库存</string>
+    <string name="正在加载数据">正在加载数据</string>
+    <string name="应收应付明细">应收应付明细</string>
+    <string name="应收明细表">应收明细表</string>
+    <string name="合并">合并</string>
+    <string name="应付明细表">应付明细表</string>
+    <string name="已加载完毕">已加载完毕</string>
+    <string name="此商品无批次数据">此商品，无批次数据！</string>
+    <string name="有效日期">有效日期</string>
 
     <!--endregion-->
+    <!--endregion-->
+    <!--endregion-->
+
 
 </resources>
