@@ -5,7 +5,6 @@
     <string name="附件提交状态">Attachment submission status</string>
     <string name="录入的批次">Entered batches</string>
     <string name="库存批次">Inventory lots</string>
-    <string name="添加批次">Add batches</string>
     <string name="订单">Orders</string>
     <string name="选择单价">Select the unit price</string>
     <string name="表头字段">HeaderField</string>
