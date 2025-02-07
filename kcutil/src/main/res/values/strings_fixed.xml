@@ -13,10 +13,6 @@
     <string name="语言识别信息2" translatable="false">(以下为示例，请结合您实际商品进行AI开单)</string>
     <string name="语言识别示例1" translatable="false">示例1:娃哈哈5瓶3块钱，8箱曲奇饼干，糖豆200克装10包48块钱</string>
     <string name="语言识别示例2" translatable="false">示例2:开一张爆米花5桶，单价8块钱，雪碧8箱，巧克力3包，总价60块钱</string>
-    <string name="文本识别提示" translatable="false">" 娃哈哈5瓶3块钱\n
-可乐8瓶1.16—瓶\n
-8箱曲奇饼干\n
-巧克力200克装3包单价60元\n
-榴莲糖2包\n
+    <string name="文本识别提示" translatable="false">" 娃哈哈5瓶3块钱\n可乐8瓶1.16—瓶\n8箱曲奇饼干\n巧克力200克装3包单价60元\n榴莲糖2包\n
 "</string>
 </resources>
