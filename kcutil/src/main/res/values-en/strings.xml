@@ -500,6 +500,7 @@
     <string name="时段促销">timeSale</string>
     <string name="批次">batch</string>
     <string name="添加新批次">addANewBatch</string>
+    <string name="添加批次">Add Batch</string>
     <string name="需录">recordsAreRequired</string>
     <string name="已录">recorded</string>
     <string name="补录">supplementation</string>
@@ -1522,6 +1523,7 @@
     <string name="总赠品">Gift Qty</string>
     <string name="金额占比">Proportion of amount</string>
     <string name="销售线性">List Table</string>
+    <string name="销售统计">Sales Statistics</string>
     <string name="销售汇总">Overall</string>
     <string name="显示数量和金额均为0的数据">Display goods with both quantity and amount being zero</string>
     <string name="仅显示赠品非0的数据">Only display goods with non-zero free gifts</string>
@@ -2504,6 +2506,33 @@
     <!--region 职员订货报表-->
     <string name="无打印数据">No print data</string>
 
+
+    <!--region xx-->
+    <string name="智能提醒">Smart Reminders</string>
+    <string name="全部机构">All SType</string>
+    <string name="增加">Increase</string>
+    <string name="减少">Decrease</string>
+    <string name="结算账户">Settlement Account</string>
+    <string name="结算金额">Settlement Amount</string>
+
+    <string name="商品销售表不支持按类别打印仅支持打印具体商品的销售数据">The product sales table does not support printing by category, only the sales data of specific products can be printed.</string>
+
+
+    <!--endregion-->
+
+    <!--region xx-->
+    <string name="库存自由项明细表">Details</string>
+    <string name="自由项">Free Item</string>
+    <string name="基本数量">Basic Qty</string>
+    <string name="副单位">Deputy Unit</string>
+    <string name="显示未启用自由项">Show free items not enabled</string>
+    <string name="你什么数据还都没有哦">You don’t have any data yet</string>
+    <string name="网络不可用请检查网络设置">网络不可用，请检查网络设置!</string>
+    <string name="咿网络怎么不管用啦">Yee? The Internet doesn’t work anymore!</string>
+    <string name="您还未开拓新客快去搜索周边客户吧">You haven’t opened up new customers yet, go and search for customers around you ~</string>
+    <string name="数据出现异常请刷新数据">Data exception, please refresh the data</string>
+
+    <!--endregion-->
 
     <!--endregion-->
 

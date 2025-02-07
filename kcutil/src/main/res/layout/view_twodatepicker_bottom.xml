@@ -48,7 +48,7 @@
                 android:button="@null"
                 android:checked="true"
                 android:gravity="center"
-                android:text="今日"
+                android:text="@string/今日"
                 android:textColor="@drawable/checkstyle_radiobutton" />
 
             <RadioButton

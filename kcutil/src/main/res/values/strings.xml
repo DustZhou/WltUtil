@@ -502,6 +502,7 @@
     <string name="时段促销">时段促销</string>
     <string name="批次">批次</string>
     <string name="添加新批次">添加新批次</string>
+    <string name="添加批次">添加批次</string>
     <string name="需录">需录</string>
     <string name="已录">已录</string>
     <string name="补录">补录</string>
@@ -1546,6 +1547,7 @@
     <string name="总赠品">总赠品</string>
     <string name="金额占比">金额占比</string>
     <string name="销售线性">销售线性</string>
+    <string name="销售统计">销售统计</string>
     <string name="销售汇总">销售汇总</string>
     <string name="显示数量和金额均为0的数据">显示数量和金额均为0的数据</string>
     <string name="仅显示赠品非0的数据">仅显示赠品非0的数据</string>
@@ -2538,4 +2540,32 @@
     <!--region 职员订货报表-->
     <string name="无打印数据">无打印数据</string>
     <!--endregion-->
+
+    <!--region xx-->
+    <string name="智能提醒">智能提醒</string>
+    <string name="全部机构">全部机构</string>
+    <string name="增加">增加</string>
+    <string name="减少">减少</string>
+    <string name="结算账户">结算账户</string>
+    <string name="结算金额">结算金额</string>
+    <string name="商品销售表不支持按类别打印仅支持打印具体商品的销售数据">商品销售表不支持按类别打印，仅支持打印具体商品的销售数据</string>
+
+
+    <!--endregion-->
+
+    <!--region xx-->
+    <string name="库存自由项明细表">库存自由项明细表</string>
+    <string name="自由项">自由项</string>
+    <string name="基本数量">基本数量</string>
+    <string name="副单位">副单位</string>
+    <string name="显示未启用自由项">显示未启用自由项</string>
+    <string name="你什么数据还都没有哦">你什么数据还都没有哦</string>
+    <string name="网络不可用请检查网络设置">网络不可用，请检查网络设置!</string>
+    <string name="咿网络怎么不管用啦">咿？网络怎么不管用啦！</string>
+    <string name="您还未开拓新客快去搜索周边客户吧">您还未开拓新客,快去搜索周边客户吧~！</string>
+    <string name="数据出现异常请刷新数据">数据出现异常，请刷新数据</string>
+
+
+    <!--endregion-->
+
 </resources>
