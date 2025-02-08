@@ -97,10 +97,10 @@ class QueryReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterfac
         this._mActivity = activity
         this.CustomeBillDateFormat = CustomeBillDateFormat
 
-        if (CustomeBillDateType == "无") {
+        if (CustomeBillDateType == getStringResource(R.string.无)) {
             this.BeginDate = BeginDate
             this.EndDate = EndDate
-            this.CustomeBillDateType = "无"
+            this.CustomeBillDateType = getStringResource(R.string.无)
             setSaleMainTypeView(activity, CustomeBillDateType, true)
 
             block(this.BeginDate, this.EndDate, this.CustomeBillDateType)
@@ -364,7 +364,7 @@ class QueryReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterfac
                 newView = viewBinding.tvYear
             }
 
-            "无" -> {
+            getStringResource(R.string.无) -> {
                 BeginDate = ""
                 EndDate = ""
                 this.CustomeBillDateType = CustomeBillDateType

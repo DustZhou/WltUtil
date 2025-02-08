@@ -1097,7 +1097,7 @@
     <string name="请选择客户">Please select Customer</string>
     <string name="请选择仓库">Please select Warehouse</string>
     <string name="选择仓库">Select a Warehouse</string>
-    <string name="选择客户">Go to</string>
+    <string name="选择客户">Select Customers</string>
     <string name="请允许管家婆物联通访问您的相机若不允许您将无法使用扫描和拍照功能">Please allow “管家婆物联通” to access your camera so that you can use the scanning and photographing functions.</string>
     <string name="将条码放入取景框即可自动扫描">Scan the QR code here</string>
     <string name="开灯">ON</string>

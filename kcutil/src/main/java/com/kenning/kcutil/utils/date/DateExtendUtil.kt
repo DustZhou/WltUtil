@@ -1347,7 +1347,7 @@ fun DataOfCustomeBillDateType(CustomeBillDateType: String, callBack: (String, St
 
         }
 
-        "无" -> {
+        getStringResource(R.string.无) -> {
             BeginDate = ""
             EndDate = ""
 

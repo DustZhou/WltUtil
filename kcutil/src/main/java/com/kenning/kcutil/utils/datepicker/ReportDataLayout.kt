@@ -23,6 +23,7 @@ import com.kenning.kcutil.utils.date.DateExtendUtil
 import com.kenning.kcutil.utils.date.Date_Format
 import com.kenning.kcutil.utils.other.ToastUtil
 import com.kenning.kcutil.utils.other.getColorResource
+import com.kenning.kcutil.utils.other.getStringResource
 import com.kenning.kcutil.utils.other.outOf
 import com.zyyoona7.popup.EasyPopup
 import java.util.Date
@@ -365,7 +366,7 @@ class ReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterface {
                     changeTimeState(mTimeBinding.llCustom1, lastTimeType)
                 }            }
 
-            "无" -> {
+            getStringResource(R.string.无) -> {
                 viewBinding.rbDiy.isChecked = true
                 viewBinding.rbOther.setCompoundDrawablesRelativeWithIntrinsicBounds(
                     null,
