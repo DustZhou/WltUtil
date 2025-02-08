@@ -112,9 +112,9 @@ class QueryReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterfac
 
             if (this.CustomeBillDateType == DateEnum.OTHER.name) {
                 if (CustomeBillDateFormat == "MM") {
-                    viewBinding.tvOther.text = BeginDate.substring(0, 7) + "至" + EndDate.substring(0, 7)
+                    viewBinding.tvOther.text = BeginDate.substring(0, 7) + getStringResource(R.string.至) + EndDate.substring(0, 7)
                 } else {
-                    viewBinding.tvOther.text = BeginDate + "至" + EndDate
+                    viewBinding.tvOther.text = BeginDate + getStringResource(R.string.至) + EndDate
                 }
             } else {
                 viewBinding.tvOther.text = getStringResource(R.string.自定义)

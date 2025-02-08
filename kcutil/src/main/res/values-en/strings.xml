@@ -2738,6 +2738,19 @@
     <string name="已加载完毕">Finished Loading</string>
     <string name="此商品无批次数据">This commodity, no batch data!</string>
     <string name="有效日期">Effective Date</string>
+    <string name="该单据存在授权外的信息不支持查看">This document has information that is not authorized and cannot be viewed.</string>
+    <string name="接口异常">Interface exception</string>
+    <string name="预警类型选择">Alert Type Selection</string>
+    <string name="库存报警">Inventory Alarm</string>
+    <string name="下限">Lower Limit</string>
+    <string name="上限">Upper Limit</string>
+    <string name="在线">Online</string>
+    <string name="本地">Local</string>
+    <string name="本期">Current Period</string>
+    <string name="请选择打印内容">Please Select Print Content</string>
+    <string name="正在获取数据">Getting Data</string>
+    <string name="报表日期">Report Date</string>
+    <string name="打印信息">Print Information</string>
 
     <!--endregion-->
 

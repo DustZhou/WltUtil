@@ -2771,6 +2771,19 @@
     <string name="已加载完毕">已加载完毕</string>
     <string name="此商品无批次数据">此商品，无批次数据！</string>
     <string name="有效日期">有效日期</string>
+    <string name="该单据存在授权外的信息不支持查看">该单据存在授权外的信息，不支持查看</string>
+    <string name="接口异常">接口异常</string>
+    <string name="预警类型选择">预警类型选择</string>
+    <string name="库存报警">库存报警</string>
+    <string name="下限">下限</string>
+    <string name="上限">上限</string>
+    <string name="在线">在线</string>
+    <string name="本地">本地</string>
+    <string name="本期">本期</string>
+    <string name="请选择打印内容">请选择打印内容</string>
+    <string name="正在获取数据">正在获取数据</string>
+    <string name="报表日期">报表日期</string>
+    <string name="打印信息">打印信息</string>
 
     <!--endregion-->
     <!--endregion-->
