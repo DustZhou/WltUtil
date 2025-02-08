@@ -21,8 +21,8 @@
     <string name="支持一键单账户全额结算">支持一键单账户全额结算</string>
     <string name="支持查看支付宝微信收款码">支持查看支付宝、微信收款码</string>
     <string name="请联系管理员在物联通后台业务录单配置中设置微信支付通二维码">请联系管理员在物联通后台【业务录单配置】中设置微信、支付通二维码</string>
-    <string name="应收上限为XX">应收上限为%s</string>
-    <string name="往来余额为XX">往来余额为%s</string>
+    <string name="应收上限为XX">应收上限为%1$s</string>
+    <string name="往来余额为XX">往来余额为%1$s</string>
     <string name="不允许开单">不允许开单</string>
     <string name="网络错误删除失败是否重新删除">网络错误，删除失败，是否重新删除？</string>
     <string name="销售退货单">销售退货单</string>
@@ -1040,7 +1040,6 @@
     <string name="温馨提示">温馨提示</string>
     <string name="取消">取消</string>
     <string name="确定">确定</string>
-    <string name="请输入正确的手机型号">请输入正确的手机型号</string>
     <string name="确定隐藏体验一下功能">确定隐藏体验一下功能</string>
     <string name="账套">账套</string>
     <string name="账户">账户</string>
@@ -2904,6 +2903,15 @@
     <string name="正在获取数据">正在获取数据</string>
     <string name="报表日期">报表日期</string>
     <string name="打印信息">打印信息</string>
+    <string name="仅能选择近7天日期">仅能选择近7天日期</string>
+    <string name="不能打印空数据">不能打印空数据</string>
+    <string name="销售总数">销售总数</string>
+    <string name="XX位客户">%1$s位客户</string>
+    <string name="全消">全消</string>
+    <string name="冲抵">冲抵</string>
+    <string name="打印时间">打印时间</string>
+    <string name="分割线">分割线</string>
+
 
     <!--endregion-->
     <!--endregion-->

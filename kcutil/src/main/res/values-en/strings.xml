@@ -2751,6 +2751,10 @@
     <string name="正在获取数据">Getting Data</string>
     <string name="报表日期">Report Date</string>
     <string name="打印信息">Print Information</string>
+    <string name="仅能选择近7天日期">Only the last 7 days can be selected</string>
+    <string name="不能打印空数据">Cannot print empty data</string>
+    <string name="销售总数">Total Sales</string>
+    <string name="现金">Cash</string>
 
     <!--endregion-->
 
