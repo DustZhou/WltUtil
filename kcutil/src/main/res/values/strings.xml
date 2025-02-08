@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--region zyl 2025-02-08新补充-->
+    <string name="切换其他机构将清除已调单数据是否继续">切换其他机构将清除已调单数据，是否继续</string>
+    <string name="合计结算金额">合计结算金额</string>
+    <string name="请输入正确的手机型号">请输入正确的手机型号!</string>
+    <string name="请输入正确的手机号码">请输入正确的手机号码!</string>
+    <string name="请输入正确的使用人">请输入正确的使用人!</string>
+    <string name="进行一键抹零">进行一键抹零</string>
+    <string name="支持一键单账户全额结算">支持一键单账户全额结算</string>
+    <string name="支持查看支付宝微信收款码">支持查看支付宝、微信收款码</string>
+    <string name="请联系管理员在物联通后台业务录单配置中设置微信支付通二维码">请联系管理员在物联通后台【业务录单配置】中设置微信、支付通二维码</string>
     <string name="应收上限为XX">应收上限为%s</string>
     <string name="往来余额为XX">往来余额为%s</string>
     <string name="不允许开单">不允许开单</string>
     <string name="网络错误删除失败是否重新删除">网络错误，删除失败，是否重新删除？</string>
     <string name="销售退货单">销售退货单</string>
     <string name="一般费用单">一般费用单</string>
+    <string name="收款单摘要">收款单摘要</string>
     <string name="费用单摘要">费用单摘要</string>
     <string name="退货单摘要">退货单摘要</string>
     <string name="换货">换货</string>
