@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--region zyl 2025-02-08新补充-->
+    <string name="合计结算金额XX取各收款账户合计金额不允许超出本单应收XX">合计结算金额【%1$s】（取各收款账户合计金额）不允许超出本单应收【%2$s】</string>
+    <string name="单据不允许欠款请先全额结算">单据不允许欠款，请先全额结算</string>
+    <string name="本单应收为负合计收款金额不能大于0">本单应收为负，合计收款金额不能大于0</string>
+    <string name="本单应收为正合计收款金额不能小于0">本单应收为正，合计收款金额不能小于0</string>
+    <string name="本单未收款不支持抹零">本单未收款，不支持抹零</string>
+    <string name="支付通账户不支持退款请切换为其他账户">支付通账户不支持退款，请切换为其他账户</string>
+    <string name="切换仓库将清除销售批次数据是否继续">切换仓库将清除销售批次数据，是否继续</string>
+    <string name="不支持多账户收款">不支持多账户收款</string>
+    <string name="切换其他往来单位将清除已调单数据是否继续">切换其他往来单位将清除已调单数据，是否继续</string>
+    <string name="科目名称编号简拼">科目名称/编号/简拼</string>
+    <string name="账户名称编号简拼">账户名称/编号/简拼</string>
+    <string name="费用账户">费用账户</string>
     <string name="切换其他机构将清除已调单数据是否继续">切换其他机构将清除已调单数据，是否继续</string>
     <string name="合计结算金额">合计结算金额</string>
-    <string name="请输入正确的手机型号">请输入正确的手机型号!</string>
     <string name="请输入正确的手机号码">请输入正确的手机号码!</string>
     <string name="请输入正确的使用人">请输入正确的使用人!</string>
     <string name="进行一键抹零">进行一键抹零</string>
@@ -1473,9 +1484,6 @@
     <string name="添加成功1">添加成功</string>
 
 
-
-
-
     <string name="请先授权历销查看权限">请先授权历销查看权限</string>
     <string name="请先选择请选择">请先选择/请选择</string>
     <string name="请先选择往来单位">请先选择往来单位</string>
@@ -2036,7 +2044,7 @@
     <string name="单价2">单价:</string>
     <string name="行">行</string>
 
-     <string name="商品新增">商品新增</string>
+    <string name="商品新增">商品新增</string>
     <string name="保存">保存</string>
     <string name="清除">清除</string>
     <string name="名称">名称</string>
@@ -2119,7 +2127,6 @@
     <string name="地区类型">地区类型</string>
     <string name="客户等级">客户等级</string>
     <string name="新增客户草稿">新增客户草稿</string>
-
 
 
     <!--endregion-->
@@ -2513,17 +2520,6 @@
     <!--endregion-->
 
 
-
-
-
-
-
-
-
-
-
-
-
     <!--region 添加-->
 
     <string name="日期">日期</string>
@@ -2701,8 +2697,6 @@
     <string name="我知道了">我知道了</string>
     <string name="目标">目标:</string>
     <string name="冲刺">冲刺:</string>
-
-
 
 
     <!--endregion-->
