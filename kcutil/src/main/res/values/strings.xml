@@ -2911,6 +2911,31 @@
     <string name="冲抵">冲抵</string>
     <string name="打印时间">打印时间</string>
     <string name="分割线">分割线</string>
+    <string name="实线">实线</string>
+    <string name="空行">空行</string>
+    <string name="零售">零售</string>
+    <string name="新客户转化率">新客户转化率</string>
+    <string name="天未开单客户数30">天未开单客户数30</string>
+    <string name="天未拜访客户数30">天未拜访客户数30</string>
+    <string name="没有已授权的仓库">没有已授权的仓库</string>
+    <string name="当前操作员不支持开单如需开单请前往物联通系统修改操作员对应制单人之后APP档案同步后操作">当前操作员不支持开单。如需开单，请前往物联通系统修改操作员对应制单人，之后APP档案同步后操作。</string>
+    <string name="请选择具体仓库">请选择具体仓库</string>
+    <string name="没有有货的库存数据">没有有货的库存数据</string>
+    <string name="刷新将重新下载离线库存是否继续">刷新将重新下载离线库存，是否继续？</string>
+    <string name="未生成数据包">未生成数据包</string>
+    <string name="文件解压失败请重试">文件解压失败，请重试</string>
+    <string name="正在操作">正在操作</string>
+    <string name="净销多">净销多</string>
+    <string name="净销少">净销少</string>
+    <string name="毛利多">毛利多</string>
+    <string name="毛利少">毛利少</string>
+    <string name="净销售额">净销售额</string>
+    <string name="商品成本">商品成本</string>
+    <string name="员工利润变化分析">员工利润变化分析</string>
+    <string name="员工净销售额变化分析">员工净销售额变化分析</string>
+    <string name="员工销售金额变化分析">员工销售金额变化分析</string>
+    <string name="员工商品成本变化分析">员工商品成本变化分析</string>
+    <string name="员工销售毛利变化分析">员工销售毛利变化分析</string>
 
 
     <!--endregion-->
