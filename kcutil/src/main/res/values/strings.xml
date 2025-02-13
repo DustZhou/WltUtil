@@ -2657,6 +2657,104 @@
         <item>{"FileID":"YPTotal","FileName":"预付金额(元)"}</item><!--10-->
     </string-array>
 
+
+    <string-array name="DisplayPTypeAnalysisTotalList">
+        <item>{"FileID":"SaleGrossProfitTotal","FileName":"毛利(元)"}</item><!--2-->
+        <item>{"FileID":"NetSaleTotal","FileName":"净销售额(元)"}</item><!--3-->
+        <item>{"FileID":"SaleTotal","FileName":"销售金额(元)"}</item><!--7-->
+        <item>{"FileID":"SaleBTypeItems","FileName":"动销客户数"}</item><!--4-->
+        <item>{"FileID":"SaleBackTotal","FileName":"退货金额(元)"}</item><!--8-->
+        <item>{"FileID":"SaleBackTotalRatio","FileName":"金额退货率"}</item><!--9-->
+    </string-array>
+    <string-array name="DisplayPTypeAnalysisOpenTheMarketList">
+        <item>{"FileID":"OpenTheMarketRatio","FileName":"客户铺货率"}</item><!--2-->
+        <item>{"FileID":"OpenTheMarketCustomerQty","FileName":"铺货客户数"}</item><!--3-->
+        <item>{"FileID":"NotOpenTheMarketCustomerQty","FileName":"未铺货客户数"}</item><!--7-->
+        <item>{"FileID":"OpenTheMarketEmployeeQty","FileName":"铺货员工数"}</item><!--4-->
+        <item>{"FileID":"NotOpenTheMarketEmployeeQty","FileName":"未铺货员工数"}</item><!--8-->
+    </string-array>
+    <string-array name="DisplayPTypeAnalysisUnsalableList">
+        <item>{"FileID":"NotOpenTheMarketDay","FileName":"商品未铺货天数"}</item><!--2-->
+        <item>{"FileID":"LastOpenTheMarketSaleTotal","FileName":"上次铺货金额(元)"}</item><!--3-->
+        <item>{"FileID":"StockBaseQty","FileName":"实时基本库存数量"}</item><!--7-->
+        <item>{"FileID":"StockAuxUnitQty","FileName":"实时辅助库存数量"}</item><!--4-->
+        <item>{"FileID":"StockTotal","FileName":"库存成本(元)"}</item><!--8-->
+    </string-array>
+    <string-array name="DisplayCustomerAnalysisTotalList">
+        <item>{"FileID":"SaleGrossProfitTotal","FileName":"毛利(元)"}</item><!--2-->
+        <item>{"FileID":"NetSaleTotal","FileName":"净销售额(元)"}</item><!--3-->
+        <item>{"FileID":"SaleTotal","FileName":"销售金额(元)"}</item><!--7-->
+        <item>{"FileID":"SalePTypeItems","FileName":"动销商品数"}</item><!--4-->
+        <item>{"FileID":"SaleBackTotal","FileName":"退货金额(元)"}</item><!--8-->
+        <item>{"FileID":"SaleBackTotalRatio","FileName":"金额退货率"}</item><!--9-->
+    </string-array>
+    <string-array name="DisplayEmployeeAnalysisTotalList">
+        <item>{"FileID":"SaleGrossProfitTotal","FileName":"毛利(元)"}</item><!--2-->
+        <item>{"FileID":"NetSaleTotal","FileName":"净销售额(元)"}</item><!--3-->
+        <item>{"FileID":"SaleTotal","FileName":"销售金额(元)"}</item><!--7-->
+        <item>{"FileID":"VisitCustomerQty","FileName":"拜访客户数"}</item><!--4-->
+        <item>{"FileID":"SaleBackTotal","FileName":"退货金额(元)"}</item><!--8-->
+        <item>{"FileID":"SaleBackTotalRatio","FileName":"金额退货率"}</item><!--9-->
+    </string-array>
+    <string-array name="DisplayEmployeeProfitAnalysisTotalList">
+        <item>{"FileID":"ContrastRatio","FileName":"增长率"}</item><!--4-->
+        <item>{"FileID":"CompareDifferenceTotal","FileName":"变化值（元）"}</item><!--7-->
+        <item>{"FileID":"ThisPeriodTotal","FileName":"本期利润(元)"}</item><!--2-->
+        <item>{"FileID":"CompareTotal","FileName":"上期利润(元)"}</item><!--3-->
+    </string-array>
+    <string-array name="S3WorkerHandoverlist">
+        <item>{"FileID":"HandoverQty","FileName":"移交数"}</item><!--2-->
+        <item>{"FileID":"QualifiedQty","FileName":"合格数"}</item><!--3-->
+        <item>{"FileID":"QualifiedRate","FileName":"合格率"}</item><!--4-->
+        <item>{"FileID":"RBAcceptQty","FileName":"让步接收数"}</item><!--7-->
+        <item>{"FileID":"RBAcceptRate","FileName":"让步接收率"}</item><!--8-->
+        <item>{"FileID":"MScrapQty","FileName":"料废数"}</item><!--9-->
+        <item>{"FileID":"MScrapRate","FileName":"料废率"}</item><!--10-->
+        <item>{"FileID":"PScrapQty","FileName":"工废数"}</item><!--11-->
+        <item>{"FileID":"PScrapRate","FileName":"工废率"}</item><!--12-->
+    </string-array>
+    <string-array name="GMWorkerHandoverlist">
+        <item>{"FileID":"HandoverQty","FileName":"移交数"}</item><!--2-->
+        <item>{"FileID":"HandoverRate","FileName":"移交率"}</item><!--3-->
+        <item>{"FileID":"MScrapQty","FileName":"料废数"}</item><!--9-->
+        <item>{"FileID":"MScrapRate","FileName":"料废率"}</item><!--10-->
+        <item>{"FileID":"PScrapQty","FileName":"工废数"}</item><!--11-->
+        <item>{"FileID":"PScrapRate","FileName":"工废率"}</item><!--12-->
+        <item>{"FileID":"OtherOutQty","FileName":"其他转出数"}</item><!--7-->
+        <item>{"FileID":"OtherOutRate","FileName":"其他转出率"}</item><!--8-->
+    </string-array>
+    <string-array name="HHWorkerHandoverlist">
+        <item>{"FileID":"HandoverQty","FileName":"移交数"}</item><!--2-->
+    </string-array>
+    <string-array name="S3Workercompletionlist">
+        <item>{"FileID":"CheckAcceptQty","FileName":"验收数"}</item><!--2-->
+        <item>{"FileID":"StockInQty","FileName":"入库数"}</item><!--3-->
+        <item>{"FileID":"StockInRate","FileName":"入库率"}</item><!--4-->
+        <item>{"FileID":"ProductQty","FileName":"成品数"}</item><!--7-->
+        <item>{"FileID":"ProductRate","FileName":"成品率"}</item><!--8-->
+        <item>{"FileID":"DefectiveQty","FileName":"次品数"}</item><!--9-->
+        <item>{"FileID":"DefectiveRate","FileName":"次品率"}</item><!--10-->
+        <item>{"FileID":"StockInWasteQty","FileName":"入库废品"}</item><!--11-->
+        <item>{"FileID":"StockInWasteRate","FileName":"入库废品率"}</item><!--12-->
+        <item>{"FileID":"NotStockInWasteQty","FileName":"不入库废品"}</item><!--11-->
+        <item>{"FileID":"NotStockInWasteRate","FileName":"不入库废品率"}</item><!--12-->
+    </string-array>
+    <string-array name="GMWorkercompletionlist">
+        <item>{"FileID":"CheckAcceptQty","FileName":"验收数"}</item><!--2-->
+        <item>{"FileID":"StockInQty","FileName":"入库数"}</item><!--3-->
+        <item>{"FileID":"StockInRate","FileName":"入库率"}</item><!--4-->
+        <item>{"FileID":"ProductQty","FileName":"成品数"}</item><!--7-->
+        <item>{"FileID":"ProductRate","FileName":"成品率"}</item><!--8-->
+        <item>{"FileID":"DefectiveQty","FileName":"次品数"}</item><!--9-->
+        <item>{"FileID":"DefectiveRate","FileName":"次品率"}</item><!--10-->
+        <item>{"FileID":"NotStockInWasteQty","FileName":"不入库废品"}</item><!--11-->
+        <item>{"FileID":"NotStockInWasteRate","FileName":"不入库废品率"}</item><!--12-->
+    </string-array>
+    <string-array name="HHWorkercompletionlist">
+        <item>{"FileID":"StockInQty","FileName":"入库数"}</item><!--2-->
+    </string-array>
+
+
     <string name="往来余额元">往来余额(元)</string>
 
     <string name="应收金额">应收金额</string>

@@ -2619,6 +2619,101 @@
         <item>{\"FileID\":\"YRTotal\",\"FileName\":\"Amount received in advance\"}</item><!--9-->
         <item>{\"FileID\":\"YPTotal\",\"FileName\":\"Prepaid amount\"}</item><!--10-->
     </string-array>
+    <string-array name="DisplayPTypeAnalysisTotalList">
+        <item>{\"FileID\":\"SaleGrossProfitTotal\",\"FileName\":\"Gross Profit (CNY)\"}</item><!--2-->
+        <item>{\"FileID\":\"NetSaleTotal\",\"FileName\":\"Net Sales (CNY)\"}</item><!--3-->
+        <item>{\"FileID\":\"SaleTotal\",\"FileName\":\"Sales Amount (CNY)\"}</item><!--7-->
+        <item>{\"FileID\":\"SaleBTypeItems\",\"FileName\":\"Number of Active Customers\"}</item><!--4-->
+        <item>{\"FileID\":\"SaleBackTotal\",\"FileName\":\"Return Amount (CNY)\"}</item><!--8-->
+        <item>{\"FileID\":\"SaleBackTotalRatio\",\"FileName\":\"Return Rate\"}</item><!--9-->
+    </string-array>
+    <string-array name="DisplayPTypeAnalysisOpenTheMarketList">
+        <item>{\"FileID\":\"OpenTheMarketRatio\",\"FileName\":\"Customer Distribution Rate\"}</item><!--2-->
+        <item>{\"FileID\":\"OpenTheMarketCustomerQty\",\"FileName\":\"Number of Distributed Customers\"}</item><!--3-->
+        <item>{\"FileID\":\"NotOpenTheMarketCustomerQty\",\"FileName\":\"Number of Undistributed Customers\"}</item><!--7-->
+        <item>{\"FileID\":\"OpenTheMarketEmployeeQty\",\"FileName\":\"Number of Distributing Employees\"}</item><!--4-->
+        <item>{\"FileID\":\"NotOpenTheMarketEmployeeQty\",\"FileName\":\"Number of Undistributing Employees\"}</item><!--8-->
+    </string-array>
+    <string-array name="DisplayPTypeAnalysisUnsalableList">
+        <item>{\"FileID\":\"NotOpenTheMarketDay\",\"FileName\":\"Days Since Last Distribution\"}</item><!--2-->
+        <item>{\"FileID\":\"LastOpenTheMarketSaleTotal\",\"FileName\":\"Last Distribution Amount (CNY)\"}</item><!--3-->
+        <item>{\"FileID\":\"StockBaseQty\",\"FileName\":\"Current Base Stock Quantity\"}</item><!--7-->
+        <item>{\"FileID\":\"StockAuxUnitQty\",\"FileName\":\"Current Auxiliary Stock Quantity\"}</item><!--4-->
+        <item>{\"FileID\":\"StockTotal\",\"FileName\":\"Inventory Cost (CNY)\"}</item><!--8-->
+    </string-array>
+    <string-array name="DisplayCustomerAnalysisTotalList">
+        <item>{\"FileID\":\"SaleGrossProfitTotal\",\"FileName\":\"Gross Profit (CNY)\"}</item><!--2-->
+        <item>{\"FileID\":\"NetSaleTotal\",\"FileName\":\"Net Sales (CNY)\"}</item><!--3-->
+        <item>{\"FileID\":\"SaleTotal\",\"FileName\":\"Sales Amount (CNY)\"}</item><!--7-->
+        <item>{\"FileID\":\"SalePTypeItems\",\"FileName\":\"Number of Active Products\"}</item><!--4-->
+        <item>{\"FileID\":\"SaleBackTotal\",\"FileName\":\"Return Amount (CNY)\"}</item><!--8-->
+        <item>{\"FileID\":\"SaleBackTotalRatio\",\"FileName\":\"Return Rate\"}</item><!--9-->
+    </string-array>
+    <string-array name="DisplayEmployeeAnalysisTotalList">
+        <item>{\"FileID\":\"SaleGrossProfitTotal\",\"FileName\":\"Gross Profit (CNY)\"}</item><!--2-->
+        <item>{\"FileID\":\"NetSaleTotal\",\"FileName\":\"Net Sales (CNY)\"}</item><!--3-->
+        <item>{\"FileID\":\"SaleTotal\",\"FileName\":\"Sales Amount (CNY)\"}</item><!--7-->
+        <item>{\"FileID\":\"VisitCustomerQty\",\"FileName\":\"Number of Visited Customers\"}</item><!--4-->
+        <item>{\"FileID\":\"SaleBackTotal\",\"FileName\":\"Return Amount (CNY)\"}</item><!--8-->
+        <item>{\"FileID\":\"SaleBackTotalRatio\",\"FileName\":\"Return Rate\"}</item><!--9-->
+    </string-array>
+    <string-array name="DisplayEmployeeProfitAnalysisTotalList">
+        <item>{\"FileID\":\"ContrastRatio\",\"FileName\":\"Growth Rate\"}</item><!--4-->
+        <item>{\"FileID\":\"CompareDifferenceTotal\",\"FileName\":\"Change Value (CNY)\"}</item><!--7-->
+        <item>{\"FileID\":\"ThisPeriodTotal\",\"FileName\":\"Current Period Profit (CNY)\"}</item><!--2-->
+        <item>{\"FileID\":\"CompareTotal\",\"FileName\":\"Previous Period Profit (CNY)\"}</item><!--3-->
+    </string-array>
+    <string-array name="S3WorkerHandoverlist">
+        <item>{\"FileID\":\"HandoverQty\",\"FileName\":\"Handover Quantity\"}</item><!--2-->
+        <item>{\"FileID\":\"QualifiedQty\",\"FileName\":\"Qualified Quantity\"}</item><!--3-->
+        <item>{\"FileID\":\"QualifiedRate\",\"FileName\":\"Qualification Rate\"}</item><!--4-->
+        <item>{\"FileID\":\"RBAcceptQty\",\"FileName\":\"Concession Acceptance Quantity\"}</item><!--7-->
+        <item>{\"FileID\":\"RBAcceptRate\",\"FileName\":\"Concession Acceptance Rate\"}</item><!--8-->
+        <item>{\"FileID\":\"MScrapQty\",\"FileName\":\"Material Scrap Quantity\"}</item><!--9-->
+        <item>{\"FileID\":\"MScrapRate\",\"FileName\":\"Material Scrap Rate\"}</item><!--10-->
+        <item>{\"FileID\":\"PScrapQty\",\"FileName\":\"Process Scrap Quantity\"}</item><!--11-->
+        <item>{\"FileID\":\"PScrapRate\",\"FileName\":\"Process Scrap Rate\"}</item><!--12-->
+    </string-array>
+    <string-array name="GMWorkerHandoverlist">
+        <item>{\"FileID\":\"HandoverQty\",\"FileName\":\"Handover Quantity\"}</item><!--2-->
+        <item>{\"FileID\":\"HandoverRate\",\"FileName\":\"Handover Rate\"}</item><!--3-->
+        <item>{\"FileID\":\"MScrapQty\",\"FileName\":\"Material Scrap Quantity\"}</item><!--9-->
+        <item>{\"FileID\":\"MScrapRate\",\"FileName\":\"Material Scrap Rate\"}</item><!--10-->
+        <item>{\"FileID\":\"PScrapQty\",\"FileName\":\"Process Scrap Quantity\"}</item><!--11-->
+        <item>{\"FileID\":\"PScrapRate\",\"FileName\":\"Process Scrap Rate\"}</item><!--12-->
+        <item>{\"FileID\":\"OtherOutQty\",\"FileName\":\"Other Outbound Quantity\"}</item><!--7-->
+        <item>{\"FileID\":\"OtherOutRate\",\"FileName\":\"Other Outbound Rate\"}</item><!--8-->
+    </string-array>
+    <string-array name="HHWorkerHandoverlist">
+        <item>{\"FileID\":\"HandoverQty\",\"FileName\":\"Handover Quantity\"}</item><!--2-->
+    </string-array>
+    <string-array name="S3Workercompletionlist">
+        <item>{\"FileID\":\"CheckAcceptQty\",\"FileName\":\"Inspection Acceptance Quantity\"}</item><!--2-->
+        <item>{\"FileID\":\"StockInQty\",\"FileName\":\"Inbound Quantity\"}</item><!--3-->
+        <item>{\"FileID\":\"StockInRate\",\"FileName\":\"Inbound Rate\"}</item><!--4-->
+        <item>{\"FileID\":\"ProductQty\",\"FileName\":\"Finished Goods Quantity\"}</item><!--7-->
+        <item>{\"FileID\":\"ProductRate\",\"FileName\":\"Finished Goods Rate\"}</item><!--8-->
+        <item>{\"FileID\":\"DefectiveQty\",\"FileName\":\"Defective Quantity\"}</item><!--9-->
+        <item>{\"FileID\":\"DefectiveRate\",\"FileName\":\"Defective Rate\"}</item><!--10-->
+        <item>{\"FileID\":\"StockInWasteQty\",\"FileName\":\"Inbound Waste\"}</item><!--11-->
+        <item>{\"FileID\":\"StockInWasteRate\",\"FileName\":\"Inbound Waste Rate\"}</item><!--12-->
+        <item>{\"FileID\":\"NotStockInWasteQty\",\"FileName\":\"Non-Inbound Waste\"}</item><!--11-->
+        <item>{\"FileID\":\"NotStockInWasteRate\",\"FileName\":\"Non-Inbound Waste Rate\"}</item><!--12-->
+    </string-array>
+    <string-array name="GMWorkercompletionlist">
+        <item>{\"FileID\":\"CheckAcceptQty\",\"FileName\":\"Inspection Acceptance Quantity\"}</item><!--2-->
+        <item>{\"FileID\":\"StockInQty\",\"FileName\":\"Inbound Quantity\"}</item><!--3-->
+        <item>{\"FileID\":\"StockInRate\",\"FileName\":\"Inbound Rate\"}</item><!--4-->
+        <item>{\"FileID\":\"ProductQty\",\"FileName\":\"Finished Goods Quantity\"}</item><!--7-->
+        <item>{\"FileID\":\"ProductRate\",\"FileName\":\"Finished Goods Rate\"}</item><!--8-->
+        <item>{\"FileID\":\"DefectiveQty\",\"FileName\":\"Defective Quantity\"}</item><!--9-->
+        <item>{\"FileID\":\"DefectiveRate\",\"FileName\":\"Defective Rate\"}</item><!--10-->
+        <item>{\"FileID\":\"NotStockInWasteQty\",\"FileName\":\"Non-Inbound Waste\"}</item><!--11-->
+        <item>{\"FileID\":\"NotStockInWasteRate\",\"FileName\":\"Non-Inbound Waste Rate\"}</item><!--12-->
+    </string-array>
+    <string-array name="HHWorkercompletionlist">
+        <item>{\"FileID\":\"StockInQty\",\"FileName\":\"Inbound Quantity\"}</item><!--2-->
+    </string-array>
 
     <string name="往来余额元">Transaction Balance (CNY)</string>
 

@@ -12,4 +12,8 @@
     <string name="THISQUARTER" translatable="false">THISQUARTER</string>
     <string name="OTHER" translatable="false">OTHER</string>
     <string name="不支持翻译用于变量" translatable="false">不支持翻译，用于变量</string>
+    <string name="commenttishi" translatable="false">(%1$d/300)</string>
+    <string name="spaceview" translatable="false">&#160;&#160;&#160;&#160;</string>
+    <string name="halfspaceview" translatable="false">&#160;&#160;</string>
+    <string name="boardtishi" translatable="false">上下拖动可调整看板中卡片的前后顺序\n开关控制卡片在看板中的显示或隐藏</string>
 </resources>
