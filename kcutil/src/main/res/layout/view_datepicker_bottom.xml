@@ -72,7 +72,7 @@
                 android:background="@drawable/checkstyle_radiobutton"
                 android:button="@null"
                 android:gravity="center"
-                android:text="近7天"
+                android:text="@string/近7天"
                 android:textColor="@drawable/checkstyle_radiobutton" />
 
             <RadioButton
