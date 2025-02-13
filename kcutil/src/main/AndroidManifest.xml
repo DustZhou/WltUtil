@@ -12,6 +12,15 @@
     </queries>
 
 
-    <application/>
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        >
+        <activity
+            android:name="me.weyye.hipermission.PermissionActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/CustomTheme_Dialog"/>
+
+    </application>
 
 </manifest>

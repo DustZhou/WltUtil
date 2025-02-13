@@ -55,6 +55,7 @@
             android:text="@string/不支持翻译用于变量"/>
 
         <com.kenning.kcutil.utils.language.ShowMoreTextView
+            android:id="@+id/tvShowText"
             android:layout_width="match_parent"
             android:singleLine="true"
             android:layout_height="wrap_content"

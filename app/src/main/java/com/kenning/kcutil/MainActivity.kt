@@ -13,6 +13,7 @@ import com.kenning.kcutil.utils.date.formatBy
 import com.kenning.kcutil.utils.datepicker.IPickerListener
 import com.kenning.kcutil.utils.language.LanguageUtil
 import com.kenning.kcutil.utils.language.LanguageUtil.LanguageType
+import com.kenning.kcutil.utils.other.getStringResource
 import java.util.Date
 
 
@@ -49,6 +50,7 @@ class MainActivity : BaseActivity(), IPickerListener {
                 }
             }.show()
         }
+        binding.tvShowText.text = getStringResource(R.string.单据XX已打印XX次,"","")
     }
 
     /**

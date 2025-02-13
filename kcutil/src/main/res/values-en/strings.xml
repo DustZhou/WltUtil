@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--region zyl 2025-02-13新补充-->
+    <string name="存储空间">Storage</string>
+    <string name="位置信息">Location</string>
+    <string name="拍照权限">Camera</string>
+    <string name="开启XX">Start %s</string>
+    <string name="为了您能正常使用XX需要以下权限">For your normal use %s, you need the following permissions</string>
+    <string name="请允许获取XX">Please allow access to %s</string>
+    <string name="我们需要获取XX否则您将无法正常使用XX">We need access to %1$s,otherwise, you will not be able to use %2$s</string>
+    <string name="由于XX无法获取XX不能正常运行请开启权限后再使用设置路径应用管理XX权限">"Because %1$s cannot use %2$s,Can not run normally,Please open permissions before using.\n\nSetup path: Apps->%3$s->Permissions"</string>
+    <string name="拒绝">Deny</string>
+    <string name="去设置">Go to Setting</string>
+    <!--endregion-->
     <!--region zyl 2025-02-08新补充-->
     <string name="合计结算金额XX取各收款账户合计金额不允许超出本单应收XX">合计结算金额【%1$s】（取各收款账户合计金额）不允许超出本单应收【%2$s】</string>
     <string name="单据不允许欠款请先全额结算">单据不允许欠款，请先全额结算</string>

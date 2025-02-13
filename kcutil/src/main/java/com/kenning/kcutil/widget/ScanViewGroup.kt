@@ -427,7 +427,7 @@ class ScanViewGroup @JvmOverloads constructor(
                         ToastUtil.show(it.toString())
                     }
                 } else {
-                    ToastUtil.show("请在Application类中调用setScanClassPath方法,或手动调用setOnCameraListener")
+                    ToastUtil.show("please Application class setScanClassPath method,or call manually setOnCameraListener")
                 }
             }
         }

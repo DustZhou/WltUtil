@@ -2,9 +2,11 @@ package com.kenning.base
 
 //import com.gyf.barlibrary.ImmersionBar
 //import com.gyf.barlibrary.OSUtils
+import android.content.Context
 import android.os.Bundle
 import android.view.View
 import androidx.annotation.LayoutRes
+import com.kenning.kcutil.utils.language.LanguageUtil
 import org.jetbrains.annotations.NotNull
 
 /**
@@ -13,6 +15,12 @@ import org.jetbrains.annotations.NotNull
  *author : created by shaohua.chen on 2021/1/29 2:45 PM
  */
 abstract class BaseActivity : SupportActivity()/*, IProgress*/ {
+    /**
+     * 此方法先于 onCreate()方法执行 。用于加载配置的语言
+     */
+    override fun attachBaseContext(context: Context?) {
+        super.attachBaseContext(LanguageUtil.attachBaseContext(context))
+    }
     var reStartApp = false
 //    private var savedInstanceState: Bundle? = null
 

@@ -213,9 +213,9 @@ object DateExtendUtil {
         val h = mint.CHU(60).toInt_()
         val m = mint.JIAN(h.CHENG(60)).toInt_()
         if (h == 0) {
-            return mint + "分钟";
+            return mint + getStringResource(R.string.分钟);
         } else
-            return "$h 时" + m + "分钟";
+            return "$h 时" + m + getStringResource(R.string.分钟);
     }
 
     fun getMintBetween2(hour1: String, hour2: String): Long {

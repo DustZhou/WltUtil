@@ -77,7 +77,7 @@ class FragmentHelper(val fragmentManager_: FragmentManager, val isSuper: Boolean
         val show = fragmentManager_.findFragmentByTag(fragmentTag)
 
         if (show == null) {
-            throw Exception("不存在指定tag的Fragment实例")
+            throw Exception("There is no fragment instance with the specified tag")
         } else {
             fragmentManager_.beginTransaction()
                 .show(show)

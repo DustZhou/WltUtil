@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--region zyl 2025-02-13新补充-->
+    <string name="AA">AA</string>
+    <string name="相机">相机</string>
+    <string name="蓝牙">蓝牙</string>
+    <string name="位置">位置</string>
+    <string name="录音">录音</string>
+    <string name="分钟">分钟</string>
+    <string name="文件查看">文件查看</string>
+    <string name="文件写入">文件写入</string>
+    <string name="存储空间">存储空间</string>
+    <string name="位置信息">位置信息</string>
+    <string name="拍照权限">拍照权限</string>
+    <string name="开启XX">开启%s</string>
+    <string name="请允许管家婆物联通访问您的录音若不允许您将无法使用语音识别功能">请允许“管家婆物联通”访问您的录音；若不允许，您将无法使用语音识别功能。</string>
+    <string name="请允许管家婆物联通访问您的蓝牙若不允许您将无法使用连接打印机功能">请允许“管家婆物联通”访问您的蓝牙；若不允许，您将无法使用连接打印机功能。</string>
+    <string name="请允许管家婆物联通访问您的位置若不允许您将无法使用定位签到功能">请允许“管家婆物联通”访问您的位置；若不允许，您将无法使用定位签到功能。</string>
+    <string name="请允许管家婆物联通访问您的存储若不允许您将无法使用文件相关功能">请允许“管家婆物联通”访问您的存储；若不允许，您将无法使用文件相关功能。</string>
+    <string name="为了您能正常使用XX需要以下权限">为了您能正常使用%s，需要以下权限</string>
+    <string name="请允许获取XX">请允许获取%s</string>
+    <string name="我们需要获取XX否则您将无法正常使用XX">我们需要获取%1$s, 否则您将无法正常使用%2$s</string>
+    <string name="由于XX无法获取XX不能正常运行请开启权限后再使用设置路径应用管理XX权限">"由于%1$s无法获取%2$s, 不能正常运行, 请开启权限后再使用。\n\n设置路径: 应用管理->%3$s->权限"</string>
+    <string name="拒绝">拒绝</string>
+    <string name="去设置">去设置</string>
+
+    <!--endregion-->
     <!--region zyl 2025-02-08新补充-->
     <string name="合计结算金额XX取各收款账户合计金额不允许超出本单应收XX">合计结算金额【%1$s】（取各收款账户合计金额）不允许超出本单应收【%2$s】</string>
     <string name="单据不允许欠款请先全额结算">单据不允许欠款，请先全额结算</string>

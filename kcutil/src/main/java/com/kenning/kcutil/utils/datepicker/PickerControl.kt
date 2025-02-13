@@ -12,7 +12,7 @@ import com.kenning.kcutil.widget.SwitchImageView
 /**
  *Description :
  *author : KenningChen
- *Date : 2021/5/8 3:38 下午
+ * Date : 2021/5/8 3:38 下午
  */
 class PickerControl(var fragment: Fragment) {
 
