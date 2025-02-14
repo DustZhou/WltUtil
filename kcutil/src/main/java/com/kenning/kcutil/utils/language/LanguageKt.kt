@@ -56,13 +56,13 @@ object ResourceHelper {
  * @Description:
  * @author: create by zyl on 2025-02-13
  */
-class LanguageKt {
+object LanguageKt {
     /**
     * @Description:Android 11+ 使用 ResourcesProvider（推荐）
     * @author: create by zyl on 2025/02/13
     */
     @RequiresApi(Build.VERSION_CODES.R)
-    fun loadLanguageForAndroid11(context: Context, langCode: String) {
+    private fun loadLanguageForAndroid11(context: Context, langCode: String) {
         // 1. 准备动态资源文件（假设已下载到 files/dynamic_res/values-zh/strings.xml）
         val resDir = File(context.filesDir, "dynamic_res")
 
@@ -88,7 +88,7 @@ class LanguageKt {
      * @Description:Android 5.0 - 10 使用反射（需适配）
      * @author: create by zyl on 2025/02/13
      */
-    fun loadLanguageLegacy(context: Context, langCode: String) {
+    private fun loadLanguageLegacy(context: Context, langCode: String) {
         try {
             // 1. 准备资源目录（同上）
             val resDir = File(context.filesDir, "dynamic_res")

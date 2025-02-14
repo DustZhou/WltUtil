@@ -11,6 +11,7 @@ import com.kenning.kcutil.utils.date.DateExtendUtil
 import com.kenning.kcutil.utils.date.Date_Format
 import com.kenning.kcutil.utils.date.formatBy
 import com.kenning.kcutil.utils.datepicker.IPickerListener
+import com.kenning.kcutil.utils.language.LanguageKt
 import com.kenning.kcutil.utils.language.LanguageUtil
 import com.kenning.kcutil.utils.language.LanguageUtil.LanguageType
 import com.kenning.kcutil.utils.other.getStringResource
@@ -51,6 +52,9 @@ class MainActivity : BaseActivity(), IPickerListener {
             }.show()
         }
         binding.tvShowText.text = getStringResource(R.string.相机)
+        binding.tvShowText.setOnClickListener {
+            LanguageKt.switchLanguage(this, LanguageType.ENGLISH.language)
+        }
     }
 
     /**
