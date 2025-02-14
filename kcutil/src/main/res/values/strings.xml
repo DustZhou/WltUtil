@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--region zyl 2025-02-14新补充已提交-->
+    <string name="boardtishi">上下拖动可调整看板中卡片的前后顺序\n开关控制卡片在看板中的显示或隐藏</string>
+    <string name="请输入正确的手机号">请输入正确的手机号</string>
+    <string name="重新获取验证码">重新获取验证码</string>
+    <string name="请输入正确的验证码">请输入正确的验证码</string>
+    <string name="发送成功">发送成功</string>
+    <string name="小通您的语音开单助手">小通-您的语音开单助手</string>
+    <string name="XX秒后停止录音">60秒后停止录音</string>
+    <string name="AI识别结果">AI识别结果</string>
+    <string name="AI智能识别仅用于辅助开单无法确保准确性请根据实际修改" translatable="false">AI智能识别仅用于辅助开单，无法确保准确性;请根据实际修改。</string>
+    <string name="列名匹配">列名匹配</string>
+    <string name="语言识别信息1">您可以通过语音，结合您实际商品进行语音开单</string>
+    <string name="语言识别信息2">(以下为示例，请结合您实际商品进行AI开单)</string>
+    <string name="语言识别示例1">示例1:娃哈哈5瓶3块钱，8箱曲奇饼干，糖豆200克装10包48块钱</string>
+    <string name="语言识别示例2">示例2:开一张爆米花5桶，单价8块钱，雪碧8箱，巧克力3包，总价60块钱</string>
+    <string name="文本识别提示">娃哈哈5瓶3块钱\n可乐8瓶1.16—瓶\n8箱曲奇饼干\n巧克力200克装3包单价60元\n榴莲糖2包\n</string>
+    <!--endregion-->
+
+    <!--region zyl 2025-02-14新补充已提交-->
     <string name="添加关键词">添加关键词</string>
     <string name="退回">退回</string>
     <string name="其它可用设备">其它可用设备</string>
@@ -3200,7 +3218,6 @@
     <string name="米">米</string>
 
 
-
     <string name="订货合计冒号">订货合计:￥%s</string>
     <string name="销售合计冒号">销售合计:￥%s</string>
     <string name="退货合计冒号">退货合计:￥%s</string>
@@ -3651,7 +3668,6 @@
     <string name="消费日期">消费日期</string>
     <string name="消费数量">消费数量</string>
     <string name="储值">储值</string>
-
 
 
     <!--region zyl 2025-02-13新补充-->

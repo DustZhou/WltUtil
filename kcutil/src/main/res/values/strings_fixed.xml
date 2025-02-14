@@ -15,21 +15,5 @@
     <string name="commenttishi" translatable="false">(%1$d/300)</string>
     <string name="spaceview" translatable="false">&#160;&#160;&#160;&#160;</string>
     <string name="halfspaceview" translatable="false">&#160;&#160;</string>
-    <string name="boardtishi" translatable="false">上下拖动可调整看板中卡片的前后顺序\n开关控制卡片在看板中的显示或隐藏</string>
 
-    <string name="请输入正确的手机号" translatable="false">请输入正确的手机号</string>
-    <string name="重新获取验证码" translatable="false">重新获取验证码</string>
-    <string name="请输入正确的验证码" translatable="false">请输入正确的验证码</string>
-    <string name="发送成功" translatable="false">发送成功</string>
-    <string name="小通您的语音开单助手" translatable="false">小通-您的语音开单助手</string>
-    <string name="XX秒后停止录音" translatable="false">60秒后停止录音</string>
-    <string name="AI识别结果" translatable="false">AI识别结果</string>
-    <string name="AI智能识别仅用于辅助开单无法确保准确性请根据实际修改" translatable="false">AI智能识别仅用于辅助开单，无法确保准确性;请根据实际修改。</string>
-    <string name="列名匹配" translatable="false">列名匹配</string>
-    <string name="语言识别信息1" translatable="false">您可以通过语音，结合您实际商品进行语音开单</string>
-    <string name="语言识别信息2" translatable="false">(以下为示例，请结合您实际商品进行AI开单)</string>
-    <string name="语言识别示例1" translatable="false">示例1:娃哈哈5瓶3块钱，8箱曲奇饼干，糖豆200克装10包48块钱</string>
-    <string name="语言识别示例2" translatable="false">示例2:开一张爆米花5桶，单价8块钱，雪碧8箱，巧克力3包，总价60块钱</string>
-    <string name="文本识别提示" translatable="false">" 娃哈哈5瓶3块钱\n可乐8瓶1.16—瓶\n8箱曲奇饼干\n巧克力200克装3包单价60元\n榴莲糖2包\n
-"</string>
 </resources>
