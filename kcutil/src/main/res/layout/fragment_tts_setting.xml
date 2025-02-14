@@ -19,7 +19,7 @@
         <TextView
             android:id="@+id/tvBack"
             style="@style/TitleBarBtnBackStyle_"
-            android:text="语音引擎设置" />
+            android:text="@string/语音引擎设置" />
     </LinearLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -40,7 +40,7 @@
             android:gravity="center_vertical"
             android:minHeight="@dimen/dp_40"
             android:paddingStart="@dimen/dp_10"
-            android:text="语音提示"
+            android:text="@string/语音提示"
             android:textColor="#1E2125"
             android:textSize="@dimen/sp_15"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -97,7 +97,7 @@
             android:layout_gravity="center"
             android:paddingLeft="@dimen/dp_10"
             android:paddingRight="@dimen/dp_10"
-            android:text="下 载"
+            android:text="@string/下载"
             app:normalBackgroundColor="@color/color_ttsconfig_downcolor"
             android:gravity="center"
             android:textColor="@color/white"
@@ -120,7 +120,7 @@
             android:gravity="center_vertical"
             android:minHeight="@dimen/dp_30"
             android:paddingStart="@dimen/dp_10"
-            android:text="语速设置"
+            android:text="@string/语速设置"
             android:textColor="#1E2125"
             android:textSize="@dimen/sp_14" />
 

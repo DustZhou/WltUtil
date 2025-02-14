@@ -44,7 +44,7 @@
             android:layout_height="wrap_content"
             android:textSize="13sp"
             android:textColor="@color/color_333333"
-            android:text=" 不再提示"
+            android:text="@string/下次不再提示"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintLeft_toRightOf="@+id/switchView"/>
     </androidx.constraintlayout.widget.ConstraintLayout>

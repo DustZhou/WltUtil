@@ -50,7 +50,7 @@ class MainActivity : BaseActivity(), IPickerListener {
                 }
             }.show()
         }
-        binding.tvShowText.text = getStringResource(R.string.单据XX已打印XX次,"","")
+        binding.tvShowText.text = getStringResource(R.string.相机)
     }
 
     /**
