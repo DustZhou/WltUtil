@@ -115,7 +115,7 @@
     <string name="品牌收款">品牌收款</string>
     <string name="赠送">赠送</string>
     <string name="单位关系">单位关系</string>
-
+    <!--endregion-->
 
     <!--region zyl 2025-02-13新补充-->
     <string name="相机">相机</string>
@@ -614,7 +614,6 @@
     <string name="您好您的注册申请已提交审核">您好，您的注册申请已提交审核。</string>
     <string name="车辆管理">车辆管理</string>
     <string name="备忘录">备忘录</string>
-    <string name="RFID读取">RFID读取</string>
     <string name="让利方式">让利方式</string>
     <string name="未打印">未打印</string>
     <string name="已打印">已打印</string>
@@ -1523,7 +1522,7 @@
     <string name="条码">条码</string>
     <string name="编号">编号</string>
     <string name="序列号仅后台开启序列号功能">序列号（仅后台开启序列号功能）</string>
-    <string name="RFID读取仅安卓支持">RFID读取（仅安卓支持）</string>
+    <string name="RFID读取">RFID读取</string>
     <string name="客户标签">客户标签</string>
     <string name="应收XXX">应收:%1$s</string>
     <string name="预收XXX">预收:%1$s</string>
@@ -1580,9 +1579,7 @@
     <string name="提货">提货</string>
     <string name="按单退">按单退</string>
     <string name="费用">费用</string>
-    <string name="挂单更多中">挂单（更多中）</string>
-    <string name="分享更多中">分享（更多中）</string>
-    <string name="打印商品标签更多中">打印商品标签（更多中）</string>
+    <string name="打印商品标签">打印商品标签</string>
     <string name="连接">连接</string>
     <string name="配置">配置</string>
     <string name="打印">打印</string>
@@ -1727,7 +1724,6 @@
     <string name="有超期应收款不允许开单">有超期应收款不允许开单</string>
     <string name="超出应收上限不允许开单">超出应收上限不允许开单</string>
 
-    <string name="单据不允许超库存量出库以下商品库存不足">单据:%1$s\n不允许超库存量出库，以下商品库存不足</string>
     <string name="蓝牙打印">蓝牙打印</string>
     <string name="远程打印">远程打印</string>
     <string name="云打印">云打印</string>
@@ -2338,13 +2334,12 @@
     <string name="您需要联网使用本系统">您需要联网使用本系统</string>
     <string name="当前服务器地址不存在此帐套">当前服务器地址不存在此帐套</string>
     <string name="权限申请">权限申请</string>
-    <string name="android_PleaseAllowAPPObtainPermissions">由于APP支持本地开单，需要进行必要的权限授权才可以使用。请允许APP获取相应权限</string>
     <string name="可点击设置权限打开所需权限">可点击设置权限打开所需权限</string>
     <string name="数据目录初始化失败">数据目录初始化失败</string>
     <string name="是否复制">是否复制</string>
     <string name="帐套列表为空">帐套列表为空</string>
     <string name="用户列表为空">用户列表为空</string>
-    <string name="帐套更新了请重新选择帐套">帐套更新了请重新选择帐套</string>
+    <string name="帐套更新了请重新选择帐套">帐套更新了，请重新选择帐套</string>
     <string name="当前服务器帐套为空">当前服务器帐套为空</string>
     <string name="获取帐套列表失败">获取帐套列表失败</string>
     <string name="获取服务器列表失败">获取服务器列表失败</string>
@@ -2362,12 +2357,12 @@
     <string name="服务器版本为XX与APP版本不一致需要将APP版本升级到XX版本">服务器版本为%1$s与APP版本不一致!需要将APP版本升级到%2$s版本</string>
     <string name="当前没有选中的帐套">当前没有选中的帐套</string>
     <string name="下载方式">下载方式</string>
-    <string name="没有发现现有数据包请全新升级">没有发现现有数据包请全新升级</string>
+    <string name="没有发现现有数据包请全新升级">没有发现现有数据包,请全新升级</string>
     <string name="最近数据更新时间XXX">最近数据更新时间%1$s</string>
-    <string name="你有照片未提交先进行提交">你有照片未提交先进行提交</string>
-    <string name="你有单据未提交请登录物联通中提交单据数据">你有单据未提交请登录物联通中提交单据数据</string>
-    <string name="检测到有未签退的拜访数据请手动签退">检测到有未签退的拜访数据请手动签退</string>
-    <string name="服务器生成数据失败请重新尝试">服务器生成数据失败请重新尝试</string>
+    <string name="你有照片未提交先进行提交">你有照片未提交,先进行提交</string>
+    <string name="你有单据未提交请登录物联通中提交单据数据">你有单据未提交，请登录物联通中提交单据数据</string>
+    <string name="检测到有未签退的拜访数据请手动签退">检测到有未签退的拜访数据，请手动签退</string>
+    <string name="服务器生成数据失败请重新尝试">服务器生成数据失败，请重新尝试</string>
     <string name="当前其它用户正在全新升级数据包请稍后下载现有数据包">当前其它用户正在全新升级数据包请稍后下载现有数据包</string>
     <string name="服务器已关闭全新升级请通过现有数据包下载数据">服务器已关闭全新升级请通过现有数据包下载数据</string>
     <string name="下载文件出错请重试">下载文件出错请重试</string>
