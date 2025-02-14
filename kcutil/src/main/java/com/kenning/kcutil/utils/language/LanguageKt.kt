@@ -1,6 +1,7 @@
 package com.kenning.kcutil.utils.language
 
 import android.app.Activity
+import android.app.AlertDialog
 import android.content.Context
 import android.content.Intent
 import android.content.res.AssetManager
@@ -11,7 +12,6 @@ import android.content.res.loader.ResourcesProvider
 import android.os.Build
 import android.widget.Toast
 import androidx.annotation.RequiresApi
-import androidx.appcompat.app.AlertDialog
 import org.xmlpull.v1.XmlPullParser
 import org.xmlpull.v1.XmlPullParserFactory
 import java.io.File
