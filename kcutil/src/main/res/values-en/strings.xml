@@ -5,7 +5,7 @@
     <!--region zyl 2025-02-17新补充已提交-->
     <!--endregion-->
     <!--region zyl 2025-02-15新补充已提交-->
-    <string name="超过管家婆单据最大行数">Exceeding the maximum number of rows in a housekeeper's bill</string>
+    <string name="超过管家婆单据最大行数">Exceeding the maximum number of rows in a housekeeper\'s bill</string>
     <string name="系统日期不正确请修改为当前日期">System date is incorrect. Please modify to the current date.</string>
     <string name="请提交注册并激活成功后使用">Please submit registration and activate successfully before use.</string>
     <string name="是否放弃当前已录入的内容">Do you want to discard the currently entered content?</string>
@@ -35,8 +35,8 @@
     <string name="以下订单已被删除不允许调用不允许提交本单请重新开单">The following orders have been deleted. Calling and submitting this order are not allowed. Please create a new order.</string>
     <string name="以下单据已被中止不允许调用不允许打印">The following documents have been terminated. Calling and printing are not allowed.</string>
     <string name="以下单据已被中止不允许调用不允许提交本单请重新开单">The following documents have been terminated. Calling and submitting this order are not allowed. Please create a new order.</string>
-    <string name="以下单据所处状态不允许调用不允许打印">The following documents' status does not allow calling or printing.</string>
-    <string name="以下单据所处状态不允许调用不允许提交本单请重新开单">The following documents' status does not allow calling or submitting this order. Please create a new order.</string>
+    <string name="以下单据所处状态不允许调用不允许打印">The following documents\' status does not allow calling or printing.</string>
+    <string name="以下单据所处状态不允许调用不允许提交本单请重新开单">The following documents\' status does not allow calling or submitting this order. Please create a new order.</string>
     <string name="编号名称简拼条码">ID/Name/Abbreviation/Barcode</string>
     <string name="往来单位编号名称简拼">Counterparty ID/Name/Abbreviation</string>
     <string name="不允许本次发货数量超出库存数量">Shipping quantity cannot exceed inventory quantity.</string>
