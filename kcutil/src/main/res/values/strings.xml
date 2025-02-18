@@ -6,6 +6,7 @@
     <string name="零售单收款金额必须等于优惠后金额">零售单收款金额必须等于优惠后金额</string>
     <string name="单位不能相同">单位不能相同</string>
     <string name="小时">小时</string>
+    <string name="分配成功">分配成功</string>
     <string name="取消分配成功">取消分配成功</string>
     <string name="确认修改日报">确认修改日报？</string>
     <string name="确认删除该日报">确认删除该日报？</string>

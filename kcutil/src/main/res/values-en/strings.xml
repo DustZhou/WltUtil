@@ -7,6 +7,7 @@
     <string name="单位不能相同">Units cannot be the same.</string>
     <string name="小时">Hours</string>
     <string name="取消分配成功">Unassignment successful.</string>
+    <string name="分配成功">assignment successful</string>
     <string name="确认修改日报">Confirm modifying the daily report?</string>
     <string name="确认删除该日报">Confirm deleting this daily report?</string>
     <string name="没有日报样式可选择">No daily report templates available.</string>
