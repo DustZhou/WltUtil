@@ -1504,7 +1504,7 @@
     <string name="密码">Password</string>
     <string name="点击查看设置说明">Click for setup instructions</string>
     <string name="欢迎试用">Welcome to try</string>
-    <string name="android_TryAgainInSeconds">Try again in $s seconds</string>
+    <string name="android_TryAgainInSeconds">Try again in %1$s seconds</string>
     <string name="没有可删除的数据">There is no data to delete</string>
     <string name="android_WoolinteFunctionIntroduction">Billing, reporting, field work, approval, distribution \n five applications to achieve the mobile office needs of the housekeeper</string>
     <string name="请输入手机号码">Please enter your mobile number</string>
@@ -3545,7 +3545,7 @@
     <string name="服务器开启了顺序拜访模式请按顺序拜访">The server has enabled sequential visit mode, please visit in order</string>
     <string name="没有地址可导航">No address to navigate!</string>
     <string name="解除锁定">Unlock</string>
-    <string name="配送员和跟车员不允许相同XX">Delivery staff and drivers are not allowed to be the same [$s]</string>
+    <string name="配送员和跟车员不允许相同XX">Delivery staff and drivers are not allowed to be the same [%1$s]</string>
     <string name="正在更新商品">Updated products</string>
     <string name="重新同步">Resync</string>
     <string name="商品信息同步失败建议同步成功后再修改">Product information synchronization failed, it is recommended to modify it after the synchronization is successful</string>
@@ -3709,8 +3709,8 @@
     <string name="反审核">Counter-authorization</string>
     <string name="驳回">turn down</string>
     <string name="无说明">(No description)</string>
-    <string name="单位条码XX与商品其他单位条码重复">Unit barcode $s is repeated with other unit barcodes of the product</string>
-    <string name="单位条码XX与其他商品条码重复">The unit barcode $s is repeated with other product barcodes</string>
+    <string name="单位条码XX与商品其他单位条码重复">Unit barcode %1$s is repeated with other unit barcodes of the product</string>
+    <string name="单位条码XX与其他商品条码重复">The unit barcode %1$s is repeated with other product barcodes</string>
     <string name="请先选择分支机构">Please select a branch first</string>
     <string name="无当前仓库货位查询权限">No permission to query the current warehouse location</string>
     <string name="卡类型选择">Card type selection</string>
@@ -3741,7 +3741,7 @@
     <string name="出">out</string>
     <string name="入">enter</string>
     <string name="赠品括号">(Gift)</string>
-    <string name="没有XX查看权限">No $s view permission</string>
+    <string name="没有XX查看权限">No %1$s view permission</string>
     <string name="该单据未审核不允许编辑">This document [not reviewed], is not allowed to be edited!</string>
     <string name="该单据审核中不允许编辑">This document is [under review] and is not allowed to be edited!</string>
     <string name="该单据审核通过不允许编辑">This document [Approved] is not allowed to be edited!</string>
@@ -3819,12 +3819,12 @@
 
     <string name="解绑后客户将不会收到消息通知确定要解绑吗">After unbinding, the customer will not receive a message notification. Are you sure you want to unbind?</string>
     <string name="正在解绑请稍等">Unbinding, please wait!</string>
-    <string name="单据商品超过XX行请使用小程序或链接分享">The document product exceeds $s line, please use the applet or link to share it</string>
-    <string name="单据商品超过XX行不支持分享">Document products exceed $s, sharing is not supported</string>
+    <string name="单据商品超过XX行请使用小程序或链接分享">The document product exceeds %1$s line, please use the applet or link to share it</string>
+    <string name="单据商品超过XX行不支持分享">Document products exceed %1$s, sharing is not supported</string>
     <string name="请到物联通后台的在线分享配置中设置服务器地址">Please set the server address in the [Online Sharing Configuration] in the backend of China Unicom</string>
     <string name="小程序分享需要先提交单据">The mini program needs to submit documents first</string>
     <string name="等XX种商品">Other products</string>
-    <string name="XX分享的单据请查阅">【$s】Share documents, please check</string>
+    <string name="XX分享的单据请查阅">【%1$s】Share documents, please check</string>
     <string name="链接复制成功">Link copied successfully</string>
     <string name="获取失败请点击重新获取">Failed to obtain, please click Re-get</string>
     <string name="重新获取">Re-acquire</string>
@@ -3841,8 +3841,8 @@
 
     <string name="未检查到网络请检查网络后重试">The network has not been checked, please check the network and try again</string>
     <string name="不允许大于XX请重新输入">Not allowed to be greater than 99999999.99, please re-enter</string>
-    <string name="没有XX数据">No $s data!</string>
-    <string name="邀请尊敬的XX绑定公众号">Invite the respected [$s] to bind the official account</string>
+    <string name="没有XX数据">No %1$s data!</string>
+    <string name="邀请尊敬的XX绑定公众号">Invite the respected [%1$s] to bind the official account</string>
     <string name="修改客户草稿">Modify the client draft</string>
     <string name="正在分享">Sharing</string>
     <string name="请前往工作台开单">Please go to the workbench to make an order</string>
@@ -3859,20 +3859,20 @@
     <string name="当前客户定位不准确签到配送时将无法准确定位到客户是否继续">The current customer positioning is inaccurate, and the customer will not be accurately positioned during check-in/delivery. Will it continue?</string>
     <string name="正在检查手机号码">Checking mobile phone number</string>
     <string name="重复提醒">Repeat reminder</string>
-    <string name="已存在相同号码的客户XX是否继续添加">Customers with the same number already exist: $s\n Whether to continue adding</string>
+    <string name="已存在相同号码的客户XX是否继续添加">Customers with the same number already exist: %1$s\n Whether to continue adding</string>
     <string name="确定提交吗">Are you sure to submit it!</string>
     <string name="为确保客户地址定位准确避免可能出现地址定位不准的问题新增客户后请及时提交或保存">To ensure accurate positioning of customer address and avoid possible inaccurate address positioning.Please submit or save it in time after adding new customers</string>
-    <string name="请选择XX">Please select $s!</string>
-    <string name="请填写XX">Please fill in $s!</string>
-    <string name="请先拍XX">Please take $s first!</string>
+    <string name="请选择XX">Please select %1$s!</string>
+    <string name="请填写XX">Please fill in %1$s!</string>
+    <string name="请先拍XX">Please take %1$s first!</string>
     <string name="请先获取经纬度再提交">Please get the latitude and longitude first and submit</string>
     <string name="正在获取编号">Getting the number</string>
     <string name="获取后台编号失败">Failed to get background number</string>
     <string name="新增结果">New results</string>
     <string name="提交成功等待审核">Submission is successful, waiting for review</string>
-    <string name="已存在相同名称的客户XX是否继续提交">Clients with the same name already exist: $s, whether to continue submitting</string>
+    <string name="已存在相同名称的客户XX是否继续提交">Clients with the same name already exist: %1$s, whether to continue submitting</string>
     <string name="父级分类不是分类">Parent classification is not a classification</string>
-    <string name="已存在相同名称的客户XX">Clients with the same name already exist: $s</string>
+    <string name="已存在相同名称的客户XX">Clients with the same name already exist: %1$s</string>
     <string name="正在获取图片信息">Getting image information</string>
     <string name="请选择填写名称">Please select to fill in the name!</string>
     <string name="请先拍门头照片">Please take a photo of the door first!</string>
@@ -3952,13 +3952,13 @@
     <string name="成本算法已经自动更新为XX请确认后重新提交">The cost algorithm has been automatically updated to %s, please confirm and resubmit it!</string>
     <string name="正在新增商品">New products are being added</string>
 
-    <string name="提交成功编号有重复已修改为商品差异化失败若需使用该商品请全新升级">Submission is successful, the number is duplicated, and has been modified to $s.Product differentiation failed. If you need to use this product, please upgrade it completely</string>
+    <string name="提交成功编号有重复已修改为商品差异化失败若需使用该商品请全新升级">Submission is successful, the number is duplicated, and has been modified to %1$s.Product differentiation failed. If you need to use this product, please upgrade it completely</string>
     <string name="新增成功商品差异化失败若需使用该商品请全新升级">New addition is successful, product differentiation failed. If you need to use this product, please upgrade it completely</string>
     <string name="商品修改">Product modification</string>
     <string name="请先添加需要修改的图片">Please add the pictures that need to be modified first</string>
     <string name="正在修改商品">Modifying the product</string>
 
-    <string name="提交成功编号有重复已修改为XX商品差异化失败若需使用该商品请全新升级">Submission is successful, the number is duplicated, and has been modified to $s.Product differentiation failed. If you need to use this product, please upgrade it completely</string>
+    <string name="提交成功编号有重复已修改为XX商品差异化失败若需使用该商品请全新升级">Submission is successful, the number is duplicated, and has been modified to %1$s.Product differentiation failed. If you need to use this product, please upgrade it completely</string>
     <string name="修改成功商品差异化失败若需使用该商品请全新升级">The modification was successful, the product was differentiated failed. If you need to use the product, please upgrade it completely</string>
     <string name="无修改商品权限请先授权">No permission to modify the product, please authorize it first</string>
     <string name="当前商品无条码">Current product has no barcode</string>

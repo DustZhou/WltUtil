@@ -458,13 +458,13 @@
     <string name="存储空间">存储空间</string>
     <string name="位置信息">位置信息</string>
     <string name="拍照权限">拍照权限</string>
-    <string name="开启XX">开启%s</string>
+    <string name="开启XX">开启%1$s</string>
     <string name="请允许管家婆物联通访问您的录音若不允许您将无法使用语音识别功能">请允许“管家婆物联通”访问您的录音；若不允许，您将无法使用语音识别功能。</string>
     <string name="请允许管家婆物联通访问您的蓝牙若不允许您将无法使用连接打印机功能">请允许“管家婆物联通”访问您的蓝牙；若不允许，您将无法使用连接打印机功能。</string>
     <string name="请允许管家婆物联通访问您的位置若不允许您将无法使用定位签到功能">请允许“管家婆物联通”访问您的位置；若不允许，您将无法使用定位签到功能。</string>
     <string name="请允许管家婆物联通访问您的存储若不允许您将无法使用文件相关功能">请允许“管家婆物联通”访问您的存储；若不允许，您将无法使用文件相关功能。</string>
-    <string name="为了您能正常使用XX需要以下权限">为了您能正常使用%s，需要以下权限</string>
-    <string name="请允许获取XX">请允许获取%s</string>
+    <string name="为了您能正常使用XX需要以下权限">为了您能正常使用%1$s，需要以下权限</string>
+    <string name="请允许获取XX">请允许获取%1$s</string>
     <string name="我们需要获取XX否则您将无法正常使用XX">我们需要获取%1$s, 否则您将无法正常使用%2$s</string>
     <string name="由于XX无法获取XX不能正常运行请开启权限后再使用设置路径应用管理XX权限">"由于%1$s无法获取%2$s, 不能正常运行, 请开启权限后再使用。\n\n设置路径: 应用管理->%3$s->权限"</string>
     <string name="拒绝">拒绝</string>
@@ -541,7 +541,7 @@
     <string name="请选择借款账户">请选择借款账户</string>
     <string name="请输入借款金额">请输入借款金额</string>
     <string name="此数据由管家婆物联通提供">此数据由管家婆物联通提供</string>
-    <string name="单号更新成功新的单号为XX">单号更新成功，新的单号为：%s</string>
+    <string name="单号更新成功新的单号为XX">单号更新成功，新的单号为：%1$s</string>
     <string name="以下商品货位相同需编辑不同后才能提交是否前往编辑">以下商品货位相同，需编辑不同后才能提交，是否前往编辑？</string>
     <string name="转出账户第XX行中金额为0">转出账户第%s行中金额为0！</string>
     <string name="转入账户第XX行中金额为0">转入账户第%s行中金额为0！</string>
@@ -555,7 +555,7 @@
     <string name="微信扫码">微信扫码</string>
     <string name="切换结算单位将清除结算数据是否继续">切换结算单位将清除结算数据，是否继续？</string>
     <string name="以下商品管理批次或序列号需编辑完整信息才能提交是否前往编辑">以下商品管理批次或序列号，需编辑完整信息才能提交，是否前往编辑？</string>
-    <string name="该单据非XX">该单据非%s</string>
+    <string name="该单据非XX">该单据非%1$s</string>
     <string name="请在后台设置收款码">请在后台设置收款码</string>
     <string name="支付宝扫码">支付宝扫码</string>
     <string name="单据类型有误请扫描销售订单">单据类型有误，请扫描销售订单</string>
@@ -592,9 +592,9 @@
     <string name="正在获取价格">正在获取价格</string>
     <string name="没有该编码的组合品">没有该编码的组合品</string>
     <string name="没有该条码的组合品">没有该条码的组合品</string>
-    <string name="超出赠送数量XX请修改">超出赠送数量%s，请修改</string>
+    <string name="超出赠送数量XX请修改">超出赠送数量%1$s，请修改</string>
     <string name="再多买数量XX可获得更多赠品是否修改">再多买数量%s可获得更多赠品，是否修改？</string>
-    <string name="套餐总数小于XX不允许保存">套餐总数小于%s，不允许保存</string>
+    <string name="套餐总数小于XX不允许保存">套餐总数小于%1$s，不允许保存</string>
     <string name="不允许超库虚拟存量出库以下商品库存不足">不允许超库虚拟存量出库，以下商品库存不足</string>
     <string name="不允许超库实时存量出库以下商品库存不足">不允许超库实时存量出库，以下商品库存不足</string>
     <string name="正在刷新">正在刷新</string>
@@ -2658,7 +2658,7 @@
     <!--endregion-->
 
     <!--region 登陆提示-->
-    <string name="android_LoginTimeLimit">当前时间不允许登录，登录时间为%s</string>
+    <string name="android_LoginTimeLimit">当前时间不允许登录，登录时间为%1$s</string>
     <string name="android_LoginGetTimeFail">后台启用登录时间控制当前时间获取失败请检查手机端网络连接再登录</string>
     <string name="android_OnlineVerificationFailure">在线密码校验不通过</string>
     <string name="您需要联网使用本系统">您需要联网使用本系统</string>
@@ -3520,12 +3520,12 @@
     <string name="退货多">退货多</string>
     <string name="退货少">退货少</string>
     <string name="员工业绩汇总自定义字段">员工业绩汇总自定义字段</string>
-    <string name="今日括号XX">今人(%s)</string>
-    <string name="销售提成冒号">销售提成:%s</string>
+    <string name="今日括号XX">今人(%1$s)</string>
+    <string name="销售提成冒号">销售提成:%1$s</string>
 
-    <string name="配送提成冒号">配送提成:%s</string>
-    <string name="跟车提成冒号">跟车提成:%s</string>
-    <string name="提成总额冒号">提成总额:%s</string>
+    <string name="配送提成冒号">配送提成:%1$s</string>
+    <string name="跟车提成冒号">跟车提成:%1$s</string>
+    <string name="提成总额冒号">提成总额:%1$s</string>
     <string name="姓名">姓名</string>
     <string name="销售提成">销售提成</string>
     <string name="配送提成">配送提成</string>
@@ -3542,18 +3542,18 @@
     <string name="米">米</string>
 
 
-    <string name="订货合计冒号">订货合计:￥%s</string>
-    <string name="销售合计冒号">销售合计:￥%s</string>
-    <string name="退货合计冒号">退货合计:￥%s</string>
-    <string name="收款合计冒号">收款合计:￥%s</string>
-    <string name="欠款合计冒号">欠款合计:￥%s</string>
-    <string name="清款合计冒号">清款合计:￥%s</string>
-    <string name="预存合计冒号">预存合计:￥%s</string>
-    <string name="预收冲抵冒号">预收冲抵:￥%s</string>
-    <string name="费用合计冒号">费用合计:￥%s</string>
-    <string name="优惠合计冒号">优惠合计:￥%s</string>
-    <string name="付款合计冒号">付款合计:￥%s</string>
-    <string name="预付合计冒号">预付合计:￥%s</string>
+    <string name="订货合计冒号">订货合计:￥%1$s</string>
+    <string name="销售合计冒号">销售合计:￥%1$s</string>
+    <string name="退货合计冒号">退货合计:￥%1$s</string>
+    <string name="收款合计冒号">收款合计:￥%1$s</string>
+    <string name="欠款合计冒号">欠款合计:￥%1$s</string>
+    <string name="清款合计冒号">清款合计:￥%1$s</string>
+    <string name="预存合计冒号">预存合计:￥%1$s</string>
+    <string name="预收冲抵冒号">预收冲抵:￥%1$s</string>
+    <string name="费用合计冒号">费用合计:￥%1$s</string>
+    <string name="优惠合计冒号">优惠合计:￥%1$s</string>
+    <string name="付款合计冒号">付款合计:￥%1$s</string>
+    <string name="预付合计冒号">预付合计:￥%1$s</string>
 
     <string name="打印人">打印人</string>
     <string name="全部客户">全部客户</string>
@@ -3569,7 +3569,7 @@
     <string name="服务器开启了顺序拜访模式请按顺序拜访">服务器开启了顺序拜访模式，请按顺序拜访</string>
     <string name="没有地址可导航">没有地址可导航!</string>
     <string name="解除锁定">解除锁定</string>
-    <string name="配送员和跟车员不允许相同XX">配送员和跟车员不允许相同【$s】</string>
+    <string name="配送员和跟车员不允许相同XX">配送员和跟车员不允许相同【%1$s】</string>
     <string name="正在更新商品">正在更新商品</string>
     <string name="重新同步">重新同步</string>
     <string name="商品信息同步失败建议同步成功后再修改">商品信息同步失败，建议同步成功后再修改</string>
@@ -3609,7 +3609,7 @@
     <string name="类型">类型</string>
     <string name="无适用配送组请联系管理员设置">无适用配送组，请联系管理员设置</string>
     <string name="赠送单">赠送单</string>
-    <string name="不允许超出最大值XX">不允许超出最大值：%s</string>
+    <string name="不允许超出最大值XX">不允许超出最大值：%1$s</string>
     <string name="所有科目">所有科目</string>
     <string name="所有账户">所有账户</string>
     <string name="该账户已存在不支持重复添加">该账户已存在，不支持重复添加</string>
@@ -3727,7 +3727,7 @@
     <string name="当前单据仅支持单账户结算">当前单据仅支持单账户结算</string>
     <string name="最后开单">最后开单</string>
     <string name="当前所在点">当前所在点</string>
-    <string name="销售额提点XX">销售额提点%s%</string>
+    <string name="销售额提点XX">销售额提点%1$s%</string>
     <string name="新增会员卡成功">新增会员卡成功!</string>
     <string name="费用商品">费用商品</string>
     <string name="反审核">反审核</string>
@@ -3848,7 +3848,7 @@
     <string name="请到物联通后台的在线分享配置中设置服务器地址">请到物联通后台的【在线分享配置】中设置服务器地址</string>
     <string name="小程序分享需要先提交单据">小程序分享需要先提交单据</string>
     <string name="等XX种商品">等$s种商品</string>
-    <string name="XX分享的单据请查阅">【$s】分享的单据，请查阅</string>
+    <string name="XX分享的单据请查阅">【%1$s】分享的单据，请查阅</string>
     <string name="链接复制成功">链接复制成功</string>
     <string name="获取失败请点击重新获取">获取失败，请点击重新获取</string>
     <string name="重新获取">重新获取</string>
@@ -3866,7 +3866,7 @@
     <string name="未检查到网络请检查网络后重试">未检查到网络，请检查网络后重试</string>
     <string name="不允许大于XX请重新输入">不允许大于99999999.99,请重新输入</string>
     <string name="没有XX数据">没有$s数据!</string>
-    <string name="邀请尊敬的XX绑定公众号">邀请尊敬的【$s】绑定公众号</string>
+    <string name="邀请尊敬的XX绑定公众号">邀请尊敬的【%1$s】绑定公众号</string>
     <string name="修改客户草稿">修改客户草稿</string>
     <string name="正在分享">正在分享</string>
     <string name="请前往工作台开单">请前往工作台开单</string>
@@ -3883,20 +3883,20 @@
     <string name="当前客户定位不准确签到配送时将无法准确定位到客户是否继续">当前客户定位不准确，签到/配送时将无法准确定位到客户，是否继续？</string>
     <string name="正在检查手机号码">正在检查手机号码</string>
     <string name="重复提醒">重复提醒</string>
-    <string name="已存在相同号码的客户XX是否继续添加">已存在相同号码的客户:$s\n是否继续添加</string>
+    <string name="已存在相同号码的客户XX是否继续添加">已存在相同号码的客户:%1$s\n是否继续添加</string>
     <string name="确定提交吗">确定提交吗!</string>
     <string name="为确保客户地址定位准确避免可能出现地址定位不准的问题新增客户后请及时提交或保存">为确保客户地址定位准确，避免可能出现地址定位不准的问题。新增客户后请及时提交或保存</string>
-    <string name="请选择XX">请选择$s!</string>
-    <string name="请填写XX">请填写$s!</string>
-    <string name="请先拍XX">请先拍$s!</string>
+    <string name="请选择XX">请选择%1$s!</string>
+    <string name="请填写XX">请填写%1$s!</string>
+    <string name="请先拍XX">请先拍%1$s!</string>
     <string name="请先获取经纬度再提交">请先获取经纬度再提交</string>
     <string name="正在获取编号">正在获取编号</string>
     <string name="获取后台编号失败">获取后台编号失败</string>
     <string name="新增结果">新增结果</string>
     <string name="提交成功等待审核">提交成功,等待审核</string>
-    <string name="已存在相同名称的客户XX是否继续提交">已存在相同名称的客户:$s,是否继续提交</string>
+    <string name="已存在相同名称的客户XX是否继续提交">已存在相同名称的客户:%1$s,是否继续提交</string>
     <string name="父级分类不是分类">父级分类不是分类</string>
-    <string name="已存在相同名称的客户XX">已存在相同名称的客户: $s</string>
+    <string name="已存在相同名称的客户XX">已存在相同名称的客户: %1$s</string>
     <string name="正在获取图片信息">正在获取图片信息</string>
     <string name="请选择填写名称">请选择填写名称!</string>
     <string name="请先拍门头照片">请先拍门头照片!</string>
@@ -3907,7 +3907,7 @@
     <string name="修改结果">修改结果</string>
     <string name="由于网络原因提交失败">由于网络原因提交失败</string>
     <string name="保存为草稿">保存为草稿</string>
-    <string name="原单号XX">原单号:%s;</string>
+    <string name="原单号XX">原单号:%1$s;</string>
     <string name="查询批次数据成功">查询批次数据成功!</string>
     <string name="当前仓库不在授权或调拨单出入库仓库范围内不支持修改">当前仓库不在授权或调拨单出入库仓库范围内，不支持修改!</string>
     <string name="接口新增成功写客户失败">接口新增成功,写客户失败!</string>
@@ -3947,7 +3947,7 @@
     <string name="部分验收">部分验收</string>
     <string name="全额拒收">全额拒收</string>
     <string name="已验收未完成">已验收未完成</string>
-    <string name="收藏品XX">收藏品(%s)</string>
+    <string name="收藏品XX">收藏品(%1$s)</string>
     <string name="当前没有选中的商品">当前没有选中的商品!</string>
     <string name="确定删除选中的收藏商品吗">确定删除选中的收藏商品吗?</string>
     <string name="删除收藏商品成功">删除收藏商品成功!</string>
@@ -3969,20 +3969,20 @@
     <string name="后进先出">后进先出</string>
     <string name="手工指定">手工指定</string>
 
-    <string name="新增商品成功检测到编号已存在已为您重新分配编号XX">新增商品成功！检测到编号已存在，已为您重新分配。编号:" %s</string>
+    <string name="新增商品成功检测到编号已存在已为您重新分配编号XX">新增商品成功！检测到编号已存在，已为您重新分配。编号:" %1$s</string>
     <string name="新增商品成功">新增商品成功?</string>
     <string name="正在同步系统配置请稍等">正在同步系统配置，请稍等</string>
     <string name="同步系统配置失败">同步系统配置失败!</string>
-    <string name="成本算法已经自动更新为XX请确认后重新提交">成本算法已经自动更新为%s,请确认后重新提交！</string>
+    <string name="成本算法已经自动更新为XX请确认后重新提交">成本算法已经自动更新为%1$s,请确认后重新提交！</string>
     <string name="正在新增商品">正在新增商品</string>
 
-    <string name="提交成功编号有重复已修改为商品差异化失败若需使用该商品请全新升级">提交成功, 编号有重复，已修改为$s。商品差异化失败，若需使用该商品请全新升级</string>
+    <string name="提交成功编号有重复已修改为商品差异化失败若需使用该商品请全新升级">提交成功, 编号有重复，已修改为%1$s。商品差异化失败，若需使用该商品请全新升级</string>
     <string name="新增成功商品差异化失败若需使用该商品请全新升级">新增成功，商品差异化失败，若需使用该商品请全新升级</string>
     <string name="商品修改">商品修改</string>
     <string name="请先添加需要修改的图片">请先添加需要修改的图片</string>
     <string name="正在修改商品">正在修改商品</string>
 
-    <string name="提交成功编号有重复已修改为XX商品差异化失败若需使用该商品请全新升级">提交成功,编号有重复,已修改为$s。商品差异化失败，若需使用该商品请全新升级</string>
+    <string name="提交成功编号有重复已修改为XX商品差异化失败若需使用该商品请全新升级">提交成功,编号有重复,已修改为%1$s。商品差异化失败，若需使用该商品请全新升级</string>
     <string name="修改成功商品差异化失败若需使用该商品请全新升级">修改成功，商品差异化失败，若需使用该商品请全新升级</string>
     <string name="无修改商品权限请先授权">无修改商品权限，请先授权</string>
     <string name="当前商品无条码">当前商品无条码</string>
@@ -3999,7 +3999,7 @@
     <string name="请先安装微信">请先安装微信</string>
     <string name="检测到没有内存卡">检测到没有内存卡</string>
     <string name="上传成功">上传成功</string>
-    <string name="录入范围0至XX请重新录入">录入范围0~%s，请重新录入</string>
+    <string name="录入范围0至XX请重新录入">录入范围0~%1$s，请重新录入</string>
     <string name="压缩文件失败请重试">压缩文件失败，请重试</string>
     <string name="扫描设备">扫描设备</string>
     <string name="请选择省市">请选择省市</string>
@@ -4076,7 +4076,7 @@
     <string name="商品未铺货自定义字段">商品未铺货自定义字段</string>
     <string name="拜访规划">拜访规划</string>
     <string name="无上限">无上限</string>
-    <string name="低于最低售价XX">低于最低售价【%s】</string>
+    <string name="低于最低售价XX">低于最低售价【%1$s】</string>
     <string name="历销数据">历销数据</string>
     <string name="开单客户近XX天没有销售记录但半年内有销售记录的商品">开单客户近%s天没有销售记录，但半年内有销售记录的商品</string>
     <string name="近XX天开单客户销售次数最多的前50个商品">近%s天开单客户销售次数最多的前50个商品</string>
@@ -4130,7 +4130,7 @@
     <string name="进">进</string>
     <string name="当前没有设置分割符标识请先设置">当前没有设置分割符标识，请先设置</string>
     <string name="初始化模块中">初始化模块中</string>
-    <string name="输入XX">输入%s</string>
+    <string name="输入XX">输入%1$s</string>
     <string name="解绑失败">解绑失败</string>
     <string name="恢复在职操作失败">恢复在职操作失败</string>
     <string name="离职操作失败">离职操作失败</string>
@@ -4140,15 +4140,15 @@
     <string name="正在连接">正在连接</string>
     <string name="您还未进行打印配置请按如下步骤设置1请先确认您在物联通后台已经被设置在打印组内2进入系统配置打印配置选择打印方式3根据后台配置的小票纸张宽度选择与之匹配的打印纸张宽度注如果打印字体出现乱码则切换打印机字库即可">您还未进行打印配置。请按如下步骤设置：\n1. 请先确认您在物联通后台已经被设置在打印组内\n2. 进入 [系统配置] - [打印配置] 选择打印方式\n3. 根据后台配置的小票纸张宽度，选择与之匹配的打印纸张宽度\n注：如果打印字体出现乱码，则切换打印机字库即可。</string>
     <string name="获取成功">获取成功</string>
-    <string name="当前语速为XX">当前语速为%s</string>
+    <string name="当前语速为XX">当前语速为%1$s</string>
     <string name="注册成功">注册成功</string>
     <string name="未获取到设备ID">未获取到设备ID</string>
     <string name="此设备已停用如需续用请联系当地代理商">此设备已停用!如需续用，请联系当地代理商!</string>
     <string name="已被停用">已被停用</string>
     <string name="等待审核中请勿修改以上信息">等待审核中，请勿修改以上信息</string>
     <string name="知道了">知道了</string>
-    <string name="超出录入范围不能小于最小值XX">超出录入范围,不能小于最小值[%s]</string>
-    <string name="超出录入范围不能大于最大值XX">超出录入范围,不能大于最大值[%s]</string>
+    <string name="超出录入范围不能小于最小值XX">超出录入范围,不能小于最小值[%1$s]</string>
+    <string name="超出录入范围不能大于最大值XX">超出录入范围,不能大于最大值[%1$s]</string>
     <string name="商品搜索模式设置为关键词递进搜索时不允许关闭">【商品搜索模式】设置为关键词递进搜索时，不允许关闭</string>
     <string name="至少勾选一项搜索配置项">至少勾选一项搜索配置项</string>
     <string name="请先在物联通后台价格优先级配置中启用价格跟踪">请先在物联通后台价格优先级配置中启用“价格跟踪”</string>
@@ -4282,7 +4282,7 @@
     <string name="发现新版本">发现新版本</string>
     <string name="立即更新">立即更新</string>
     <string name="编辑本单">编辑本单</string>
-    <string name="当前服务器后台版本为XX请先更新后台版本">当前服务器后台版本为%s,请先更新后台版本</string>
+    <string name="当前服务器后台版本为XX请先更新后台版本">当前服务器后台版本为%1$s,请先更新后台版本</string>
     <string name="XX档案同步失败请更新数据并选择全新升级未更新并继续操作时XX将显示异常">%1$s档案同步失败！请更新数据并选择全新升级。未更新并继续操作时,%2$s将显示异常。</string>
     <string name="此序列号已存在XX确定继续添加吗">此序列号已存在%s中，确定继续添加吗？</string>
     <string name="过账失败进入审核">过账失败,进入审核</string>
@@ -4291,7 +4291,7 @@
     <string name="获取单据配置信息失败">获取单据配置信息失败</string>
     <string name="所有单据">所有单据</string>
     <string name="仅显示有定位的客户位置信息">仅显示有定位的客户位置信息</string>
-    <string name="前后台版本不一致后台版本为XX">前后台版本不一致!后台版本为：[%s]</string>
+    <string name="前后台版本不一致后台版本为XX">前后台版本不一致!后台版本为：[%1$s]</string>
     <string name="由于财工贸产品成本非实时计算提成规则成本取值设置为销售成本时建议先前往ERP中执行成本计算操作避免出现提成计算相关问题成本计算方法打开ERP库存状况表即可">由于财工贸产品成本非实时计算，提成规则成本取值设置为"销售成本"时,建议先前往ERP中执行成本计算操作，避免出现提成计算相关问题。\n成本计算方法：打开ERP库存状况表即可。</string>
     <string name="XX的对应制单人后App端全新升级数据后再登录">%s的对应制单人后，App端全新升级数据后再登录。</string>
     <string name="请在物联通后台系统用户权限中重新编辑">请在[物联通后台系统]-[用户权限]中重新编辑</string>
@@ -4322,14 +4322,14 @@
     <string name="正在登录">正在登录</string>
     <string name="您的物联通疑似盗版请联系销售商">您的物联通疑似盗版,请联系销售商!</string>
     <string name="没有体验地址">没有体验地址</string>
-    <string name="无法升级到XX请联系物联通客服处理">无法升级到%s,请联系物联通客服处理</string>
+    <string name="无法升级到XX请联系物联通客服处理">无法升级到%1$s,请联系物联通客服处理</string>
     <string name="保存提交手机使用信息成功">保存提交手机使用信息成功!</string>
     <string name="保存提交手机使用信息失败">保存提交手机使用信息失败!</string>
     <string name="删除成功">删除成功</string>
     <string name="勾选的文件实际已不存在">勾选的文件实际已不存在</string>
     <string name="请先选择要删除的文件">请先选择要删除的文件</string>
     <string name="登录后不允许删除数据文件请去除数据文件勾选">登录后不允许删除数据文件，请去除数据文件勾选</string>
-    <string name="添加成功当前单位的数量为XX">添加成功,当前单位的数量为%s</string>
+    <string name="添加成功当前单位的数量为XX">添加成功,当前单位的数量为%1$s</string>
     <string name="已选XX种商品数量XX">已选%1$s种商品，数量%2$s</string>
     <string name="合计XX">合计%1$s</string>
     <!--endregion-->
@@ -4362,11 +4362,11 @@
     <string name="无XX的权限请先授权">无%s的权限，请先授权</string>
     <string name="无往来单位XX对应结算单位XX的权限请先授权">无往来单位【%1$s】对应结算单位【%2$s】的权限，请先授权</string>
     <string name="无往来单位XX对应结算单位XX已停用不支持结算">无往来单位【%1$s】对应结算单位【%2$s】已停用，不支持结算</string>
-    <string name="往来单位XX对应结算单位在APP中不存在请点击档案同步后再次操作">往来单位【%s】对应结算单位在APP中不存在，请点击档案同步后再次操作</string>
-    <string name="结算单位XX在APP中不存在请档案同步后分享继续将不生成收款码">结算单位【%s】在APP中不存在，请档案同步后分享，继续将不生成收款码</string>
-    <string name="结算单位XX在APP中不存在请点击档案同步后再次操作">结算单位【%s】在APP中不存在，请点击档案同步后再次操作</string>
-    <string name="结算单位XX已停用不支持结算">结算单位【%s】已停用，不支持结算</string>
-    <string name="无结算单位XX的权限请先授权">无结算单位【%s】的权限，请先授权</string>
+    <string name="往来单位XX对应结算单位在APP中不存在请点击档案同步后再次操作">往来单位【%1$s】对应结算单位在APP中不存在，请点击档案同步后再次操作</string>
+    <string name="结算单位XX在APP中不存在请档案同步后分享继续将不生成收款码">结算单位【%1$s】在APP中不存在，请档案同步后分享，继续将不生成收款码</string>
+    <string name="结算单位XX在APP中不存在请点击档案同步后再次操作">结算单位【%1$s】在APP中不存在，请点击档案同步后再次操作</string>
+    <string name="结算单位XX已停用不支持结算">结算单位【%1$s】已停用，不支持结算</string>
+    <string name="无结算单位XX的权限请先授权">无结算单位【%1$s】的权限，请先授权</string>
     <string name="请到已发货中查看">请到已发货中查看</string>
     <string name="发货成功">发货成功</string>
     <string name="请到已配送中查看">请到已配送中查看</string>
@@ -4419,13 +4419,13 @@
     <string name="可冲抵">可冲抵</string>
     <string name="注意清除时套件商品和搭赠商品将作为整体被清除">注意：清除时，套件商品和搭赠商品将作为整体被清除</string>
     <string name="以下商品在ERP中已被停用或删除是否清除">以下商品在ERP中已被停用或删除，是否清除？</string>
-    <string name="往来单位XX在ERP中已被停用或删除请修改后重新提交">往来单位：%s 在ERP中已被停用或删除，请修改后重新提交</string>
-    <string name="剩余XX">剩余%s</string>
+    <string name="往来单位XX在ERP中已被停用或删除请修改后重新提交">往来单位：%1$s 在ERP中已被停用或删除，请修改后重新提交</string>
+    <string name="剩余XX">剩余%1$s</string>
     <string name="以下商品在ERP中已被停用或删除不允许打印">以下商品在ERP中已被停用或删除，不允许打印</string>
     <string name="以下商品在ERP中已被停用或删除不允许提交请重新开单">以下商品在ERP中已被停用或删除，不允许提交，请重新开单</string>
-    <string name="往来单位XX在ERP中已被停用或删除不允许打印">往来单位：%s 在ERP中已被停用或删除，不允许打印</string>
-    <string name="往来单位XX在ERP中已被停用或删除不允许提交请重新开单">往来单位：%s 在ERP中已被停用或删除，不允许提交，请重新开单</string>
-    <string name="单据XX没有明细记录">单据:%s,没有明细记录!</string>
+    <string name="往来单位XX在ERP中已被停用或删除不允许打印">往来单位：%1$s 在ERP中已被停用或删除，不允许打印</string>
+    <string name="往来单位XX在ERP中已被停用或删除不允许提交请重新开单">往来单位：%1$s 在ERP中已被停用或删除，不允许提交，请重新开单</string>
+    <string name="单据XX没有明细记录">单据:%1$s,没有明细记录!</string>
     <string name="以下订单已被删除不允许调用是否清除相应商品">以下订单已被删除，不允许调用。是否清除相应商品？</string>
     <string name="该单据已调用不允许编辑">该单据已调用，不允许编辑！</string>
     <string name="不允许零单价开单以下商品单价为0">不允许零单价开单,以下商品单价为0</string>
