@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--region zyl 2025-02-18新补充已提交-->
+    <string name="开启后仅当出现程序崩溃时APP将自动收集异常信息并提交厂家分析处理问题确定开启该配置吗">After enabling, the APP will automatically collect and submit crash information to the manufacturer for analysis and problem resolution only when a program crash occurs. Confirm to enable this setting?</string>
+    <string name="零售退货单收款金额必须等于优惠后金额">The refund amount for retail return orders must equal the discounted amount.</string>
+    <string name="零售单收款金额必须等于优惠后金额">The payment amount for retail orders must equal the discounted amount.</string>
+    <string name="单位不能相同">Units cannot be the same.</string>
+    <string name="小时">Hours</string>
+    <string name="取消分配成功">Unassignment successful.</string>
+    <string name="确认修改日报">Confirm modifying the daily report?</string>
+    <string name="确认删除该日报">Confirm deleting this daily report?</string>
+    <string name="没有日报样式可选择">No daily report templates available.</string>
+    <string name="是否清空当前所有照片">Whether to clear all current photos?</string>
+    <string name="照片张数不足请拍照后提交">If the number of photos is insufficient, please take a photo and submit it</string>
+    <string name="无法生单当前操作员制单人为ERP管理员">Cannot Create Document, the Current Operator is the ERP Administrator.</string>
+    <string name="不允许大于当前时间">Cannot Be Later Than the Current Time</string>
+    <string name="有未提交数据是否退出">Unsubmitted Data Exists, Do You Want to Exit?</string>
+
     <!--endregion-->
     <!--region zyl 2025-02-17新补充已提交-->
     <!--endregion-->
@@ -4810,7 +4825,7 @@
     <string name="缺货量补货">Replenishment for Shortage Quantity</string>
     <string name="里程数量">Mileage Quantity</string>
     <string name="离店时间">Departure Time</string>
-    <string name="今日成交">Today\'s Transactions</string>
+    <string name="今日成交">Today’s Transactions</string>
     <string name="预收金额">Advance Payment</string>
     <string name="现金收款">Cash Collection</string>
     <string name="巡店照片">Store Visit Photos</string>

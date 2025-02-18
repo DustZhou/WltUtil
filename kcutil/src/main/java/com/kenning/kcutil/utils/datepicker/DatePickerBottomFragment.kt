@@ -19,6 +19,7 @@ import com.kenning.kcutil.KCUtil
 import com.kenning.kcutil.R
 import com.kenning.kcutil.databinding.ViewDatepickerBottomBinding
 import com.kenning.kcutil.utils.date.DateExtendUtil
+import com.kenning.kcutil.utils.other.getStringResource
 
 /**
  * description：
@@ -90,7 +91,7 @@ class DatePickerBottomFragment  : BottomSheetDialogFragment(),IDatePickerBase {
         bundle = requireArguments()
 //        Location = PickerControl.ShowLocation.valueOf(bundle.getString("location", "BOTTOM"))
 //        alpha = bundle.getFloat("alpha", 0.5f)
-        title = bundle.getString("title",mContext!!.getString(R.string.选择日期))
+        title = bundle.getString("title",getStringResource(R.string.选择日期))
 //        if (Location == PickerControl.ShowLocation.BOTTOM) {
             mView = ViewDatepickerBottomBinding.inflate(layoutInflater).root
 //        } else {

@@ -13,6 +13,7 @@ import com.kenning.kcutil.R
 import com.kenning.kcutil.utils.date.DateExtendUtil
 import com.kenning.kcutil.utils.date.Date_Format
 import com.kenning.kcutil.utils.math.toInt_
+import com.kenning.kcutil.utils.other.getStringResource
 import java.util.*
 
 /**
@@ -52,7 +53,7 @@ object DatePickerUtil {
         val dg = DatePickerDialog(con!!, callBack, y, m, d)
         // 手动设置按钮
         dg.setButton(
-            DialogInterface.BUTTON_POSITIVE, con!!.getString(R.string.完成)
+            DialogInterface.BUTTON_POSITIVE, getStringResource(R.string.完成)
         ) { dialog, which ->
             // 通过mDialog.getDatePicker()获得dialog上的DatePicker组件，然后可以获取日期信息
             val datePicker = dg.datePicker
@@ -69,7 +70,7 @@ object DatePickerUtil {
         }
         // 取消按钮，如果不需要直接不设置即可
         dg.setButton(
-            DialogInterface.BUTTON_NEGATIVE, con!!.getString(R.string.取消)
+            DialogInterface.BUTTON_NEGATIVE, getStringResource(R.string.取消)
         ) { dialog, which -> }
         dg.setCanceledOnTouchOutside(false)
         dg.show()

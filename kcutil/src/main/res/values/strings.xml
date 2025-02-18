@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--region zyl 2025-02-18新补充已提交-->
+    <string name="开启后仅当出现程序崩溃时APP将自动收集异常信息并提交厂家分析处理问题确定开启该配置吗">开启后，仅当出现程序崩溃时，APP将自动收集异常信息并提交厂家分析、处理问题。确定开启该配置吗？</string>
+    <string name="零售退货单收款金额必须等于优惠后金额">零售退货单收款金额必须等于优惠后金额</string>
+    <string name="零售单收款金额必须等于优惠后金额">零售单收款金额必须等于优惠后金额</string>
+    <string name="单位不能相同">单位不能相同</string>
+    <string name="小时">小时</string>
+    <string name="取消分配成功">取消分配成功</string>
+    <string name="确认修改日报">确认修改日报？</string>
+    <string name="确认删除该日报">确认删除该日报？</string>
+    <string name="没有日报样式可选择">没有日报样式可选择?</string>
+    <string name="是否清空当前所有照片">是否清空当前所有照片?</string>
+    <string name="照片张数不足请拍照后提交">照片张数不足，请拍照后提交</string>
+    <string name="无法生单当前操作员制单人为ERP管理员">无法生单，当前操作员制单人为ERP管理员。</string>
+    <string name="不允许大于当前时间">不允许大于当前时间</string>
+    <string name="有未提交数据是否退出">有未提交数据是否退出</string>
     <!--endregion-->
     <!--region zyl 2025-02-17新补充已提交-->
     <!--endregion-->

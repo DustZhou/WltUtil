@@ -15,6 +15,7 @@ import com.kenning.kcutil.KCUtil
 import com.kenning.kcutil.R
 import com.kenning.kcutil.databinding.ViewDatepickerBinding
 import com.kenning.kcutil.utils.date.DateExtendUtil
+import com.kenning.kcutil.utils.other.getStringResource
 
 /**
  * Description :
@@ -23,13 +24,13 @@ import com.kenning.kcutil.utils.date.DateExtendUtil
  * @author : KenningChen
  *
  */
-class DatePickerFragment : Fragment(),IDatePickerBase {
+class DatePickerFragment : Fragment(), IDatePickerBase {
 
-    private val mViewModel:PickerViewModel by lazy {
-            ViewModelProvider(
-                requireActivity(),
-                ViewModelProvider.AndroidViewModelFactory.getInstance(KCUtil.application!!)
-            ).get(PickerViewModel::class.java)
+    private val mViewModel: PickerViewModel by lazy {
+        ViewModelProvider(
+            requireActivity(),
+            ViewModelProvider.AndroidViewModelFactory.getInstance(KCUtil.application!!)
+        ).get(PickerViewModel::class.java)
     }
 
     override lateinit var mView: View
@@ -84,7 +85,7 @@ class DatePickerFragment : Fragment(),IDatePickerBase {
         bundle = requireArguments()
 //        Location = PickerControl.ShowLocation.valueOf(bundle.getString("location", "BOTTOM"))
 //        alpha = bundle.getFloat("alpha", 0.5f)
-            title = bundle.getString("title",getString(R.string.开始日期))
+        title = bundle.getString("title", getStringResource(R.string.开始日期))
 //        if (Location == PickerControl.ShowLocation.BOTTOM) {
 //            mView = ViewDatepickerBottomBinding.inflate(layoutInflater).root
 //        } else {
