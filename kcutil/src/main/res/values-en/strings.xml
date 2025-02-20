@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--region zyl 2025-02-19新补充已提交-->
+    <string name="选中的模块不能超过XX个">Selected modules cannot exceed %1$s</string>
+    <string name="驳回失败">Rejection failed</string>
+    <string name="驳回成功">Rejection succeeded</string>
+    <string name="审核失败">Approval failed</string>
+    <string name="审核成功">Approval succeeded</string>
+    <string name="请选择审核结果">Please select the approval result</string>
+    <string name="反审核失败">Reverse approval failed</string>
+    <string name="反审核成功">Reverse approval succeeded</string>
+    <string name="未通过单据不能反审核">Documents not approved cannot be reversed</string>
+    <string name="非该单据经手人不支持修改">Non-handler of the document, modification not supported</string>
+    <string name="请先在后台设置用户的默认经手人">Please set the user’s default handler in the backend first</string>
+    <string name="事由">Reason</string>
+    <string name="换入">Exchange in</string>
+    <string name="换出">Exchange out</string>
+    <string name="套件">Kit</string>
+    <string name="借方">Debit</string>
+    <string name="贷方">Credit</string>
+    <string name="序批次">Sequence/Batch</string>
+    <string name="审核进程">Approval process</string>
+    <string name="钱流费用">Cash flow fee</string>
+    <string name="赠送业务">Gift business</string>
     <string name="还未选择分支机构分类">Branch category has not been selected yet!</string>
     <string name="还未选择商品">Product has not been selected yet!</string>
     <string name="还未选择商品分类">Product category has not been selected yet!</string>

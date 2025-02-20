@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--region zyl 2025-02-19新补充已提交-->
+    <string name="选中的模块不能超过XX个">选中的模块不能超过%1$s个</string>
+    <string name="驳回失败">驳回失败</string>
+    <string name="驳回成功">驳回成功</string>
+    <string name="审核失败">审核失败</string>
+    <string name="审核成功">审核成功</string>
+    <string name="请选择审核结果">请选择审核结果</string>
+    <string name="反审核失败">反审核失败</string>
+    <string name="反审核成功">反审核成功</string>
+    <string name="未通过单据不能反审核">未通过单据不能反审核！</string>
+    <string name="非该单据经手人不支持修改">非该单据经手人，不支持修改</string>
+    <string name="请先在后台设置用户的默认经手人">请先在后台设置用户的默认经手人</string>
+    <string name="事由">事由</string>
+    <string name="换入">换入</string>
+    <string name="换出">换出</string>
+    <string name="套件">套件</string>
+    <string name="借方">借方</string>
+    <string name="贷方">贷方</string>
+    <string name="序批次">序/批次</string>
+    <string name="审核进程">审核进程</string>
+    <string name="钱流费用">钱流费用</string>
+    <string name="赠送业务">赠送业务</string>
     <string name="还未选择分支机构分类">还未选择分支机构分类！</string>
     <string name="还未选择商品">还未选择商品！</string>
     <string name="还未选择商品分类">还未选择商品分类！</string>
