@@ -1745,7 +1745,7 @@
     <string name="请选择仓库">Please select Warehouse</string>
     <string name="选择仓库">Select a Warehouse</string>
     <string name="选择客户">Select Customers</string>
-    <string name="请允许管家婆物联通访问您的相机若不允许您将无法使用扫描和拍照功能">Please allow “管家婆物联通” to access your camera so that you can use the scanning and photographing functions.</string>
+    <string name="请允许管家婆物联通访问您的相机若不允许您将无法使用扫描和拍照功能">Please allow “Woolinte” to access your camera so that you can use the scanning and photographing functions.</string>
     <string name="将条码放入取景框即可自动扫描">Scan the QR code here</string>
     <string name="开灯">ON</string>
     <string name="关灯">OFF</string>
@@ -4065,7 +4065,7 @@
     <string name="打印参数初始化失败">Print parameter initialization failed</string>
     <string name="当打印样式错误提示打印成功却未打印可上传打印文件提供厂家分析处理问题确定上传该打印文件吗">When the printing style is wrong, the prompt is to print successfully but it is not printed, you can upload the printing file for manufacturer to analyze and deal with the problem.Are you sure to upload the printed file?</string>
     <string name="正在打印请稍等">Printing, please wait</string>
-    <string name="打印结果">打印结果</string>
+    <string name="打印结果">Print result</string>
     <string name="无启用的物联通云打印或者未设置打印纸张">No enabled IoT cloud printing or no printing paper is set</string>
     <string name="链科云盒">Chainke Cloud Box</string>
     <string name="以下标签对应的商品不在本单据中请删除后再进行保存">The product corresponding to the following tags is not in this document. Please delete it before saving.</string>
@@ -4128,7 +4128,7 @@
     <string name="净销数量销售提成金额">Net sales quantity, sales commission amount</string>
     <string name="销售提成金额">Sales commission amount</string>
     <string name="销售提成比例">Sales commission ratio</string>
-    <string name="销售毛利分段提点">销售毛利分段提点</string>
+    <string name="销售毛利分段提点">Sales gross profit segmented points</string>
     <string name="销售毛利阶梯提点">Sales gross profit ladder lift points</string>
     <string name="销售额分段提点">Sales volume increases in segments</string>
     <string name="销售毛利提点">Sales gross profit margin</string>
