@@ -4146,7 +4146,7 @@
     <string name="进">In</string>
     <string name="当前没有设置分割符标识请先设置">There is no splitter identifier currently set, please set it first</string>
     <string name="初始化模块中">Initialize the module</string>
-    <string name="输入XX">输入%s</string>
+    <string name="输入XX">Entry %s</string>
     <string name="解绑失败">Unbinding failed</string>
     <string name="恢复在职操作失败">Failed to resume on-the-job operation</string>
     <string name="离职操作失败">Resignation operation failed</string>
@@ -4536,7 +4536,7 @@
     <string name="已是最后一张单据">Is it the last document?</string>
     <string name="确定提交附件吗">Are you sure to submit the attachment?</string>
     <string name="将会清空购物车继续编辑">Will you clear your shopping cart and continue editing?</string>
-    <string name="已选XX笔">%s pen selected</string>
+    <string name="已选XX笔">%s Pen selected</string>
     <string name="已是最后一张附件">It\'s the last attachment</string>
     <string name="可做选择再次提交附件可自行前往设置单据提交记录中提交附件保存到相册">You can make a selection\n1. Submit attachments again\n2. You can go to [Settings]-[Document Submission Record] to submit attachments and save them to the album</string>
     <string name="以下商品序列号数量与单据数量不一致">The following product serial number quantity is inconsistent with the number of documents</string>
