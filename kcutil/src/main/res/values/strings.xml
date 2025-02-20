@@ -3023,7 +3023,7 @@
     <string name="默认开单表身仓库">默认开单表身仓库</string>
     <string name="商品默认仓库">商品默认仓库</string>
     <string name="表头仓库">表头仓库</string>
-    <string name="说明商米一体机仅安卓支持苹果只支持物联通打印机">说明商米一体机仅安卓支持苹果只支持物联通打印机</string>
+    <string name="说明商米一体机仅安卓支持苹果只支持物联通打印机">说明：商米一体机仅安卓支持，苹果只支持物联通打印机</string>
     <!--endregion-->
 
 
@@ -4187,7 +4187,6 @@
     <string name="此设备已停用如需续用请联系当地代理商">此设备已停用!如需续用，请联系当地代理商!</string>
     <string name="已被停用">已被停用</string>
     <string name="等待审核中请勿修改以上信息">等待审核中，请勿修改以上信息</string>
-    <string name="知道了">知道了</string>
     <string name="超出录入范围不能小于最小值XX">超出录入范围,不能小于最小值[%1$s]</string>
     <string name="超出录入范围不能大于最大值XX">超出录入范围,不能大于最大值[%1$s]</string>
     <string name="商品搜索模式设置为关键词递进搜索时不允许关闭">【商品搜索模式】设置为关键词递进搜索时，不允许关闭</string>
