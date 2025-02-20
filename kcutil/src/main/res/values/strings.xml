@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--region zyl 2025-02-20新补充已提交-->
+    <string name="更新">更新</string>
+    <!--endregion-->
     <!--region zyl 2025-02-19新补充已提交-->
     <string name="选中的模块不能超过XX个">选中的模块不能超过%1$s个</string>
     <string name="驳回失败">驳回失败</string>
