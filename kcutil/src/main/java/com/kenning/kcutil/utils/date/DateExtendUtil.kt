@@ -215,7 +215,7 @@ object DateExtendUtil {
         if (h == 0) {
             return mint + getStringResource(R.string.分钟);
         } else
-            return "$h 时" + m + getStringResource(R.string.分钟);
+            return "$h " + getStringResource(R.string.时) + m + getStringResource(R.string.分钟);
     }
 
     fun getMintBetween2(hour1: String, hour2: String): Long {
@@ -1357,7 +1357,7 @@ fun DataOfCustomeBillDateType(CustomeBillDateType: String, callBack: (String, St
 
         }
     }
-    if (CustomeBillDateType != DateEnum.OTHER.name){
+    if (CustomeBillDateType != DateEnum.OTHER.name) {
         callBack(BeginDate, EndDate)
     }
 }
