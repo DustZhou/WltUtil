@@ -2099,7 +2099,7 @@
     <string name="未查询到与当前用户相匹配的打印组请确定已配置打印组并全新升级账套">No printing group matching the current user has been found. Please confirmed that the print group has been configured and upgrade the account set</string>
     <string name="未查询到打印组内的打印样式请确定已配置打印样式并全新升级账套">No printing style has been found in the print group. Please confirmed that the print styles have been configured and upgrade the account set</string>
     <string name="本单已打印XX次">This bill has been printed: %1$s times</string>
-    <string name="单据XX已打印XX次">bill:%1$sprinted: %1$s times</string>
+    <string name="单据XX已打印XX次">Bill:%1$s printed: %2$s times</string>
     <string name="请重试">Please try again</string>
     <string name="网络连接不正常">Network connection not working properly!</string>
     <string name="无数据">No data</string>
