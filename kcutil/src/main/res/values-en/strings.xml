@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--region zyl 2025-02-20新补充已提交-->
+    <string name="已是最新数据">Already the latest data</string>
+    <string name="更新成功">Update succeeded</string>
     <string name="更新">Update</string>
     <!--endregion-->
     <!--region zyl 2025-02-19新补充已提交-->
@@ -2207,7 +2209,7 @@
     <string name="库存总额">Total Inventory</string>
     <string name="库存总数">Total qty of Inventory</string>
     <string name="昨日销售">Yesterday’s Sales</string>
-    <string name="本周销售">This Week‘s Sales</string>
+    <string name="本周销售">This Week’s Sales</string>
     <string name="本月销售">This Month’s Sales</string>
     <string name="支出">Expenses</string>
     <string name="销售笔数">Number of Sales</string>

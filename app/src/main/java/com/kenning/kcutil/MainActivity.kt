@@ -51,7 +51,7 @@ class MainActivity : BaseActivity(), IPickerListener {
                 }
             }.show()
         }
-        binding.tvShowText.text = getStringResource(R.string.相机) +"中文"
+        binding.tvShowText.text = getStringResource(R.string.本周销售)
         binding.tvShowText.setOnClickListener {
             LanguageKt.switchLanguage(this, LanguageType.ENGLISH.language)
         }

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--region zyl 2025-02-20新补充已提交-->
+    <string name="已是最新数据">已是最新数据</string>
+    <string name="更新成功">更新成功</string>
     <string name="更新">更新</string>
     <!--endregion-->
     <!--region zyl 2025-02-19新补充已提交-->
