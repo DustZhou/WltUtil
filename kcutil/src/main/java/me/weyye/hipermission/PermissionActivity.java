@@ -139,9 +139,8 @@ public class PermissionActivity extends AppCompatActivity {
 
     private void reRequestPermission(final String permission) {
         String permissionName = getPermissionItem(permission).PermissionName;
-        String alertTitle = getStringResource(R.string.请允许获取XX, permissionName);
         String msg = getStringResource(R.string.我们需要获取XX否则您将无法正常使用XX, permissionName, mAppName);
-        showAlertDialog(alertTitle, msg, getStringResource(R.string.取消), getStringResource(R.string.确定), new DialogInterface.OnClickListener() {
+        showAlertDialog(getStringResource(R.string.温馨提醒), msg, getStringResource(R.string.取消), getStringResource(R.string.确定), new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 dialog.dismiss();
@@ -236,9 +235,8 @@ public class PermissionActivity extends AppCompatActivity {
                     try {
                         //permissions可能返回空数组，所以try-catch
                         String name = getPermissionItem(permissions[0]).PermissionName;
-                        String title = getStringResource(R.string.请允许获取XX, name);
                         String msg = getStringResource(R.string.由于XX无法获取XX不能正常运行请开启权限后再使用设置路径应用管理XX权限, mAppName, name, mAppName);
-                        showAlertDialog(title, msg, getStringResource(R.string.拒绝), getStringResource(R.string.去设置), new DialogInterface.OnClickListener() {
+                        showAlertDialog(getStringResource(R.string.温馨提醒), msg, getStringResource(R.string.拒绝), getStringResource(R.string.去设置), new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
                                 try {
