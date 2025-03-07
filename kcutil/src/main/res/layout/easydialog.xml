@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.kenning.kcutil.widget.basicview.BackGroundLinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<com.kenning.kcutil.widget.basicview.BackGroundLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    app:normalBackgroundColor="@color/transparent"
-    app:bgradius="10dp">
+    app:bgradius="10dp"
+    app:normalBackgroundColor="@color/transparent">
 
     <com.kenning.kcutil.widget.basicview.BackGroundLinearLayout
         android:id="@+id/layouttitle"
-        app:normalBackgroundColor="@color/color_00ABF3"
-        app:top_left_radius="10dp"
-        app:top_right_radius="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        app:normalBackgroundColor="@color/color_00ABF3"
+        app:top_left_radius="10dp"
+        app:top_right_radius="10dp">
+
         <ImageView
-            android:visibility="gone"
             android:id="@+id/picture"
-            android:layout_marginTop="20dp"
             android:layout_width="58dp"
             android:layout_height="58dp"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:visibility="gone" />
 
         <com.kenning.kcutil.widget.basicview.BackGroundTextView
             android:id="@+id/tvDialogName"
@@ -39,20 +39,19 @@
     </com.kenning.kcutil.widget.basicview.BackGroundLinearLayout>
 
     <com.kenning.kcutil.widget.basicview.BackGroundTextView
-        android:visibility="gone"
         android:id="@+id/topView"
         android:layout_width="match_parent"
         android:layout_height="10dp"
+        android:visibility="gone"
+        app:normalBackgroundColor="@color/white"
         app:top_left_radius="10dp"
-        app:top_right_radius="10dp"
-        app:normalBackgroundColor="@color/white"/>
+        app:top_right_radius="10dp" />
 
     <View
         android:id="@+id/titleline"
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="@color/color_EAEEEF"
-        />
+        android:background="@color/color_EAEEEF" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/mRecyclerview"
@@ -70,20 +69,21 @@
         app:layout_constraintTop_toBottomOf="@+id/mRecyclerview" />
 
     <com.kenning.kcutil.widget.basicview.BackGroundTextView
-        android:visibility="gone"
         android:id="@+id/bottomview"
         android:layout_width="match_parent"
         android:layout_height="10dp"
+        android:visibility="gone"
         app:bottom_left_radius="10dp"
         app:bottom_right_radius="10dp"
-        app:normalBackgroundColor="@color/white"/>
+        app:normalBackgroundColor="@color/white" />
 
-    <LinearLayout
+
+    <com.kenning.kcutil.widget.basicview.BackGroundLinearLayout
         android:id="@+id/layoutButton"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/white"
-        android:orientation="horizontal">
-
-    </LinearLayout>
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:bottom_left_radius="@dimen/dp_5"
+        app:bottom_right_radius="@dimen/dp_5"
+        app:normalBackgroundColor="@color/white" />
 </com.kenning.kcutil.widget.basicview.BackGroundLinearLayout>
