@@ -19,6 +19,7 @@ import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.RecyclerView
 import com.kenning.kcutil.R
+import com.kenning.kcutil.utils.language.LanguageUtil
 import com.kenning.kcutil.utils.math.toInt_
 import com.kenning.kcutil.utils.other.ScreenUtil
 import com.kenning.kcutil.utils.other.getColorResource
@@ -40,7 +41,7 @@ import kotlin.coroutines.suspendCoroutine
  */
 class BaseDialog : Dialog {
     private val mSubscribe = Subscribe<Any?>()
-    private var mResult:Any? = null
+    private var mResult: Any? = null
 
     private var mContext: Context? = null
 
@@ -295,6 +296,14 @@ class BaseDialog : Dialog {
     /**绘制底部功能按钮*/
     private fun setBottomLayout(modes: Array<out ButtonMode>? = null) {
         layoutButton.removeAllViews()
+        // 底部按钮有2列 且内容超过10的时候，原因：英文版底部按钮文字过长，需要转成垂直布局
+        if (modes != null && modes.size > 1) {
+            for (item in modes) {
+                if (item.text.length > 10) {
+                    tools.bottomButtonOption = 1
+                }
+            }
+        }
         layoutButton.orientation = tools.bottomButtonOption
         if (modes != null && modes.isNotEmpty()) {
             var index = 0
@@ -460,9 +469,14 @@ class BaseDialog : Dialog {
                         ResourcesCompat.getColor(mContext!!.resources, R.color.transparent, null)
                 }
             } else {
+                // 内容多的时候居左，
+                if (string.length > (if (LanguageUtil.isChineseLanguage(mContext!!)) 16 else 33)) {
+                    mGravity = Gravity.LEFT
+                }
                 holder.setText(R.id.tvMsg, string)
             }
             val layoutParams = holder.getView<TextView>(R.id.tvMsg).layoutParams
+
             if (mGravity == Gravity.LEFT) {
                 layoutParams.width = LinearLayout.LayoutParams.MATCH_PARENT
                 holder.getView<TextView>(R.id.tvMsg).layoutParams = layoutParams
@@ -504,7 +518,7 @@ class BaseDialog : Dialog {
             holder.getView<TextView>(R.id.tvMsg).gravity = mGravity
             holder.setOnclickListioner(R.id.tvMsg) {
                 itemClick?.invoke(holder.adapterPosition)
-                mResult = list[holder.adapterPosition]?:""
+                mResult = list[holder.adapterPosition] ?: ""
                 dismiss()
             }
         }
