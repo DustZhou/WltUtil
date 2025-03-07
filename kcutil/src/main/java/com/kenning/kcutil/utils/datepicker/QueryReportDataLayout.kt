@@ -407,7 +407,7 @@ class QueryReportDataLayout : LinearLayout, IPickerListener, TwoDatePickInterfac
                     start
                 ) > LimitDays
             ) {
-                ToastUtil.show(getStringResource(R.string.仅能选择X天日期, LimitDays.toString()))
+                ToastUtil.show(getStringResource(R.string.仅能选择XX天日期, LimitDays.toString()))
                 return false
             }
         }

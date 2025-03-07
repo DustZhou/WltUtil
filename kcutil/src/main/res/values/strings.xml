@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<resources tools:ignore="MissingTranslation" xmlns:tools="http://schemas.android.com/tools">
-    <!--region 功能菜单-->
+<resources>
+    <!--2025-03-06 17:13 >> start-->
     <string name="RequestBill">请购单</string>
     <string name="BuyOrder">进货订单</string>
     <string name="Buy">进货入库</string>
@@ -159,8 +159,6 @@
     <string name="CleanDebtBill">清欠账款</string>
     <string name="OrderReport">订货报表</string>
     <string name="LocalSubmitedBills">单据提交记录</string>
-    <!--endregion-->
-    <!--region 公共用语-->
     <string name="物联通">物联通</string>
     <string name="将码放入取景框即可自动扫描">将码放入取景框，即可自动扫描</string>
     <string name="扫描">扫描</string>
@@ -226,7 +224,6 @@
     <string name="优惠后金额">优惠后金额</string>
     <string name="成交金额">成交金额</string>
     <string name="已选商品">已选商品</string>
-    <string name="本单欠款">本单欠款</string>
     <string name="附件">附件</string>
     <string name="签名">签名</string>
     <string name="客户">客户</string>
@@ -236,7 +233,6 @@
     <string name="刷新">刷新</string>
     <string name="重试">重试</string>
     <string name="查看全部">查看全部</string>
-    <string name="分类">分类</string>
     <string name="详情">详情</string>
     <string name="状态">状态</string>
     <string name="正在加载">正在加载</string>
@@ -258,8 +254,6 @@
     <string name="机构">机构</string>
     <string name="按日选择">按日选择</string>
     <string name="按月选择">按月选择</string>
-    <!--endregion-->
-    <!--region 登录页-->
     <string name="确认登录方式">确认登录方式</string>
     <string name="您的物联通服务器地址为yunwltwltrjcom时选择云管家婆登录方式否则用其他方式登录">您的物联通服务器地址为yunwlt.wltrj.com时选择云管家婆登录方式，否则用其他方式登录</string>
     <string name="跳过">跳过</string>
@@ -312,8 +306,6 @@
     <string name="和">和</string>
     <string name="隐私政策书名号">《隐私政策》</string>
     <string name="阅读过程中如您有任何疑问可联系我们的客户热线咨询4001187276">阅读过程中，如您有任何疑问，可联系我们的客户热线咨询 400-118-7276。</string>
-    <!--endregion-->
-    <!--region 登录提示-->
     <string name="android_LoginTimeLimit">当前时间不允许登录，登录时间为%1$s</string>
     <string name="android_LoginGetTimeFail">后台启用登录时间控制，当前时间获取失败，请检查手机端网络连接再登录</string>
     <string name="android_OnlineVerificationFailure">在线密码校验不通过</string>
@@ -377,8 +369,6 @@
     <string name="获取服务器版本失败">获取服务器版本失败</string>
     <string name="服务器版本XX与APP版本XX不一致需要将APP版本升级到XX版本">服务器版本%1$s与APP版本%1$s不一致！\n需要将APP版本升级到%1$s版本</string>
     <string name="立即升级">立即升级</string>
-    <!--endregion-->
-    <!--region 首页-->
     <string name="软件将于XXX到期">软件将于%1$s到期，剩余可以日期%2$s天。到期后将无法继续使用，未避免影响日常工作请及时联系管理员到物联通后台【软件注册】-【注册信息】中续费</string>
     <string name="结余">结余</string>
     <string name="今日收现">今日收现</string>
@@ -396,7 +386,6 @@
     <string name="本月流失客户数">本月流失客户数</string>
     <string name="本月新增客户数">本月新增客户数</string>
     <string name="本月拜访客户数">本月拜访客户数</string>
-    <string name="欠款总额">欠款总额</string>
     <string name="本年销售总额">本年销售总额</string>
     <string name="未完成订单数">未完成订单数</string>
     <string name="常用的功能">常用的功能</string>
@@ -413,7 +402,6 @@
     <string name="历销单据">历销单据</string>
     <string name="车销要货">车销要货</string>
     <string name="综合销售">综合销售</string>
-    <string name="还货">还货</string>
     <string name="配送交账">配送交账</string>
     <string name="员工提成">员工提成</string>
     <string name="预存货单">预存货单</string>
@@ -425,8 +413,6 @@
     <string name="库存预警">库存预警</string>
     <string name="当前XX种商品低于库存下限XX种商品超出库存上限">当前%1$s种商品低于库存下限，%2$s种商品超出库存上限</string>
     <string name="立即查看">立即查看</string>
-    <!--endregion-->
-    <!--region 业务单据-->
     <string name="挂单中">挂单中</string>
     <string name="草稿中">草稿中</string>
     <string name="已过账">已过账</string>
@@ -492,7 +478,6 @@
     <string name="备注">备注</string>
     <string name="切换仓库将清除批次数据是否继续">切换仓库将清除批次数据，是否继续</string>
     <string name="切换货位将清除批次数据是否继续">切换货位将清除批次数据，是否继续</string>
-    <string name="库存分布">库存分布</string>
     <string name="货位分布">货位分布</string>
     <string name="序列号录入">序列号录入</string>
     <string name="校验">校验</string>
@@ -530,8 +515,6 @@
     <string name="本位币不能修改汇率">本位币不能修改汇率</string>
     <string name="没有修改汇率的权限">没有修改汇率的权限</string>
     <string name="请先选择币种">请先选择币种</string>
-    <!--endregion-->
-    <!--region 开单字段-->
     <string name="分支机构">分支机构</string>
     <string name="单据日期">单据日期</string>
     <string name="交货日期">交货日期</string>
@@ -549,7 +532,6 @@
     <string name="配送员">配送员</string>
     <string name="配送日期">配送日期</string>
     <string name="会员卡">会员卡</string>
-    <string name="付款">付款</string>
     <string name="订金">订金</string>
     <string name="借款">借款</string>
     <string name="借款理由">借款理由</string>
@@ -571,7 +553,6 @@
     <string name="按额定成本完工入库">按额定成本完工入库</string>
     <string name="指定子件转出成本">指定子件转出成本</string>
     <string name="选择结算单据扫描">选择结算单据+扫描</string>
-    <string name="条码">条码</string>
     <string name="编号">编号</string>
     <string name="RFID读取">RFID读取</string>
     <string name="客户标签">客户标签</string>
@@ -588,14 +569,10 @@
     <string name="添加套件">添加套件</string>
     <string name="添加账户">添加账户</string>
     <string name="添加科目">添加科目</string>
-    <string name="销售">销售</string>
-    <string name="退货">退货</string>
     <string name="套件产品">套件产品</string>
     <string name="套件明细">套件明细</string>
     <string name="转入">转入</string>
     <string name="转出">转出</string>
-    <string name="出库商品">出库商品</string>
-    <string name="入库商品">入库商品</string>
     <string name="产成品">产成品</string>
     <string name="物料明细">物料明细</string>
     <string name="账户合计">账户合计</string>
@@ -617,6 +594,8 @@
     <string name="显示配置">显示配置</string>
     <string name="已选套件">已选套件</string>
     <string name="科目">科目</string>
+    <string name="付款">付款</string>
+    <string name="本单欠款">本单欠款</string>
     <string name="自定义字段">自定义字段</string>
     <string name="在线账户">在线账户</string>
     <string name="现金账户">现金账户</string>
@@ -633,8 +612,6 @@
     <string name="价盘">价盘</string>
     <string name="销">销</string>
     <string name="赠">赠</string>
-    <!--endregion-->
-    <!--region 开单提示-->
     <string name="提交成功">提交成功</string>
     <string name="提交失败">提交失败!</string>
     <string name="过账失败">过账失败!</string>
@@ -646,7 +623,6 @@
     <string name="该单据已提交">该单据已提交</string>
     <string name="该单据未过账">该单据未过账</string>
     <string name="提交单据后签到">提交单据后签到</string>
-    <string name="本单已提交您无单据重复提交权限">本单已提交，您无单据重复提交权限!</string>
     <string name="本单已提交您无继续修改的权限">本单已提交，您无继续修改的权限!</string>
     <string name="您没有重复提交的权限">您没有重复提交的权限</string>
     <string name="确定删除XX吗">确定删除%1$s吗？</string>
@@ -682,7 +658,6 @@
     <string name="是否继续">是否继续?</string>
     <string name="不允许多账户">不允许多账户</string>
     <string name="预收账款不允许大于累计预收款余额">预收账款不允许大于累计预收款余额</string>
-    <string name="预付账款不允许大于累计预付款余额">预付账款不允许大于累计预付款余额</string>
     <string name="优惠金额不能大于合计金额">优惠金额不能大于合计金额</string>
     <string name="不允许录入">不允许录入</string>
     <string name="现收金额">现收金额</string>
@@ -752,9 +727,7 @@
     <string name="超出应收上限">超出应收上限</string>
     <string name="有超期应收款不允许开单">有超期应收款不允许开单</string>
     <string name="超出应收上限不允许开单">超出应收上限不允许开单</string>
-    <string name="蓝牙打印">蓝牙打印</string>
     <string name="远程打印">远程打印</string>
-    <string name="云打印">云打印</string>
     <string name="选择打印方式">选择打印方式</string>
     <string name="正在打印">正在打印</string>
     <string name="远程打印失败请检查打印配置">远程打印失败，请检查打印配置</string>
@@ -789,12 +762,12 @@
     <string name="返回工作台">返回工作台</string>
     <string name="本单已提交请前往草稿查询中修改">本单已提交，请前往草稿查询中修改</string>
     <string name="本单已打印您无继续修改的权限">本单已打印，您无继续修改的权限！</string>
+    <string name="本单已提交您无单据重复提交权限">本单已提交，您无单据重复提交权限！</string>
     <string name="获取当前单据状态失败请稍后刷新">获取当前单据状态失败，请稍后刷新</string>
     <string name="单据已保存本地正在提交中当前单据暂不支持修改提交删除提交过程中您可以选择继续等待手动刷新提交结果或进行退出等其他操作">单据已保存本地，正在提交中。当前单据暂不支持修改、提交、打印、删除。提交过程中，您可以选择继续等待（手动刷新提交结果）或进行新开单等其他操作</string>
     <string name="单据提交状态未知不支持修改提交打印删除单据是否刷新提交结果">单据提交状态未知，不支持修改、提交、打印、删除单据，是否刷新提交结果</string>
-    <string name="预收冲抵金额超出预收款余额">预收冲抵金额超出预收款余额</string>
+    <string name="预付账款不允许大于累计预付款余额">预付账款不允许大于累计预付款余额</string>
     <string name="预付冲抵金额超出预付款余额">预付冲抵金额超出预付款余额</string>
-    <string name="已支付通收款不支持修改">已支付通收款，不支持修改</string>
     <string name="序列号开单不允许更改计量单位">序列号开单不允许更改计量单位</string>
     <string name="零售类单据不支持批次商品开单">零售类单据不支持批次商品开单</string>
     <string name="请联系管理员在物联通后台业务录单配置中设置微信支付通二维码">请联系管理员在物联通后台【业务录单配置】中设置微信、支付通二维码</string>
@@ -805,11 +778,10 @@
     <string name="金额必须小于等于0">金额必须小于等于0</string>
     <string name="项目名称">项目名称</string>
     <string name="当前版本或单据只支持单账户收款">当前版本或单据只支持单账户收款</string>
+    <string name="已支付通收款不支持修改">已支付通收款，不支持修改</string>
     <string name="支付通账户金额必须大于0">支付通账户金额必须大于0</string>
     <string name="当前可用云空间仅有XXGB请及时联系经销商购买云空间以免图片无法提交">当前可用云空间仅有{%1$s}GB，请及时联系经销商购买云空间以免图片无法提交</string>
     <string name="切换XX将会做以下处理是否继续根据价格优先级重新获取商品价格清除表身中由于切换XX导致不再适用的搭赠方案中的商品及赠品">切换%1$s将会做以下处理，是否继续\n1. 根据价格优先级重新获取商品价格\n2.清除表身中，由于切换%2$s导致不再适用的搭赠方案中的商品及赠品</string>
-    <!--endregion-->
-    <!--region 报表字段-->
     <string name="老板关键数据">老板关键数据</string>
     <string name="资金构成分析">资金构成分析</string>
     <string name="采购关键数据">采购关键数据</string>
@@ -836,23 +808,21 @@
     <string name="库存金额">库存金额</string>
     <string name="商品种数">商品种数</string>
     <string name="商品数量">商品数量</string>
+    <string name="欠款总额">欠款总额</string>
     <string name="客户总量">客户总量</string>
     <string name="本周新增">本周新增</string>
     <string name="流失三个月无往来">流失 (三个月无往来)</string>
     <string name="默认30天未开单">默认 30 天未开单</string>
-    <string name="最近开单">最近开单</string>
     <string name="未开单天数">未开单天数</string>
     <string name="销售总额">销售总额</string>
     <string name="还货额">还货额</string>
     <string name="订货额">订货额</string>
-    <string name="环比">环比</string>
     <string name="已缴金额">已缴金额</string>
     <string name="销售收款">销售收款</string>
     <string name="欠款收入">欠款收入</string>
     <string name="其他收入">其他收入</string>
     <string name="费用支出">费用支出</string>
     <string name="优惠">优惠</string>
-    <string name="查看更多">查看更多</string>
     <string name="时间筛选">时间筛选</string>
     <string name="收入">收入</string>
     <string name="成本">成本</string>
@@ -909,6 +879,7 @@
     <string name="收款明细">收款明细</string>
     <string name="职员">职员</string>
     <string name="打印失败">打印失败</string>
+    <string name="最近开单">最近开单</string>
     <string name="单据金额">单据金额</string>
     <string name="最近拜访">最近拜访</string>
     <string name="未拜访天数">未拜访天数</string>
@@ -970,10 +941,11 @@
     <string name="优惠合计">优惠合计</string>
     <string name="预付合计">预付合计</string>
     <string name="订货">订货</string>
+    <string name="销售">销售</string>
+    <string name="退货">退货</string>
     <string name="欠款">欠款</string>
     <string name="预存">预存</string>
     <string name="清欠">清欠</string>
-    <string name="预收">预收</string>
     <string name="预付">预付</string>
     <string name="查询仓库">查询仓库</string>
     <string name="预警类型">预警类型</string>
@@ -989,6 +961,7 @@
     <string name="显示负库存的数据">显示负库存的数据</string>
     <string name="库存线性">库存线性</string>
     <string name="库存状况">库存状况</string>
+    <string name="库存分布">库存分布</string>
     <string name="库存日期">库存日期</string>
     <string name="保存条件">保存条件</string>
     <string name="库存批次表">库存批次表</string>
@@ -1069,8 +1042,8 @@
     <string name="利润型客户">利润型客户</string>
     <string name="贡献型客户">贡献型客户</string>
     <string name="净销售额元">净销售额(元)</string>
-    <string name="销售毛利元">销售毛利(元)</string>
     <string name="平均数">平均数</string>
+    <string name="环比">环比</string>
     <string name="同比">同比</string>
     <string name="拜访分析">拜访分析</string>
     <string name="销售分析">销售分析</string>
@@ -1090,6 +1063,7 @@
     <string name="XX人退货较多请关注">%1$s人退货较多请关注</string>
     <string name="员工利润元">员工利润(元)</string>
     <string name="商品成本元">商品成本(元)</string>
+    <string name="销售毛利元">销售毛利(元)</string>
     <string name="员工名称">员工名称</string>
     <string name="增长率">增长率</string>
     <string name="变化值元">变化值(元)</string>
@@ -1137,6 +1111,7 @@
     <string name="显示销售金额和退货金额均为0的职员">显示销售金额和退货金额均为0的职员</string>
     <string name="统计含税金额">统计含税金额</string>
     <string name="统计折后金额">统计折后金额</string>
+    <string name="分类">分类</string>
     <string name="地区">地区</string>
     <string name="品牌">品牌</string>
     <string name="金额退货率">金额退货率</string>
@@ -1288,8 +1263,6 @@
     <string name="总进度元">总进度(元)</string>
     <string name="目标">目标</string>
     <string name="冲刺">冲刺</string>
-    <!--endregion-->
-    <!--region 外勤字段-->
     <string name="通知中心">通知中心</string>
     <string name="标题">标题</string>
     <string name="作者">作者</string>
@@ -1312,116 +1285,17 @@
     <string name="加班申请">加班申请</string>
     <string name="活动审批">活动审批</string>
     <string name="费用申请">费用申请</string>
-    <!--endregion-->
-    <!--region 基本信息-->
-    <string name="商品列表">商品列表</string>
-    <string name="上一级">上一级</string>
-    <string name="商品详情">商品详情</string>
-    <string name="基础档案">基础档案</string>
-    <string name="库存余量">库存余量</string>
-    <string name="价格信息">价格信息</string>
-    <string name="图片">图片</string>
-    <string name="修改">修改</string>
-    <string name="名称">名称</string>
-    <string name="库存数量">库存数量</string>
-    <string name="库存均价">库存均价</string>
-    <string name="价格类型">价格类型</string>
-    <string name="行">行</string>
-    <string name="商品新增">商品新增</string>
-    <string name="保存">保存</string>
-    <string name="云商品">云商品</string>
-    <string name="类别">类别</string>
-    <string name="单位1">单位1</string>
-    <string name="单位2">单位2</string>
-    <string name="单位3">单位3</string>
-    <string name="换算率2">换算率2</string>
-    <string name="换算率3">换算率3</string>
-    <string name="成本算法">成本算法</string>
-    <string name="商品信息">商品信息</string>
-    <string name="商品价格">商品价格</string>
-    <string name="单位条码">单位条码</string>
-    <string name="批次管理">批次管理</string>
-    <string name="请输入内容">请输入内容</string>
-    <string name="添加完条码后点加号确认">添加完条码后点加号确认</string>
-    <string name="设为默认">设为默认</string>
-    <string name="单位条码XX与商品其他单位条码重复">单位条码%1$s与商品其他单位条码重复</string>
-    <string name="是否删除当前条码">是否删除当前条码</string>
-    <string name="未检测到语音引擎">未检测到语音引擎</string>
-    <string name="不需要语音提示请关闭">不需要语音提示，请关闭</string>
-    <string name="可在系统设置语音引擎配置中重新开启">可在【系统设置】-【语音引擎配置】中重新开启</string>
-    <string name="语音提示">语音提示</string>
-    <string name="需要语音提示请下载">需要语音提示，请下载</string>
-    <string name="可在系统设置语音引擎配置中设置语音播报速度">可在【系统设置】-【语音引擎配置】中设置语音播报速度</string>
-    <string name="客户详情">客户详情</string>
-    <string name="联系人">联系人</string>
-    <string name="手机">手机</string>
-    <string name="客户属性">客户属性</string>
-    <string name="业务分析">业务分析</string>
-    <string name="拜访动态">拜访动态</string>
-    <string name="地址">地址</string>
-    <string name="电话">电话</string>
-    <string name="传真">传真</string>
-    <string name="邮箱">邮箱</string>
-    <string name="公众号">公众号</string>
-    <string name="开户行">开户行</string>
-    <string name="账号">账号</string>
-    <string name="税号">税号</string>
-    <string name="信用额度">信用额度</string>
-    <string name="业务员">业务员</string>
-    <string name="线路">线路</string>
-    <string name="客户类型">客户类型</string>
-    <string name="客户级别">客户级别</string>
-    <string name="客户地区">客户地区</string>
-    <string name="成交笔数">成交笔数</string>
-    <string name="未结算金额">未结算金额</string>
-    <string name="仅30天销售趋势">仅30天销售趋势</string>
-    <string name="进行中的陈列协议">进行中的陈列协议</string>
-    <string name="共拜访X次">共拜访%1$s次</string>
-    <string name="选择开单类型">选择开单类型</string>
-    <string name="拜访">拜访</string>
-    <string name="选择地图类型">选择地图类型</string>
-    <string name="导航">导航</string>
-    <string name="更换">更换</string>
-    <string name="开户银行">开户银行</string>
-    <string name="更多信息">更多信息</string>
-    <string name="新增">新增</string>
-    <string name="锁定类别">锁定类别</string>
-    <string name="选择客户">选择客户</string>
-    <string name="等级">等级</string>
-    <string name="拜访周期">拜访周期</string>
-    <string name="纬度">纬度</string>
-    <string name="经度">经度</string>
-    <string name="精度">精度</string>
-    <string name="适用售价">适用售价</string>
-    <string name="地区类型">地区类型</string>
-    <string name="客户等级">客户等级</string>
-    <string name="新增客户草稿">新增客户草稿</string>
-    <string name="必须要选择商品或往来单位两者不能同时为空">必须要选择商品或往来单位，两者不能同时为空</string>
-    <string name="最近销售">最近销售</string>
-    <string name="最近采购">最近采购</string>
-    <string name="销售折前单价">销售折前单价</string>
-    <string name="销售折后单价">销售折后单价</string>
-    <string name="销售含税单价">销售含税单价</string>
-    <string name="销售单价">销售单价</string>
-    <string name="采购折前单价">采购折前单价</string>
-    <string name="采购折后单价">采购折后单价</string>
-    <string name="采购含税单价">采购含税单价</string>
-    <string name="采购单价">采购单价</string>
-    <string name="无此客户编号">无此客户编号!</string>
-    <!--endregion-->
-    <!--region 价格类型-->
     <string name="零售价">零售价</string>
     <string name="一级批发价">一级批发价</string>
     <string name="预设售价XX">预设售价%1$s</string>
     <string name="预设近价XX">预设近价%1$s</string>
     <string name="最低售价">最低售价</string>
     <string name="最高售价">最高售价</string>
+    <string name="库存均价">库存均价</string>
     <string name="最近进价">最近进价</string>
     <string name="价格跟踪">价格跟踪</string>
     <string name="协议价">协议价</string>
     <string name="促销价">促销价</string>
-    <!--endregion-->
-    <!--region 选择器-->
     <string name="往来单位1">往来单位</string>
     <string name="附近客户">附近客户</string>
     <string name="线路客户">线路客户</string>
@@ -1450,7 +1324,6 @@
     <string name="无数据请进行基本信息权限配置">无数据,请进行基本信息权限配置!</string>
     <string name="收藏商品">收藏商品</string>
     <string name="标签商品">标签商品</string>
-    <string name="历销商品">历销商品</string>
     <string name="搭赠商品">搭赠商品</string>
     <string name="正在自动分配">正在自动分配</string>
     <string name="无收藏商品">无收藏商品！</string>
@@ -1518,8 +1391,102 @@
     <string name="解锁类">解锁类</string>
     <string name="获取到新的档案信息点击可更新">获取到新的档案信息, 点击可更新</string>
     <string name="该层级下无子集">该层级下无子集</string>
-    <!--endregion-->
-    <!--region App用户配置-->
+    <string name="商品列表">商品列表</string>
+    <string name="上一级">上一级</string>
+    <string name="条码">条码</string>
+    <string name="商品详情">商品详情</string>
+    <string name="基础档案">基础档案</string>
+    <string name="库存余量">库存余量</string>
+    <string name="价格信息">价格信息</string>
+    <string name="图片">图片</string>
+    <string name="修改">修改</string>
+    <string name="名称">名称</string>
+    <string name="库存数量">库存数量</string>
+    <string name="价格类型">价格类型</string>
+    <string name="行">行</string>
+    <string name="商品新增">商品新增</string>
+    <string name="保存">保存</string>
+    <string name="云商品">云商品</string>
+    <string name="单位1">单位1</string>
+    <string name="单位2">单位2</string>
+    <string name="单位3">单位3</string>
+    <string name="换算率2">换算率2</string>
+    <string name="换算率3">换算率3</string>
+    <string name="成本算法">成本算法</string>
+    <string name="商品信息">商品信息</string>
+    <string name="商品价格">商品价格</string>
+    <string name="单位条码">单位条码</string>
+    <string name="批次管理">批次管理</string>
+    <string name="请输入内容">请输入内容</string>
+    <string name="添加完条码后点加号确认">添加完条码后点加号确认</string>
+    <string name="设为默认">设为默认</string>
+    <string name="单位条码XX与商品其他单位条码重复">单位条码%1$s与商品其他单位条码重复</string>
+    <string name="是否删除当前条码">是否删除当前条码</string>
+    <string name="未检测到语音引擎">未检测到语音引擎</string>
+    <string name="不需要语音提示请关闭">不需要语音提示，请关闭</string>
+    <string name="可在系统设置语音引擎配置中重新开启">可在【系统设置】-【语音引擎配置】中重新开启</string>
+    <string name="语音提示">语音提示</string>
+    <string name="需要语音提示请下载">需要语音提示，请下载</string>
+    <string name="可在系统设置语音引擎配置中设置语音播报速度">可在【系统设置】-【语音引擎配置】中设置语音播报速度</string>
+    <string name="客户详情">客户详情</string>
+    <string name="联系人">联系人</string>
+    <string name="手机">手机</string>
+    <string name="客户属性">客户属性</string>
+    <string name="业务分析">业务分析</string>
+    <string name="拜访动态">拜访动态</string>
+    <string name="电话">电话</string>
+    <string name="传真">传真</string>
+    <string name="邮箱">邮箱</string>
+    <string name="公众号">公众号</string>
+    <string name="开户行">开户行</string>
+    <string name="账号">账号</string>
+    <string name="税号">税号</string>
+    <string name="预收">预收</string>
+    <string name="信用额度">信用额度</string>
+    <string name="业务员">业务员</string>
+    <string name="线路">线路</string>
+    <string name="客户类型">客户类型</string>
+    <string name="客户级别">客户级别</string>
+    <string name="客户地区">客户地区</string>
+    <string name="成交笔数">成交笔数</string>
+    <string name="未结算金额">未结算金额</string>
+    <string name="仅30天销售趋势">仅30天销售趋势</string>
+    <string name="进行中的陈列协议">进行中的陈列协议</string>
+    <string name="查看更多">查看更多</string>
+    <string name="共拜访X次">共拜访%1$s次</string>
+    <string name="选择开单类型">选择开单类型</string>
+    <string name="拜访">拜访</string>
+    <string name="选择地图类型">选择地图类型</string>
+    <string name="导航">导航</string>
+    <string name="类别">类别</string>
+    <string name="地址">地址</string>
+    <string name="更换">更换</string>
+    <string name="开户银行">开户银行</string>
+    <string name="更多信息">更多信息</string>
+    <string name="新增">新增</string>
+    <string name="锁定类别">锁定类别</string>
+    <string name="选择客户">选择客户</string>
+    <string name="等级">等级</string>
+    <string name="拜访周期">拜访周期</string>
+    <string name="纬度">纬度</string>
+    <string name="经度">经度</string>
+    <string name="精度">精度</string>
+    <string name="适用售价">适用售价</string>
+    <string name="地区类型">地区类型</string>
+    <string name="客户等级">客户等级</string>
+    <string name="新增客户草稿">新增客户草稿</string>
+    <string name="必须要选择商品或往来单位两者不能同时为空">必须要选择商品或往来单位，两者不能同时为空</string>
+    <string name="最近销售">最近销售</string>
+    <string name="最近采购">最近采购</string>
+    <string name="销售折前单价">销售折前单价</string>
+    <string name="销售折后单价">销售折后单价</string>
+    <string name="销售含税单价">销售含税单价</string>
+    <string name="销售单价">销售单价</string>
+    <string name="采购折前单价">采购折前单价</string>
+    <string name="采购折后单价">采购折后单价</string>
+    <string name="采购含税单价">采购含税单价</string>
+    <string name="采购单价">采购单价</string>
+    <string name="无此客户编号">无此客户编号!</string>
     <string name="注册码">注册码</string>
     <string name="当前账套">当前账套</string>
     <string name="切换账套">切换账套</string>
@@ -1721,12 +1688,14 @@
     <string name="未搜索到相关配置">未搜索到相关配置</string>
     <string name="标准">标准</string>
     <string name="特大">特大</string>
+    <string name="蓝牙打印">蓝牙打印</string>
     <string name="蓝牙小票打印机">蓝牙小票打印机</string>
     <string name="便携式针式打印">便携式针式打印</string>
     <string name="得实1900打印机">得实1900打印机</string>
     <string name="打印通打印">打印通打印</string>
     <string name="打印通">打印通</string>
     <string name="支持打印通6点0及以上版本">支持打印通6.0及以上版本</string>
+    <string name="云打印">云打印</string>
     <string name="物联通云打印">物联通云打印</string>
     <string name="直接连接云打印进行网络打印">直接连接云打印进行网络打印</string>
     <string name="使用方法点我">使用方法点我</string>
@@ -1764,14 +1733,6 @@
     <string name="更新成功">更新成功</string>
     <string name="已是最新数据">已是最新数据</string>
     <string name="登录后存在库存预警时弹窗提醒">登录后存在库存预警时弹窗提醒</string>
-    <!--endregion-->
-    <!--region 授权提示-->
-    <string name="请允许管家婆物联通访问您的录音若不允许您将无法使用语音识别功能">请允许“管家婆物联通”访问您的录音；若不允许，您将无法使用语音识别功能。</string>
-    <string name="请允许管家婆物联通访问您的位置若不允许您将无法使用定位签到功能">请允许“管家婆物联通”访问您的位置；若不允许，您将无法使用定位签到功能。</string>
-    <string name="请允许管家婆物联通访问您的蓝牙若不允许您将无法使用连接打印机功能">请允许“管家婆物联通”访问您的蓝牙；若不允许，您将无法使用连接打印机功能。</string>
-    <string name="请允许管家婆物联通访问您的存储若不允许您将无法使用文件相关功能">请允许“管家婆物联通”访问您的存储；若不允许，您将无法使用文件相关功能。</string>
-    <!--endregion-->
-    <!--region 其他提示-->
     <string name="检测存在未提交单据不支持切换为新开单模式是否前往提交或删除">检测存在未提交单据，不支持切换为新开单模式，是否前往提交或删除</string>
     <string name="下载语言包">下载语言包</string>
     <string name="不支持修改该客户已在工作台签到">不支持修改，该客户已在工作台签到</string>
@@ -1839,9 +1800,7 @@
     <string name="保存失败">保存失败</string>
     <string name="正在处理数据">正在处理数据</string>
     <string name="客户照片类型">客户照片类型</string>
-    <string name="XX月XX日">%1$@月%2$@日</string>
     <string name="XX分钟">%1$s分钟</string>
-    <string name="XX时XX分钟">%1$@时%2$@分钟</string>
     <string name="正在请求数据">正在请求数据~</string>
     <string name="正在获取位置">正在获取位置~</string>
     <string name="正在提交数据">正在提交数据~</string>
@@ -1968,14 +1927,13 @@
     <string name="打印预览">打印预览</string>
     <string name="是否中断打印">是否中断打印?</string>
     <string name="中断">中断</string>
-    <string name="XX月">%1$s月</string>
-    <string name="XX天">%1$s天</string>
     <string name="销售XX双括号">【销售%1$s】</string>
     <string name="退货XX双括号">【退货%1$s】</string>
     <string name="费用XX双括号">【费用%1$s】</string>
     <string name="收款XX双括号">【收款%1$s】</string>
     <string name="销售商品双括号">【销售商品】</string>
     <string name="退货商品双括号">【退货商品】</string>
+    <string name="入库商品">入库商品</string>
     <string name="星销售数量">★销售数量</string>
     <string name="星销售金额">★销售金额</string>
     <string name="星退货数量">★退货数量</string>
@@ -2009,7 +1967,6 @@
     <string name="网络连接失败">网络连接失败</string>
     <string name="网络连接超时请重试">网络连接超时,请重试!</string>
     <string name="网络连接取消">网络连接取消!</string>
-    <string name="提示">提示</string>
     <string name="去修改">去修改</string>
     <string name="返回">返回</string>
     <string name="近7天">近7天</string>
@@ -2071,9 +2028,7 @@
     <string name="数据有误请联系开发商">数据有误，请联系开发商！</string>
     <string name="接口版本XX无法识别请联系客服处理">接口版本:%1$s，无法识别，请联系客服处理。</string>
     <string name="当前单据已支付通收款请提交单据">当前单据已支付通收款，请提交单据</string>
-    <string name="条码扫描">条码扫描</string>
     <string name="编号扫描">编号扫描</string>
-    <string name="正在刷新单据状态">正在刷新单据状态~</string>
     <string name="新开单">新开单</string>
     <string name="等待">等待</string>
     <string name="单据提交失败请重新提交">单据提交失败,请重新提交!</string>
@@ -2093,7 +2048,6 @@
     <string name="调拨方式">调拨方式</string>
     <string name="正在初始化商品">正在初始化商品</string>
     <string name="操作">操作</string>
-    <string name="出库商品双括号">【出库商品】</string>
     <string name="单号更新成功新的单号为XX">单号更新成功，新的单号为：%1$s</string>
     <string name="正在校验数据">正在校验数据</string>
     <string name="当前单据不支持远程打印">当前单据不支持远程打印!</string>
@@ -2104,11 +2058,8 @@
     <string name="数字型自定义字段最多录入10个字符">数字型自定义字段最多录入10个字符</string>
     <string name="请先选择科目">请先选择科目</string>
     <string name="请先选择商品">请先选择商品</string>
-    <string name="开始时间不得晚于结束时间">开始时间不得晚于结束时间</string>
-    <string name="结束时间不得早于开始时间">结束时间不得早于开始时间</string>
     <string name="未查询到品牌预收数据">未查询到品牌预收数据</string>
     <string name="选择仓库">选择仓库</string>
-    <string name="请先选择出库仓库">请先选择出库仓库</string>
     <string name="选择出库仓库">选择出库仓库</string>
     <string name="请先选择入库仓库">请先选择入库仓库</string>
     <string name="选择入库仓库">选择入库仓库</string>
@@ -2120,14 +2071,13 @@
     <string name="自定义字段5">自定义字段5</string>
     <string name="自定义字段6">自定义字段6</string>
     <string name="一键调拨">一键调拨</string>
+    <string name="条码扫描">条码扫描</string>
     <string name="按单结算">按单结算</string>
     <string name="总额结算">总额结算</string>
     <string name="按商品结算">按商品结算</string>
     <string name="订单引入">订单引入</string>
     <string name="语音录入">语音录入</string>
     <string name="表头配置">表头配置</string>
-    <string name="配货协议">配货协议</string>
-    <string name="陈列协议">陈列协议</string>
     <string name="拍照">拍照</string>
     <string name="补货">补货</string>
     <string name="快码">快码</string>
@@ -2137,8 +2087,10 @@
     <string name="调报价单">调报价单</string>
     <string name="调要货单">调要货单</string>
     <string name="无修改单据日期权限">无修改单据日期权限!</string>
+    <string name="开始时间不得晚于结束时间">开始时间不得晚于结束时间</string>
     <string name="开单时间不得晚于交货时间">开单时间不得晚于交货时间</string>
     <string name="交货时间不得早于开单时间">交货时间不得早于开单时间</string>
+    <string name="结束时间不得早于开始时间">结束时间不得早于开始时间</string>
     <string name="切换机构将会清除仓库会员收付款数据是否继续">切换机构将会清除仓库、会员、收付款数据，是否继续</string>
     <string name="切换分支机构将清空之前调用的商品是否继续">切换分支机构将清空之前调用的商品, 是否继续?</string>
     <string name="是">是</string>
@@ -2162,6 +2114,7 @@
     <string name="选择单价">选择单价</string>
     <string name="已藏">已藏</string>
     <string name="正在加载数据">正在加载数据...</string>
+    <string name="请先选择出库仓库">请先选择出库仓库</string>
     <string name="无修改副单位数量的权限">无修改副单位数量的权限</string>
     <string name="数量不能为负数">数量不能为负数</string>
     <string name="买赠数量不能为负数">买赠数量不能为负数</string>
@@ -2287,7 +2240,7 @@
     <string name="往来单位XX在ERP中已被停用或删除不允许提交不允许打印">往来单位：%1$s，在ERP中已被停用或删除，不允许提交，不允许打印</string>
     <string name="往来单位XX在ERP中已被停用或删除不允许提交请修改后重新提交">往来单位：%1$s，在ERP中已被停用或删除，不允许提交，请修改后重新提交</string>
     <string name="往来单位XX在ERP中已被停用或删除不允许提交请修改后重新打印">往来单位：%1$s，在ERP中已被停用或删除，不允许提交，请修改后重新打印</string>
-    <string name="以下商品在ERP中已被停用或删除不允许提交本单请重新开单">以下商品在ERP中已被停用或删除，不允许提交本单，请重新开单"</string>
+    <string name="以下商品在ERP中已被停用或删除不允许提交本单请重新开单">以下商品在ERP中已被停用或删除，不允许提交本单，请重新开单</string>
     <string name="以下商品在ERP中已被停用或删除不允许打印">以下商品在ERP中已被停用或删除，不允许打印</string>
     <string name="以下商品在ERP中已被停用或删除">以下商品在ERP中已被停用或删除</string>
     <string name="以下商品在ERP中已被停用或删除是否清除">以下商品在ERP中已被停用或删除，是否清除？</string>
@@ -2310,7 +2263,6 @@
     <string name="提交下一张">提交下一张</string>
     <string name="继续提交">继续提交</string>
     <string name="编辑本单">编辑本单</string>
-    <string name="退款">退款</string>
     <string name="提交附件">提交附件</string>
     <string name="删除下一张">删除下一张</string>
     <string name="刷新下一张">刷新下一张</string>
@@ -2323,8 +2275,6 @@
     <string name="请录入XX的成本均价">请录入%1$s的成本均价</string>
     <string name="单据异常">单据异常</string>
     <string name="同一商品同一单位只能存在一个协议价请修改">同一商品,同一单位只能存在一个协议价, 请修改</string>
-    <string name="不允许0单价开单以下商品单价为0">不允许0单价开单, 以下商品单价为0</string>
-    <string name="不允许低于最低售价以下商品低于最低售价">不允许低于最低售价, 以下商品低于最低售价</string>
     <string name="售价">售价</string>
     <string name="扫描结果">扫描结果</string>
     <string name="摘要XX">摘要: %1$s</string>
@@ -2336,8 +2286,6 @@
     <string name="该单据已完成请重新扫描">该单据已完成，请重新扫描</string>
     <string name="单据已经完成无法再次调用">单据已经完成, 无法再次调用~</string>
     <string name="输入往来单位编号名称拼音">输入往来单位编号/名称/拼音</string>
-    <string name="请输入单据编号">请输入单据编号</string>
-    <string name="请输入摘要">请输入摘要</string>
     <string name="不允许本次发货数量超过库存数量">不允许本次发货数量超过库存数量</string>
     <string name="商品未完成数量超过库存数量将以库存数量调用">商品未完成数量超过库存数量，将以库存数量调用</string>
     <string name="请选择调用的商品">请选择调用的商品</string>
@@ -2404,7 +2352,6 @@
     <string name="确定放弃已添加的商品">确定放弃已添加的商品？</string>
     <string name="数量必须小于XX">数量必须小于%1$s</string>
     <string name="赠送数量必须小于XX">赠送数量必须小于%1$s</string>
-    <string name="赠送">赠送</string>
     <string name="当前登录人未配置支付通">当前登录人未配置支付通</string>
     <string name="收款码获取失败">收款码获取失败！</string>
     <string name="扫我立即结算">扫我立即结算</string>
@@ -2445,7 +2392,6 @@
     <string name="是否清除结算记录">是否清除结算记录？</string>
     <string name="自动分配将按单据时间先后顺序分配结算金额">自动分配将按单据时间先后顺序分配结算金额。</string>
     <string name="请输入优惠金额">请输入优惠金额</string>
-    <string name="暂无未结算单据">暂无未结算单据</string>
     <string name="本次结算">本次结算</string>
     <string name="存在结算单据的本次结算金额大于未结算金额是否继续">存在结算单据的本次结算金额大于未结算金额，是否继续</string>
     <string name="存在结算单据的未结算金额为负数而结算金额为正数">存在结算单据的未结算金额为负数而结算金额为正数</string>
@@ -2491,6 +2437,8 @@
     <string name="无打印地址">无打印地址</string>
     <string name="选择打印地址">选择打印地址</string>
     <string name="请选择打印样式">请选择打印样式</string>
+    <string name="XX月">%1$s月</string>
+    <string name="XX天">%1$s天</string>
     <string name="正在在线获取单据编号">正在在线获取单据编号...</string>
     <string name="经手人XX">经手人：%1$s</string>
     <string name="开单时间XX">开单时间: %1$s</string>
@@ -2573,6 +2521,8 @@
     <string name="单据提交时签到">单据提交时签到</string>
     <string name="该单据商品的出入库仓库不支持修改">该单据，商品的出入库仓库不支持修改</string>
     <string name="ERP控制调单后不支持修改当前字段">ERP控制调单后不支持修改当前字段</string>
+    <string name="不允许0单价开单以下商品单价为0">不允许0单价开单, 以下商品单价为0</string>
+    <string name="不允许低于最低售价以下商品低于最低售价">不允许低于最低售价, 以下商品低于最低售价</string>
     <string name="以下商品仓库相同需编辑后才能提交是否前往编辑">以下商品仓库相同，需编辑后才能提交，是否前往编辑？</string>
     <string name="以下商品货位相同需编辑后才能提交是否前往编辑">以下商品货位相同，需编辑后才能提交，是否前往编辑？</string>
     <string name="点击查看设置说明">点击查看设置说明</string>
@@ -2595,19 +2545,18 @@
     <string name="请选择价格方式">请选择价格方式</string>
     <string name="正在更新价格">正在更新价格...</string>
     <string name="该单据与表头信息不同继续将会清除原数据">该单据与表头信息不同，继续将会清除原数据</string>
-    <string name="调单XX">调单: %1$s</string>
     <string name="账户不能为空">账户不能为空!</string>
     <string name="扫描单号将会清空当前已结算数据是否继续">扫描单号将会清空当前已结算数据，是否继续？</string>
     <string name="添加结算单据成功">添加结算单据成功</string>
     <string name="无效单号">无效单号</string>
     <string name="该单据已参与结算">该单据已参与结算</string>
     <string name="结算单据不存在">结算单据不存在</string>
-    <string name="请选择业务类型">请选择业务类型!</string>
     <string name="请添加表身">请添加表身!</string>
     <string name="请添加出库商品">请添加出库商品~</string>
     <string name="请添加入库商品">请添加入库商品~</string>
     <string name="表体第XX行中不允许单价为空">表体第%1$s行中不允许单价为空</string>
     <string name="表体第XX行中不允许单价为空或者负数">表体第%1$s行中不允许单价为空或者负数</string>
+    <string name="出库商品">出库商品</string>
     <string name="数量不允许为0">数量不允许为0</string>
     <string name="单价不允许为空">单价不允许为空</string>
     <string name="单价不允许为空或负数">单价不允许为空或负数</string>
@@ -2619,6 +2568,7 @@
     <string name="借款账户为空">借款账户为空!</string>
     <string name="借款金额为空">借款金额为空!</string>
     <string name="借款金额不能为0">借款金额不能为0！</string>
+    <string name="请选择业务类型">请选择业务类型！</string>
     <string name="付款金额与费用金额不等不允许保存">付款金额与费用金额不等, 不允许保存</string>
     <string name="表体总金额与退补金额合计必须大于0">表体总金额与退补金额合计必须大于0</string>
     <string name="请添加转入账户">请添加转入账户~</string>
@@ -2652,17 +2602,14 @@
     <string name="该功能暂时不支持批次序列号多仓库副单位功能">该功能暂时不支持批次/序列号/多仓库/副单位功能</string>
     <string name="单据状态锁定中无法编辑往来单位">单据状态锁定中,无法编辑往来单位</string>
     <string name="显示更多">显示更多</string>
-    <string name="历史销售">历史销售</string>
     <string name="隐藏更多">隐藏更多</string>
     <string name="正在初始化数据">正在初始化数据</string>
-    <string name="确定删除吗">确定删除吗？</string>
     <string name="规格XX">规格: %1$s</string>
     <string name="型号XX">型号: %1$s</string>
     <string name="购物车是空的哦">购物车是空的哦~</string>
     <string name="输入XX">输入%1$s</string>
     <string name="刷价">刷价</string>
     <string name="单据状态已锁定无法选择往来单位">单据状态已锁定，无法选择往来单位~</string>
-    <string name="确定清空购物车吗">确定清空购物车吗？</string>
     <string name="刷价将按照客户价格优先级自动改价若不存在价格优先级则当前价格不变">刷价将按照客户价格优先级自动改价。\n若不存在价格优先级，则当前价格不变。\n</string>
     <string name="添加备注">添加备注</string>
     <string name="优惠金额必须大于等于0">优惠金额必须大于等于0</string>
@@ -2687,6 +2634,7 @@
     <string name="价税合计">价税合计</string>
     <string name="折后金额">折后金额</string>
     <string name="搭赠">搭赠</string>
+    <string name="赠送">赠送</string>
     <string name="参考价">参考价</string>
     <string name="获取打印模板失败">获取打印模板失败</string>
     <string name="请在BS端设置得实打印模板">请在BS端设置得实打印模板</string>
@@ -2707,6 +2655,7 @@
     <string name="获取往来单位明细失败">获取往来单位明细失败</string>
     <string name="无授权的现金银行账户请手动录入收付款金额">无授权的现金银行账户，请手动录入收付款金额</string>
     <string name="当前为多账户收款请手动分配金额">当前为多账户收款，请手动分配金额</string>
+    <string name="正在刷新单据状态">正在刷新单据状态</string>
     <string name="正在加载单据数据">正在加载单据数据</string>
     <string name="正在获取单据编号">正在获取单据编号</string>
     <string name="正在查询往来单位信息">正在查询往来单位信息</string>
@@ -2783,11 +2732,13 @@
     <string name="确认删除该商品">确认删除该商品？</string>
     <string name="手工录入">手工录入</string>
     <string name="达到促销价格已自动刷新">达到促销价格，已自动刷新</string>
+    <string name="确定删除吗">确定删除吗？</string>
     <string name="收钱">收钱</string>
     <string name="确定清空所有图片吗">确定清空所有图片吗？</string>
     <string name="上传附件">上传附件</string>
     <string name="选择方式">选择方式</string>
     <string name="应收付单据">应收/付单据</string>
+    <string name="历史销售">历史销售</string>
     <string name="没有选中的商品">没有选中的商品</string>
     <string name="超出">超出</string>
     <string name="未获取到数据">未获取到数据</string>
@@ -2802,6 +2753,7 @@
     <string name="未找到相似商品">未找到相似商品~</string>
     <string name="金额必须小于0">金额必须小于0</string>
     <string name="必须小于1亿">必须小于1亿</string>
+    <string name="预收冲抵金额超出预收款余额">预收冲抵金额超出预收款余额</string>
     <string name="结算金额不等于单据金额是否继续">结算金额不等于单据金额，是否继续</string>
     <string name="该账户已存在不支持重复添加">该账户已存在，不支持重复添加</string>
     <string name="结算金额">结算金额</string>
@@ -2821,7 +2773,7 @@
     <string name="有XX份可参与的陈列活动">有%1$s份可参与的陈列活动</string>
     <string name="有XX张订单金额XX的商品待发货">有%1$s张订单，金额%1$s的商品待发货</string>
     <string name="有XX张待分配XX张待配送的单据">有%1$s张待分配、%1$s张待配送的单据</string>
-    <string name="有XX份进行中的陈列协议本月XX">有%1$@份进行中的陈列协议，本月 %2$@</string>
+    <string name="有XX份进行中的陈列协议本月XX">有%1$s份进行中的陈列协议，本月 %2$s</string>
     <string name="待返还">待返还</string>
     <string name="已返还">已返还</string>
     <string name="无需返还">无需返还</string>
@@ -2864,8 +2816,8 @@
     <string name="AI智能中心">AI智能中心</string>
     <string name="限时体验">限时体验</string>
     <string name="签名异常请稍后再试">签名异常，请稍后再试</string>
-    <string name="AI智能应用已到期如需继续使用请联系您的软件服务商XX购买哦">AI智能应用已到期；如需继续使用，请联系您的软件服务商%s购买哦</string>
     <string name="AI智能应用将于XX天后到期如果喜欢的话请联系您的软件服务商XX购买哦">AI智能应用将于%1$s天后到期；如果喜欢的话，请联系您的软件服务商%1$s购买哦</string>
+    <string name="AI智能应用已到期如需继续使用请联系您的软件服务商XX购买哦">AI智能应用已到期；如需继续使用，请联系您的软件服务商%1$s购买哦</string>
     <string name="AI智能应用已停用如需继续使用请联系您的软件服务商XX购买哦">AI智能应用已停用；如需继续使用，请联系您的软件服务商%1$s购买哦</string>
     <string name="图片转换失败">图片转换失败!!!</string>
     <string name="未识别到有效信息">未识别到有效信息</string>
@@ -2913,7 +2865,10 @@
     <string name="关闭后显示商品库存和价格等敏感信息">关闭后，显示商品库存和价格等敏感信息</string>
     <string name="常购商品">常购商品</string>
     <string name="复购推荐">复购推荐</string>
+    <string name="历销商品">历销商品</string>
     <string name="促销活动">促销活动</string>
+    <string name="配货协议">配货协议</string>
+    <string name="陈列协议">陈列协议</string>
     <string name="搭赠方案">搭赠方案</string>
     <string name="时段促销">时段促销</string>
     <string name="查询商品失败">查询商品失败</string>
@@ -2925,6 +2880,7 @@
     <string name="正在编辑中一次只能加载一个编辑数据">正在编辑中, 一次只能加载一个编辑数据</string>
     <string name="无效编辑数据">无效编辑数据</string>
     <string name="未加载编辑数据">未加载编辑数据</string>
+    <string name="确定清空购物车吗">确定清空购物车吗？</string>
     <string name="商品重复">商品重复</string>
     <string name="添加商品为空">添加商品为空</string>
     <string name="编辑对象缺失">编辑对象缺失</string>
@@ -2941,15 +2897,20 @@
     <string name="未完成数量XX">未完成数量：%1$s</string>
     <string name="未订货数量XX">未订货数量：%1$s</string>
     <string name="实销XX">实销:%1$s</string>
+    <string name="请输入单据编号">请输入单据编号</string>
     <string name="支持添加非工作台签到客户XX的单据">支持添加非工作台签到客户【%1$s】的单据</string>
     <string name="合计金额">合计金额</string>
     <string name="调单未获取到单据信息">调单未获取到单据信息！！！！</string>
+    <string name="请输入摘要">请输入摘要</string>
     <string name="原单号">原单号</string>
+    <string name="提示">提示</string>
     <string name="不支持调用多张单据">不支持调用多张单据</string>
+    <string name="调单XX">调单: %1$s;</string>
     <string name="切换入库仓库将清空之前调用的商品是否继续">切换入库仓库将清空之前调用的商品, 是否继续?</string>
     <string name="大于0小于10">大于0, 小于10</string>
     <string name="超出XX库存XX">超出%1$s库存【%1$s】</string>
     <string name="修改折后单价后会以单价为准重新计算折扣若您希望修改折前单据请前往物联通后台业务录单配置更改开单主界面表身商品价格显示配置">修改折后单价后，会以单价为准重新计算折扣。若您希望修改折前单据，请前往物联通后台【业务录单配置】更改“开单主界面表身商品价格显示”配置。</string>
+    <string name="出库商品双括号">【出库商品】</string>
     <string name="AI智能中心识别语音图片文字一键生成单据">AI 智能中心,识别语音、图片、文字,一键生成单据</string>
     <string name="Hi欢迎体验AI智能中心">Hi, 欢迎体验AI智能中心!</string>
     <string name="不允许修改签名">不允许修改签名</string>
@@ -3004,7 +2965,6 @@
     <string name="未打印">未打印</string>
     <string name="让利方式">让利方式</string>
     <string name="打印状态">打印状态</string>
-    <string name="订单状态">订单状态</string>
     <string name="子单单据编号">子单单据编号</string>
     <string name="综合销售单号">综合销售单号</string>
     <string name="销售主类">销售主类</string>
@@ -3041,6 +3001,7 @@
     <string name="取消操作">取消操作</string>
     <string name="确定要删除吗">确定要删除吗</string>
     <string name="下一张">下一张</string>
+    <string name="退款">退款</string>
     <string name="复制成功">复制成功</string>
     <string name="当前勾选的单据类型无提交存草稿过账权限不支持提交">当前勾选的单据类型无提交、存草稿、过账权限，不支持提交</string>
     <string name="当前勾选的单据中存在无存草稿权限的单据已为您过滤">当前勾选的单据中，存在无存草稿权限的单据，已为您过滤</string>
@@ -3088,7 +3049,7 @@
     <string name="若您的物联通系统地址为yunwltwltrjcom请使用公司名称方式登录若您的物联通系统不是通过上述地址访问请点击其他方式登录输入物联通服务器地址登录">1.若您的物联通系统地址为yunwlt.wltrj.com, 请使用公司名称方式登录\n\n2.若您的物联通系统不是通过上述地址访问，请点击【其他方式登录】，输入物联通服务器地址登录。</string>
     <string name="请输入完整的服务器地址与端口">请输入完整的服务器地址与端口</string>
     <string name="请扫物联通服务器生成的二维码">请扫物联通服务器生成的二维码</string>
-    <string name="亲爱的用户感谢您信任并使用管家婆物联通杭州致梦科技有限公司以下简称我们深知个人信息对您的重要性并会尽全力保护您的个人信息安全可靠请仔细阅读管家婆物联通服务协议和隐私政策阅读过程中如您有任何疑问可联系我们的客户热线咨询4001187276">亲爱的用户，感谢您信任并使用管家婆物联通。杭州致梦科技有限公司（以下简称“我们”）深知个人信息对您的重要性，并会尽全力保护您的个人信息安全可靠。请仔细阅读管家婆物联通《服务协议》和《隐私政策》。阅读过程中，如您有任何疑问，可联系我们的客户热线咨询400-118-7276。</string>
+    <string name="亲爱的用户感谢您信任并使用管家婆物联通杭州致梦科技有限公司以下简称我们深知个人信息对您的重要性并会尽全力保护您的个人信息安全可靠请仔细阅读管家婆物联通服务协议和隐私政策阅读过程中如您有任何疑问可联系我们的客户热线咨询4001187276">亲爱的用户，感谢您信任并使用管家婆物联通。杭州致梦科技有限公司（以下简称\"我们\"）深知个人信息对您的重要性，并会尽全力保护您的个人信息安全可靠。请仔细阅读管家婆物联通《服务协议》和《隐私政策》。阅读过程中，如您有任何疑问，可联系我们的客户热线咨询400-118-7276。</string>
     <string name="选择在线账套">选择在线账套</string>
     <string name="快消行业">快消行业</string>
     <string name="餐饮连锁">餐饮连锁</string>
@@ -3210,6 +3171,7 @@
     <string name="常用功能">常用功能</string>
     <string name="没有查看该报表的权限">没有查看该报表的权限</string>
     <string name="车销还货">车销还货</string>
+    <string name="还货">还货</string>
     <string name="切换">切换</string>
     <string name="销售业务">销售业务</string>
     <string name="车销管理">车销管理</string>
@@ -3346,11 +3308,11 @@
     <string name="物联通云打印使用说明">物联通云打印使用说明</string>
     <string name="您添加的打印机是">您添加的打印机是</string>
     <string name="操作步骤">操作步骤</string>
-    <string name="第一步扫描打印机机身云打印机配置工具二维码配网具体步骤点我">【第一步】扫描打印机机身“云打印机配置工具”二维码配网（具体步骤点我）</string>
+    <string name="第一步扫描打印机机身云打印机配置工具二维码配网具体步骤点我">【第一步】扫描打印机机身\"云打印机配置工具\"二维码配网（具体步骤点我）</string>
     <string name="第二步扫描得实打印机机身上的二维码添加打印机">【第二步】扫描得实打印机机身上的二维码，添加打印机.</string>
-    <string name="第一步扫描打印机机身微信扫描配网二维码配网具体步骤点我">【第一步】扫描打印机机身“微信扫描配网”二维码配网（具体步骤点我）</string>
+    <string name="第一步扫描打印机机身微信扫描配网二维码配网具体步骤点我">【第一步】扫描打印机机身\"微信扫描配网\"二维码配网（具体步骤点我）</string>
     <string name="第二步扫描映美打印机机身上的二维码添加打印机">【第二步】扫描映美打印机机身上的二维码，添加打印机.</string>
-    <string name="第一步扫描打印云盒机身微信扫描配网二维码配网具体步骤点我">【第一步】扫描打印云盒机身“微信扫描配网”二维码配网（具体步骤点我）</string>
+    <string name="第一步扫描打印云盒机身微信扫描配网二维码配网具体步骤点我">【第一步】扫描打印云盒机身\"微信扫描配网\"二维码配网（具体步骤点我）</string>
     <string name="第二步扫描打印云盒背面的二维码添加打印机">【第二步】扫描打印云盒背面的二维码，添加打印机.</string>
     <string name="第一步微信扫描下方小程序二维码或微信搜索小程序远程云打印进行配网具体步骤点我">【第一步】微信扫描下方小程序二维码或微信搜索小程序\"远程云打印\"进行配网（具体步骤点我）</string>
     <string name="具体步骤点我">（具体步骤点我）</string>
@@ -3448,13 +3410,12 @@
     <string name="进货换货">进货换货</string>
     <string name="经营日报">经营日报</string>
     <string name="共计XX笔">共计%1$s笔</string>
-    <string name="三十天未拜访">30天未拜访</string>
     <string name="账户余额元">账户余额(元)</string>
     <string name="老板一张表">老板一张表</string>
     <string name="本期利润总额明细">本期利润总额(明细)</string>
     <string name="销售毛利明细">销售毛利(明细)</string>
     <string name="本期资金明细总额">本期资金明细(总额)</string>
-    <string name="查询数据失败">"查询数据失败"</string>
+    <string name="查询数据失败">查询数据失败</string>
     <string name="前一天">前一天</string>
     <string name="后一天">后一天</string>
     <string name="赠送商品">赠送商品</string>
@@ -3487,11 +3448,11 @@
     <string name="商品订货">商品订货</string>
     <string name="单位订货">单位订货</string>
     <string name="职员订货">职员订货</string>
-    <string name="回款报表">回款报表</string>
     <string name="已发货数量冒号">已发货数量：</string>
     <string name="已发货金额冒号">已发货金额：</string>
     <string name="未发货数量冒号">未发货数量：</string>
     <string name="未发货金额冒号">未发货金额：</string>
+    <string name="回款报表">回款报表</string>
     <string name="销售统计">销售统计</string>
     <string name="销售明细">销售明细</string>
     <string name="日期">日期</string>
@@ -3503,7 +3464,6 @@
     <string name="约XX场景约1米">约%1$s(场景 约1米)</string>
     <string name="米场景100米">米(场景 100米)</string>
     <string name="公里">公里</string>
-    <string name="XX天未拜访">%1$s天未拜访</string>
     <string name="系统未开启统一客户供应商管理该单不支持选择XX">系统未开启统一客户供应商管理，该单不支持选择%1$s</string>
     <string name="筛选结果">筛选结果</string>
     <string name="有XX份进行中的陈列协议">有%1$s份进行中的陈列协议</string>
@@ -3556,6 +3516,7 @@
     <string name="虚拟库存状况表不支持按类别打印仅支持打印具体商品数量">虚拟库存状况表不支持按类别打印，仅支持打印具体商品数量。</string>
     <string name="全部机构">全部机构</string>
     <string name="全部日期">全部日期</string>
+    <string name="订单状态">订单状态</string>
     <string name="请选择排序值">请选择排序值</string>
     <string name="请输入备注">请输入备注</string>
     <string name="该单据存在授权外的信息不支持查看">该单据存在授权外的信息，不支持查看</string>
@@ -3692,6 +3653,7 @@
     <string name="正在查询商品图片">正在查询商品图片</string>
     <string name="商品条码">商品条码</string>
     <string name="解绑后客户将不会收到消息通知确定要解绑吗">解绑后，客户将不会收到消息通知，确定要解绑吗？</string>
+    <string name="XX天未拜访">%1$s天未拜访</string>
     <string name="请先勾选">请先勾选</string>
     <string name="只支持结算以下类型的单据销售单销售退货销售换货零售单">只支持结算以下类型的单据：销售单、销售退货、销售换货、零售单</string>
     <string name="总未结">总未结</string>
@@ -3732,7 +3694,6 @@
     <string name="您有未提交的新增客户是否前往处理">您有未提交的新增客户, 是否前往处理?</string>
     <string name="结算单位不选为自己结算">结算单位(不选为自己结算)</string>
     <string name="已存在相同号码的客户XX是否继续提交">已存在相同号码的客户\n%1$s\n是否继续提交？</string>
-    <string name="已存在相同名称的客户XX是否继续提交">A Customer with the Same Name Exists: %1$s, Continue Submission?</string>
     <string name="已存在相同名称的客户XX">已存在相同名称的客户：%1$s</string>
     <string name="XX是否将当前数据保存为草稿">%1$s 是否将当前数据保存为草稿?</string>
     <string name="XX为空">%1$s为空</string>
@@ -3755,10 +3716,6 @@
     <string name="是否拨打此号码">是否拨打此号码</string>
     <string name="拨打">拨打</string>
     <string name="最后拜访XX距今XX天">最后拜访 %1$s,距今%2$s天</string>
-
-    <!--endregion-->
-    <!--region 新其他提示-->
-
     <string name="更新">更新</string>
     <string name="选中的模块不能超过XX个">选中的模块不能超过%1$s个</string>
     <string name="驳回失败">驳回失败</string>
@@ -4026,7 +3983,6 @@
     <string name="自由项选择器">自由项选择器</string>
     <string name="自定义档案">自定义档案</string>
     <string name="新增兑奖券">新增兑奖券</string>
-    <string name="兑奖券录入">兑奖券录入</string>
     <string name="陈列检查">陈列检查</string>
     <string name="指定日期送达">指定日期送达</string>
     <string name="附件提交失败">附件提交失败</string>
@@ -4112,7 +4068,7 @@
     <string name="为了您能正常使用XX需要以下权限">为了您能正常使用%1$s，需要以下权限</string>
     <string name="请允许获取X">请允许获取%1$s</string>
     <string name="我们需要获取XX否则您将无法正常使用XX">我们需要获取%1$s,否则您将无法正常使用%2$s</string>
-    <string name="由于XX无法获取XX不能正常运行请开启权限后再使用设置路径应用管理XX权限"><![CDATA[由于%1$s无法获取%2$s, 不能正常运行, 请开启权限后再使用。 设置路径: 应用管理->%3$s->权限]]></string>
+    <string name="由于XX无法获取XX不能正常运行请开启权限后再使用设置路径应用管理XX权限"><![CDATA[由于%1$s无法获取%2$s, 不能正常运行, 请开启权限后再使用。  设置路径: 应用管理->%3$s->权限]]></string>
     <string name="拒绝">拒绝</string>
     <string name="合计结算金额XX取各收款账户合计金额不允许超出本单应收XX">合计结算金额【%1$s】（取各收款账户合计金额）不允许超出本单应收【%2$s】</string>
     <string name="本单应收为负合计收款金额不能大于0">本单应收为负，合计收款金额不能大于0</string>
@@ -4716,7 +4672,6 @@
     <string name="转入转出">转入、转出</string>
     <string name="出库商品入库商品">出库商品、入库商品</string>
     <string name="产成品物料明细">产成品、物料明细</string>
-    <string name="付款1">付款</string>
     <string name="费用账户受收付款账户显示损益类科目配置控制">费用账户(受”收付款账户显示损益类科目“配置控制)</string>
     <string name="连接">连接</string>
     <string name="配置">配置</string>
@@ -4735,26 +4690,18 @@
     <string name="应收余额为">应收余额为</string>
     <string name="有超期应收款1">1.有超期应收款</string>
     <string name="超出应收上限2">2.超出应收上限</string>
-    <string name="金额1">金额</string>
-    <string name="账户1">账户</string>
     <string name="收付款">收付款</string>
     <string name="天未开单30">30天未开单</string>
     <string name="天未拜访30">30天未拜访</string>
     <string name="银行收付库存">银行收付库存</string>
     <string name="正在计算成本">正在计算成本</string>
     <string name="日报日期">日报日期</string>
-    <string name="最近开单1">最近开单</string>
-    <string name="未开单天数1">未开单天数</string>
     <string name="未开单天数超过30天">未开单天数超过 30 天</string>
-    <string name="辅助数堡1">辅助数堡:</string>
-    <string name="费用1">费用</string>
-    <string name="付款2">付款</string>
-    <string name="收款1">收款</string>
+    <string name="辅助数量冒号">辅助数量:</string>
     <string name="占比">占比</string>
     <string name="辅助总数">辅助总数</string>
     <string name="尺码">尺码</string>
     <string name="颜色">颜色</string>
-    <string name="销售额1">销售额</string>
     <string name="退货金额">退货金额</string>
     <string name="销售净额">销售净额</string>
     <string name="回款率">回款率</string>
@@ -4779,6 +4726,7 @@
     <string name="费用申请单1">费用申请单</string>
     <string name="公事外出">公事外出</string>
     <string name="新客开拓">新客开拓</string>
+    <string name="兑奖券录入">兑奖券录入</string>
     <string name="请假申请">请假申请</string>
     <string name="工作台">工作台</string>
     <string name="配送交账表">配送交账表</string>
@@ -4801,13 +4749,8 @@
     <string name="会员信息">会员信息</string>
     <string name="新增商品">新增商品</string>
     <string name="数量冒号">数量:</string>
-    <string name="单价冒号">单价：</string>
+    <string name="单价冒号">单价:</string>
     <string name="商品信息1">商品信息</string>
-    <string name="预收1">预收</string>
-    <string name="预付1">预付</string>
-    <string name="查看更多1">查看更多</string>
-    <string name="选择客户1">选择客户</string>
-    <string name="客户类型1">客户类型</string>
     <string name="预设售价1">预设售价1</string>
     <string name="预设近价1">预设近价1</string>
     <string name="价格跟踪1">价格跟踪</string>
@@ -4819,7 +4762,6 @@
     <string name="选价价格选择">选价价格选择</string>
     <string name="实时库存">实时库存</string>
     <string name="可用库存">可用库存</string>
-    <string name="已添加1">已添加</string>
     <string name="可点击设置权限打开所需权限">可点击设置权限打开所需权限</string>
     <string name="注册已成功请重新打开程序">注册已成功请重新打开程序</string>
     <string name="已提交不显示">已提交不显示</string>
@@ -4847,7 +4789,7 @@
     <string name="序">序</string>
     <string name="单位编号">单位编号</string>
     <string name="不允许结束日期早于开始日期">不允许结束日期早于开始日期</string>
-    <string name="仅能选择X天日期">仅能选择%1$s天日期</string>
+    <string name="仅能选择XX天日期">仅能选择%1$s天日期</string>
     <string name="请设置参数containerViewId">请设置参数:containerViewId</string>
     <string name="结束月份">结束月份</string>
     <string name="开始月份">开始月份</string>
@@ -4881,8 +4823,8 @@
     <string name="导出">导出</string>
     <string name="自定义显示">自定义显示</string>
     <string name="目标进度查询">目标进度查询</string>
-    <string name="第X季度">第%1$s季度</string>
-    <string name="第X年">第%1$s年</string>
+    <string name="第XX季度">第%1$s季度</string>
+    <string name="第XX年">第%1$s年</string>
     <string name="季度">季度</string>
     <string name="月度">月度</string>
     <string name="第">第</string>
@@ -4903,7 +4845,6 @@
     <string name="期末利润">期末利润</string>
     <string name="科目名称">科目名称</string>
     <string name="科目余额">科目余额</string>
-    <string name="超期X天">超期%1$s天</string>
     <string name="档案名称">档案名称</string>
     <string name="全部业务员">全部业务员</string>
     <string name="存档人">存档人:</string>
@@ -5220,6 +5161,7 @@
     <string name="新增客户成功">新增客户成功</string>
     <string name="正在检查手机号码">正在检查手机号码</string>
     <string name="已存在相同号码的客户XX是否继续添加">已存在相同号码的客户:%1$s是否继续添加</string>
+    <string name="已存在相同名称的客户XX是否继续提交">已存在相同名称的客户:%1$s,是否继续提交</string>
     <string name="确定提交吗">确定提交吗!</string>
     <string name="请选择XX">请选择%1$s!</string>
     <string name="请填写XX">请填写%1$s!</string>
@@ -5733,8 +5675,8 @@
     <string name="逗号实收">实收</string>
     <string name="其他配送单">其他配送单</string>
     <string name="单据配送">单据配送</string>
-    <string name="逗号销售">销售</string>
-    <string name="逗号退货">退货</string>
+    <string name="逗号销售">，销售</string>
+    <string name="逗号退货">，退货</string>
     <string name="加号按单退">+按单退</string>
     <string name="加号退货商品">+退货商品</string>
     <string name="加号销售商品">+销售商品</string>
@@ -6041,32 +5983,35 @@
     <string name="销售成本">销售成本</string>
     <string name="出库合计">出库合计</string>
     <string name="入库合计">入库合计</string>
-
-    <string name="请选择出库仓库">请选择出库仓库</string>
-    <string name="请选择入库仓库">请选择入库仓库</string>
+    <string name="请添加出差类型">请添加出差类型</string>
+    <string name="请添加出发地">请添加出发地</string>
+    <string name="未设置交通工具">未设置交通工具</string>
+    <string name="请添加请假类型">请添加请假类型</string>
+    <string name="请添加目的地">请添加目的地</string>
+    <string name="XX笔">%1$s 笔</string>
     <string name="银行">银行</string>
     <string name="共计">共计</string>
-    <string name="XX笔">%1$s 笔</string>
-    <string name="笔数冒号">笔数：</string>
-    <string name="未审">未审</string>
     <string name="出差查询">出差查询</string>
-    <string name="出差类型冒号">出差类型：</string>
-    <string name="天数须小于等于1">天数须小于等于1</string>
-    <string name="请选择额外审批人">请选择额外审批人</string>
-    <string name="请添加出差类型">请添加出差类型</string>
-    <string name="请添加请假类型">请添加请假类型</string>
-    <string name="请添加外出类型">请添加外出类型</string>
-    <string name="请添加请假开始时长">请添加请假开始时长</string>
-    <string name="请填写请假结束时长">请填写请假结束时长</string>
-    <string name="请假时长不能为0">请假时长不能为0</string>
-    <string name="请添加请假事由">请添加请假事由</string>
-    <string name="请添加外出原因">请添加外出原因</string>
     <string name="未设置出差类型">未设置出差类型</string>
-    <string name="未设置交通工具">未设置交通工具</string>
-    <string name="请添加交通工具">请添加交通工具</string>
-    <string name="请添加出发地">请添加出发地</string>
-    <string name="请添加目的地">请添加目的地</string>
+    <string name="请选择入库仓库">请选择入库仓库</string>
+    <string name="天数须小于等于1">天数须小于等于1</string>
+    <string name="请添加外出类型">请添加外出类型</string>
+    <string name="请填写请假结束时长">请填写请假结束时长</string>
+    <string name="请添加外出原因">请添加外出原因</string>
     <string name="请添加出差事由">请添加出差事由</string>
+    <string name="请假时长不能为0">请假时长不能为0</string>
+    <string name="请选择出库仓库">请选择出库仓库</string>
+    <string name="请添加请假开始时长">请添加请假开始时长</string>
+    <string name="笔数冒号">笔数：</string>
+    <string name="请添加请假事由">请添加请假事由</string>
+    <string name="未审">未审</string>
+    <string name="出差类型冒号">出差类型：</string>
+    <string name="请选择额外审批人">请选择额外审批人</string>
+    <string name="请添加交通工具">请添加交通工具</string>
     <string name="今日交账额">今日交账额</string>
-    <!--endregion-->
+    <string name="请允许管家婆物联通访问您的录音若不允许您将无法使用语音识别功能">请允许\"管家婆物联通\"访问您的录音；若不允许，您将无法使用语音识别功能。</string>
+    <string name="请允许管家婆物联通访问您的位置若不允许您将无法使用定位签到功能">请允许\"管家婆物联通\"访问您的位置；若不允许，您将无法使用定位签到功能。</string>
+    <string name="请允许管家婆物联通访问您的蓝牙若不允许您将无法使用连接打印机功能">请允许\"管家婆物联通\"访问您的蓝牙；若不允许，您将无法使用连接打印机功能。</string>
+    <string name="请允许管家婆物联通访问您的存储若不允许您将无法使用文件相关功能">请允许\"管家婆物联通\"访问您的存储；若不允许，您将无法使用文件相关功能。</string>
+    <!--2025-03-06 17:13 >> end-->
 </resources>

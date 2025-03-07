@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <!--region 功能菜单-->
+<resources>
+    <!--2025-03-06 17:13 >> start-->
     <string name="RequestBill">PurReqForm</string>
     <string name="BuyOrder">PurOrd</string>
     <string name="Buy">PurBill</string>
@@ -95,8 +95,8 @@
     <string name="BTypeBuyReport">Supplier Purch.</string>
     <string name="PTypeBuyReport">Prod. Purch.</string>
     <string name="CarInventory">Veh. Inv.</string>
-    <string name="TodayBTypeSale">Today’s Settle</string>
-    <string name="TodayPTypeSale">Today’s Sales</string>
+    <string name="TodayBTypeSale">Today settle</string>
+    <string name="TodayPTypeSale">Today sales</string>
     <string name="TravelAudit">Trip App.</string>
     <string name="SaleProtocol">Delivery Agmt.</string>
     <string name="CommodityDisplayCharge">Display Return</string>
@@ -159,8 +159,6 @@
     <string name="CleanDebtBill">Clearing Debt Accounts</string>
     <string name="OrderReport">Order Report</string>
     <string name="LocalSubmitedBills">Document Submission Record</string>
-    <!--endregion-->
-    <!--region 公共用语-->
     <string name="物联通">Woolinte</string>
     <string name="将码放入取景框即可自动扫描">Scan the QR code here</string>
     <string name="扫描">Scan</string>
@@ -204,7 +202,7 @@
     <string name="删除">Delete</string>
     <string name="复制">Copy</string>
     <string name="提交">Submit</string>
-    <string name="单据编号">BillNo.</string>
+    <string name="单据编号">BillNo</string>
     <string name="经手人">Handler</string>
     <string name="往来单位">Partner Unit</string>
     <string name="部门">Department</string>
@@ -224,9 +222,8 @@
     <string name="存草稿">Save as draft</string>
     <string name="过账">Posting</string>
     <string name="优惠后金额">Amount after Discount</string>
-    <string name="成交金额">Amount after Discount</string>
+    <string name="成交金额">Transaction amount</string>
     <string name="已选商品">Purchases</string>
-    <string name="本单欠款">unsettled amount</string>
     <string name="附件">Attachment</string>
     <string name="签名">Signature</string>
     <string name="客户">Customer</string>
@@ -236,7 +233,6 @@
     <string name="刷新">Refresh</string>
     <string name="重试">Retry</string>
     <string name="查看全部">View all</string>
-    <string name="分类">Classification</string>
     <string name="详情">Details</string>
     <string name="状态">Status </string>
     <string name="正在加载">Loading...</string>
@@ -253,13 +249,11 @@
     <string name="批次">Batch</string>
     <string name="毛利">Gross profit</string>
     <string name="毛利率">Gross profit Ratio</string>
-    <string name="菜单">Menu</string>
+    <string name="菜单">menu</string>
     <string name="日期筛选">Date filter</string>
     <string name="机构">Branch</string>
     <string name="按日选择">Select by day</string>
     <string name="按月选择">Select by month</string>
-    <!--endregion-->
-    <!--region 登录页-->
     <string name="确认登录方式">Tips</string>
     <string name="您的物联通服务器地址为yunwltwltrjcom时选择云管家婆登录方式否则用其他方式登录">If your system’s login address is http://yunwlt.wltrj.com, log in with the company - name method; otherwise, use the server - address method.</string>
     <string name="跳过">Skip</string>
@@ -303,6 +297,7 @@
     <string name="全新升级">Download the latest database</string>
     <string name="正在替换">Updating</string>
     <string name="正在下载数据包请稍候">The data is being updated. Just a moment, please</string>
+    <string name="最近未生成数据包请全新升级">No data package has been generated recently. Please perform a full upgrade!</string>
     <string name="暂不使用">Decline</string>
     <string name="同意">Agree</string>
     <string name="亲爱的用户感谢您信任并使用管家婆物联通杭州致梦科技有限公司以下简称我们深知个人信息对您的重要性并会尽全力保护您的个人信息安全可靠">Dear user, thank you for trusting and using Grasp Woolinte.
@@ -312,8 +307,6 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="和">and</string>
     <string name="隐私政策书名号">"Privacy Policy" </string>
     <string name="阅读过程中如您有任何疑问可联系我们的客户热线咨询4001187276">During the reading process, if you have any questions, you can contact our customer hotline at 400-118-7276 for consultation.</string>
-    <!--endregion-->
-    <!--region 登录提示-->
     <string name="android_LoginTimeLimit">The current time does not allow login. The login time is %1$s</string>
     <string name="android_LoginGetTimeFail">The system enables login time control. Failed to obtain the current time. Please check the network and try again.</string>
     <string name="android_OnlineVerificationFailure">Failure to online verification.</string>
@@ -377,8 +370,6 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="获取服务器版本失败">Failed to fetch server version</string>
     <string name="服务器版本XX与APP版本XX不一致需要将APP版本升级到XX版本">erver version %1$s and APP version %1$s do not match! Please upgrade the APP to version %1$s</string>
     <string name="立即升级">Upgrade now</string>
-    <!--endregion-->
-    <!--region 首页-->
     <string name="软件将于XXX到期">The software will expire on %1$s, with %2$s days remaining. Please contact the administrator promptly to process the renewal in the WulianTong server backend under [Software Registration] - [Registration Information] to avoid disruption to work.</string>
     <string name="结余">Account Balance</string>
     <string name="今日收现">Today cash receipts</string>
@@ -396,7 +387,6 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="本月流失客户数">Number of lost customers this month</string>
     <string name="本月新增客户数">Number of new customers this month</string>
     <string name="本月拜访客户数">Number of customers visited this month</string>
-    <string name="欠款总额">Total amount of arrears</string>
     <string name="本年销售总额">This year total sales</string>
     <string name="未完成订单数">Number of uncompleted orders</string>
     <string name="常用的功能">commonly used</string>
@@ -413,7 +403,6 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="历销单据">Submitted Bills</string>
     <string name="车销要货">Transfer inbound</string>
     <string name="综合销售">HandySalBill</string>
-    <string name="还货">Return goods</string>
     <string name="配送交账">Hand in accounts</string>
     <string name="员工提成">Brokerage</string>
     <string name="预存货单">Advance Stock Order</string>
@@ -425,8 +414,6 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="库存预警">Inventory Alert</string>
     <string name="当前XX种商品低于库存下限XX种商品超出库存上限">Currently %1$s  products are below the inventory floor and %2$s products exceed the inventory ceiling</string>
     <string name="立即查看">View</string>
-    <!--endregion-->
-    <!--region 业务单据-->
     <string name="挂单中">Unsubmitted</string>
     <string name="草稿中">Draft</string>
     <string name="已过账">Posted</string>
@@ -440,17 +427,17 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="存草稿成功">Draft</string>
     <string name="过账成功">Posted</string>
     <string name="其他功能">Other Operations</string>
-    <string name="查看单据">View Bill</string>
-    <string name="打印单据">Print Bill</string>
-    <string name="分享单据">Share Bill</string>
+    <string name="查看单据">View</string>
+    <string name="打印单据">Print</string>
+    <string name="分享单据">Share</string>
     <string name="继续开单">Create a new bill</string>
-    <string name="收款">Receipt</string>
+    <string name="收款">Settlement</string>
     <string name="退出">Exit</string>
     <string name="扫条码">Scan</string>
     <string name="扫码">Scan</string>
     <string name="调单">Orders</string>
     <string name="添加商品">Add Goods</string>
-    <string name="总数量">Total Qty</string>
+    <string name="总数量">Qty</string>
     <string name="合计">Total</string>
     <string name="下单">Next</string>
     <string name="请选择客户">Please select a customer</string>
@@ -466,13 +453,13 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="修改商品">Edit</string>
     <string name="历销">History</string>
     <string name="收藏">Collect</string>
-    <string name="出库仓库">Outbound Warehouse</string>
+    <string name="出库仓库">Outb. Whse.</string>
     <string name="出库货位">Outb. Loc. </string>
-    <string name="入库仓库">Inbound Warehouse</string>
+    <string name="入库仓库">Inb. Whse.</string>
     <string name="入库货位">Inb.  Loc. </string>
     <string name="数量">Qty</string>
     <string name="单位">Unit</string>
-    <string name="单价">Price</string>
+    <string name="单价">Unit Price</string>
     <string name="选价">Price List</string>
     <string name="折扣">Discount </string>
     <string name="折后单价">Discount Price</string>
@@ -492,7 +479,6 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="备注">Remark</string>
     <string name="切换仓库将清除批次数据是否继续">Changing the warehouse will clear batch information. Do you want to continue?</string>
     <string name="切换货位将清除批次数据是否继续">Changing the goodslocation will clear batch information. Do you want to continue?</string>
-    <string name="库存分布">Inventory Qty</string>
     <string name="货位分布">Location Inventory Qty</string>
     <string name="序列号录入">Enter SN</string>
     <string name="校验">Check</string>
@@ -508,7 +494,7 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="上次序列号">Last SN</string>
     <string name="已添加XX">Qty：%s</string>
     <string name="提示按音量键保存并扫描下一个">Tips：Press the Volume + button to save and scan the next one</string>
-    <string name="添加成功">Success</string>
+    <string name="添加成功">Added successfully</string>
     <string name="请先录入序列号">Please enter at least one SN</string>
     <string name="已存在序列号XX">The SN %1$s already exists </string>
     <string name="结算">Settlement</string>
@@ -530,8 +516,6 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="本位币不能修改汇率">The local currency cannot modify the exchange rate</string>
     <string name="没有修改汇率的权限">There is no permission to modify the exchange rate</string>
     <string name="请先选择币种">Please choose the currency</string>
-    <!--endregion-->
-    <!--region 开单字段-->
     <string name="分支机构">Branch</string>
     <string name="单据日期">Bill Date</string>
     <string name="交货日期">Delivery Date</string>
@@ -549,7 +533,6 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="配送员">Dispatcher</string>
     <string name="配送日期">Delivery Date</string>
     <string name="会员卡">Membership Card</string>
-    <string name="付款">Settlement</string>
     <string name="订金">Deposit</string>
     <string name="借款">Loan</string>
     <string name="借款理由">Reasons For Loan</string>
@@ -571,7 +554,6 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="按额定成本完工入库">Completion at rated cost</string>
     <string name="指定子件转出成本">Designated sub - part transfer - out cost</string>
     <string name="选择结算单据扫描">Select Settlement Document + Scan</string>
-    <string name="条码">Barcode</string>
     <string name="编号">ID</string>
     <string name="RFID读取">RFID</string>
     <string name="客户标签">Tag</string>
@@ -588,14 +570,10 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="添加套件">Add kit</string>
     <string name="添加账户">Add account</string>
     <string name="添加科目">Add subject</string>
-    <string name="销售">Sales</string>
-    <string name="退货">Return of goods</string>
     <string name="套件产品">Kit product</string>
     <string name="套件明细">Kit details</string>
     <string name="转入">Transfer-in</string>
     <string name="转出">Transfer-out</string>
-    <string name="出库商品">Outbound products</string>
-    <string name="入库商品">Inbound products</string>
     <string name="产成品">Products</string>
     <string name="物料明细">Material details</string>
     <string name="账户合计">Account total</string>
@@ -617,6 +595,8 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="显示配置">Display configuration</string>
     <string name="已选套件">Selected kits</string>
     <string name="科目">Subject</string>
+    <string name="付款">payment</string>
+    <string name="本单欠款">Outstanding Balance</string>
     <string name="自定义字段">Custom field</string>
     <string name="在线账户">Online account</string>
     <string name="现金账户">Cash account</string>
@@ -633,8 +613,6 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="价盘">Price List</string>
     <string name="销">Sale</string>
     <string name="赠">Gift</string>
-    <!--endregion-->
-    <!--region 开单提示-->
     <string name="提交成功">Submission successful</string>
     <string name="提交失败">Submission failed！</string>
     <string name="过账失败">Posting failed！</string>
@@ -646,13 +624,12 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="该单据已提交">The bill has been submitted</string>
     <string name="该单据未过账">The bill is not posted</string>
     <string name="提交单据后签到">Sign in after presentation of bills</string>
-    <string name="本单已提交您无单据重复提交权限">The bill has been submitted. You have no permission to submit bills repeatedly!</string>
     <string name="本单已提交您无继续修改的权限">The bill has been submitted. You have no permission to continue the modification！</string>
     <string name="您没有重复提交的权限">You have no permission to submit bills repeatedly!</string>
     <string name="确定删除XX吗">Are you sure to delete %1$s?</string>
     <string name="确定退出单据吗">Are you sure to exit the bill?</string>
     <string name="确认提交单据吗">Are you sure to submit the bills?</string>
-    <string name="确定退出吗">Are you sure to exit</string>
+    <string name="确定退出吗">Are you sure to exit？</string>
     <string name="没有选中的单据">No selected bills</string>
     <string name="请选择一个单据">Please select a bill</string>
     <string name="删除单据成功">Delete the bills successfully</string>
@@ -661,7 +638,7 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="错误请重试">Error, please try again!</string>
     <string name="请先授权历销查看权限">Please authorize the viewing permission of Historical sales first</string>
     <string name="请选择">Please select </string>
-    <string name="请先选择">Please select</string>
+    <string name="请先选择">Please select </string>
     <string name="请先选择往来单位">Please select Units of exchange first</string>
     <string name="请选择经手人">Please select Person in-charge</string>
     <string name="请选择账户">Please select account!</string>
@@ -682,7 +659,6 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="是否继续">Do you want to continue?</string>
     <string name="不允许多账户">Do not allow multiple accounts</string>
     <string name="预收账款不允许大于累计预收款余额">Advance receipts is not allowed to be greater than cumulative advance balance</string>
-    <string name="预付账款不允许大于累计预付款余额">Advance payment is not allowed to be greater than cumulative advance balance</string>
     <string name="优惠金额不能大于合计金额">Discount amount cannot be greater than total amount</string>
     <string name="不允许录入">No entry allowed</string>
     <string name="现收金额">Amount received</string>
@@ -753,9 +729,7 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="超出应收上限">There are beyond Receivable ceiling</string>
     <string name="有超期应收款不允许开单">There are overdue receivables，so billing is not allowed</string>
     <string name="超出应收上限不允许开单">There are beyond Receivable ceiling，so billing is not allowed</string>
-    <string name="蓝牙打印">Bluetooth printing</string>
     <string name="远程打印">Remote printing</string>
-    <string name="云打印">Cloud printing</string>
     <string name="选择打印方式">Choose printing method</string>
     <string name="正在打印">Printing</string>
     <string name="远程打印失败请检查打印配置">Remote printing failed, please check the print configuration</string>
@@ -790,12 +764,12 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="返回工作台">Return to the workbench</string>
     <string name="本单已提交请前往草稿查询中修改">This order has been submitted. Please modify it in the draft section</string>
     <string name="本单已打印您无继续修改的权限">This order has been printed. You do not have permission to modify it further!</string>
+    <string name="本单已提交您无单据重复提交权限">This order has been submitted. You do not have permission to resubmit!</string>
     <string name="获取当前单据状态失败请稍后刷新">Failed to fetch current order status. Please refresh later</string>
     <string name="单据已保存本地正在提交中当前单据暂不支持修改提交删除提交过程中您可以选择继续等待手动刷新提交结果或进行退出等其他操作">Order saved locally and is being submitted. Modifications, submissions, printing, and deletions are not supported. You can wait (refresh manually) or create a new order</string>
     <string name="单据提交状态未知不支持修改提交打印删除单据是否刷新提交结果">Order submission status unknown. Modifications, submissions, printing, and deletions are not supported. Refresh to check status?</string>
-    <string name="预收冲抵金额超出预收款余额">Advance receipt offset amount exceeds the advance receipt balance</string>
+    <string name="预付账款不允许大于累计预付款余额">Advance payments cannot exceed the total advance payment balance</string>
     <string name="预付冲抵金额超出预付款余额">Advance payment offset amount exceeds the advance payment balance</string>
-    <string name="已支付通收款不支持修改">Payment has been processed. Modifications are not supported</string>
     <string name="序列号开单不允许更改计量单位">Serial number orders do not allow changes to the unit of measurement</string>
     <string name="零售类单据不支持批次商品开单">Retail orders do not support batch product entries</string>
     <string name="请联系管理员在物联通后台业务录单配置中设置微信支付通二维码">Contact the administrator to set up WeChat and Payment QR codes in the "Business Entry Configuration" in the Wuliantong backend</string>
@@ -806,11 +780,10 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="金额必须小于等于0">The amount must be less than or equal to 0</string>
     <string name="项目名称">Project name</string>
     <string name="当前版本或单据只支持单账户收款">The current version or document only supports single-account payment</string>
+    <string name="已支付通收款不支持修改">Payment has been processed. Modifications are not supported</string>
     <string name="支付通账户金额必须大于0">Zhifutong account amount must be greater than 0</string>
     <string name="当前可用云空间仅有XXGB请及时联系经销商购买云空间以免图片无法提交">The available cloud storage space is merely %1$s GB. Please contact the distributor to purchase cloud storage space to prevent the failure of picture submission.</string>
     <string name="切换XX将会做以下处理是否继续根据价格优先级重新获取商品价格清除表身中由于切换XX导致不再适用的搭赠方案中的商品及赠品">Switching %1$s will perform the following actions, do you wish to continue?\n1. Re-fetch product prices based on price priority\n2. Clear items and gifts in the body of the table that are no longer applicable due to the switch in %2$s promotion schemes</string>
-    <!--endregion-->
-    <!--region 报表字段-->
     <string name="老板关键数据">Key data for the boss</string>
     <string name="资金构成分析">Analysis of fund</string>
     <string name="采购关键数据">Key data for procurement</string>
@@ -837,23 +810,21 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="库存金额">Inventory Amount</string>
     <string name="商品种数">Varieties</string>
     <string name="商品数量">Qty</string>
+    <string name="欠款总额">Arrears amount</string>
     <string name="客户总量">Number of customers</string>
     <string name="本周新增">Newly added this week</string>
     <string name="流失三个月无往来">Churn (no transactions within 3 months)</string>
     <string name="默认30天未开单">No orders placed within 30 days</string>
-    <string name="最近开单">Most recent order</string>
-    <string name="未开单天数">Number of days without orders</string>
+    <string name="未开单天数">Days without orders</string>
     <string name="销售总额">Total sales amount</string>
     <string name="还货额">Goods return amount</string>
     <string name="订货额">Order amount</string>
-    <string name="环比">Chain ratio</string>
     <string name="已缴金额">Paid amount</string>
     <string name="销售收款">Sales collection</string>
     <string name="欠款收入">Income from arrears</string>
     <string name="其他收入">Other income</string>
     <string name="费用支出">Expense expenditure</string>
     <string name="优惠">Discount amount</string>
-    <string name="查看更多">More</string>
     <string name="时间筛选">Date filter</string>
     <string name="收入">Income</string>
     <string name="成本">Cost</string>
@@ -910,6 +881,7 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="收款明细">Collection details</string>
     <string name="职员">Employee</string>
     <string name="打印失败">Failed to print</string>
+    <string name="最近开单">Last order</string>
     <string name="单据金额">Bill amount</string>
     <string name="最近拜访">Last visit</string>
     <string name="未拜访天数">Days without visits</string>
@@ -971,10 +943,11 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="优惠合计">Discount amount</string>
     <string name="预付合计">Prepayment amount</string>
     <string name="订货">Order amount</string>
+    <string name="销售">Sales</string>
+    <string name="退货">Return amount</string>
     <string name="欠款">Debt amount</string>
     <string name="预存">Prepaid amount</string>
     <string name="清欠">Debt-clearing amount</string>
-    <string name="预收">Pre-received offset amount</string>
     <string name="预付">Prepayment amount</string>
     <string name="查询仓库">warehouse</string>
     <string name="预警类型">Alert Type</string>
@@ -990,6 +963,7 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="显示负库存的数据">Inventory qty is less than 0</string>
     <string name="库存线性">List Table</string>
     <string name="库存状况">Overall</string>
+    <string name="库存分布">Distribution</string>
     <string name="库存日期">Inventory date</string>
     <string name="保存条件">Save parameters</string>
     <string name="库存批次表">Batch List</string>
@@ -1070,8 +1044,9 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="利润型客户">Profit </string>
     <string name="贡献型客户">Contribution</string>
     <string name="净销售额元">Net sales</string>
-    <string name="销售毛利元">Gross profit</string>
     <string name="平均数">Average</string>
+    <string name="环比">Chain ratio</string>
+    <string name="同比">Year-on-Year</string>
     <string name="拜访分析">Visit analysis</string>
     <string name="销售分析">Sales analysis</string>
     <string name="利润">Profit</string>
@@ -1089,7 +1064,8 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="XX人销售表现一般">%1$s People with Average Sales Performance</string>
     <string name="XX人退货较多请关注">%1$s People with High Returns, Please Pay Attention</string>
     <string name="员工利润元">Employee Profit</string>
-    <string name="商品成本元">Goods sales cost</string>
+    <string name="商品成本元">Goods cost</string>
+    <string name="销售毛利元">Gross profit</string>
     <string name="员工名称">Employee</string>
     <string name="增长率">Growth Rate</string>
     <string name="变化值元">Difference</string>
@@ -1137,6 +1113,7 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="显示销售金额和退货金额均为0的职员">Display the employees whose sales amount and return amount are both 0</string>
     <string name="统计含税金额">Tax inclusive amount</string>
     <string name="统计折后金额">Amount after Discount</string>
+    <string name="分类">Classification</string>
     <string name="地区">Area</string>
     <string name="品牌">Brand</string>
     <string name="金额退货率">Amount return rate</string>
@@ -1288,8 +1265,6 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="总进度元">Progress</string>
     <string name="目标">Goal</string>
     <string name="冲刺">Sprint</string>
-    <!--endregion-->
-    <!--region 外勤字段-->
     <string name="通知中心">Notification Center</string>
     <string name="标题">Title</string>
     <string name="作者">Author</string>
@@ -1312,118 +1287,17 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="加班申请">Overtime application</string>
     <string name="活动审批">Event approval</string>
     <string name="费用申请">Expense application</string>
-    <!--endregion-->
-    <!--region 基本信息-->
-    <string name="商品列表">Products</string>
-    <string name="上一级">Upper level</string>
-    <string name="商品详情">Product Details</string>
-    <string name="基础档案">Basic Info</string>
-    <string name="库存余量">Inventory Qty</string>
-    <string name="价格信息">Price List</string>
-    <string name="图片">Images</string>
-    <string name="修改">Edit</string>
-    <string name="库存数量">Inventory Qty</string>
-    <string name="库存均价">Avg cost</string>
-    <string name="价格类型">Price Name</string>
-    <string name="行">Row</string>
-    <string name="商品新增"> Add Product</string>
-    <string name="保存">Save</string>
-    <string name="云商品">Identify</string>
-    <string name="类别">Classify</string>
-    <string name="单位1">1st Unit</string>
-    <string name="单位2">2st Unit</string>
-    <string name="单位3">3st Unit </string>
-    <string name="换算率2">2st Rate</string>
-    <string name="换算率3">3st Rate</string>
-    <string name="成本算法">Cost Algorithm</string>
-    <string name="商品信息">Product Details</string>
-    <string name="商品价格">Price Lists</string>
-    <string name="单位条码">Barcodes</string>
-    <string name="批次管理">Batch Management</string>
-    <string name="请输入内容">Please enter content</string>
-    <string name="添加完条码后点加号确认">Click + To Confirm</string>
-    <string name="设为默认">default</string>
-    <string name="单位条码XX与商品其他单位条码重复">The barcode %1$s already exists.</string>
-    <string name="是否删除当前条码">Are you sure you want to delete the barcode?</string>
-    <string name="未检测到语音引擎">The voice engine was not detected.
-</string>
-    <string name="不需要语音提示请关闭">If voice prompts are not required, please turn off the [Voice Prompt] option below.</string>
-    <string name="可在系统设置语音引擎配置中重新开启">You can turn it on again in [System Settings] - [Voice Engine].
-</string>
-    <string name="语音提示">Voice Prompt</string>
-    <string name="需要语音提示请下载">There are no available voice prompts currently. Please click the download button below to download.</string>
-    <string name="可在系统设置语音引擎配置中设置语音播报速度">You can set the voice broadcast speed in [System Settings] - [Voice Engine].</string>
-    <string name="客户详情">Customer details</string>
-    <string name="联系人">Contact</string>
-    <string name="手机">Mobile</string>
-    <string name="客户属性">Customer attributes</string>
-    <string name="业务分析">Business</string>
-    <string name="拜访动态">Visit dynamics</string>
-    <string name="地址">Address</string>
-    <string name="电话">Telephone</string>
-    <string name="传真">Fax</string>
-    <string name="邮箱">Email</string>
-    <string name="公众号">Official account</string>
-    <string name="开户行">Bank of deposit</string>
-    <string name="账号">Account number</string>
-    <string name="税号">Tax number</string>
-    <string name="信用额度">Credit limit</string>
-    <string name="业务员">Salesman</string>
-    <string name="线路">Route</string>
-    <string name="客户类型">Partners Type</string>
-    <string name="客户级别">Partners level</string>
-    <string name="客户地区">Partners area</string>
-    <string name="成交笔数">Number of closed deals</string>
-    <string name="未结算金额">Unsettled amount</string>
-    <string name="仅30天销售趋势">Only 30 - day sales trend</string>
-    <string name="进行中的陈列协议">Ongoing agreements</string>
-    <string name="共拜访X次">Visited  %1$s times</string>
-    <string name="选择开单类型">Select Bill Type</string>
-    <string name="拜访">Visit</string>
-    <string name="选择地图类型">Select Map</string>
-    <string name="导航">Navigation</string>
-    <string name="名称">Name</string>
-    <string name="更换">Change</string>
-    <string name="开户银行">Bank of deposit</string>
-    <string name="更多信息">More</string>
-    <string name="新增">Add</string>
-    <string name="锁定类别">Lock</string>
-    <string name="选择客户">Select Customers</string>
-    <string name="等级">Class</string>
-    <string name="拜访周期">Visiting cycle</string>
-    <string name="纬度">Latitude</string>
-    <string name="经度">Longitude</string>
-    <string name="精度">Precision</string>
-    <string name="适用售价">Applicable price</string>
-    <string name="地区类型">Area type</string>
-    <string name="客户等级">Partners level</string>
-    <string name="新增客户草稿">New client draft</string>
-    <string name="必须要选择商品或往来单位两者不能同时为空">Goods or customers cannot be empty at the same time</string>
-    <string name="最近销售">Last sales</string>
-    <string name="最近采购">Last buy</string>
-    <string name="销售折前单价">Unit price</string>
-    <string name="销售折后单价">Discounted unit price</string>
-    <string name="销售含税单价">Tax unit price</string>
-    <string name="销售单价">Unit price</string>
-    <string name="采购折前单价">Unit price</string>
-    <string name="采购折后单价">Discounted unit price</string>
-    <string name="采购含税单价">Tax unit price</string>
-    <string name="采购单价">Unit price</string>
-    <string name="无此客户编号">No number for this custome</string>
-    <!--endregion-->
-    <!--region 价格类型-->
     <string name="零售价">Retail</string>
     <string name="一级批发价">1st WL Price</string>
     <string name="预设售价XX">Preset SP %1$s</string>
     <string name="预设近价XX">Preset PP %1$s</string>
-    <string name="最低售价">Min SP </string>
-    <string name="最高售价">Max SP </string>
+    <string name="最低售价">Min SP</string>
+    <string name="最高售价">Max SP</string>
+    <string name="库存均价">Avg cost</string>
     <string name="最近进价">Recent PP</string>
     <string name="价格跟踪">Tracking price</string>
     <string name="协议价">Agreed price</string>
     <string name="促销价">Promo Price</string>
-    <!--endregion-->
-    <!--region 选择器-->
     <string name="往来单位1">All Partner Unit</string>
     <string name="附近客户">Nearby Partners</string>
     <string name="线路客户">Partners by Route</string>
@@ -1452,7 +1326,6 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="无数据请进行基本信息权限配置">No data available. Please configure basic information permissions!</string>
     <string name="收藏商品">Favorites</string>
     <string name="标签商品">Tagged products</string>
-    <string name="历销商品">Historical sales products</string>
     <string name="搭赠商品">Bundled products</string>
     <string name="正在自动分配">Auto-allocating</string>
     <string name="无收藏商品">No favorite products!</string>
@@ -1520,8 +1393,104 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="解锁类">Unlocked category</string>
     <string name="获取到新的档案信息点击可更新">New archive information fetched. Click to update</string>
     <string name="该层级下无子集">No subsets under this level</string>
-    <!--endregion-->
-    <!--region App用户配置-->
+    <string name="商品列表">Products</string>
+    <string name="上一级">Upper level</string>
+    <string name="条码">Barcode</string>
+    <string name="商品详情">Product Details</string>
+    <string name="基础档案">Basic Info</string>
+    <string name="库存余量">Inventory Qty</string>
+    <string name="价格信息">Price List</string>
+    <string name="图片">Images</string>
+    <string name="修改">Edit</string>
+    <string name="名称">Name</string>
+    <string name="库存数量">Inventory Qty</string>
+    <string name="价格类型">Price Name</string>
+    <string name="行">Row</string>
+    <string name="商品新增"> Add Product</string>
+    <string name="保存">Save</string>
+    <string name="云商品">Identify</string>
+    <string name="单位1">1st Unit</string>
+    <string name="单位2">2st Unit</string>
+    <string name="单位3">3st Unit </string>
+    <string name="换算率2">2st Rate</string>
+    <string name="换算率3">3st Rate</string>
+    <string name="成本算法">Cost Algorithm</string>
+    <string name="商品信息">Product Details</string>
+    <string name="商品价格">Price Lists</string>
+    <string name="单位条码">Barcodes</string>
+    <string name="批次管理">Batch Management</string>
+    <string name="请输入内容">Please enter content</string>
+    <string name="添加完条码后点加号确认">Click + To Confirm</string>
+    <string name="设为默认">default</string>
+    <string name="单位条码XX与商品其他单位条码重复">The barcode %1$s already exists.</string>
+    <string name="是否删除当前条码">Are you sure you want to delete the barcode?</string>
+    <string name="未检测到语音引擎">The voice engine was not detected.
+</string>
+    <string name="不需要语音提示请关闭">If voice prompts are not required, please turn off the [Voice Prompt] option below.</string>
+    <string name="可在系统设置语音引擎配置中重新开启">You can turn it on again in [System Settings] - [Voice Engine].
+</string>
+    <string name="语音提示">Voice Prompt</string>
+    <string name="需要语音提示请下载">There are no available voice prompts currently. Please click the download button below to download.</string>
+    <string name="可在系统设置语音引擎配置中设置语音播报速度">You can set the voice broadcast speed in [System Settings] - [Voice Engine].</string>
+    <string name="客户详情">Customer details</string>
+    <string name="联系人">Contact</string>
+    <string name="手机">Mobile</string>
+    <string name="客户属性">Customer attributes</string>
+    <string name="业务分析">Business</string>
+    <string name="拜访动态">Visit dynamics</string>
+    <string name="电话">Telephone</string>
+    <string name="传真">Fax</string>
+    <string name="邮箱">Email</string>
+    <string name="公众号">Official account</string>
+    <string name="开户行">Bank of deposit</string>
+    <string name="账号">Account number</string>
+    <string name="税号">Tax number</string>
+    <string name="预收">Advance receipts</string>
+    <string name="信用额度">Credit limit</string>
+    <string name="业务员">Salesman</string>
+    <string name="线路">Route</string>
+    <string name="客户类型">Partners Type</string>
+    <string name="客户级别">Partners level</string>
+    <string name="客户地区">Partners area</string>
+    <string name="成交笔数">Number of closed deals</string>
+    <string name="未结算金额">Unsettled amount</string>
+    <string name="仅30天销售趋势">Only 30 - day sales trend</string>
+    <string name="进行中的陈列协议">Ongoing agreements</string>
+    <string name="查看更多">View more</string>
+    <string name="共拜访X次">Visited  %1$s times</string>
+    <string name="选择开单类型">Select Bill Type</string>
+    <string name="拜访">Visit</string>
+    <string name="选择地图类型">Select Map</string>
+    <string name="导航">Navigation</string>
+    <string name="类别">Classify</string>
+    <string name="地址">Address</string>
+    <string name="更换">Change</string>
+    <string name="开户银行">Bank of deposit</string>
+    <string name="更多信息">More</string>
+    <string name="新增">Add</string>
+    <string name="锁定类别">Lock</string>
+    <string name="选择客户">Select Customers</string>
+    <string name="等级">Class</string>
+    <string name="拜访周期">Visiting cycle</string>
+    <string name="纬度">Latitude</string>
+    <string name="经度">Longitude</string>
+    <string name="精度">Precision</string>
+    <string name="适用售价">Applicable price</string>
+    <string name="地区类型">Area type</string>
+    <string name="客户等级">Partners level</string>
+    <string name="新增客户草稿">New client draft</string>
+    <string name="必须要选择商品或往来单位两者不能同时为空">Goods or customers cannot be empty at the same time</string>
+    <string name="最近销售">Last sales</string>
+    <string name="最近采购">Last buy</string>
+    <string name="销售折前单价">Unit price</string>
+    <string name="销售折后单价">Discounted unit price</string>
+    <string name="销售含税单价">Tax unit price</string>
+    <string name="销售单价">Unit price</string>
+    <string name="采购折前单价">Unit price</string>
+    <string name="采购折后单价">Discounted unit price</string>
+    <string name="采购含税单价">Tax unit price</string>
+    <string name="采购单价">Unit price</string>
+    <string name="无此客户编号">No number for this custome</string>
     <string name="注册码">Device</string>
     <string name="当前账套">Current account set</string>
     <string name="切换账套">Switch</string>
@@ -1723,13 +1692,14 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="未搜索到相关配置">No data available </string>
     <string name="标准">Standard</string>
     <string name="特大">Extra large</string>
-    <string name="综合销售仅支持小票打印便携式针式打印">Comprehensive sales only support receipt printing and portable dot matrix printing</string>
+    <string name="蓝牙打印">Bluetooth printer</string>
     <string name="蓝牙小票打印机">Pos printer</string>
     <string name="便携式针式打印">Portable needle printer</string>
     <string name="得实1900打印机">Dascom 1900 series printer</string>
     <string name="打印通打印">Dayintong printer</string>
     <string name="打印通">Dayintong</string>
     <string name="支持打印通6点0及以上版本">Supports Dayintong V6.0 and above versions</string>
+    <string name="云打印">Cloud printer</string>
     <string name="物联通云打印">Woolinte Cloud printer</string>
     <string name="直接连接云打印进行网络打印">Printing through the internet</string>
     <string name="使用方法点我">View help</string>
@@ -1767,14 +1737,6 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="更新成功">Update successful</string>
     <string name="已是最新数据">The data is already up-to-date.</string>
     <string name="登录后存在库存预警时弹窗提醒">A pop-up window reminds of the inventory warning</string>
-    <!--endregion-->
-    <!--region 授权提示-->
-    <string name="请允许管家婆物联通访问您的录音若不允许您将无法使用语音识别功能">Please allow "Guanjiapo Wuliantong" to access your microphone; otherwise, voice recognition will be unavailable.</string>
-    <string name="请允许管家婆物联通访问您的位置若不允许您将无法使用定位签到功能">Please allow "Guanjiapo Wuliantong" to access your location; otherwise, the check-in feature will be unavailable.</string>
-    <string name="请允许管家婆物联通访问您的蓝牙若不允许您将无法使用连接打印机功能">Please allow "Guanjiapo Wuliantong" to access your Bluetooth; otherwise, the printer connection feature will be unavailable.</string>
-    <string name="请允许管家婆物联通访问您的存储若不允许您将无法使用文件相关功能">Please allow "Butler Wuliantong" to access your storage; otherwise, file-related features will be unavailable</string>
-    <!--endregion-->
-    <!--region 其他提示-->
     <string name="检测存在未提交单据不支持切换为新开单模式是否前往提交或删除">Unsubmitted bill detected. Switching to new order mode is not supported. Proceed to submit or delete?</string>
     <string name="下载语言包">Download language pack</string>
     <string name="不支持修改该客户已在工作台签到">Modifications not supported. The customer has already checked in at the workstation</string>
@@ -1828,7 +1790,7 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="未购入商品">No purchased goods</string>
     <string name="查询超时">Query timeout</string>
     <string name="您的网络不通畅先检查一下网络吧">Your network is unstable. Please check your network connection</string>
-    <string name="没有听清您说了什么再试一次吧">Didn’t catch that. Please try again</string>
+    <string name="没有听清您说了什么再试一次吧">Didn‘t catch that. Please try again</string>
     <string name="小通您的语音开单助手">Xiaotong - Your voice order assistant</string>
     <string name="您可以说">You can say:</string>
     <string name="再试一次">Try again</string>
@@ -1842,9 +1804,7 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="保存失败">Save failed</string>
     <string name="正在处理数据">Processing data</string>
     <string name="客户照片类型">Customer photo type</string>
-    <string name="XX月XX日">%1$@ month %2$@ day</string>
     <string name="XX分钟">%1$s minutes</string>
-    <string name="XX时XX分钟">%1$@ hours %2$@ minutes</string>
     <string name="正在请求数据">Requesting data~</string>
     <string name="正在获取位置">Fetching location~</string>
     <string name="正在提交数据">Submitting data~</string>
@@ -1971,14 +1931,13 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="打印预览">Print preview</string>
     <string name="是否中断打印">Interrupt printing?</string>
     <string name="中断">Interrupt</string>
-    <string name="XX月">%1$s month</string>
-    <string name="XX天">%1$s day</string>
     <string name="销售XX双括号">[Sales %1$s]</string>
     <string name="退货XX双括号">[Returns %1$s]</string>
     <string name="费用XX双括号">[Fees %1$s]</string>
     <string name="收款XX双括号">[Payments %1$s]</string>
     <string name="销售商品双括号">[Sales products]</string>
     <string name="退货商品双括号">[Return products]</string>
+    <string name="入库商品">Inbound products</string>
     <string name="星销售数量">★ Sales quantity</string>
     <string name="星销售金额">★ Sales amount</string>
     <string name="星退货数量">★ Return quantity</string>
@@ -2012,7 +1971,6 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="网络连接失败">Network connection failed</string>
     <string name="网络连接超时请重试">Network connection timeout. Please try again!</string>
     <string name="网络连接取消">Network connection canceled!</string>
-    <string name="提示">Prompt</string>
     <string name="去修改">Go to modify</string>
     <string name="返回">Return</string>
     <string name="近7天">Last 7 days</string>
@@ -2074,9 +2032,7 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="数据有误请联系开发商">Data error. Please contact the developer!</string>
     <string name="接口版本XX无法识别请联系客服处理">Interface version: %1$s, unrecognized. Please contact customer service for assistance.</string>
     <string name="当前单据已支付通收款请提交单据">The current document has been paid. Please submit the document</string>
-    <string name="条码扫描">Barcode scanning</string>
     <string name="编号扫描">Code scanning</string>
-    <string name="正在刷新单据状态">Refreshing document status~</string>
     <string name="新开单">New order</string>
     <string name="等待">Waiting</string>
     <string name="单据提交失败请重新提交">Document submission failed. Please resubmit!</string>
@@ -2096,7 +2052,6 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="调拨方式">Transfer method</string>
     <string name="正在初始化商品">Initializing products</string>
     <string name="操作">Operation</string>
-    <string name="出库商品双括号">[Outbound products]</string>
     <string name="单号更新成功新的单号为XX">Document number updated successfully. New document number: %1$s</string>
     <string name="正在校验数据">Validating data</string>
     <string name="当前单据不支持远程打印">Remote printing is not supported for the current document!</string>
@@ -2107,11 +2062,8 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="数字型自定义字段最多录入10个字符">Number-type custom fields can input up to 10 characters</string>
     <string name="请先选择科目">Please select an account first</string>
     <string name="请先选择商品">Please select a product first</string>
-    <string name="开始时间不得晚于结束时间">Start time cannot be later than end time</string>
-    <string name="结束时间不得早于开始时间">End time cannot be earlier than start time</string>
     <string name="未查询到品牌预收数据">No brand advance receipt data found</string>
     <string name="选择仓库">Select warehouse</string>
-    <string name="请先选择出库仓库">Please select an outbound warehouse first</string>
     <string name="选择出库仓库">Select outbound warehouse</string>
     <string name="请先选择入库仓库">Please select an inbound warehouse first</string>
     <string name="选择入库仓库">Select inbound warehouse</string>
@@ -2123,14 +2075,13 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="自定义字段5">Custom field 5</string>
     <string name="自定义字段6">Custom field 6</string>
     <string name="一键调拨">One-click transfer</string>
+    <string name="条码扫描">Barcode scanning</string>
     <string name="按单结算">Settle by order</string>
     <string name="总额结算">Total amount settlement</string>
     <string name="按商品结算">Settle by product</string>
     <string name="订单引入">Order import</string>
     <string name="语音录入">Voice input</string>
     <string name="表头配置">Header configuration</string>
-    <string name="配货协议">Distribution agreement</string>
-    <string name="陈列协议">Display agreement</string>
     <string name="拍照">Take photo</string>
     <string name="补货">Replenishment</string>
     <string name="快码">Quick code</string>
@@ -2140,8 +2091,10 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="调报价单">Transfer quotation form</string>
     <string name="调要货单">Transfer requisition form</string>
     <string name="无修改单据日期权限">No permission to modify document date!</string>
+    <string name="开始时间不得晚于结束时间">Start time cannot be later than end time</string>
     <string name="开单时间不得晚于交货时间">Order time cannot be later than delivery time</string>
     <string name="交货时间不得早于开单时间">Delivery time cannot be earlier than order time</string>
+    <string name="结束时间不得早于开始时间">End time cannot be earlier than start time</string>
     <string name="切换机构将会清除仓库会员收付款数据是否继续">Switching organization will clear warehouse, member, and payment data. Continue?</string>
     <string name="切换分支机构将清空之前调用的商品是否继续">Switching branch will clear previously called products. Continue?</string>
     <string name="是">Yes</string>
@@ -2165,6 +2118,7 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="选择单价">Select unit price</string>
     <string name="已藏">Hidden</string>
     <string name="正在加载数据">Loading data...</string>
+    <string name="请先选择出库仓库">Please select an outbound warehouse first</string>
     <string name="无修改副单位数量的权限">No permission to modify secondary unit quantity</string>
     <string name="数量不能为负数">Quantity cannot be negative</string>
     <string name="买赠数量不能为负数">Buy and get quantity cannot be negative</string>
@@ -2295,7 +2249,7 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="以下商品在ERP中已被停用或删除">The following products have been deactivated or deleted in ERP</string>
     <string name="以下商品在ERP中已被停用或删除是否清除">The following products have been deactivated or deleted in ERP. Clear them?</string>
     <string name="注意清除时套件商品和搭赠商品将作为整体被清除">Note: When clearing, combo products and promotional products will be cleared as a whole</string>
-    <string name="单位XX">Unit: %s</string>
+    <string name="单位XX">Unit: %1$s</string>
     <string name="不参与促销">*Not eligible for promotion</string>
     <string name="数量N">Quantity(N)</string>
     <string name="促销折扣">Promotion discount</string>
@@ -2313,7 +2267,6 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="提交下一张">Submit next</string>
     <string name="继续提交">Continue submission</string>
     <string name="编辑本单">Edit this order</string>
-    <string name="退款">Refund</string>
     <string name="提交附件">Submit attachment</string>
     <string name="删除下一张">Delete next</string>
     <string name="刷新下一张">Refresh next</string>
@@ -2326,8 +2279,6 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="请录入XX的成本均价">Please enter the average cost price for %1$s</string>
     <string name="单据异常">Document anomaly</string>
     <string name="同一商品同一单位只能存在一个协议价请修改">Only one agreed price per product and unit is allowed. Please modify</string>
-    <string name="不允许0单价开单以下商品单价为0">Zero unit price orders are not allowed. The following products have a unit price of 0</string>
-    <string name="不允许低于最低售价以下商品低于最低售价">Prices below the minimum selling price are not allowed. The following products are below the minimum selling price</string>
     <string name="售价">Selling price</string>
     <string name="扫描结果">Scan result</string>
     <string name="摘要XX">Summary: %1$s</string>
@@ -2339,8 +2290,6 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="该单据已完成请重新扫描">This document is completed. Please scan again</string>
     <string name="单据已经完成无法再次调用">The document is already completed and cannot be called again~</string>
     <string name="输入往来单位编号名称拼音">Enter contact unit code/name/pinyin</string>
-    <string name="请输入单据编号">Please enter the document number</string>
-    <string name="请输入摘要">Please enter a summary</string>
     <string name="不允许本次发货数量超过库存数量">This shipment quantity cannot exceed stock</string>
     <string name="商品未完成数量超过库存数量将以库存数量调用">Unfulfilled product quantity exceeds stock. Will call based on stock quantity</string>
     <string name="请选择调用的商品">Please select the products to call</string>
@@ -2407,7 +2356,6 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="确定放弃已添加的商品">Confirm discarding added products?</string>
     <string name="数量必须小于XX">Quantity must be less than %1$s</string>
     <string name="赠送数量必须小于XX">Gift quantity must be less than %1$s</string>
-    <string name="赠送">Gift</string>
     <string name="当前登录人未配置支付通">The current user has not configured Zhifutong</string>
     <string name="收款码获取失败">Failed to fetch payment QR code!</string>
     <string name="扫我立即结算">Scan me to settle immediately</string>
@@ -2448,7 +2396,6 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="是否清除结算记录">Clear settlement records?</string>
     <string name="自动分配将按单据时间先后顺序分配结算金额">Auto allocation will distribute settlement amounts based on document time order</string>
     <string name="请输入优惠金额">Please enter the discount amount</string>
-    <string name="暂无未结算单据">No unsettled documents</string>
     <string name="本次结算">This settlement</string>
     <string name="存在结算单据的本次结算金额大于未结算金额是否继续">The current settlement amount exceeds the unsettled amount. Continue?</string>
     <string name="存在结算单据的未结算金额为负数而结算金额为正数">Some documents have negative unsettled amounts but positive settlement amounts</string>
@@ -2494,6 +2441,8 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="无打印地址">No print address</string>
     <string name="选择打印地址">Select print address</string>
     <string name="请选择打印样式">Please select a print style</string>
+    <string name="XX月">%1$s month</string>
+    <string name="XX天">%1$s day</string>
     <string name="正在在线获取单据编号">Fetching document number online...</string>
     <string name="经手人XX">Handler: %1$s</string>
     <string name="开单时间XX">Order time: %1$s</string>
@@ -2576,6 +2525,8 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="单据提交时签到">Check-in when submitting the document</string>
     <string name="该单据商品的出入库仓库不支持修改">For this document, the in/out warehouse of products cannot be modified</string>
     <string name="ERP控制调单后不支持修改当前字段">After ERP-controlled order transfer, the current field cannot be modified</string>
+    <string name="不允许0单价开单以下商品单价为0">Zero unit price orders are not allowed. The following products have a unit price of 0</string>
+    <string name="不允许低于最低售价以下商品低于最低售价">Prices below the minimum selling price are not allowed. The following products are below the minimum selling price</string>
     <string name="以下商品仓库相同需编辑后才能提交是否前往编辑">The following products share the same warehouse. Editing is required before submission. Proceed to edit?</string>
     <string name="以下商品货位相同需编辑后才能提交是否前往编辑">The following products share the same location. Editing is required before submission. Proceed to edit?</string>
     <string name="点击查看设置说明">Click to view setup instructions</string>
@@ -2598,19 +2549,18 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="请选择价格方式">Please select a pricing method</string>
     <string name="正在更新价格">Updating prices...</string>
     <string name="该单据与表头信息不同继续将会清除原数据">This document differs from the header information. Continuing will clear original data.</string>
-    <string name="调单XX">Transfer order: %1$s</string>
     <string name="账户不能为空">Account cannot be empty!</string>
     <string name="扫描单号将会清空当前已结算数据是否继续">Scanning document number will clear current settled data. Continue?</string>
     <string name="添加结算单据成功">Successfully added settlement document</string>
     <string name="无效单号">Invalid document number</string>
     <string name="该单据已参与结算">This document has already been settled</string>
     <string name="结算单据不存在">Settlement document does not exist</string>
-    <string name="请选择业务类型">Please select a business type!</string>
     <string name="请添加表身">Please add table body!</string>
     <string name="请添加出库商品">Please add outbound products~</string>
     <string name="请添加入库商品">Please add inbound products~</string>
     <string name="表体第XX行中不允许单价为空">Unit price in row %1$s of the table body cannot be empty</string>
     <string name="表体第XX行中不允许单价为空或者负数">Unit price in row %1$s of the table body cannot be empty or negative</string>
+    <string name="出库商品">Outbound products</string>
     <string name="数量不允许为0">Quantity cannot be 0</string>
     <string name="单价不允许为空">Unit price cannot be empty</string>
     <string name="单价不允许为空或负数">Unit price cannot be empty or negative</string>
@@ -2622,6 +2572,7 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="借款账户为空">Loan account is empty!</string>
     <string name="借款金额为空">Loan amount is empty!</string>
     <string name="借款金额不能为0">Loan amount cannot be 0!</string>
+    <string name="请选择业务类型">Please select a business type!</string>
     <string name="付款金额与费用金额不等不允许保存">Payment amount does not match fee amount. Cannot save.</string>
     <string name="表体总金额与退补金额合计必须大于0">Total amount in the table body plus refund/adjustment amount must be greater than 0.</string>
     <string name="请添加转入账户">Please add transfer-in account~</string>
@@ -2655,17 +2606,14 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="该功能暂时不支持批次序列号多仓库副单位功能">This feature currently does not support batch/serial number/multi-warehouse/secondary unit functionality.</string>
     <string name="单据状态锁定中无法编辑往来单位">Document status is locked. Cannot edit contact units.</string>
     <string name="显示更多">Show more</string>
-    <string name="历史销售">Historical sales</string>
     <string name="隐藏更多">Hide more</string>
     <string name="正在初始化数据">Initializing data</string>
-    <string name="确定删除吗">Confirm deletion?</string>
     <string name="规格XX">Specification: %1$s</string>
     <string name="型号XX">Model: %1$s</string>
     <string name="购物车是空的哦">The shopping cart is empty~</string>
     <string name="输入XX">Enter %1$s</string>
     <string name="刷价">Price refresh</string>
     <string name="单据状态已锁定无法选择往来单位">Document status is locked. Cannot select contact units~</string>
-    <string name="确定清空购物车吗">Confirm clearing the shopping cart?</string>
     <string name="刷价将按照客户价格优先级自动改价若不存在价格优先级则当前价格不变">Price refresh will automatically adjust prices based on customer price priority.\nIf no price priority exists, the current price remains unchanged.\n</string>
     <string name="添加备注">Add note</string>
     <string name="优惠金额必须大于等于0">Discount amount must be greater than or equal to 0</string>
@@ -2690,6 +2638,7 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="价税合计">Total price including tax</string>
     <string name="折后金额">Amount after discount</string>
     <string name="搭赠">Promotion</string>
+    <string name="赠送">Gift</string>
     <string name="参考价">Reference price</string>
     <string name="获取打印模板失败">Failed to fetch print template</string>
     <string name="请在BS端设置得实打印模板">Please set the Dascom print template on the BS side</string>
@@ -2710,6 +2659,7 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="获取往来单位明细失败">Failed to fetch contact unit details</string>
     <string name="无授权的现金银行账户请手动录入收付款金额">No authorized cash/bank account. Please manually enter payment amount.</string>
     <string name="当前为多账户收款请手动分配金额">Currently in multi-account payment mode. Please manually allocate amounts.</string>
+    <string name="正在刷新单据状态">Refreshing document status</string>
     <string name="正在加载单据数据">Loading document data</string>
     <string name="正在获取单据编号">Fetching document number</string>
     <string name="正在查询往来单位信息">Querying contact unit information</string>
@@ -2786,11 +2736,13 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="确认删除该商品">Confirm deleting this product?</string>
     <string name="手工录入">Manual entry</string>
     <string name="达到促销价格已自动刷新">Reached promotion price. Automatically refreshed.</string>
+    <string name="确定删除吗">Confirm deletion?</string>
     <string name="收钱">Collect payment</string>
     <string name="确定清空所有图片吗">Confirm clearing all images?</string>
     <string name="上传附件">Upload attachment</string>
     <string name="选择方式">Select method</string>
     <string name="应收付单据">Receivable/Payable documents</string>
+    <string name="历史销售">Historical sales</string>
     <string name="没有选中的商品">No selected products</string>
     <string name="超出">Exceeds</string>
     <string name="未获取到数据">Failed to fetch data</string>
@@ -2805,6 +2757,7 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="未找到相似商品">No similar products found~</string>
     <string name="金额必须小于0">Amount must be less than 0</string>
     <string name="必须小于1亿">Must be less than 100 million</string>
+    <string name="预收冲抵金额超出预收款余额">Advance offset amount exceeds advance receipt balance</string>
     <string name="结算金额不等于单据金额是否继续">Settlement amount does not match document amount. Continue?</string>
     <string name="该账户已存在不支持重复添加">This account already exists. Duplicate addition not supported.</string>
     <string name="结算金额">Settlement amount</string>
@@ -2824,7 +2777,7 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="有XX份可参与的陈列活动">There are %1$s available display activities</string>
     <string name="有XX张订单金额XX的商品待发货">There are %1$s orders with %1$s amount of goods pending delivery</string>
     <string name="有XX张待分配XX张待配送的单据">There are %1$s documents pending allocation and %1$s pending delivery</string>
-    <string name="有XX份进行中的陈列协议本月XX">There are %1$@ ongoing display agreements this month, %2$@</string>
+    <string name="有XX份进行中的陈列协议本月XX">There are %1$s ongoing display agreements this month, %2$s</string>
     <string name="待返还">Pending return</string>
     <string name="已返还">Returned</string>
     <string name="无需返还">No need to return</string>
@@ -2916,7 +2869,10 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="关闭后显示商品库存和价格等敏感信息">After disabling, product stock and price information will be displayed.</string>
     <string name="常购商品">Frequently purchased products</string>
     <string name="复购推荐">Repurchase recommendations</string>
+    <string name="历销商品">Historical sales products</string>
     <string name="促销活动">Promotional activities</string>
+    <string name="配货协议">Distribution agreement</string>
+    <string name="陈列协议">Display agreement</string>
     <string name="搭赠方案">Promotion scheme</string>
     <string name="时段促销">Time-limited promotion</string>
     <string name="查询商品失败">Failed to query products</string>
@@ -2928,6 +2884,7 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="正在编辑中一次只能加载一个编辑数据">Editing in progress. Only one edit data can be loaded at a time.</string>
     <string name="无效编辑数据">Invalid edit data</string>
     <string name="未加载编辑数据">Edit data not loaded</string>
+    <string name="确定清空购物车吗">Confirm clearing the shopping cart?</string>
     <string name="商品重复">Duplicate products</string>
     <string name="添加商品为空">Added products are empty</string>
     <string name="编辑对象缺失">Edit object missing</string>
@@ -2944,15 +2901,20 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="未完成数量XX">Unfulfilled quantity: %1$s</string>
     <string name="未订货数量XX">Unordered quantity: %1$s</string>
     <string name="实销XX">Actual sales: %1$s</string>
+    <string name="请输入单据编号">Please enter the document number</string>
     <string name="支持添加非工作台签到客户XX的单据">Supports adding documents for non-workstation check-in customers [%1$s]</string>
     <string name="合计金额">Total amount</string>
     <string name="调单未获取到单据信息">Failed to fetch document information for transfer order!!!!</string>
+    <string name="请输入摘要">Please enter a summary</string>
     <string name="原单号">Original document number</string>
+    <string name="提示">Prompt</string>
     <string name="不支持调用多张单据">Calling multiple documents is not supported</string>
+    <string name="调单XX">Transfer order: %1$s;</string>
     <string name="切换入库仓库将清空之前调用的商品是否继续">Switching inbound warehouses will clear previously called products. Continue?</string>
     <string name="大于0小于10">Greater than 0, less than 10</string>
     <string name="超出XX库存XX">Exceeds %1$s stock [%1$s]</string>
     <string name="修改折后单价后会以单价为准重新计算折扣若您希望修改折前单据请前往物联通后台业务录单配置更改开单主界面表身商品价格显示配置">After modifying the unit price after discount, the discount will be recalculated based on the unit price. If you want to modify the pre-discount document, please go to the Wuliantong backend [Business Entry Configuration] to change the "Order Main Interface Table Body Product Price Display" configuration.</string>
+    <string name="出库商品双括号">[Outbound products]</string>
     <string name="AI智能中心识别语音图片文字一键生成单据">AI Intelligence Center,识别语音、图片、文字,一键生成单据.</string>
     <string name="Hi欢迎体验AI智能中心">Hi, welcome to the AI Intelligence Center!</string>
     <string name="不允许修改签名">Signature modification not allowed</string>
@@ -3007,7 +2969,6 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="未打印">Not printed</string>
     <string name="让利方式">Discount method</string>
     <string name="打印状态">Print status</string>
-    <string name="订单状态">Order status</string>
     <string name="子单单据编号">Sub-document number</string>
     <string name="综合销售单号">Comprehensive sales order number</string>
     <string name="销售主类">Main sales category</string>
@@ -3044,6 +3005,7 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="取消操作">Cancel operation</string>
     <string name="确定要删除吗">Confirm deletion?</string>
     <string name="下一张">Next</string>
+    <string name="退款">Refund</string>
     <string name="复制成功">Copy successful</string>
     <string name="当前勾选的单据类型无提交存草稿过账权限不支持提交">The currently selected document type has no submission, draft saving, or posting permissions. Submission not supported.</string>
     <string name="当前勾选的单据中存在无存草稿权限的单据已为您过滤">Among the currently selected documents, there are documents without draft saving permissions. They have been filtered for you.</string>
@@ -3173,7 +3135,6 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="数据包生成成功开始下载">Data package generated successfully. Starting download.</string>
     <string name="当前其他用户正在全新升级数据包请稍后下载现有数据包">Other users are currently performing a full upgrade. Please download existing data packages later!</string>
     <string name="数据请求失败请重试">Data request failed. Please retry.</string>
-    <string name="最近未生成数据包请全新升级">No data package has been generated recently. Please perform a full upgrade!</string>
     <string name="下载失败请检查网络">Download failed. Please check your network!</string>
     <string name="下载数据包失败">Failed to download data package</string>
     <string name="开单未提交单据">Unsubmitted order documents</string>
@@ -3214,6 +3175,7 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="常用功能">Common functions</string>
     <string name="没有查看该报表的权限">No permission to view this report</string>
     <string name="车销还货">Truck sales return</string>
+    <string name="还货">Return goods</string>
     <string name="切换">Switch</string>
     <string name="销售业务">Sales business</string>
     <string name="车销管理">Truck sales management</string>
@@ -3245,7 +3207,6 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="WorkerCompletionReport">Worker completion report</string>
     <string name="PickBill">Pick bill</string>
     <string name="检测到您对接的版本为财贸215及以上请确保已完成财工贸接口设置否则APP功能将无法正常使用点击查看设置说明">Detected that your对接 version is CM21.5 or above. Please ensure the CGM interface settings are completed. Otherwise, APP functions will not work properly.\nClick to view setup instructions.</string>
-    <string name="帮助说明">Help instructions</string>
     <string name="请将服务器升级至最新版本">Please upgrade the server to the latest version</string>
     <string name="获取服务器中的APP配置">Fetch APP configuration from server</string>
     <string name="给我们评分">Rate us</string>
@@ -3270,6 +3231,7 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="订金账户">Deposit account</string>
     <string name="付款账户">Payment account</string>
     <string name="盘点仓库">Inventory warehouse</string>
+    <string name="帮助说明">Help instructions</string>
     <string name="说明离线开单适用于物联通服务器未开启的情况下使用可加快开单速度开启后开单将不获取以下数据配货协议价价格跟踪库存均价应收应付预收预付">Note: Offline order creation is suitable when the Wuliantong server is not enabled. It speeds up order creation. After enabling, the following data will not be fetched: distribution agreement price, price tracking, average inventory price, receivable/payable, advance receipt/payment.</string>
     <string name="目前仅销售类单据支持新开单模式">Currently, only sales documents support the new order creation mode.</string>
     <string name="新开单模式下销售类单据不生效可直接在开单界面切换扫描内容">In the new order creation mode, sales documents are not effective. You can directly switch the scan content in the order creation interface.</string>
@@ -3452,19 +3414,17 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="进货换货">Purchase Exchange</string>
     <string name="经营日报">Daily Business Report</string>
     <string name="共计XX笔">Total %1$s Entries</string>
-    <string name="三十天未拜访">30 Days Without Visits</string>
     <string name="账户余额元">Account Balance (Yuan)</string>
     <string name="老板一张表">Boss Summary Table</string>
     <string name="本期利润总额明细">Total Profit for the Period (Details)</string>
     <string name="销售毛利明细">Sales Gross Profit (Details)</string>
-    <string name="本期资金明细总额"> Fund Details for the Period (Total)</string>
-    <string name="查询数据失败">"Failed to Query Data"</string>
+    <string name="本期资金明细总额">Fund Details for the Period (Total)</string>
+    <string name="查询数据失败">Failed to Query Data</string>
     <string name="前一天">Previous Day</string>
     <string name="后一天">Next Day</string>
     <string name="赠送商品">Gift Items</string>
     <string name="今日结算">Today Settlement</string>
     <string name="请选择打印内容">Please Select Print Content</string>
-    <string name="日期">Date</string>
     <string name="显示净销售额和毛利均为0的客户">Show Customers with Zero Net Sales and Gross Profit</string>
     <string name="请选择预警类型">Please Select Alert Type</string>
     <string name="上限预警">Upper Limit Alert</string>
@@ -3492,13 +3452,14 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="商品订货">Product Ordering</string>
     <string name="单位订货">Unit Ordering</string>
     <string name="职员订货">Employee Ordering</string>
+    <string name="已发货数量冒号">Quantity Shipped:</string>
+    <string name="已发货金额冒号">Amount Shipped:</string>
+    <string name="未发货数量冒号">Quantity Not Shipped:</string>
+    <string name="未发货金额冒号">Amount Not Shipped:</string>
     <string name="回款报表">Payment Report</string>
-    <string name="已发货数量">Quantity Shipped:</string>
-    <string name="已发货金额">Amount Shipped:</string>
-    <string name="未发货数量">Quantity Not Shipped:</string>
-    <string name="未发货金额">Amount Not Shipped:</string>
     <string name="销售统计">Sales Statistics</string>
     <string name="销售明细">Sales Details</string>
+    <string name="日期">Date</string>
     <string name="请输入编号名称简拼条码">Please Enter Number/Name/Abbreviation/Barcode</string>
     <string name="没有具体的商品销售数据">No Specific Product Sales Data</string>
     <string name="商品销售表不支持按类别打印仅支持打印具体商品的销售数据">Product Sales Table Does Not Support Printing by Category, Only Supports Printing Specific Product Sales Data.</string>
@@ -3507,7 +3468,6 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="约XX场景约1米">Approximately %1$s (e.g., About 1 Meter)</string>
     <string name="米场景100米">Meters (e.g., 100 Meters)</string>
     <string name="公里">Kilometers</string>
-    <string name="XX天未拜访">%1$s Days Without Visits</string>
     <string name="系统未开启统一客户供应商管理该单不支持选择XX">The System Has Not Enabled Unified Customer and Supplier Management, This Order Does Not Support Selecting %1$s</string>
     <string name="筛选结果">Filter Results</string>
     <string name="有XX份进行中的陈列协议">There Are %1$s Ongoing Display Agreements</string>
@@ -3535,8 +3495,11 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="XX个优化型商品">%1$s Optimization-Oriented Products</string>
     <string name="XX个利润型商品">%1$s Profit-Oriented Products</string>
     <string name="库存满足率XX有库存商品数在售商品数">Inventory Fulfillment Rate %1$s = Number of In-Stock Products ÷ Number of On-Sale Products</string>
-    <string name="同比">Year-on-Year</string>
     <string name="往来单位编号名称简拼">Partner Unit Number/Name/Abbreviation</string>
+    <string name="已发货数量">Quantity Shipped</string>
+    <string name="已发货金额">Amount Shipped</string>
+    <string name="未发货数量">Quantity Not Shipped</string>
+    <string name="未发货金额">Amount Not Shipped</string>
     <string name="任务进度查询">Task Progress Query</string>
     <string name="任务进度表">Task Progress Table</string>
     <string name="自定义时间">Custom Time</string>
@@ -3557,6 +3520,7 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="虚拟库存状况表不支持按类别打印仅支持打印具体商品数量">Virtual Inventory Status Table Does Not Support Printing by Category, Only Specific Product Quantities.</string>
     <string name="全部机构">All Branches</string>
     <string name="全部日期">All Dates</string>
+    <string name="订单状态">Order Status</string>
     <string name="请选择排序值">Please Select Sorting Value</string>
     <string name="请输入备注">Please Enter Remarks</string>
     <string name="该单据存在授权外的信息不支持查看">This Document Contains Unauthorized Information and Cannot Be Viewed</string>
@@ -3693,6 +3657,7 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="正在查询商品图片">Retrieving Product Images</string>
     <string name="商品条码">Product Barcode</string>
     <string name="解绑后客户将不会收到消息通知确定要解绑吗">After Unbinding, the Customer Will Not Receive Notifications, Confirm to Unbind?</string>
+    <string name="XX天未拜访">%1$s Days Without Visits</string>
     <string name="请先勾选">Please Check First</string>
     <string name="只支持结算以下类型的单据销售单销售退货销售换货零售单">Only the Following Document Types Are Supported for Settlement: Sales Order, Sales Return, Sales Exchange, Retail Order</string>
     <string name="总未结">Total Unsettled</string>
@@ -3756,9 +3721,6 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="是否拨打此号码">Whether to Call This Number</string>
     <string name="拨打">Call</string>
     <string name="最后拜访XX距今XX天">ast visit %1$s,%2$s days ago</string>
-    <!--endregion-->
-    <!--region 新其他提示-->
-
     <string name="更新">Update</string>
     <string name="选中的模块不能超过XX个">Selected modules cannot exceed %1$s</string>
     <string name="驳回失败">Rejection failed</string>
@@ -3833,8 +3795,8 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="以下订单已被删除不允许调用不允许提交本单请重新开单">The following products have been terminated. Calling and submitting this order are not allowed. Please create a new order.</string>
     <string name="以下单据已被中止不允许调用不允许打印">The following documents have been terminated. Calling and printing are not allowed.</string>
     <string name="以下单据已被中止不允许调用不允许提交本单请重新开单">The following documents have been terminated. Calling and submitting this order are not allowed. Please create a new order.</string>
-    <string name="以下单据所处状态不允许调用不允许打印">The following documents’ status does not allow calling or printing.</string>
-    <string name="以下单据所处状态不允许调用不允许提交本单请重新开单">The following documents’ status does not allow calling or submitting this order. Please create a new order.</string>
+    <string name="以下单据所处状态不允许调用不允许打印">The following documents‘ status does not allow calling or printing.</string>
+    <string name="以下单据所处状态不允许调用不允许提交本单请重新开单">The following documents‘ status does not allow calling or submitting this order. Please create a new order.</string>
     <string name="编号名称简拼条码">ID/Name/Abbreviation/Barcode</string>
     <string name="距到期剩余">Days remaining until expiration</string>
     <string name="软件已到期请联系经销商注册">Software has expired. Please contact the dealer for registration</string>
@@ -4026,11 +3988,10 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="自由项选择器">Custom ltem Selector</string>
     <string name="自定义档案">Custom Archive</string>
     <string name="新增兑奖券">Add Redemption Coupon</string>
-    <string name="兑奖券录入">Redemption Coupon Entry</string>
     <string name="陈列检查">DisplayInspection</string>
     <string name="指定日期送达">Deliver on Specified Date</string>
     <string name="附件提交失败">Attachment Submission Failed</string>
-    <string name="boardtishi">Drag up and down to adjust the order of the cards in the board Toggle to control whether the cards are displayed or hidden in the board</string>
+    <string name="boardtishi">Drag up and down to adjust the order of the cards in the board  Toggle to control whether the cards are displayed or hidden in the board</string>
     <string name="请输入正确的手机号">Please enter a valid mobile phone number</string>
     <string name="重新获取验证码">Get the verification code again</string>
     <string name="语言识别信息1">You Can Use Voice Input to Create Bills Based on Your Actual Products</string>
@@ -4080,10 +4041,10 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="申请金额">Apply amount</string>
     <string name="使用日期">Date ofuse</string>
     <string name="项目说明">Project description</string>
-    <string name="通过">pass</string>
-    <string name="否决">veto</string>
+    <string name="通过">Pass</string>
+    <string name="否决">Rejected</string>
     <string name="撤销">Revoke</string>
-    <string name="项目">project</string>
+    <string name="项目">Project</string>
     <string name="仅显示从未拜访的客户">Show only customers who have never been visited</string>
     <string name="仅显示超期未拜访的客户">Only display customers who have not visited the deadline</string>
     <string name="仅显示超期未开单的客户">Only display customers who have not issued an order after the expiration date</string>
@@ -4112,7 +4073,7 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="为了您能正常使用XX需要以下权限">For your normal use %s, you need the following permissions</string>
     <string name="请允许获取X">Please allow access to %s</string>
     <string name="我们需要获取XX否则您将无法正常使用XX">We need access to %1$s,otherwise, you will not be able to use %2$s</string>
-    <string name="由于XX无法获取XX不能正常运行请开启权限后再使用设置路径应用管理XX权限"><![CDATA[Because %1$s cannot use %2$s,Can not run normally,Please open permissions before using. Setup path: Apps->%3$s->Permissions]]></string>
+    <string name="由于XX无法获取XX不能正常运行请开启权限后再使用设置路径应用管理XX权限"><![CDATA[Because %1$s cannot use %2$s,Can not run normally,Please open permissions before using.  Setup path: Apps->%3$s->Permissions]]></string>
     <string name="拒绝">Deny</string>
     <string name="合计结算金额XX取各收款账户合计金额不允许超出本单应收XX">Total settlement amount 【%1$s】 (sum of all payment accounts) must not exceed the receivable amount of this order 【%2$s】</string>
     <string name="本单应收为负合计收款金额不能大于0">If the receivable amount of this order is negative, the total received amount cannot be greater than 0.</string>
@@ -4713,7 +4674,6 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="转入转出">Transfer-in, Transfer-out</string>
     <string name="出库商品入库商品">Goods out of stock, Goods into stock</string>
     <string name="产成品物料明细">Products, Material details</string>
-    <string name="付款1">Settlement</string>
     <string name="费用账户受收付款账户显示损益类科目配置控制">Expense account</string>
     <string name="连接">connection</string>
     <string name="配置">configure</string>
@@ -4732,26 +4692,18 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="应收余额为">The balance receivable is</string>
     <string name="有超期应收款1">1.There are overdue receivables</string>
     <string name="超出应收上限2">2.There are beyond Receivable ceiling</string>
-    <string name="金额1">Amount</string>
-    <string name="账户1">Account</string>
     <string name="收付款">Payment</string>
     <string name="天未开单30">30 days unbilling</string>
     <string name="天未拜访30">No visit for 30 days,</string>
     <string name="银行收付库存">Bank RP Inventory</string>
     <string name="正在计算成本">Calculating costs</string>
     <string name="日报日期">Daily report date</string>
-    <string name="最近开单1">Last order</string>
-    <string name="未开单天数1">Days without orders</string>
     <string name="未开单天数超过30天">Days without orders over 30 days</string>
-    <string name="辅助数堡1">Auxiliary qty.</string>
-    <string name="费用1">Expense amount</string>
-    <string name="付款2">Payment amount</string>
-    <string name="收款1">Collection amount</string>
+    <string name="辅助数量冒号">Auxiliary qty.</string>
     <string name="占比">Proportion</string>
     <string name="辅助总数">Total Secondary</string>
     <string name="尺码">Size</string>
     <string name="颜色">Color</string>
-    <string name="销售额1">Amount</string>
     <string name="退货金额">Return amount</string>
     <string name="销售净额">Net Sales</string>
     <string name="回款率">Return rate</string>
@@ -4776,6 +4728,7 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="费用申请单1">Expense Claim</string>
     <string name="公事外出">Official Outing</string>
     <string name="新客开拓">New Cust. Dev.</string>
+    <string name="兑奖券录入">Coupon Entry</string>
     <string name="请假申请">Leave App.</string>
     <string name="工作台">Workbench</string>
     <string name="配送交账表">Delivery Settle</string>
@@ -4797,15 +4750,9 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="新增会员">Add VIP</string>
     <string name="会员信息">VIP Info.</string>
     <string name="新增商品">Add Prod.</string>
-    <string name="上级上一级">upper level</string>
-    <string name="数量冒号">Qty:</string>
+    <string name="数量冒号">aty:</string>
     <string name="单价冒号">Price:</string>
     <string name="商品信息1">Product Details</string>
-    <string name="预收1">Advance receipts</string>
-    <string name="预付1">Prepayments</string>
-    <string name="查看更多1">View more</string>
-    <string name="选择客户1">Select Customers</string>
-    <string name="客户类型1">Client type</string>
     <string name="预设售价1">Preset SP 1</string>
     <string name="预设近价1">PresetPp 1</string>
     <string name="价格跟踪1">Tracking price</string>
@@ -4817,7 +4764,6 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="选价价格选择">Price List</string>
     <string name="实时库存">Current</string>
     <string name="可用库存">Available</string>
-    <string name="已添加1">Added</string>
     <string name="可点击设置权限打开所需权限">You can click"Settings” "Permissions"-to open the permissions</string>
     <string name="注册已成功请重新打开程序">The registration has been successful. Please reopen the APp!</string>
     <string name="已提交不显示">Submitted is not displayed</string>
@@ -4845,7 +4791,7 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="序">Num</string>
     <string name="单位编号">Number</string>
     <string name="不允许结束日期早于开始日期">End date is not allowed before start date</string>
-    <string name="仅能选择X天日期">Only %1$s days can be selected</string>
+    <string name="仅能选择XX天日期">Only %1$s days can be selected</string>
     <string name="请设置参数containerViewId">Please set the parameter. containerViewId</string>
     <string name="结束月份">End Month</string>
     <string name="开始月份">Start Month</string>
@@ -4879,8 +4825,8 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="导出">Export</string>
     <string name="自定义显示">Custom Display</string>
     <string name="目标进度查询">Target Progress Query</string>
-    <string name="第X季度">Qtr %1$s</string>
-    <string name="第X年">Year %1$s</string>
+    <string name="第XX季度">Qtr %1$s</string>
+    <string name="第XX年">Year %1$s</string>
     <string name="季度">Quarterly</string>
     <string name="月度">Monthly</string>
     <string name="第">Section</string>
@@ -4901,7 +4847,6 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="期末利润">Ending profit</string>
     <string name="科目名称">Account Name</string>
     <string name="科目余额">Account Balance</string>
-    <string name="超期X天">%1$s days overdue</string>
     <string name="档案名称">File Name</string>
     <string name="全部业务员">All Salesman</string>
     <string name="存档人">Archiver</string>
@@ -4929,9 +4874,9 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="基本数量">Basic aty</string>
     <string name="副单位">Deputy Unit</string>
     <string name="显示未启用自由项">Show free items not enabled</string>
-    <string name="你什么数据还都没有哦">You don’t have any data yet</string>
-    <string name="咿网络怎么不管用啦">Yee? The Internet doesn’t work anymore!</string>
-    <string name="您还未开拓新客快去搜索周边客户吧">You haven’t opened up new customers yet, go and search for customers around you ~</string>
+    <string name="你什么数据还都没有哦">You don‘t have any data yet</string>
+    <string name="咿网络怎么不管用啦">Yee? The Internet doesn‘t work anymore!</string>
+    <string name="您还未开拓新客快去搜索周边客户吧">You haven‘t opened up new customers yet, go and search for customers around you ~</string>
     <string name="数据出现异常请刷新数据">Data exception, please refresh the data</string>
     <string name="库存明细">Inventory Details</string>
     <string name="口味库存">Taste inventory</string>
@@ -5072,10 +5017,10 @@ Hangzhou Zhimeng Technology Co., Ltd. (hereinafter referred to as "we") is well 
     <string name="次月">The next month</string>
     <string name="次">Times</string>
     <string name="获取失败">Failed to obtain</string>
-    <string name="本月无需返还">本月无需返还</string>
+    <string name="本月无需返还">There is no need to return this month</string>
     <string name="部分获取失败">Partial acquisition failed</string>
     <string name="等待获取">Wait for acquisition</string>
-    <string name="部分等待获取">部分等待获取</string>
+    <string name="部分等待获取">Partially waiting to be acquired</string>
     <string name="XX退货分析">%s Return Analysis</string>
     <string name="根据数量分析退货">According to quantity analysis, return</string>
     <string name="种共计">Species, total</string>
@@ -5494,7 +5439,7 @@ Suggested plan: Please delete the abnormal label data before saving</string>
     <string name="后台无内置该帮助链接">There is no built-in help link in the background</string>
     <string name="当前客户没有符合下限的补货商品">Currently, customers do not have replenished products that meet the lower limit!</string>
     <string name="领单结果">Receive order results</string>
-    <string name="你的手机没有闪光灯">Your phone doesn’t have a flash!</string>
+    <string name="你的手机没有闪光灯">Your phone doesn‘t have a flash!</string>
     <string name="配货协议数据成功添加到表身">The distribution agreement data was successfully added to the watch body</string>
     <string name="获取后台编号失败读取本地编号">Failed to get the background number, read the local number</string>
     <string name="没有找到打开此类文件的程序">No program to open such file was found</string>
@@ -5731,8 +5676,8 @@ Suggested plan: Please delete the abnormal label data before saving</string>
     <string name="逗号实收">Actual Receipt</string>
     <string name="其他配送单">Other Delivery Orders</string>
     <string name="单据配送">Document Delivery</string>
-    <string name="逗号销售">Sales</string>
-    <string name="逗号退货">Returns</string>
+    <string name="逗号销售">，Sales</string>
+    <string name="逗号退货">，Returns</string>
     <string name="加号按单退">+Return by Order</string>
     <string name="加号退货商品">+Return Product</string>
     <string name="加号销售商品">+Sales Product</string>
@@ -5837,7 +5782,7 @@ Suggested plan: Please delete the abnormal label data before saving</string>
     <string name="通知消息">Notification Message</string>
     <string name="显示已完成的任务单">Show CompletedTask Orders</string>
     <string name="生产者">Producer</string>
-    <string name="他人的">Others’</string>
+    <string name="他人的">Others‘</string>
     <string name="负责人">Responsible Person</string>
     <string name="失联业务员">Unreachable Salesperson</string>
     <string name="失联人数">Number ofUnreachable</string>
@@ -6039,34 +5984,35 @@ Suggested plan: Please delete the abnormal label data before saving</string>
     <string name="销售成本">Cost of sales</string>
     <string name="出库合计">Total issue</string>
     <string name="入库合计">Total Receipt</string>
-
-
-
-    <string name="请选择出库仓库">Please select an outbound warehouse</string>
-    <string name="请选择入库仓库">Please select an inbound warehouse</string>
-    <string name="银行">银行</string>
-    <string name="共计">Total</string>
-    <string name="XX笔">%1$s entries</string>
-    <string name="笔数冒号">Number of Entries:</string>
-    <string name="未审">Unreviewed</string>
-    <string name="出差查询">Business Trip Query</string>
-    <string name="出差类型冒号">Business Trip Type:</string>
-    <string name="天数须小于等于1">Days Must Be Less Than or Equal to 1</string>
-    <string name="请选择额外审批人">Please Select Additional Approver</string>
     <string name="请添加出差类型">Please Add Business Trip Type</string>
-    <string name="请添加请假类型">Please Add Leave Type</string>
-    <string name="请添加外出类型">Please Add Out-of-Office Type</string>
-    <string name="请添加请假开始时长">Please Add Leave Start Duration</string>
-    <string name="请填写请假结束时长">Please Enter Leave End Duration</string>
-    <string name="请假时长不能为0">Leave Duration Cannot Be 0</string>
-    <string name="请添加请假事由">Please Add Reason for Leave</string>
-    <string name="请添加外出原因">Please Add Reason for Out-of-Office</string>
-    <string name="未设置出差类型">Business Trip Type Not Set</string>
-    <string name="未设置交通工具">Transportation Method Not Set</string>
-    <string name="请添加交通工具">Please Add Transportation Method</string>
     <string name="请添加出发地">Please Add Departure Location</string>
+    <string name="未设置交通工具">Transportation Method Not Set</string>
+    <string name="请添加请假类型">Please Add Leave Type</string>
     <string name="请添加目的地">Please Add Destination</string>
+    <string name="XX笔">%1$s entries</string>
+    <string name="银行">Bank</string>
+    <string name="共计">Total</string>
+    <string name="出差查询">Business Trip Query</string>
+    <string name="未设置出差类型">Business Trip Type Not Set</string>
+    <string name="请选择入库仓库">Please select an inbound warehouse</string>
+    <string name="天数须小于等于1">Days Must Be Less Than or Equal to 1</string>
+    <string name="请添加外出类型">Please Add Out-of-Office Type</string>
+    <string name="请填写请假结束时长">Please Enter Leave End Duration</string>
+    <string name="请添加外出原因">Please Add Reason for Out-of-Office</string>
     <string name="请添加出差事由">Please Add Reason for Business Trip</string>
+    <string name="请假时长不能为0">Leave Duration Cannot Be 0</string>
+    <string name="请选择出库仓库">Please select an outbound warehouse</string>
+    <string name="请添加请假开始时长">Please Add Leave Start Duration</string>
+    <string name="笔数冒号">Number of Entries:</string>
+    <string name="请添加请假事由">Please Add Reason for Leave</string>
+    <string name="未审">Unreviewed</string>
+    <string name="出差类型冒号">Business Trip Type:</string>
+    <string name="请选择额外审批人">Please Select Additional Approver</string>
+    <string name="请添加交通工具">Please Add Transportation Method</string>
     <string name="今日交账额">Today settlement amount</string>
-    <!--endregion-->
+    <string name="请允许管家婆物联通访问您的录音若不允许您将无法使用语音识别功能">Please allow "Guanjiapo Wuliantong" to access your microphone; otherwise, voice recognition will be unavailable.</string>
+    <string name="请允许管家婆物联通访问您的位置若不允许您将无法使用定位签到功能">Please allow "Guanjiapo Wuliantong" to access your location; otherwise, the check-in feature will be unavailable.</string>
+    <string name="请允许管家婆物联通访问您的蓝牙若不允许您将无法使用连接打印机功能">Please allow "Guanjiapo Wuliantong" to access your Bluetooth; otherwise, the printer connection feature will be unavailable.</string>
+    <string name="请允许管家婆物联通访问您的存储若不允许您将无法使用文件相关功能">Please allow "Butler Wuliantong" to access your storage; otherwise, file-related features will be unavailable</string>
+    <!--2025-03-06 17:13 >> end-->
 </resources>
