@@ -6015,4 +6015,26 @@ Suggested plan: Please delete the abnormal label data before saving</string>
     <string name="请允许管家婆物联通访问您的蓝牙若不允许您将无法使用连接打印机功能">Please allow "Guanjiapo Wuliantong" to access your Bluetooth; otherwise, the printer connection feature will be unavailable.</string>
     <string name="请允许管家婆物联通访问您的存储若不允许您将无法使用文件相关功能">Please allow "Butler Wuliantong" to access your storage; otherwise, file-related features will be unavailable</string>
     <!--2025-03-06 17:13 >> end-->
+    <string name="毛利元">Gross Profit</string>
+    <string name="上次铺货金额元">Amount of last sale</string>
+    <string name="合格率">合格率</string>
+    <string name="让步接收数">让步接收数</string>
+    <string name="让步接收率">让步接收率</string>
+    <string name="料废数">料废数</string>
+    <string name="料废率">料废率</string>
+    <string name="工废数">工废数</string>
+    <string name="工废率">工废率</string>
+    <string name="移交率">移交率</string>
+    <string name="其他转出率">其他转出率</string>
+    <string name="其他转出数">其他转出数</string>
+    <string name="验收数">验收数</string>
+    <string name="入库率">入库率</string>
+    <string name="成品数">成品数</string>
+    <string name="成品率">成品率</string>
+    <string name="次品数">次品数</string>
+    <string name="次品率">次品率</string>
+    <string name="入库废品">入库废品</string>
+    <string name="入库废品率">入库废品率</string>
+    <string name="不入库废品">不入库废品</string>
+    <string name="不入库废品率">不入库废品率</string>
 </resources>
