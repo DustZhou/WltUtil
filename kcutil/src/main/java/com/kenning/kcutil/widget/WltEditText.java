@@ -1,5 +1,6 @@
 package com.kenning.kcutil.widget;
 
+
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Rect;
@@ -8,6 +9,8 @@ import android.text.TextWatcher;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.MotionEvent;
+import android.widget.EditText;
+
 import androidx.appcompat.widget.AppCompatEditText;
 
 import java.util.ArrayList;
@@ -20,7 +23,7 @@ import java.util.List;
  * Created by zyl on 2017-10-20.
  */
 
-public class WltEditText extends AppCompatEditText {
+public class WltEditText extends EditText {
     private List<TextWatcher> watchers = new ArrayList<TextWatcher>();
 
     public WltEditText(Context context) {
