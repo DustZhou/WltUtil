@@ -1415,8 +1415,8 @@
     <string name="种类">种类</string>
     <string name="去下单">去下单</string>
     <string name="价格选择">价格选择</string>
-    <string name="实时">实时（库存）</string>
-    <string name="可用">可用（库存）</string>
+    <string name="实时">实时</string>
+    <string name="可用">可用</string>
     <string name="开启客户模式后在业务单据的所有界面将隐藏价格库存信息且不支持录入价格数据">开启客户模式后，在业务单据的所有界面将隐藏价格、库存信息，且不支持录入价格数据</string>
     <string name="关闭客户模式后会显示商品库存和价格等敏感信息">关闭客户模式后，会显示商品库存和价格等敏感信息</string>
     <string name="已开启客户模式">已开启客户模式</string>
