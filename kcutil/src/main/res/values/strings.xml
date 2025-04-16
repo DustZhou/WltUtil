@@ -1475,6 +1475,7 @@
     <string name="当前为线路客户模式无法跳店">当前为线路客户模式，无法跳店！</string>
     <string name="款项">款项</string>
     <string name="输入编号名称电话手机简拼地址">输入 编号/名称/电话/手机/简拼/地址</string>
+    <string name="编号名称电话手机简拼地址">编号/名称/电话/手机/简拼/地址</string>
     <string name="获取客户门头照片成功">获取客户门头照片成功~</string>
     <string name="获取客户门头照片失败">获取客户门头照片失败~</string>
     <string name="货位选择">货位选择</string>
@@ -4523,7 +4524,6 @@
     <string name="文字说明">文字说明</string>
     <string name="点击输入">点击输入</string>
     <string name="地图">地图</string>
-    <string name="编号名称电话手机简拼地址">编号名称电话手机简拼地址</string>
     <string name="不支持搜索其他">不支持搜索其他</string>
     <string name="重量kg">重量(kg)</string>
     <string name="体积">体积</string>
@@ -4795,7 +4795,6 @@
     <string name="没有上一级">没有上一级</string>
     <string name="没有上一级了">没有上一级了</string>
     <string name="上级">上级</string>
-    <string name="输入编号名称简拼条码">输入编号名称简拼条码</string>
     <string name="序">序</string>
     <string name="单位编号">单位编号</string>
     <string name="不允许结束日期早于开始日期">不允许结束日期早于开始日期</string>

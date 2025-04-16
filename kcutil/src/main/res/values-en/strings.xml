@@ -1476,6 +1476,7 @@ When there is no most recent selling price for the return unit, the system will 
     <string name="当前为线路客户模式无法跳店">Currently in route customer mode. Cannot skip stores!</string>
     <string name="款项">Payment</string>
     <string name="输入编号名称电话手机简拼地址">Enter code/name/phone/mobile/abbreviation/address</string>
+    <string name="编号名称电话手机简拼地址"> code/name/phone/mobile/abbreviation/address</string>
     <string name="获取客户门头照片成功">Successfully fetched customer storefront photo~</string>
     <string name="获取客户门头照片失败">Failed to fetch customer storefront photo~</string>
     <string name="货位选择">Location selection</string>
@@ -4524,7 +4525,6 @@ When there is no most recent selling price for the return unit, the system will 
     <string name="文字说明">textualDescription</string>
     <string name="点击输入">clickEnter</string>
     <string name="地图">map</string>
-    <string name="编号名称电话手机简拼地址">numberNamePhoneMobileSpellingAddress</string>
     <string name="不支持搜索其他">searchingForOtherslsNotSupported</string>
     <string name="重量kg">Weight (kg)</string>
     <string name="体积">volume</string>
@@ -4793,7 +4793,6 @@ When there is no most recent selling price for the return unit, the system will 
     <string name="没有上一级">No upper level</string>
     <string name="没有上一级了">There is no higher level</string>
     <string name="上级">Previous Level</string>
-    <string name="输入编号名称简拼条码">Enter the number name to spell the barcode</string>
     <string name="序">Num</string>
     <string name="单位编号">Number</string>
     <string name="不允许结束日期早于开始日期">End date is not allowed before start date</string>
