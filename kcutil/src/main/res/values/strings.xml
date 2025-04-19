@@ -5882,10 +5882,10 @@
     <string name="经手人星">经手人*</string>
     <string name="废品不入库">废品不入库</string>
     <string name="自动生成领料单">自动生成领料单</string>
-    <string name="领料出库仓库星">领料出库仓库</string>
+    <string name="领料出库仓库星">领料出库仓库*</string>
     <string name="领料出库仓库">领料出库仓库</string>
-    <string name="领料人星">领页料人</string>
-    <string name="部门星">部门门*</string>
+    <string name="领料人星">领料人*</string>
+    <string name="部门星">部门*</string>
     <string name="领料人">领料人</string>
     <string name="公斤">公斤</string>
     <string name="业务员分布">业务员分布</string>

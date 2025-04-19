@@ -1262,7 +1262,78 @@ object DateExtendUtil {
     }
 }
 
+/**
+ * @Description:通过日期获取对应的日期类型
+ * @author: create by WLT on 2025/04/18
+ */
+fun getCustomerBillDateTypeOfDate(BeginDate: String, EndDate: String): String {
+    return when {
 
+        BeginDate == DateExtendUtil.getCurrentDate() && EndDate == DateExtendUtil.getCurrentDate() -> DateEnum.TODAY.name
+
+        BeginDate == DateExtendUtil.getHistoryBeginDate(DateEnum.YESTERDAY) &&
+                EndDate == BeginDate -> DateEnum.YESTERDAY.name
+
+
+        BeginDate == DateExtendUtil.formatDate(DateExtendUtil.getMondayOfWeek(Date())) &&
+                EndDate == DateExtendUtil.formatDate(DateExtendUtil.getSundayOfWeek(Date())) -> DateEnum.WEEK.name
+
+
+        BeginDate == DateExtendUtil.formatDate(
+            DateExtendUtil.getMondayOfWeek(
+                DateExtendUtil.getHistoryDate(DateEnum.WEEK)
+            )
+        ) &&
+                EndDate == DateExtendUtil.formatDate(
+            DateExtendUtil.getSundayOfWeek(
+                DateExtendUtil.getHistoryDate(DateEnum.WEEK)
+            )
+        ) -> DateEnum.LAST_WEEK.name
+
+
+        BeginDate == DateExtendUtil.formatDate(DateExtendUtil.getFirstDateOfMonth(Date())) &&
+                EndDate == DateExtendUtil.formatDate(DateExtendUtil.getLastDateOfMonth(Date())) -> DateEnum.MONTH.name
+
+
+        BeginDate == DateExtendUtil.formatDate(
+            DateExtendUtil.getFirstDateOfMonth(
+                DateExtendUtil.getHistoryDate(DateEnum.MONTH)
+            )
+        ) &&
+                EndDate == DateExtendUtil.formatDate(
+            DateExtendUtil.getFirstDateOfMonth(
+                DateExtendUtil.getHistoryDate(DateEnum.MONTH)
+            )
+        ) -> DateEnum.LAST_MONTH.name
+
+        BeginDate == DateExtendUtil.formatDate(DateExtendUtil.getFirstDateOfSeason(Date())) &&
+                EndDate == DateExtendUtil.formatDate(DateExtendUtil.getLastDateOfSeason(Date())) -> DateEnum.THISQUARTER.name
+
+
+        BeginDate == DateExtendUtil.formatDate(
+            DateExtendUtil.getFirstDateOfSeason(
+                DateExtendUtil.getHistoryDate(DateEnum.THREE_MONTHS)
+            )
+        ) &&
+                EndDate == DateExtendUtil.formatDate(
+            DateExtendUtil.getLastDateOfSeason(
+                DateExtendUtil.getHistoryDate(DateEnum.THREE_MONTHS)
+            )
+        ) -> DateEnum.LAST_QUARTER.name
+
+
+        BeginDate == "${DateExtendUtil.getYear(Date())}-01-01" &&
+                EndDate == "${DateExtendUtil.getYear(Date())}-12-31" -> DateEnum.YEAR.name
+
+
+        else -> DateEnum.OTHER.name
+    }
+}
+
+/**
+ * @Description:通过日期类型获取对应的日期
+ * @author: create by WLT on 2025/04/18
+ */
 fun DataOfCustomeBillDateType(CustomeBillDateType: String, callBack: (String, String) -> Unit) {
     var BeginDate = ""
     var EndDate = ""
@@ -1362,6 +1433,10 @@ fun DataOfCustomeBillDateType(CustomeBillDateType: String, callBack: (String, St
     }
 }
 
+/**
+ * @Description:通过日期类型获取对应的日期名称
+ * @author: create by WLT on 2025/04/18
+ */
 fun getDataName(CustomeBillDateType: String): String {
     return when (CustomeBillDateType) {
         //今天
